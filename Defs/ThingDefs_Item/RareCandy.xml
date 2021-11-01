@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MedicineBase">
+    <defName>PW_RareCandy</defName>
+    <label>Rare Candy</label>
+    <description>A candy that is packed with energy. When consumed, it will instantly raise the level of a single Pokémon by one.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/RareCandy</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <thingCategories Inherit="false">
+      <li>PW_HealingItem</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <tradeability>All</tradeability>
+    <soundDrop>Standard_Drop</soundDrop>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef Name="PW_GiveRareCandyBase" Abstract="True">
+    <workerClass>Pokeworld.Recipe_RareCandy</workerClass>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>200</workAmount>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_GiveRareCandyBase">
+    <defName>PW_GiveOneRareCandy</defName>
+    <label>give Rare Candy</label>
+    <description>give a Candy.</description>
+    <jobString>giving Rare Candy.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_RareCandy</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_RareCandy</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_GiveRareCandyBase">
+    <defName>PW_GiveFiveRareCandy</defName>
+    <label>give 5 Rare Candy</label>
+    <description>give 5 Rare Candy.</description>
+    <jobString>giving 5 Rare Candy.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_RareCandy</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_RareCandy</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

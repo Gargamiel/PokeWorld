@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="BorealForest"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Piloswine</li>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="Tundra"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Piloswine</li>    
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="ColdBog"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Piloswine</li>    	
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="IceSheet"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Piloswine</li>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="SeaIce"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Piloswine</li>
+    </value>
+  </Operation> 
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TemperateForest"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Piloswine</li>
+      <li>PW_Dodrio</li>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Piloswine</li>
+      <li>PW_Dodrio</li>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Dodrio</li>
+      <li>PW_Tropius</li>
+    </value>
+  </Operation> 
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TropicalSwamp"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Dodrio</li>
+      <li>PW_Tropius</li>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="AridShrubland"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Piloswine</li>
+      <li>PW_Dodrio</li>
+      <li>PW_Hippowdon</li>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="Desert"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Hippowdon</li>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/allowedPackAnimals</xpath>
+    <value>
+      <li>PW_Hippowdon</li>
+    </value>
+  </Operation>  
+</Patch>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenPartDef>
+	<defName>PW_StartingPokemon</defName>
+	<label>start with Pokémon</label>
+	<scenPartClass>Pokeworld.ScenPart_StartingPokemon</scenPartClass>
+	<category>StartingImportant</category>
+	<selectionWeight>1.0</selectionWeight>
+	<summaryPriority>305</summaryPriority>
+  </ScenPartDef>
+
+</Defs>

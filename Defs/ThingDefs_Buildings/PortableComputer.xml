@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PW_PortableComputer</defName>
+    <label>Portable Computer</label>
+    <description>Grants access to an ancient archotech cyberspace network running on this planet, used to store Pokémon. The Pokémon put in this computer are digitized across hundreds of datacenters, meaning that if this console is destroyed, you can still access them after building a new one.</description>
+    <thingClass>Pokeworld.Building_PortableComputer</thingClass>
+    <graphicData>
+      <texPath>Things/Building/PortableComputer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.7,1.7)</drawSize>
+      <drawOffsetNorth>(0,0,0.25)</drawOffsetNorth>
+      <drawOffsetEast>(0,0,0.25)</drawOffsetEast>
+      <drawOffsetSouth>(0,0,0.25)</drawOffsetSouth>
+      <drawOffsetWest>(0,0,0.25)</drawOffsetWest>
+      <damageData>
+        <rectN>(0.078125,0.46875,0.859375,0.53125)</rectN>
+        <rectS>(0.078125,0.46875,0.859375,0.53125)</rectS>
+        <rectE>(0.125,0.46875,0.625,0.296875)</rectE>
+        <rectW>(0.25,0.46875,0.625,0.296875)</rectW>
+        <cornerTR>Damage/Corner</cornerTR>
+      </damageData>
+      <shadowData>
+        <volume>(0.55, 0.30, 0.40)</volume>
+      </shadowData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites><li>PW_StorageSystem</li></researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <blockWind>false</blockWind>
+    <thingCategories Inherit="false">
+      <li>PW_Buildings</li>
+    </thingCategories>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <size>(1,1)</size>
+    <uiIconScale>0.6</uiIconScale>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(73,123,138,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>    
+    </comps>
+    <designationHotKey>Misc5</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>PokeWorld.ITab_ContentsStorageSystem</li>
+    </inspectorTabs>
+  </ThingDef>
+ 
+</Defs>

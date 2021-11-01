@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Base_Neolithic_Standard"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>2~3</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~25</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Fossils</categoryDef>
+        <thingDefCountRange>-1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>PW_PokemonCommon</li>
+          <li>PW_PokemonStarter</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonUncommon</li>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>3~5</kindCountRange>
+        <countRange>4~8</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>2~3</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>15~25</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PW_RareCandy</thingDef>
+        <countRange>3~6</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Fossils</categoryDef>
+        <thingDefCountRange>-1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>PW_PokemonCommon</li>
+          <li>PW_PokemonStarter</li>
+          <li>PW_PokemonUncommon</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonUncommon</li>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>3~6</kindCountRange>
+        <countRange>5~10</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~20</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>-2~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>-1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>PW_PokemonCommon</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>2~4</kindCountRange>
+        <countRange>4~6</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Neolithic_WarMerchant"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~20</countRange>
+      </li>
+
+      <!-- Stones -->
+      <!-- none -->
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <!-- none -->
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>PW_PokemonUncommon</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>1~2</kindCountRange>
+        <countRange>2~3</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~20</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Fossils</categoryDef>
+        <thingDefCountRange>-1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>2~2</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>PW_PokemonStarter</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonUncommon</li>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>2~3</kindCountRange>
+        <countRange>3~5</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>1~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~20</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>-2~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>PW_PokemonCommon</li>
+          <li>PW_PokemonStarter</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>3~4</kindCountRange>
+        <countRange>4~6</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~20</countRange>
+      </li>
+
+      <!-- Stones -->
+      <!-- none -->
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <!-- none -->
+
+      <!-- Pokemon -->
+      <!-- none -->     
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_PirateMerchant"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~20</countRange>
+      </li>
+
+      <!-- Stones -->
+      <!-- none -->
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <!-- none -->
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>PW_PokemonUncommon</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>2~3</kindCountRange>
+        <countRange>2~4</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>10~20</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PW_RareCandy</thingDef>
+        <countRange>2~5</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>1~3</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Fossils</categoryDef>
+        <thingDefCountRange>-1~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>PW_PokemonUncommon</li>
+          <li>PW_PokemonRare</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonUncommon</li>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>3~4</kindCountRange>
+        <countRange>3~4</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>1~3</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Ultra</maxTechLevelGenerate>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>15~30</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>-1~2</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>-1~2</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>PW_PokemonCommon</li>
+          <li>PW_PokemonStarter</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>3~5</kindCountRange>
+        <countRange>5~7</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+  <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Orbital_CombatSupplier"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>1~3</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Ultra</maxTechLevelGenerate>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>15~30</countRange>
+      </li>
+
+      <!-- Stones -->
+      <!-- none -->
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <!-- none -->
+
+      <!-- Pokemon -->
+      <!-- none --> 
+
+    </value>
+  </Operation>
+
+   <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Orbital_PirateMerchant"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>1~3</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Ultra</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>15~30</countRange>
+      </li>
+
+      <!-- Stones -->
+      <!-- none -->
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <!-- none -->
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>PW_PokemonUncommon</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>3~5</kindCountRange>
+        <countRange>3~5</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+   <!-- ====================================================================================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Belts</categoryDef>
+        <maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+        <excludedThingDefs>
+          <li>PW_ApricornBallBelt</li>
+        </excludedThingDefs>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>1~3</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PW_MasterBallBelt</thingDef>
+        <countRange>-2~1</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_HealingItem</categoryDef>
+        <excludedThingDefs>
+          <li>PW_RareCandy</li>
+        </excludedThingDefs>
+        <maxTechLevelGenerate>Ultra</maxTechLevelGenerate>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>15~30</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PW_RareCandy</thingDef>
+        <countRange>4~8</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Fossils</categoryDef>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>2~3</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>PW_PokemonRare</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonUncommon</li>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>3~4</kindCountRange>
+        <countRange>3~4</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+   <!-- ====================================================================================== -->
+   
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Visitor_Neolithic_Standard"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PW_ApricornBallBelt</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PW_Potion</thingDef>
+        <countRange>3~8</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>-2~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>-2~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>PW_PokemonCommon</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>1~2</kindCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+    </value>
+  </Operation>
+
+   <!-- ====================================================================================== -->
+   
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Visitor_Outlander_Standard"]/stockGenerators</xpath>
+    <value>
+
+      <!-- Belts -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PW_PokeBallBelt</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Medicine -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PW_Potion</thingDef>
+        <countRange>5~10</countRange>
+      </li>
+
+      <!-- Stones -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_EvolutionStone</categoryDef>
+        <thingDefCountRange>-2~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Fossils -->
+      <!-- none -->
+
+      <!-- Eggs -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>PW_Eggs</categoryDef>
+        <thingDefCountRange>-2~1</thingDefCountRange>
+        <countRange>1~1</countRange>
+      </li>
+
+      <!-- Pokemon -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>PW_PokemonCommon</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>PW_PokemonRare</li>
+          <li>PW_PokemonExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>1~2</kindCountRange>
+        <countRange>1~2</countRange>
+      </li>
+
+    </value>
+  </Operation>
+</Patch>

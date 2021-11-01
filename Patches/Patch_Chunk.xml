@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="ChunkRockBase"]</xpath>
+    <value>
+    	<thingClass>ThingWithComps</thingClass>
+    	<comps> 
+        <li Class="PokeWorld.CompProperties_PokFossilsEvoStoneDropper">
+          <stoneDropRate>0.018</stoneDropRate>
+          <fossilDropRate>0.006</fossilDropRate>
+        </li>       
+      </comps>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="RockBase"]</xpath>
+    <value>
+      <comps> 
+        <li Class="PokeWorld.CompProperties_PokFossilsEvoStoneDropper">
+          <stoneDropRate>0.018</stoneDropRate>
+          <fossilDropRate>0.006</fossilDropRate>
+        </li>       
+      </comps>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DeepDrill"]/comps</xpath>
+    <value>
+      <li Class="PokeWorld.CompProperties_PokFossilsEvoStoneDropper">
+        <stoneDropRate>0.027</stoneDropRate>
+        <fossilDropRate>0.009</fossilDropRate>
+      </li> 
+    </value>
+  </Operation>
+</Patch>

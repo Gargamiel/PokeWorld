@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StatDef>
+    <defName>PW_Level</defName>
+    <label>Level</label>
+    <description>The level of this Pokémon. The higher the level, the stronger the Pokémon is.</description>
+    <category>PW_PokeWorldStat</category>
+    <workerClass>PokeWorld.StatWorker_PokemonLevel</workerClass>
+    <displayPriorityInCategory>4053</displayPriorityInCategory>
+    <toStringStyle>Integer</toStringStyle>
+  </StatDef>  
+
+  <StatDef>
+    <defName>PW_Experience</defName>
+    <label>Experience</label>
+    <description>The amount of experience point this Pokémon has earned. After gaining enough experience, the Pokémon level will increase.\n\nA Pokémon can gain more experience by battling other wild/ennemy creatures (Humans included).</description>
+    <category>PW_PokeWorldStat</category>
+    <workerClass>PokeWorld.StatWorker_PokemonExperience</workerClass>
+    <displayPriorityInCategory>4052</displayPriorityInCategory>
+    <toStringStyle>Integer</toStringStyle>
+  </StatDef>  
+
+  <StatDef>
+    <defName>PW_Friendship</defName>
+    <label>Friendship</label>
+    <description>How much this Pokémon is attached to you and your colony. Certain species of Pokémon are able to evolve only when they are really happy.</description>
+    <category>PW_PokeWorldStat</category>
+    <workerClass>PokeWorld.StatWorker_PokemonFriendship</workerClass>
+    <displayPriorityInCategory>4051</displayPriorityInCategory>
+  </StatDef>  
+
+  <StatDef>
+    <defName>PW_HP</defName>
+    <workerClass>PokeWorld.StatWorker_PokemonStats</workerClass>
+    <label>HP</label>
+    <description>Partly determine how much damage this Pokémon can receive before fainting or dying.</description>
+    <category>PW_PokeWorldStat</category>
+    <displayPriorityInCategory>3049</displayPriorityInCategory>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>1</minValue>
+    <toStringStyle>Integer</toStringStyle>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_Attack</defName>
+    <workerClass>PokeWorld.StatWorker_PokemonStats</workerClass>
+    <label>Attack</label>
+    <description>Partly determines how much damage this Pokémon deals when using a physical move.</description>
+    <category>PW_PokeWorldStat</category>
+    <displayPriorityInCategory>3048</displayPriorityInCategory>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>1</minValue>
+    <toStringStyle>Integer</toStringStyle>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_Defense</defName>
+    <workerClass>PokeWorld.StatWorker_PokemonStats</workerClass>
+    <label>Defense</label>
+    <description>Partly determines how much damage this Pokémon receives when it is hit with a physical move.</description>
+    <category>PW_PokeWorldStat</category>
+    <displayPriorityInCategory>3047</displayPriorityInCategory>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>1</minValue>
+    <toStringStyle>Integer</toStringStyle>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_SpecialAttack</defName>
+    <workerClass>PokeWorld.StatWorker_PokemonStats</workerClass>
+    <label>Sp. Atk</label>
+    <description>Partly determines how much damage this Pokémon deals when using a special move.</description>
+    <category>PW_PokeWorldStat</category>
+    <displayPriorityInCategory>3046</displayPriorityInCategory>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>1</minValue>
+    <toStringStyle>Integer</toStringStyle>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_SpecialDefense</defName>
+    <workerClass>PokeWorld.StatWorker_PokemonStats</workerClass>
+    <label>Sp. Def</label>
+    <description>Partly determines how much damage this Pokémon receives when it is hit with a special move.</description>
+    <category>PW_PokeWorldStat</category>
+    <displayPriorityInCategory>3045</displayPriorityInCategory>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>1</minValue>
+    <toStringStyle>Integer</toStringStyle>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_Speed</defName>
+    <workerClass>PokeWorld.StatWorker_PokemonStats</workerClass>
+    <label>Speed</label>
+    <description>Partly determines the speed of this Pokémon.</description>
+    <category>PW_PokeWorldStat</category>
+    <displayPriorityInCategory>3044</displayPriorityInCategory>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>1</minValue>
+    <toStringStyle>Integer</toStringStyle>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_BaseXPYield</defName>
+    <workerClass>PokeWorld.StatWorker_XPYield</workerClass>
+    <label>Base XP yield</label>
+    <description>How much experience a Pokémon earns when killing this creature.\n\nThe experience is distributed equally amongst up to 8 of your Pokémon who attacked this creature. Attacking a fainted Pokémon doesn't give experience.</description>
+    <category>PW_PokeWorldStat</category>
+    <displayPriorityInCategory>2051</displayPriorityInCategory>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>Integer</toStringStyle>
+    <showOnAnimals>true</showOnAnimals>
+    <showIfUndefined>false</showIfUndefined>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_CatchRate</defName>
+    <label>Catch Rate</label>
+    <description>The chance of catching this Pokémon. Higher catch rates means that the Pokémon is easier to catch.\n\nThe type of Pokéball used and the health of the Pokémon also affect the likelihood of a successful catch.</description>
+    <category>PW_PokeWorldStat</category>
+    <workerClass>PokeWorld.StatWorker_CatchRate</workerClass>
+    <displayPriorityInCategory>2050</displayPriorityInCategory>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>Integer</toStringStyle>
+    <showOnAnimals>true</showOnAnimals>
+  </StatDef>
+
+</Defs>

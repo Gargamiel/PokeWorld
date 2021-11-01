@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="PW_BaseRangedMoveProjectile" Abstract="True">
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>PokeWorld.PokemonMoveProjectile</thingClass>
+    <label>Pokémon attack</label>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+  </ThingDef>
+
+<!--======== Ranged ============-->
+<!-- Normal Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_HyperBeam</defName>
+    <label>Hyper Beam projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Normal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>HyperBeam</defName>
+    <label>Hyper Beam</label>
+    <description>The target is attacked with a powerful beam.</description>
+    <type>Normal</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_HyperBeam</defaultProjectile>
+      <warmupTime>2</warmupTime>
+      <defaultCooldownTime>4</defaultCooldownTime>
+      <range>30</range>
+      <accuracyTouch>0.9</accuracyTouch>
+      <accuracyShort>0.81</accuracyShort>
+      <accuracyMedium>0.63</accuracyMedium>
+      <accuracyLong>0.45</accuracyLong>
+      <soundCast>PW_HyperBeam</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Swift</defName>
+    <label>Swift projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Normal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Swift</defName>
+    <label>Swift</label>
+    <description>Star-shaped rays are shot at the target.</description>
+    <type>Normal</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Swift</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.95</accuracyShort>
+      <accuracyMedium>0.85</accuracyMedium>
+      <accuracyLong>0.75</accuracyLong>
+      <soundCast>PW_Swift</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Fighting Moves -->
+
+
+
+<!-- Flying Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_AirSlash</defName>
+    <label>Swift projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Flying</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>AirSlash</defName>
+    <label>Air Slash</label>
+    <description>Star-shaped rays are shot at the target.</description>
+    <type>Flying</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_AirSlash</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>14</range>
+      <accuracyTouch>0.95</accuracyTouch>
+      <accuracyShort>0.855</accuracyShort>
+      <accuracyMedium>0.665</accuracyMedium>
+      <accuracyLong>0.475</accuracyLong>
+      <soundCast>PW_AirSlash</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Gust</defName>
+    <label>Gust projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Flying</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Gust</defName>
+    <label>Gust</label>
+    <description>A gust of wind is whipped up by wings and launched at the target to inflict damage.</description>
+    <type>Flying</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Gust</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Gust</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Poison Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Smog</defName>
+    <label>Smog projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Poison</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>3</damageAmountBase>
+      <stoppingPower>0.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Smog</defName>
+    <label>Smog</label>
+    <description>The target is attacked with a discharge of filthy gases.</description>
+    <type>Poison</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Smog</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>0.7</accuracyTouch>
+      <accuracyShort>0.63</accuracyShort>
+      <accuracyMedium>0.49</accuracyMedium>
+      <accuracyLong>0.35</accuracyLong>
+      <soundCast>PW_Smog</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Acid</defName>
+    <label>Acid projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Poison</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Acid</defName>
+    <label>Acid</label>
+    <description>The target is attacked with a spray of harsh acid.</description>
+    <type>Poison</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Acid</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Acid</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Ground Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_EarthPower</defName>
+    <label>Earth Power projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ground</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <stoppingPower>1.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>EarthPower</defName>
+    <label>Earth Power</label>
+    <description>The user makes the ground under the target erupt with power.</description>
+    <type>Ground</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_EarthPower</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>18</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_EarthPower</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_MudBomb</defName>
+    <label>Mud Bomb projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ground</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>MudBomb</defName>
+    <label>Mud Bomb</label>
+    <description>The user makes the ground under the target erupt with power.</description>
+    <type>Ground</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_MudBomb</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>0.85</accuracyTouch>
+      <accuracyShort>0.765</accuracyShort>
+      <accuracyMedium>0.595</accuracyMedium>
+      <accuracyLong>0.425</accuracyLong>
+      <soundCast>PW_MudBomb</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_MudShot</defName>
+    <label>Mud Shot projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ground</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>MudShot</defName>
+    <label>Mud Shot</label>
+    <description>The user attacks by hurling a blob of mud at the target.</description>
+    <type>Ground</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_MudShot</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>10</range>
+      <accuracyTouch>0.95</accuracyTouch>
+      <accuracyShort>0.855</accuracyShort>
+      <accuracyMedium>0.665</accuracyMedium>
+      <accuracyLong>0.475</accuracyLong>
+      <soundCast>PW_MudShot</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Rock Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_AncientPower</defName>
+    <label>Ancient Power projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Rock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>AncientPower</defName>
+    <label>Ancient Power</label>
+    <description>The user attacks with a prehistoric power.</description>
+    <type>Rock</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_AncientPower</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_AncientPower</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_PowerGem</defName>
+    <label>Power Gem projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Rock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>PowerGem</defName>
+    <label>Power Gem</label>
+    <description>The user attacks with a ray of light that sparkles as if it were made of gemstones.</description>
+    <type>Rock</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_PowerGem</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_PowerGem</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Bug Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_BugBuzz</defName>
+    <label>Bug Buzz projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Bug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <stoppingPower>1.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>BugBuzz</defName>
+    <label>Bug Buzz</label>
+    <description>The user generates a damaging sound wave by vibration.</description>
+    <type>Bug</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_BugBuzz</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>18</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_BugBuzz</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_SignalBeam</defName>
+    <label>Signal Beam projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Bug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>SignalBeam</defName>
+    <label>Signal Beam</label>
+    <description>The user attacks with a sinister beam of light.</description>
+    <type>Bug</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_SignalBeam</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>14</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_SignalBeam</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Ghost Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Hex</defName>
+    <label>Hex projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ghost</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.3</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Hex</defName>
+    <label>Hex</label>
+    <description>This relentless attack does massive damage to the target.</description>
+    <type>Ghost</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Hex</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Hex</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_ShadowBall</defName>
+    <label>Shadow Ball projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ghost</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>ShadowBall</defName>
+    <label>Shadow Ball</label>
+    <description>The user hurls a shadowy blob at the target.</description>
+    <type>Ghost</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_ShadowBall</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_ShadowBall</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Steel Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_FlashCannon</defName>
+    <label>Flash Cannon projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Steel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>FlashCannon</defName>
+    <label>Flash Cannon</label>
+    <description>The user gathers all its light energy and releases it all at once.</description>
+    <type>Steel</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_FlashCannon</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_FlashCannon</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Fire Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Ember</defName>
+    <label>Ember projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Fire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Ember</defName>
+    <label>Ember</label>
+    <description>The target is attacked with small flames.</description>
+    <type>Fire</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Ember</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Ember</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Flamethrower</defName>
+    <label>Flamethrower projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Fire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <stoppingPower>1.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Flamethrower</defName>
+    <label>Flamethrower</label>
+    <description>The target is scorched with an intense blast of fire.</description>
+    <type>Fire</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Flamethrower</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>18</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Flamethrower</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_LavaPlume</defName>
+    <label>Lava Plume projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Fire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>LavaPlume</defName>
+    <label>Lava Plume</label>
+    <description>The user torches everything around it in an inferno of scarlet flames.</description>
+    <type>Fire</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_LavaPlume</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_LavaPlume</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Inferno</defName>
+    <label>Inferno projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Fire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <stoppingPower>2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Inferno</defName>
+    <label>Inferno</label>
+    <description>The user attacks by engulfing the target in an intense fire.</description>
+    <type>Fire</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Inferno</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>20</range>
+      <accuracyTouch>0.5</accuracyTouch>
+      <accuracyShort>0.45</accuracyShort>
+      <accuracyMedium>0.35</accuracyMedium>
+      <accuracyLong>0.25</accuracyLong>
+      <soundCast>PW_Inferno</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_FireBlast</defName>
+    <label>Fire Blast projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Fire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <stoppingPower>2.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>FireBlast</defName>
+    <label>Fire Blast</label>
+    <description>The target is attacked with an intense blast of all-consuming fire.</description>
+    <type>Fire</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_FireBlast</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>22</range>
+      <accuracyTouch>0.85</accuracyTouch>
+      <accuracyShort>0.765</accuracyShort>
+      <accuracyMedium>0.595</accuracyMedium>
+      <accuracyLong>0.425</accuracyLong>
+      <soundCast>PW_FireBlast</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Water Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_WaterGun</defName>
+    <label>Water Gun projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Water</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>WaterGun</defName>
+    <label>Water Gun</label>
+    <description>The target is blasted with a forceful shot of water.</description>
+    <type>Water</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_WaterGun</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_WaterGun</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_HydroPump</defName>
+    <label>Hydro Pump projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Water</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <stoppingPower>2.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>HydroPump</defName>
+    <label>Hydro Pump</label>
+    <description>The target is blasted by a huge volume of water launched under great pressure.</description>
+    <type>Water</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_HydroPump</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>22</range>
+      <accuracyTouch>0.8</accuracyTouch>
+      <accuracyShort>0.72</accuracyShort>
+      <accuracyMedium>0.56</accuracyMedium>
+      <accuracyLong>0.4</accuracyLong>
+      <soundCast>PW_HydroPump</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_WaterPulse</defName>
+    <label>Water Pulse projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Water</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>WaterPulse</defName>
+    <label>Water Pulse</label>
+    <description>The user attacks the target with a pulsing blast of water.</description>
+    <type>Water</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_WaterPulse</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_WaterPulse</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_BubbleBeam</defName>
+    <label>Bubble Beam projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Water</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.3</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>BubbleBeam</defName>
+    <label>Bubble Beam</label>
+    <description>A spray of bubbles is forcefully ejected at the target.</description>
+    <type>Water</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_BubbleBeam</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_BubbleBeam</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Bubble</defName>
+    <label>Bubble projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Water</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Bubble</defName>
+    <label>Bubble</label>
+    <description>A spray of countless bubbles is jetted at the opposing Pokémon.</description>
+    <type>Water</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Bubble</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Bubble</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Grass Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Absorb</defName>
+    <label>Absorb projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Grass</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>2</damageAmountBase>
+      <stoppingPower>0.4</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Absorb</defName>
+    <label>Absorb</label>
+    <description>A nutrient-draining attack.</description>
+    <type>Grass</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Absorb</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>6</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Absorb</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_MegaDrain</defName>
+    <label>Mega Drain projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Grass</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>MegaDrain</defName>
+    <label>Mega Drain</label>
+    <description>A nutrient-draining attack.</description>
+    <type>Grass</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_MegaDrain</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_MegaDrain</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_GigaDrain</defName>
+    <label>Giga Drain projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Grass</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>GigaDrain</defName>
+    <label>Giga Drain</label>
+    <description>A nutrient-draining attack.</description>
+    <type>Grass</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_GigaDrain</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>14</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_GigaDrain</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_MagicalLeaf</defName>
+    <label>Magical Leaf projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Grass</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>MagicalLeaf</defName>
+    <label>Magical Leaf</label>
+    <description>The user scatters curious leaves that chase the target.</description>
+    <type>Grass</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_MagicalLeaf</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.95</accuracyShort>
+      <accuracyMedium>0.85</accuracyMedium>
+      <accuracyLong>0.75</accuracyLong>
+      <soundCast>PW_MagicalLeaf</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_LeafStorm</defName>
+    <label>Leaf Storm projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Grass</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <stoppingPower>2.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>LeafStorm</defName>
+    <label>Leaf Storm</label>
+    <description>The user whips up a storm of leaves around the target.</description>
+    <type>Grass</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_LeafStorm</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>26</range>
+      <accuracyTouch>0.9</accuracyTouch>
+      <accuracyShort>0.81</accuracyShort>
+      <accuracyMedium>0.63</accuracyMedium>
+      <accuracyLong>0.45</accuracyLong>
+      <soundCast>PW_LeafStorm</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_SolarBeam</defName>
+    <label>Solar Beam projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Grass</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <stoppingPower>2.4</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>SolarBeam</defName>
+    <label>Solar Beam</label>
+    <description>The user gathers light, then blasts a bundled beam.</description>
+    <type>Grass</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_SolarBeam</defaultProjectile>
+      <warmupTime>3</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>24</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_SolarBeam</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Electric Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Discharge</defName>
+    <label>Discharge projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Electric</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Discharge</defName>
+    <label>Discharge</label>
+    <description>The user strikes everything around it by letting loose a flare of electricity.</description>
+    <type>Electric</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Discharge</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Discharge</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_ZapCannon</defName>
+    <label>Zap Cannon projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Electric</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <stoppingPower>2.4</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>ZapCannon</defName>
+    <label>Zap Cannon</label>
+    <description>The user fires an electric blast like a cannon to inflict damage.</description>
+    <type>Electric</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_ZapCannon</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>24</range>
+      <accuracyTouch>0.5</accuracyTouch>
+      <accuracyShort>0.45</accuracyShort>
+      <accuracyMedium>0.35</accuracyMedium>
+      <accuracyLong>0.25</accuracyLong>
+      <soundCast>PW_ZapCannon</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_ThunderShock</defName>
+    <label>Thunder Shock projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Electric</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>ThunderShock</defName>
+    <label>Thunder Shock</label>
+    <description>A jolt of electricity crashes down on the target to inflict damage.</description>
+    <type>Electric</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_ThunderShock</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_ThunderShock</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_ElectroBall</defName>
+    <label>Electro Ball projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Electric</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>ElectroBall</defName>
+    <label>Electro Ball</label>
+    <description>The user hurls an electric orb at the target.</description>
+    <type>Electric</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_ElectroBall</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_ElectroBall</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Thunder</defName>
+    <label>Thunder projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Electric</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <stoppingPower>2.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Thunder</defName>
+    <label>Thunder</label>
+    <description>A wicked thunderbolt is dropped on the target to inflict damage.</description>
+    <type>Electric</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Thunder</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>22</range>
+      <accuracyTouch>0.7</accuracyTouch>
+      <accuracyShort>0.63</accuracyShort>
+      <accuracyMedium>0.49</accuracyMedium>
+      <accuracyLong>0.35</accuracyLong>
+      <soundCast>PW_Thunder</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Thunderbolt</defName>
+    <label>Thunderbolt projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Electric</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <stoppingPower>1.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Thunderbolt</defName>
+    <label>Thunderbolt</label>
+    <description>A strong electric blast crashes down on the target.</description>
+    <type>Electric</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Thunderbolt</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>18</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Thunderbolt</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Psychic Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Confusion</defName>
+    <label>Confusion projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Psychic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Confusion</defName>
+    <label>Confusion</label>
+    <description>The target is hit by a weak telekinetic force.</description>
+    <type>Psychic</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Confusion</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>10</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Confusion</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Psychic</defName>
+    <label>Psychic projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Psychic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <stoppingPower>1.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Psychic</defName>
+    <label>Psychic</label>
+    <description>The target is hit by a strong telekinetic force.</description>
+    <type>Psychic</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Psychic</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>18</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Psychic</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Psybeam</defName>
+    <label>Psybeam projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Psychic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.3</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Psybeam</defName>
+    <label>Psybeam</label>
+    <description>The target is attacked with a peculiar ray.</description>
+    <type>Psychic</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Psybeam</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Psybeam</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Extrasensory</defName>
+    <label>Extrasensory projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Psychic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Extrasensory</defName>
+    <label>Extrasensory</label>
+    <description>The user attacks with an odd, unseeable power.</description>
+    <type>Psychic</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Extrasensory</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Extrasensory</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Psywave</defName>
+    <label>Psywave projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Psychic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Psywave</defName>
+    <label>Psywave</label>
+    <description>The target is attacked with an odd psychic wave.</description>
+    <type>Psychic</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Psywave</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Psywave</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Ice Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_PowderSnow</defName>
+    <label>Powder Snow projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ice</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>PowderSnow</defName>
+    <label>Powder Snow</label>
+    <description>The user attacks with a chilling gust of powdery snow.</description>
+    <type>Ice</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_PowderSnow</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_PowderSnow</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Blizzard</defName>
+    <label>Blizzard projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ice</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <stoppingPower>2.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Blizzard</defName>
+    <label>Blizzard</label>
+    <description>A howling blizzard is summoned to strike the target.</description>
+    <type>Ice</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Blizzard</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>22</range>
+      <accuracyTouch>0.7</accuracyTouch>
+      <accuracyShort>0.63</accuracyShort>
+      <accuracyMedium>0.49</accuracyMedium>
+      <accuracyLong>0.35</accuracyLong>
+      <soundCast>PW_Blizzard</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_IcyWind</defName>
+    <label>Icy Wind projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ice</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>1.1</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>IcyWind</defName>
+    <label>Icy Wind</label>
+    <description>The user attacks with a gust of chilled air.</description>
+    <type>Ice</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_IcyWind</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>10</range>
+      <accuracyTouch>0.95</accuracyTouch>
+      <accuracyShort>0.855</accuracyShort>
+      <accuracyMedium>0.655</accuracyMedium>
+      <accuracyLong>0.475</accuracyLong>
+      <soundCast>PW_IcyWind</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_AuroraBeam</defName>
+    <label>Aurora Beam projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ice</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.3</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>AuroraBeam</defName>
+    <label>Aurora Beam</label>
+    <description>The target is hit with a rainbow-colored beam.</description>
+    <type>Ice</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_AuroraBeam</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_AuroraBeam</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_IceBeam</defName>
+    <label>Ice Beam projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Ice</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <stoppingPower>1.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>IceBeam</defName>
+    <label>Ice Beam</label>
+    <description>The target is struck with an icy-cold beam of energy.</description>
+    <type>Ice</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_IceBeam</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>18</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_IceBeam</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Dragon Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Twister</defName>
+    <label>Twister projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Dragon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Twister</defName>
+    <label>Twister</label>
+    <description>The target is struck with an icy-cold beam of energy.</description>
+    <type>Dragon</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Twister</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Twister</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_DragonPulse</defName>
+    <label>Dragon Pulse projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Dragon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.7</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>DragonPulse</defName>
+    <label>Dragon Pulse</label>
+    <description>The target is attacked with a shock wave generated by the user's gaping mouth.</description>
+    <type>Dragon</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_DragonPulse</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_DragonPulse</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_DragonRage</defName>
+    <label>Dragon Rage projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Dragon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>DragonRage</defName>
+    <label>Dragon Rage</label>
+    <description>This attack hits the target with a shock wave of pure rage.</description>
+    <type>Dragon</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_DragonRage</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_DragonRage</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_DragonBreath</defName>
+    <label>Dragon Breath projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Dragon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>1.2</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>DragonBreath</defName>
+    <label>Dragon Breath</label>
+    <description>The user exhales a mighty gust that inflicts damage.</description>
+    <type>Dragon</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_DragonBreath</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>12</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_DragonBreath</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Dark Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_DarkPulse</defName>
+    <label>Dark Pulse projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Dark</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>1.6</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>DarkPulse</defName>
+    <label>Dark Pulse</label>
+    <description>The user releases a horrible aura imbued with dark thoughts.</description>
+    <type>Dark</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_DarkPulse</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>16</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_DarkPulse</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+<!-- Fairy Moves -->
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_Moonblast</defName>
+    <label>Moonblast projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Fairy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <stoppingPower>1.9</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Moonblast</defName>
+    <label>Moonblast</label>
+    <description>Borrowing the power of the moon, the user attacks the target.</description>
+    <type>Fairy</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_Moonblast</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>18</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_Moonblast</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+  <ThingDef ParentName="PW_BaseRangedMoveProjectile">
+    <defName>PW_Projectile_FairyWind</defName>
+    <label>Fairy Wind projectile</label>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_Fairy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PW_RangedMove</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <PokeWorld.MoveDef>
+    <defName>FairyWind</defName>
+    <label>Fairy Wind</label>
+    <description>Borrowing the power of the moon, the user attacks the target.</description>
+    <type>Fairy</type>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>PW_Projectile_FairyWind</defaultProjectile>
+      <warmupTime>1.5</warmupTime>
+      <defaultCooldownTime>2</defaultCooldownTime>
+      <range>8</range>
+      <accuracyTouch>1</accuracyTouch>
+      <accuracyShort>0.9</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.5</accuracyLong>
+      <soundCast>PW_FairyWind</soundCast>
+      <muzzleFlashScale>9</muzzleFlashScale>
+    </verb>
+  </PokeWorld.MoveDef>
+
+</Defs>

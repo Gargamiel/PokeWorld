@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>  
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>PokedexIcon</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_PokedexIcon</workerClass>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>PokedexStatus</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_PokedexStatus</workerClass>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>PokedexNumber</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_PokedexNumber</workerClass>
+    <widthPriority>100</widthPriority>
+    <sortable>true</sortable>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>Label</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_Label</workerClass>
+    <sortable>true</sortable>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>Type1</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_Type</workerClass>
+    <sortable>true</sortable>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>Type2</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_Type</workerClass>
+    <sortable>true</sortable>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>Info</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_Info</workerClass>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>RemainingSpace</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_RemainingSpace</workerClass>
+    <widthPriority>-1000</widthPriority>
+    <ignoreWhenCalculatingOptimalTableSize>true</ignoreWhenCalculatingOptimalTableSize>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>GapTiny</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_Gap</workerClass>
+    <gap>4</gap>
+  </Pokeworld.PawnKindColumnDef>
+
+  <Pokeworld.PawnKindColumnDef>
+    <defName>GapLarge</defName>
+    <workerClass>Pokeworld.PawnKindColumnWorker_Gap</workerClass>
+    <gap>180</gap>
+  </Pokeworld.PawnKindColumnDef>
+
+</Defs>

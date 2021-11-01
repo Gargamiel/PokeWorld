@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="PW_ResurrectPokemonFossil" Abstract="True">
+    <label>resurrect fossilized Pokémon</label>
+    <description>Bring an ancient Pokémon back to life with DNA from its Fossil.</description>
+    <jobString>Bringing Pokémon back to life.</jobString>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <workAmount>12000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>PW_FossilResurrector</li>
+    </recipeUsers>
+    <researchPrerequisites>
+      <li>PW_FossilResurrectorResearch</li>
+    </researchPrerequisites>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectHelixFossil</defName>
+    <label>resurrect Helix Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedHelixFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_HelixFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_HelixFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_HelixFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Omanyte>1</PW_Omanyte>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectDomeFossil</defName>
+    <label>resurrect Dome Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedDomeFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_DomeFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_DomeFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_DomeFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Kabuto>1</PW_Kabuto>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectOldAmber</defName>
+    <label>resurrect Old Amber</label>
+    <description>Bring an ancient Pokémon back to life with DNA preserved in Amber</description>
+    <workAmount>15000</workAmount>
+    <unfinishedThingDef>PW_UnfinishedOldAmber</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_OldAmber</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_OldAmber</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_OldAmber</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Aerodactyl>1</PW_Aerodactyl>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectRootFossil</defName>
+    <label>resurrect Root Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedRootFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_RootFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_RootFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_RootFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Lileep>1</PW_Lileep>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectClawFossil</defName>
+    <label>resurrect Claw Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedClawFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_ClawFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_ClawFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_ClawFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Anorith>1</PW_Anorith>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectSkullFossil</defName>
+    <label>resurrect Skull Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedSkullFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_SkullFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_SkullFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_SkullFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Cranidos>1</PW_Cranidos>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectArmorFossil</defName>
+    <label>resurrect Armor Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedArmorFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_ArmorFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_ArmorFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_ArmorFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Shieldon>1</PW_Shieldon>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_OpenOddKeyStone</defName>
+    <label>open Odd Keystone</label>
+    <description>Open an ancient Keystone to unleash the Pokémon prisoned inside it.</description>
+    <jobString>Opening Odd Keystone.</jobString>
+    <unfinishedThingDef>PW_UnfinishedOddKeystone</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_OddKeystone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_OddKeystone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_OddKeystone</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Spiritomb>1</PW_Spiritomb>
+    </products>
+  </RecipeDef>
+
+</Defs>

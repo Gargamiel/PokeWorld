@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>PW_BabyPokemonWanderIn</defName>
+    <label>baby Pokémon wander in</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Pokeworld.IncidentWorker_BabyPokemonWanderIn</workerClass>
+    <baseChance>0.6</baseChance>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>PW_PokemonHerdMigration</defName>
+    <label>Pokémon herd migration</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <allowedBiomes>
+      <li>SeaIce</li>
+      <li>IceSheet</li>
+      <li>Tundra</li>
+      <li>Desert</li>
+      <li>ExtremeDesert</li>
+    </allowedBiomes>
+    <workerClass>Pokeworld.IncidentWorker_PokemonHerdMigration</workerClass>
+    <baseChance>1.0</baseChance>
+    <letterLabel>Pokemon migration: {0}</letterLabel>
+    <letterText>A group of {0} is passing through the area.\n\nThey won't attack unless provoked.</letterText>
+    <letterDef>NeutralEvent</letterDef>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>PW_PokemonManhunterPack</defName>
+    <label>manhunter Pokémon pack</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Pokeworld.IncidentWorker_PokemonManhunterPack</workerClass>
+    <baseChance>2.0</baseChance>
+    <category>ThreatBig</category>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>ManhunterPack</tale>
+    <letterHyperlinkHediffDefs>
+      <li>Scaria</li>
+    </letterHyperlinkHediffDefs>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>PW_ManhunterPokemonAmbush</defName>
+    <label>manhunter Pokémon ambush</label>
+    <category>ThreatBig</category>
+    <targetTags>
+      <li>Caravan</li>
+      <li>Map_TempIncident</li>
+    </targetTags>
+    <workerClass>Pokeworld.IncidentWorker_Ambush_PokemonManhunterPack</workerClass>
+    <pointsScaleable>true</pointsScaleable>
+    <minRefireDays>0.17</minRefireDays>
+    <letterText>{0} has been ambushed by scaria-infected manhunting {1}!</letterText>
+    <letterLabel>Caravan ambushed (manhunters)</letterLabel>
+    <letterDef>ThreatBig</letterDef>
+    <tale>CaravanAmbushedByManhunter</tale>
+    <letterHyperlinkHediffDefs>
+      <li>Scaria</li>
+    </letterHyperlinkHediffDefs>
+    <mtbDaysByBiome>
+      <TemperateForest>20</TemperateForest>
+      <BorealForest>20</BorealForest>
+      <TropicalRainforest>20</TropicalRainforest>
+      <AridShrubland>20</AridShrubland>
+      <Desert>30</Desert>
+      <Tundra>30</Tundra>
+      <TropicalSwamp>30</TropicalSwamp>
+      <TemperateSwamp>30</TemperateSwamp>
+      <ColdBog>35</ColdBog>
+      <ExtremeDesert>35</ExtremeDesert>
+      <IceSheet>40</IceSheet>
+      <SeaIce>60</SeaIce>
+    </mtbDaysByBiome>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>PW_PokemonInfestation</defName>
+    <label>Pokémon infestation</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Pokeworld.IncidentWorker_PokemonInfestation</workerClass>
+    <letterLabel>Infestation</letterLabel>
+    <letterText>Pokémon are tunneling towards you! They will break through in a few seconds and plant hives.\n\nThe hives will spawn more Pokémon and more hives.\n\nIf you don't want the Pokémon to infest the whole area, destroy the hives. But beware - the beasts will defend their home.</letterText>
+    <letterDef>ThreatBig</letterDef>
+    <baseChance>2.7</baseChance>
+    <minRefireDays>20</minRefireDays>
+    <category>ThreatBig</category>
+    <pointsScaleable>true</pointsScaleable>
+    <minThreatPoints>400</minThreatPoints>
+    <tale>Infestation</tale>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>PW_PokemonDeepDrillInfestation</defName>
+    <label>Pokémon deep drill infestation</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+      <li>Map_TempIncident</li>
+      <li>Map_Misc</li>
+      <li>Map_RaidBeacon</li>
+    </targetTags>
+    <workerClass>Pokeworld.IncidentWorker_PokemonDeepDrillInfestation</workerClass>
+    <letterLabel>Too deep: Infestation</letterLabel>
+    <letterText>Vibrations from your deep drills have angered some underground Pokémon. Now they're tunneling upwards to seek revenge!\n\nBeware - the Pokémon have been angered and will try to destroy your base.</letterText>
+    <letterDef>ThreatBig</letterDef>
+    <baseChance>1</baseChance>
+    <category>DeepDrillInfestation</category>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>Infestation</tale>
+  </IncidentDef>
+
+</Defs>

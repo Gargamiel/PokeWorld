@@ -1,0 +1,8 @@
+D:\Games\Steam\steamapps\common\RimWorld\Mods\GAR_PokeWorld\Assemblies\GAR_PokeWorld.dll
+D:\Games\Steam\steamapps\common\RimWorld\Mods\GAR_PokeWorld\Source\GAR_PokeWorld\GAR_PokeWorld\obj\Debug\GAR_PokeWorld.csprojAssemblyReference.cache
+D:\Games\Steam\steamapps\common\RimWorld\Mods\GAR_PokeWorld\Source\GAR_PokeWorld\GAR_PokeWorld\obj\Debug\GAR_PokeWorld.csproj.CoreCompileInputs.cache
+D:\Games\Steam\steamapps\common\RimWorld\Mods\GAR_PokeWorld\Source\GAR_PokeWorld\GAR_PokeWorld\obj\Debug\GAR_PokeWorld.dll
+D:\Games\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Assemblies\GAR_PokeWorld.dll
+D:\Games\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\GAR_PokeWorld\GAR_PokeWorld\obj\Debug\GAR_PokeWorld.csprojAssemblyReference.cache
+D:\Games\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\GAR_PokeWorld\GAR_PokeWorld\obj\Debug\GAR_PokeWorld.csproj.CoreCompileInputs.cache
+D:\Games\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\GAR_PokeWorld\GAR_PokeWorld\obj\Debug\GAR_PokeWorld.dll

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name = "OutlanderFactionBase"]/pawnGroupMakers/li[3]/carriers</xpath>
+		<value>
+			<PW_Piloswine>6</PW_Piloswine>
+			<PW_Dodrio>5</PW_Dodrio>
+			<PW_Tropius>2</PW_Tropius>
+			<PW_Hippowdon>1</PW_Hippowdon>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name = "TribeBase"]/pawnGroupMakers/li[6]/carriers</xpath>
+		<value>
+			<PW_Piloswine>6</PW_Piloswine>
+			<PW_Dodrio>5</PW_Dodrio>
+			<PW_Tropius>2</PW_Tropius>
+			<PW_Hippowdon>1</PW_Hippowdon>
+		</value>
+	</Operation>
+
+</Patch>

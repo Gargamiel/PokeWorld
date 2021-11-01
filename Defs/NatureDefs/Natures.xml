@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PokeWorld.NatureDef>
+    <defName>Hardy</defName>
+    <label>Hardy</label>  
+    <increasedStat>PW_Attack</increasedStat>
+    <decreasedStat>PW_Attack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Lonely</defName>
+    <label>Lonely</label>  
+    <increasedStat>PW_Attack</increasedStat>
+    <decreasedStat>PW_Defense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Brave</defName>
+    <label>Brave</label>  
+    <increasedStat>PW_Attack</increasedStat>
+    <decreasedStat>PW_Speed</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Adamant</defName>
+    <label>Adamant</label>  
+    <increasedStat>PW_Attack</increasedStat>
+    <decreasedStat>PW_SpecialAttack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Naughty</defName>
+    <label>Naughty</label>  
+    <increasedStat>PW_Attack</increasedStat>
+    <decreasedStat>PW_SpecialDefense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Bold</defName>
+    <label>Bold</label>  
+    <increasedStat>PW_Defense</increasedStat>
+    <decreasedStat>PW_Attack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Docile</defName>
+    <label>Docile</label>  
+    <increasedStat>PW_Defense</increasedStat>
+    <decreasedStat>PW_Defense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Relaxed</defName>
+    <label>Relaxed</label>  
+    <increasedStat>PW_Defense</increasedStat>
+    <decreasedStat>PW_Speed</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Impish</defName>
+    <label>Impish</label>  
+    <increasedStat>PW_Defense</increasedStat>
+    <decreasedStat>PW_SpecialAttack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Lax</defName>
+    <label>Lax</label>  
+    <increasedStat>PW_Defense</increasedStat>
+    <decreasedStat>PW_SpecialDefense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Timid</defName>
+    <label>Timid</label>  
+    <increasedStat>PW_Speed</increasedStat>
+    <decreasedStat>PW_Attack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Hasty</defName>
+    <label>Hasty</label>  
+    <increasedStat>PW_Speed</increasedStat>
+    <decreasedStat>PW_Defense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Serious</defName>
+    <label>Serious</label>  
+    <increasedStat>PW_Speed</increasedStat>
+    <decreasedStat>PW_Speed</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Jolly</defName>
+    <label>Jolly</label>  
+    <increasedStat>PW_Speed</increasedStat>
+    <decreasedStat>PW_SpecialAttack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Naive</defName>
+    <label>Naive</label>  
+    <increasedStat>PW_Speed</increasedStat>
+    <decreasedStat>PW_SpecialDefense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Modest</defName>
+    <label>Modest</label>  
+    <increasedStat>PW_SpecialAttack</increasedStat>
+    <decreasedStat>PW_Attack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Mild</defName>
+    <label>Mild</label>  
+    <increasedStat>PW_SpecialAttack</increasedStat>
+    <decreasedStat>PW_Defense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Quiet</defName>
+    <label>Quiet</label>  
+    <increasedStat>PW_SpecialAttack</increasedStat>
+    <decreasedStat>PW_Speed</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Bashful</defName>
+    <label>Bashful</label>  
+    <increasedStat>PW_SpecialAttack</increasedStat>
+    <decreasedStat>PW_SpecialAttack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Rash</defName>
+    <label>Rash</label>  
+    <increasedStat>PW_SpecialAttack</increasedStat>
+    <decreasedStat>PW_SpecialDefense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Calm</defName>
+    <label>Calm</label>  
+    <increasedStat>PW_SpecialDefense</increasedStat>
+    <decreasedStat>PW_Attack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Gentle</defName>
+    <label>Gentle</label>  
+    <increasedStat>PW_SpecialDefense</increasedStat>
+    <decreasedStat>PW_Defense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Sassy</defName>
+    <label>Sassy</label>  
+    <increasedStat>PW_SpecialDefense</increasedStat>
+    <decreasedStat>PW_Speed</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Careful</defName>
+    <label>Careful</label>  
+    <increasedStat>PW_SpecialDefense</increasedStat>
+    <decreasedStat>PW_SpecialAttack</decreasedStat>
+  </PokeWorld.NatureDef>
+
+  <PokeWorld.NatureDef>
+    <defName>Quirky</defName>
+    <label>Quirky</label>  
+    <increasedStat>PW_SpecialDefense</increasedStat>
+    <decreasedStat>PW_SpecialDefense</decreasedStat>
+  </PokeWorld.NatureDef>
+
+</Defs>

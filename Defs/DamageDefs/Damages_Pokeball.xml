@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef>
+    <defName>PW_Pokeball</defName>
+    <externalViolence>false</externalViolence>
+    <externalViolenceForMechanoids>true</externalViolenceForMechanoids>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+    <harmsHealth>false</harmsHealth>
+    <makesBlood>false</makesBlood>
+    <isRanged>true</isRanged>
+    <label>Poké Ball</label>
+    <workerClass>PokeWorld.DamageWorker_TryCatch</workerClass>
+    <impactSoundType>Electric</impactSoundType>
+    <defaultDamage>0</defaultDamage>
+    <explosionSnowMeltAmount>0</explosionSnowMeltAmount>
+    <explosionCellFleck>BlastEMP</explosionCellFleck>
+    <explosionColorEdge>(0.8, 0.8, 0.8, 0.8)</explosionColorEdge>
+    <explosionInteriorFleck>ElectricalSpark</explosionInteriorFleck>   
+    <soundExplosion>Explosion_EMP</soundExplosion>
+  </DamageDef>
+
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>PW_PokeBallExplosion</defName>
+    <label>Poké Ball explosion</label>
+    <thingClass>Pokeworld.PokeBallExplosion</thingClass>
+    <tickerType>Normal</tickerType>
+  </ThingDef>
+
+</Defs>

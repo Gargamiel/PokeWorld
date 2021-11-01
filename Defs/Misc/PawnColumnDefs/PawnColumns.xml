@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnColumnDef>
+    <defName>PW_InPokeball</defName>
+    <workerClass>Pokeworld.PawnColumnWorker_InPokeball</workerClass>
+    <sortable>true</sortable>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>PW_Caught</defName>
+    <workerClass>Pokeworld.PawnColumnWorker_Caught</workerClass>
+    <sortable>true</sortable>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
+    <defName>PW_Level</defName>
+    <workerClass>Pokeworld.PawnColumnWorker_Level</workerClass>
+    <sortable>true</sortable>
+    <width>40</width>
+  </PawnColumnDef>
+
+</Defs>

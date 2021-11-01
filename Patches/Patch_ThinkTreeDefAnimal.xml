@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>/Defs/ThinkTreeDef[defName="Animal"]/thinkRoot[@Class="ThinkNode_Priority"]/subNodes/li[@Class="JobGiver_LayEgg"]</xpath>
+    <value>
+      <li Class="PokeWorld.JobGiver_LayDittoEgg" />
+    </value>
+  </Operation>
+
+</Patch>

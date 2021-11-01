@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--======== Moves ============-->
+  <DamageDef ParentName="CutBase">
+    <defName>PW_Slash</defName>
+    <workerClass>PokeWorld.DamageWorker_PokemonSlash</workerClass>
+  </DamageDef>
+
+  <DamageDef>
+    <defName>PW_Stab</defName>
+    <label>stab</label>
+    <workerClass>PokeWorld.DamageWorker_PokemonStab</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been stabbed to death.</deathMessage>
+    <hediff>Stab</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
+    <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
+  </DamageDef>
+
+  <DamageDef ParentName="BluntBase">
+    <defName>PW_Smash</defName>
+    <workerClass>PokeWorld.DamageWorker_PokemonSmash</workerClass>
+  </DamageDef>
+
+  <DamageDef ParentName="Scratch">
+    <defName>PW_Scratch</defName>
+    <workerClass>PokeWorld.DamageWorker_PokemonScratch</workerClass>
+  </DamageDef>
+
+  <DamageDef ParentName="Bite">
+    <defName>PW_Bite</defName>
+    <workerClass>PokeWorld.DamageWorker_PokemonBite</workerClass>
+  </DamageDef>
+
+  <DamageDef>
+    <defName>PW_RangedMove</defName>
+    <label>ranged move</label>
+    <workerClass>PokeWorld.DamageWorker_PokemonRangedMove</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been killed by a Pokémon.</deathMessage>
+    <hediff>Scratch</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+    <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+  </DamageDef>
+
+</Defs>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>PW_ResurectFossil</defName>
+    <label>resurect fossil</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <workTags>
+      <li>Intellectual</li>
+    </workTags>
+    <priorityInType>85</priorityInType>
+    <fixedBillGiverDefs>
+      <li>PW_FossilResurrector</li>
+    </fixedBillGiverDefs>
+    <verb>resurect fossils</verb>
+    <gerund>resurecting fossils at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>PW_PutInBall</defName>
+    <label>put in PokéBall</label>
+    <giverClass>Pokeworld.WorkGiver_PutInBall</giverClass>
+    <workType>BasicWorker</workType>
+    <verb>put in PokéBall</verb>
+    <gerund>putting in PokéBall</gerund>
+    <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
+    <priorityInType>400</priorityInType>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>PW_PutInPortableComputer</defName>
+    <label>store in PC</label>
+    <giverClass>Pokeworld.WorkGiver_CarryToPortableComputer</giverClass>
+    <workType>BasicWorker</workType>
+    <verb>store in PC</verb>
+    <gerund>storing in PC</gerund>
+    <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
+    <priorityInType>400</priorityInType>
+  </WorkGiverDef>
+
+</Defs>

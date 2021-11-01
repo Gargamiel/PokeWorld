@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+  <PokeWorld.eggGroupDef>
+  	<defName>Monster</defName>
+  	<label>Monster</label> 
+	  <description>Pokémon in this group are saurian/kaiju-like in appearance and nature.</description>
+  </PokeWorld.eggGroupDef>
+  
+  <PokeWorld.eggGroupDef>
+  	<defName>Water1</defName>
+  	<label>Water 1</label>
+	  <description>Pokémon in this group are amphibious in nature.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Bug</defName>
+  	<label>Bug</label>
+	  <description>Pokémon in this group are insectoid (bug-like) in appearance.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Flying</defName>
+  	<label>Flying</label>
+	  <description>Pokémon in this group are avian (birdlike) in appearance.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Field</defName>
+  	<label>Field</label>
+	  <description>Pokémon in this group are terrestrial in nature.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Fairy</defName>
+    <label>Fairy</label>
+	  <description>Pokémon in this group are petite and considered very cute.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Grass</defName>
+    <label>Grass</label>
+	  <description>Pokémon in this group are plantlike in appearance.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>HumanLike</defName>
+    <label>Human-Like</label>
+	  <description>Pokémon in this group are fully bipedal.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Water3</defName>
+    <label>Water 3</label> 
+	  <description>Pokémon in this group resemble aquatic invertebrates.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Mineral</defName>
+    <label>Mineral</label>
+	  <description>Pokémon in this group are inorganic in nature.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Amorphous</defName>
+    <label>Amorphous</label>
+	  <description>Pokémon in this group are amorphous, having no definite form.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Water2</defName>
+    <label>Water 2</label> 
+	  <description>Pokémon in this group are piscine (fishlike) in appearance.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Ditto</defName>
+    <label>Ditto</label>
+	  <description>Ditto is the only Pokémon in this group, and is capable of breeding with all others Pokémon (regardless of gender) aside from those in the Undiscovered and the Ditto group.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Dragon</defName>
+    <label>Dragon</label>
+	  <description>Pokémon in this group are draconic in appearance.</description>
+  </PokeWorld.eggGroupDef>
+
+  <PokeWorld.eggGroupDef>
+  	<defName>Undiscovered</defName>
+    <label>Undiscovered</label>
+	  <description>Pokémon in this group are unable to breed.</description>
+  </PokeWorld.eggGroupDef>
+
+</Defs>

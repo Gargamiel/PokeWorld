@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <SitePartDef>
+    <defName>PW_LegendaryPokemon</defName>
+    <label>Legendary Pokemon</label>
+    <description>A Legendary Pokemon.</description>
+    <workerClass>PokeWorld.SitePartWorker_LegendaryPokemon</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>UI/Icons/Animal/Predator</expandingIconTexture>
+    <forceExitAndRemoveMapCountdownDurationDays>16</forceExitAndRemoveMapCountdownDurationDays>
+    <increasesPopulation>true</increasesPopulation>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>PW_LegendaryPokemon</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>PW_LegendaryPokemon</defName>
+    <linkWithSite>PW_LegendaryPokemon</linkWithSite>
+    <order>480</order>
+    <genStep Class="Pokeworld.GenStep_LegendaryPokemon">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+    </genStep>
+  </GenStepDef>
+
+</Defs>

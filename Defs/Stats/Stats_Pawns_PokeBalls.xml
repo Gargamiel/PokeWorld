@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <StatDef>
+    <defName>PW_PokeBallAccuracyPawn</defName>
+    <label>Poké Ball accuracy</label>
+    <labelForFullStatList>Poké Ball accuracy (people)</labelForFullStatList>
+    <description>Base chance to not miss per cell of distance when launching a Poké Ball.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any launch can be seen by selecting a shooter and mousing over a target.</description>
+    <category>PW_PokeWorldStat</category>
+    <workerClass>PokeWorld.StatWorker_PokeBallAccuracy</workerClass>
+    <showOnAnimals>false</showOnAnimals>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentOne</toStringStyle>
+    <toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
+    <finalizeEquippedStatOffset>false</finalizeEquippedStatOffset>
+    <noSkillOffset>8</noSkillOffset>
+    <skillNeedOffsets>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Animals</skill>
+        <baseValue>0</baseValue>
+        <bonusPerLevel>1</bonusPerLevel>
+      </li>
+    </skillNeedOffsets>
+    <capacityOffsets>
+      <li>
+        <capacity>Sight</capacity>
+        <scale>12</scale>
+        <max>2</max>
+      </li>
+      <li>
+        <capacity>Manipulation</capacity>
+        <scale>8</scale>
+        <max>1</max>
+      </li>
+    </capacityOffsets>
+    <postProcessCurve>
+      <points>
+        <li>(-20, 0.70)</li>
+        <li>(-10, 0.80)</li>
+        <li>(-6, 0.83)</li>
+        <li>(-4, 0.85)</li>
+        <li>(-2, 0.87)</li>
+        <li>(0, 0.89)</li>
+        <li>(2, 0.93)</li>
+        <li>(4, 0.94)</li>
+        <li>(6, 0.95)</li>
+        <li>(8, 0.96)</li>
+        <li>(10, 0.97)</li>
+        <li>(12, 0.975)</li>
+        <li>(14, 0.98)</li>
+        <li>(16, 0.98333)</li>
+        <li>(18, 0.98666)</li>
+        <li>(20, 0.99)</li>
+        <li>(22, 0.9925)</li>
+        <li>(26, 0.995)</li>
+        <li>(30, 0.9965)</li>
+        <li>(40, 0.998)</li>
+        <li>(60, 0.999)</li>
+      </points>
+    </postProcessCurve>
+    <displayPriorityInCategory>4050</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_PokeBallAimingDelayFactor</defName>
+    <label>Poké Ball aiming time</label>
+    <description>How long it takes to launch a Poké Ball after choosing a target.</description>
+    <category>PW_PokeWorldStat</category>
+    <workerClass>PokeWorld.StatWorker_PokeBallAimingDelayFactor</workerClass>
+    <displayPriorityInCategory>4049</displayPriorityInCategory>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.01</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showOnAnimals>false</showOnAnimals>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_BonusBall</defName>
+    <label>Bonus Ball</label>
+    <description>The effectiveness of the Poké Balls loaded in this belt, relative to a normal Poké Ball.</description>
+    <category>PW_PokeWorldStat</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>FloatMaxOne</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>2400</displayPriorityInCategory>
+    <parts>
+      <li Class="StatPart_Quality">
+        <factorAwful>0.5</factorAwful>
+        <factorPoor>0.75</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>1.2</factorGood>
+        <factorExcellent>1.5</factorExcellent>
+        <factorMasterwork>2</factorMasterwork>
+        <factorLegendary>3</factorLegendary>
+      </li>
+    </parts>
+  </StatDef>
+
+</Defs>

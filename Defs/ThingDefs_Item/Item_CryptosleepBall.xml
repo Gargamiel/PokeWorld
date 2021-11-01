@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase" Name="PW_CryptosleepBallBase" Abstract = "true">
+    <thingClass>PokeWorld.CryptosleepBall</thingClass>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <drawSize>0.5</drawSize>
+      <texPath>Things/Item/Utility/Balls/PokeBall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>  
+    <thingCategories>
+      <li>PW_Pokeball</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.7</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <isFrameInt>true</isFrameInt>
+    <tradeability>None</tradeability>
+    <stackLimit>1</stackLimit>
+    <inspectorTabs>
+      <li>PokeWorld.ITab_ContentsPokeball</li>
+    </inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_CryptosleepBallBase">
+  	<defName>PW_CryptosleepApricornBall</defName>
+  	<label>Apricorn Ball</label>
+  	<description>An Apricorn Ball with a Pokémon inside</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/ApricornBall</texPath>
+    </graphicData>  
+  </ThingDef>
+
+  <ThingDef ParentName="PW_CryptosleepBallBase">
+  	<defName>PW_CryptosleepPokeBall</defName>
+  	<label>Poké Ball</label>
+  	<description>A Poké Ball with a Pokémon inside.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/PokeBall</texPath>
+    </graphicData>  
+  </ThingDef>
+
+  <ThingDef ParentName="PW_CryptosleepBallBase">
+  	<defName>PW_CryptosleepGreatBall</defName>
+  	<label>Great Ball</label>
+  	<description>A Great Ball with a Pokémon inside.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/GreatBall</texPath>
+    </graphicData>  
+  </ThingDef>
+
+  <ThingDef ParentName="PW_CryptosleepBallBase">
+  	<defName>PW_CryptosleepUltraBall</defName>
+  	<label>Ultra Ball</label>
+  	<description>An Ultra Ball with a Pokémon inside.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/UltraBall</texPath>
+    </graphicData>  
+  </ThingDef>
+
+  <ThingDef ParentName="PW_CryptosleepBallBase">
+  	<defName>PW_CryptosleepMasterBall</defName>
+  	<label>Master Ball</label>
+  	<description>A Master Ball with a Pokémon inside.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/MasterBall</texPath>
+    </graphicData>  
+  </ThingDef>
+
+</Defs>

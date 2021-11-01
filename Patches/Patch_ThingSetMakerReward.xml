@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingSetMakerDef[defName="Reward_ItemsStandard"]/root/options/li[1]/thingSetMaker/options</xpath>
+    <value>
+      
+      <li>
+        <weight>1.2</weight>
+        <thingSetMaker Class="ThingSetMaker_Sum">
+          <resolveInOrder>true</resolveInOrder>
+          <options>
+          	<li>
+          	  <thingSetMaker Class="ThingSetMaker_Count">
+	              <fixedParams>
+	  			        <countRange>1~2</countRange>
+	                <filter>
+	                  <thingSetMakerTagsToAllow>
+	                    <li>PW_RewardEvolutionStone</li>
+	                  </thingSetMakerTagsToAllow>
+	                </filter>
+	              </fixedParams>
+	            </thingSetMaker>
+          	</li>
+          	<li>
+          	  <thingSetMaker Class="ThingSetMaker_Count">
+	              <fixedParams>
+	  			        <countRange>4~10</countRange>
+	                <filter>
+                    <thingDefs>
+                      <li>PW_RareCandy</li>
+                    </thingDefs>
+                  </filter>
+	              </fixedParams>
+	            </thingSetMaker>
+          	</li>
+          </options>
+        </thingSetMaker>
+      </li>
+      <li>
+        <weight>0.3</weight>
+        <thingSetMaker Class="ThingSetMaker_Sum">
+          <resolveInOrder>true</resolveInOrder>
+          <options>
+          	<li>
+          	  <thingSetMaker Class="ThingSetMaker_Count">
+	              <fixedParams>
+	  			        <countRange>1~1</countRange>
+	                <filter>
+	                  <thingSetMakerTagsToAllow>
+	                    <li>PW_RewardFossil</li>
+	                  </thingSetMakerTagsToAllow>
+	                </filter>
+	              </fixedParams>
+	            </thingSetMaker>
+          	</li>
+          	<li>
+          	  <thingSetMaker Class="ThingSetMaker_Count">
+	              <fixedParams>
+	  			        <countRange>4~10</countRange>
+	                <filter>
+                    <thingDefs>
+                      <li>PW_RareCandy</li>
+                    </thingDefs>
+                  </filter>
+	              </fixedParams>
+	            </thingSetMaker>
+          	</li>
+          </options>
+        </thingSetMaker>
+      </li>
+    </value>
+  </Operation>
+</Patch>

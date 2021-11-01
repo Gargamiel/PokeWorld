@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase" Name="PW_EvolutionRockBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <Mass>0.2</Mass>
+      <Flammability>0</Flammability>
+      <MarketValue>150</MarketValue>
+      <Beauty>4</Beauty>
+    </statBases>
+    <tradeability>All</tradeability>
+    <stackLimit>10</stackLimit>
+    <soundDrop>Stone_Drop</soundDrop>
+    <techLevel>Neolithic</techLevel>  
+    <thingSetMakerTags>
+      <li>PW_RewardEvolutionStone</li>
+    </thingSetMakerTags>
+    <thingCategories>
+      <li>PW_EvolutionStone</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase" Name="PW_EvolutionDiscBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <Mass>0.2</Mass>
+      <Flammability>0.3</Flammability>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <tradeability>None</tradeability>
+    <stackLimit>10</stackLimit>
+    <soundDrop>Standard_Drop</soundDrop>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>PW_EvolutionOther</li>
+    </thingCategories>
+  </ThingDef>
+
+  <RecipeDef Name="PW_EvolutionItemRecipeBase" Abstract="True">
+    <workerClass>PokeWorld.Recipe_EvolutionItem</workerClass>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>300</workAmount>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionRockBase">
+    <defName>PW_FireStone</defName>
+    <label>Fire Stone</label>
+    <description>A peculiar stone that can make certain species of Pokémon evolve. It has a fiery orange heart.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/FireStone/FireStone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeFireStone</defName>
+    <label>expose to Fire Stone</label>
+    <description>expose the Pokémon to a Fire Stone to make it evolve.</description>
+    <jobString>Exposing Pokémon to a Fire Stone.</jobString>
+    <uiIconThing>PW_FireStone</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_FireStone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_FireStone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionRockBase">
+    <defName>PW_IceStone</defName>
+    <label>Ice Stone</label>
+    <description>A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable snowflake pattern.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/IceStone/IceStone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeIceStone</defName>
+    <label>expose to Ice Stone</label>
+    <description>expose the Pokémon to an Ice Stone to make it evolve.</description>
+    <jobString>Exposing Pokémon to an Ice Stone.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_IceStone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_IceStone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionRockBase">
+    <defName>PW_LeafStone</defName>
+    <label>Leaf Stone</label>
+    <description>A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable leaf pattern.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/LeafStone/LeafStone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeLeafStone</defName>
+    <label>expose to Leaf Stone</label>
+    <description>expose the Pokémon to a Leaf Stone to make it evolve.</description>
+    <jobString>Exposing Pokémon to a Leaf Stone.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_LeafStone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_LeafStone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionRockBase">
+    <defName>PW_MoonStone</defName>
+    <label>Moon Stone</label>
+    <description>A peculiar stone that can make certain species of Pokémon evolve. It is as black as the night sky.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/MoonStone/MoonStone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeMoonStone</defName>
+    <label>expose to Moon Stone</label>
+    <description>expose the Pokémon to a Moon Stone to make it evolve.</description>
+    <jobString>Exposing Pokémon to a Moon Stone.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_MoonStone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_MoonStone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionRockBase">
+    <defName>PW_ShinyStone</defName>
+    <label>Shiny Stone</label>
+    <description>A peculiar stone that can make certain species of Pokémon evolve. It shines with a dazzling light.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/ShinyStone/ShinyStone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeShinyStone</defName>
+    <label>expose to Shiny Stone</label>
+    <description>expose the Pokémon to a Shiny Stone to make it evolve.</description>
+    <jobString>Exposing Pokémon to a Shiny Stone.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_ShinyStone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_ShinyStone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionRockBase">
+    <defName>PW_ThunderStone</defName>
+    <label>Thunder Stone</label>
+    <description>A peculiar stone that can make certain species of Pokémon evolve. It has a distinct thunderbolt pattern.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/ThunderStone/ThunderStone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeThunderStone</defName>
+    <label>expose to Thunder Stone</label>
+    <description>expose the Pokémon to a Thunder Stone to make it evolve.</description>
+    <jobString>Exposing Pokémon to a Thunder Stone.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_ThunderStone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_ThunderStone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionRockBase">
+    <defName>PW_WaterStone</defName>
+    <label>Water Stone</label>
+    <description>A peculiar stone that can make certain species of Pokémon evolve. It is the blue of a pool of clear water.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/WaterStone/WaterStone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeWaterStone</defName>
+    <label>expose to Water Stone</label>
+    <description>expose the Pokémon to a Water Stone to make it evolve.</description>
+    <jobString>Exposing Pokémon to a Water Stone.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_WaterStone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_WaterStone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionRockBase">
+    <defName>PW_KingsRock</defName>
+    <label>Kings Rock</label>
+    <description>A peculiar stone that can make certain species of Pokémon evolve. It has the shape of a crown.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/KingsRock/KingsRock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.6</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeKingsRock</defName>
+    <label>expose to Kings Rock</label>
+    <description>expose the Pokémon to a Kings Rock to make it evolve.</description>
+    <jobString>Exposing Pokémon to a Kings Rock.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_KingsRock</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_KingsRock</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionDiscBase">
+    <defName>PW_Upgrade</defName>
+    <label>Upgrade</label>
+    <description>A mysterious device filled with all sorts of data. It allows a certain kind of Pokémon to evolve.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/Upgrade/Upgrade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>50</MaxHitPoints>
+    </statBases>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_PlanetaryDevelopment</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+        <Intellectual>5</Intellectual>
+      </skillRequirements> 
+    </recipeMaker>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeUpgrade</defName>
+    <label>download Upgrade</label>
+    <description>download an Upgrade on the Pokémon to make it evolve.</description>
+    <jobString>Downloading Upgrade on a Pokémon.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_Upgrade</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_Upgrade</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <!--========================================-->
+
+  <ThingDef ParentName="PW_EvolutionDiscBase">
+    <defName>PW_DubiousDisc</defName>
+    <label>Dubious Disc</label>
+    <description>A transparent device overflowing with dubious data. It allows a certain kind of Pokémon to evolve.</description>
+    <graphicData>
+      <texPath>Things/Item/Evolution_Item/DubiousDisc/DubiousDisc</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>50</MaxHitPoints>
+    </statBases>
+    <costList>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_ExtraDimensionalActivity</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+        <Intellectual>6</Intellectual>
+      </skillRequirements> 
+    </recipeMaker>
+  </ThingDef>
+  
+  <RecipeDef ParentName="PW_EvolutionItemRecipeBase">
+    <defName>PW_ExposeDubiousDisc</defName>
+    <label>download Dubious Disc</label>
+    <description>download a Dubious Disc on the Pokémon to make it evolve.</description>
+    <jobString>Downloading Dubious Disc on a Pokémon.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_DubiousDisc</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_DubiousDisc</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+</Defs>

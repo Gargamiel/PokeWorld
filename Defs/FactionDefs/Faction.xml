@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>PW_HostilePokemon</defName>
+    <label>Pokémon</label>
+    <pawnSingular>Pokémon</pawnSingular>
+    <pawnsPlural>Pokémon</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <fixedName>Pokémon</fixedName>
+    <factionIconPath>World/WorldObjects/Expanding/Sites/Manhunters</factionIconPath>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 0)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <humanlikeFaction>false</humanlikeFaction>
+    <hidden>true</hidden>
+    <autoFlee>false</autoFlee>
+    <canUseAvoidGrid>false</canUseAvoidGrid>
+    <techLevel>Animal</techLevel>
+    <permanentEnemy>true</permanentEnemy>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <allowedArrivalTemperatureRange>-50~50</allowedArrivalTemperatureRange>
+  </FactionDef>
+
+</Defs>

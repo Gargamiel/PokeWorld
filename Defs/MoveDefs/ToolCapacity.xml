@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--======== Regular Moves ============-->
+
+  <ToolCapacityDef>
+    <defName>PW_Slash</defName>
+    <label>Slash</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>PW_Stab</defName>
+    <label>Stab</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>PW_Smash</defName>
+    <label>Smash</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>PW_Scratch</defName>
+    <label>Scratch</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>PW_Bite</defName>
+    <label>Bite</label>
+  </ToolCapacityDef>
+
+</Defs>

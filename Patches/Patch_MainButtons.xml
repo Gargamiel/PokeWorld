@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationInsert">
+    <xpath>/Defs/MainButtonDef[defName="Research"]</xpath>
+    <value>
+      <MainButtonDef>
+        <defName>PW_Pokedex</defName>
+        <label>pokédex</label>
+    	<description>View the encyclopedia of all Pokémon you have caught.</description>
+    	<tabWindowClass>Pokeworld.MainTabWindow_Pokedex</tabWindowClass>
+    	<order>63</order>
+  	  </MainButtonDef>
+    </value>
+  </Operation>
+</Patch>

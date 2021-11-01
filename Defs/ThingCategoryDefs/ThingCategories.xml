@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>PW_PokeWorld</defName>
+    <label>PokéWorld</label>
+    <parent>Root</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>   
+  </ThingCategoryDef>
+
+    <ThingCategoryDef>
+	  <defName>PW_Textiles</defName>
+	  <label>Textiles</label>
+	  <parent>PW_PokeWorld</parent>
+	  <resourceReadoutRoot>true</resourceReadoutRoot>   
+	</ThingCategoryDef>
+
+	  <ThingCategoryDef>
+		<defName>PW_Leathers</defName>
+		<label>Pokémon leathers</label>
+		<parent>PW_Textiles</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>   
+	  </ThingCategoryDef>
+
+    <ThingCategoryDef>
+	  <defName>PW_Belts</defName>
+	  <label>Pokéball belts</label>
+	  <parent>PW_PokeWorld</parent>
+	  <resourceReadoutRoot>true</resourceReadoutRoot>   
+	</ThingCategoryDef>	
+
+    <ThingCategoryDef>
+	  <defName>PW_Item</defName>
+	  <label>items</label>
+	  <parent>PW_PokeWorld</parent>
+	  <resourceReadoutRoot>true</resourceReadoutRoot>   
+	</ThingCategoryDef>
+      
+	  <ThingCategoryDef>
+	    <defName>PW_Pokeball</defName>
+	    <label>Pokéballs</label>
+	    <parent>PW_Item</parent>
+	    <resourceReadoutRoot>true</resourceReadoutRoot>   
+	  </ThingCategoryDef>
+
+	  <ThingCategoryDef>
+	    <defName>PW_HealingItem</defName>
+	    <label>healing</label>
+	    <parent>PW_Item</parent>
+	    <resourceReadoutRoot>true</resourceReadoutRoot>   
+	  </ThingCategoryDef>
+
+	  <ThingCategoryDef>
+		<defName>PW_EvolutionItem</defName>
+		<label>evolution</label>
+		<parent>PW_Item</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>   
+	  </ThingCategoryDef>
+
+		<ThingCategoryDef>
+		  <defName>PW_EvolutionStone</defName>
+		  <label>stones</label>
+		  <parent>PW_EvolutionItem</parent>
+		  <resourceReadoutRoot>true</resourceReadoutRoot>   
+		</ThingCategoryDef>
+
+		<ThingCategoryDef>
+		  <defName>PW_EvolutionOther</defName>
+		  <label>other</label>
+		  <parent>PW_EvolutionItem</parent>
+		  <resourceReadoutRoot>true</resourceReadoutRoot>   
+	    </ThingCategoryDef>
+
+	  <ThingCategoryDef>
+		<defName>PW_Fossils</defName>
+		<label>fossils</label>
+		<parent>PW_Item</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>   
+	  </ThingCategoryDef>
+	  
+	<ThingCategoryDef>
+	  <defName>PW_Eggs</defName>
+	  <label>Pokémon eggs</label>
+	  <parent>PW_PokeWorld</parent>
+	  <resourceReadoutRoot>true</resourceReadoutRoot>   
+	</ThingCategoryDef>	
+
+	<ThingCategoryDef>
+	  <defName>PW_Buildings</defName>
+	  <label>buildings</label>
+	  <parent>PW_PokeWorld</parent>
+	  <resourceReadoutRoot>true</resourceReadoutRoot>   
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+	  <defName>PW_CorpsesPokemon</defName>
+	  <label>Pokémon Corpses</label>
+	  <parent>PW_PokeWorld</parent>
+	</ThingCategoryDef>
+
+	  <ThingCategoryDef>
+		<defName>PW_CorpsesPokemonA</defName>
+		<label>A</label>
+		<parent>PW_CorpsesPokemon</parent>
+	  </ThingCategoryDef>
+
+	  <ThingCategoryDef>
+		<defName>PW_CorpsesPokemonB</defName>
+		<label>B</label>
+		<parent>PW_CorpsesPokemon</parent>
+	  </ThingCategoryDef>
+
+	  <ThingCategoryDef>
+		<defName>PW_CorpsesPokemonC</defName>
+		<label>C</label>
+		<parent>PW_CorpsesPokemon</parent>
+	  </ThingCategoryDef>
+
+</Defs>

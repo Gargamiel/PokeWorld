@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ScenarioDef[defName="Crashlanded"]/scenario/parts</xpath>
+    <value>
+    	<li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>PW_PokeBallBelt</thingDef>
+        <count>1</count>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>PW_Potion</thingDef>
+        <count>10</count>
+        <stuff>RawBerries</stuff>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ScenarioDef[defName="Crashlanded"]/scenario/parts/li[@Class="ScenPart_StartingAnimal"]</xpath>
+    <value>
+      <li Class="Pokeworld.ScenPart_StartingPokemon">
+        <def>PW_StartingPokemon</def>
+        <count>1</count>
+        <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ScenarioDef[defName="LostTribe"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>PW_ApricornBallBelt</thingDef>
+        <count>2</count>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ScenarioDef[defName="LostTribe"]/scenario/parts/li[@Class="ScenPart_StartingAnimal"]</xpath>
+    <value>
+      <li Class="Pokeworld.ScenPart_StartingPokemon">
+        <def>PW_StartingPokemon</def>
+        <count>3</count>
+        <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ScenarioDef[defName="TheRichExplorer"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>PW_UltraBallBelt</thingDef>
+        <count>1</count>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>PW_HyperPotion</thingDef>
+        <count>10</count>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ScenarioDef[defName="TheRichExplorer"]/scenario/parts/li[@Class="ScenPart_StartingAnimal"]</xpath>
+    <value>
+      <li Class="Pokeworld.ScenPart_StartingPokemon">
+        <def>PW_StartingPokemon</def>
+        <count>1</count>
+        <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+      </li>
+    </value>
+  </Operation>
+</Patch>

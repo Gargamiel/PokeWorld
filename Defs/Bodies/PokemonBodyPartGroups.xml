@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  Groups used to defines attacks tools in entity thingDef
+-->
+
+<Defs>
+
+  <BodyPartGroupDef>
+    <defName>PW_LeftPincer</defName>
+    <label>left pincer</label>
+    <labelShort>pincer</labelShort>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>PW_RightPincer</defName>
+    <label>right pincer</label>
+    <labelShort>pincer</labelShort>
+  </BodyPartGroupDef>
+
+</Defs>

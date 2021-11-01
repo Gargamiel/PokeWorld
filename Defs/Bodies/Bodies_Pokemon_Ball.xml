@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  Each coverage value is relative to its parent.
+  Remaining body part coverage (100% minus coverage of all child nodes) is a chance to hit exactly this part.
+  Damage "starts" at corePart, and then "goes deeper" until it hits remaining body part coverage or leaf node
+  - this body part is then hit.
+-->
+
+
+<Defs>
+
+  <BodyDef>
+    <defName>PW_HeadPokemon</defName>
+    <label>head pokemon</label>
+    <corePart>
+      <def>PW_LevitatingOrMovingHead</def>
+      <height>Bottom</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>HeadAttackTool</li>
+      </groups>
+      <parts>
+        <li>
+          <def>Ribcage</def>
+          <coverage>0.35</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>Stomach</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Heart</def>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>left lung</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>right lung</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Kidney</def>
+              <customLabel>left kidney</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Kidney</def>
+              <customLabel>right kidney</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Liver</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Skull</def>
+          <coverage>0.15</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>Brain</def>
+              <coverage>0.40</coverage>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Eye</def>
+          <customLabel>left eye</customLabel>
+          <coverage>0.08</coverage>
+        </li>
+        <li>
+          <def>Eye</def>
+          <customLabel>right eye</customLabel>
+          <coverage>0.08</coverage>
+        </li>
+        <li>
+          <def>Nose</def>
+          <coverage>0.12</coverage>
+        </li>
+        <li>
+          <def>AnimalJaw</def>
+          <coverage>0.10</coverage>
+          <groups>
+            <li>Teeth</li>
+          </groups>
+        </li>
+      </parts>     
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>PW_HeadPokemonWithBody</defName>
+    <label>head pokemon</label>
+    <corePart>
+      <def>PW_LevitatingOrMovingBody</def>
+      <height>Bottom</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Ribcage</def>
+          <coverage>0.30</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>Stomach</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Heart</def>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>left lung</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>right lung</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Kidney</def>
+              <customLabel>left kidney</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Kidney</def>
+              <customLabel>right kidney</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Liver</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.4</coverage>
+          <height>Middle</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.30</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.60</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.12</coverage>
+                </li>
+                <li>
+		              <def>Nose</def>
+		              <coverage>0.12</coverage>
+		            </li>
+                <li>
+                  <def>AnimalJaw</def>
+                  <coverage>0.10</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>PW_HeadPokemonWithArms</defName>
+    <label>head pokemon</label>
+    <corePart>
+      <def>PW_LevitatingOrMovingHead</def>
+      <height>Bottom</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>HeadAttackTool</li>
+      </groups>
+      <parts>
+        <li>
+          <def>Ribcage</def>
+          <coverage>0.20</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>Stomach</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Heart</def>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>left lung</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>right lung</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Kidney</def>
+              <customLabel>left kidney</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Kidney</def>
+              <customLabel>right kidney</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Liver</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Skull</def>
+          <coverage>0.15</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>Brain</def>
+              <coverage>0.40</coverage>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Eye</def>
+          <customLabel>left eye</customLabel>
+          <coverage>0.04</coverage>
+        </li>
+        <li>
+          <def>Eye</def>
+          <customLabel>right eye</customLabel>
+          <coverage>0.04</coverage>
+        </li>
+        <li>
+          <def>Nose</def>
+          <coverage>0.06</coverage>
+        </li>
+        <li>
+          <def>AnimalJaw</def>
+          <coverage>0.10</coverage>
+          <groups>
+            <li>Teeth</li>
+          </groups>
+        </li>
+        <li>
+          <def>Shoulder</def>
+          <customLabel>left shoulder</customLabel>
+          <coverage>0.2</coverage>
+          <parts>
+            <li>
+              <def>Arm</def>
+              <customLabel>left arm</customLabel>
+              <coverage>0.85</coverage>
+              <parts>
+                <li>
+                  <def>Humerus</def>
+                  <customLabel>left humerus</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Radius</def>
+                  <customLabel>left radius</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Hand</def>
+                  <customLabel>left hand</customLabel>
+                  <coverage>0.25</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Shoulder</def>
+          <customLabel>right shoulder</customLabel>
+          <coverage>0.2</coverage>
+          <parts>
+            <li>
+              <def>Arm</def>
+              <customLabel>right arm</customLabel>
+              <coverage>0.85</coverage>
+              <parts>
+                <li>
+                  <def>Humerus</def>
+                  <customLabel>right humerus</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Radius</def>
+                  <customLabel>right radius</customLabel>
+                  <coverage>0.1</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>Hand</def>
+                  <customLabel>right hand</customLabel>
+                  <coverage>0.25</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>PW_HeadPokemonWithLegs</defName>
+    <label>head pokemon</label>
+    <corePart>
+      <def>PW_LevitatingOrMovingHead</def>
+      <height>Bottom</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>HeadAttackTool</li>
+      </groups>
+      <parts>
+        <li>
+          <def>Ribcage</def>
+          <coverage>0.20</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>Stomach</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Heart</def>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>left lung</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Lung</def>
+              <customLabel>right lung</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Kidney</def>
+              <customLabel>left kidney</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Kidney</def>
+              <customLabel>right kidney</customLabel>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Liver</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Skull</def>
+          <coverage>0.15</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>Brain</def>
+              <coverage>0.40</coverage>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Eye</def>
+          <customLabel>left eye</customLabel>
+          <coverage>0.04</coverage>
+        </li>
+        <li>
+          <def>Eye</def>
+          <customLabel>right eye</customLabel>
+          <coverage>0.04</coverage>
+        </li>
+        <li>
+          <def>Nose</def>
+          <coverage>0.06</coverage>
+        </li>
+        <li>
+          <def>AnimalJaw</def>
+          <coverage>0.10</coverage>
+          <groups>
+            <li>Teeth</li>
+          </groups>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>left leg</customLabel>
+          <coverage>0.2</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>left femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>left tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>right leg</customLabel>
+          <coverage>0.2</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>right femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>right tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+</Defs>
+
+		

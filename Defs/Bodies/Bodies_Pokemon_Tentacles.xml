@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  Each coverage value is relative to its parent.
+  Remaining body part coverage (100% minus coverage of all child nodes) is a chance to hit exactly this part.
+  Damage "starts" at corePart, and then "goes deeper" until it hits remaining body part coverage or leaf node
+  - this body part is then hit.
+-->
+
+
+<Defs>
+
+  <BodyDef>
+    <defName>PW_TentaclePokemon</defName>
+    <label>tentacle pokemon</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>PW_Gill</def>
+          <customLabel>left gill</customLabel>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>PW_Gill</def>
+          <customLabel>right gill</customLabel>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>  
+        <li>
+          <def>Head</def>
+          <coverage>0.15</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.30</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.60</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Beak</def>
+              <coverage>0.25</coverage>
+              <groups>
+            	<li>Beak</li>
+              </groups>
+            </li>
+          </parts>
+        </li>        
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>first tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>second tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>third tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>fourth tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>fifth tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>sixth tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>seventh tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>Eighth tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>PW_TentaclePokemonWithShell</defName>
+    <label>tentacle pokemon</label>
+    <corePart>
+      <def>Shell</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>PW_Gill</def>
+          <customLabel>left gill</customLabel>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>PW_Gill</def>
+          <customLabel>right gill</customLabel>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.05</coverage>
+          <depth>Inside</depth>
+        </li>  
+        <li>
+          <def>Head</def>
+          <coverage>0.15</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.30</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.60</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Beak</def>
+              <coverage>0.25</coverage>
+              <groups>
+            	<li>Beak</li>
+              </groups>
+            </li>
+          </parts>
+        </li>        
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>first tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>second tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>third tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>fourth tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>fifth tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>sixth tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>seventh tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>PW_Tentacle</def>
+          <customLabel>Eighth tentacle</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+</Defs>

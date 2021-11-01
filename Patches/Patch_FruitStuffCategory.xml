@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="RawBerries"]</xpath>
+    <value>
+      <stuffProps>
+        <categories>
+          <li>PW_Fruit</li>
+        </categories>
+        <commonality>1</commonality>
+        <statFactors>
+          <MaxHitPoints>1</MaxHitPoints>
+        </statFactors>
+      </stuffProps>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="RawAgave"]</xpath>
+    <value>
+      <stuffProps>
+        <categories>
+          <li>PW_Fruit</li>
+        </categories>
+        <commonality>0</commonality>
+        <statFactors>
+          <MaxHitPoints>1</MaxHitPoints>
+        </statFactors>
+      </stuffProps>
+    </value>
+  </Operation>
+</Patch>

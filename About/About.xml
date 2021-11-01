@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>PokéWorld</name>
+	<author>Gargamiel</author>
+	<packageId>Gargamiel.PokéWorld</packageId>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<description>V1.0\nPokéWorld adds 493 species of Pokémon from the first four Pokémon generations to RimWorld, each with their own unique characteristics akin to the original games.\n\nTry and catch as many of these Pokémon as you can to fill up your Pokédex, battle against other wild Pokémon and raiders to gain experience and level up your Pokémon, who will learn more powerfull moves and eventually evolve to grow ever stronger!\n\nUnlike your regular RimWorld animal, Pokémon can't be tamed by simply having your colonist walk up to them. Instead, you'll need to use specialy crafted Poké Ball belts to catch these Pokémon. But be carefull! Most of them wont let themselves be caught without a fight!\nOnce caught, you can choose to assign your newly caught Pokémon to a colonist whom it will follow and protect, or let him rest in his Poké Ball until it is later needed.\n\nPokémon aren't the only new addition this mod adds to RimWorld. Keep your eyes wide open when mining in the dark caves, for you might stumble onto rare treasure among the rocks, such as rare evolution stones, or, even rarer, ancient fossils buried deep for eons. Who knows, with the right tools, you might be able to bring these fossil back to live.\n\nOnce you start learning more and more about these strange creatures by filling your Pokédex, you'll eventually find yourself on the track of exceptionally powerful Pokémon, only ever heard of in myths and legends.\n\nFinally, altough it is only just a rumour, it is said amongst the ancient tribes living on this planet that some individual Pokémon can show a very rare coloration, similar to the shine of a bright midnight star.</description>
+</ModMetaData>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>PW_PutInBall</defName>
+    <driverClass>Pokeworld.JobDriver_PutInBall</driverClass>
+    <reportString>putting TargetA in PokéBall.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
+    <defName>PW_CarryToPortableComputer</defName>
+    <driverClass>Pokeworld.JobDriver_CarryToPortableComputer</driverClass>
+    <reportString>carrying TargetA to PC.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+    <defName>PW_PokemonGotoForced</defName>
+    <driverClass>Pokeworld.JobDriver_PokemonGotoForced</driverClass>
+    <reportString>moving.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
+    <defName>PW_PokemonWaitCombat</defName>
+    <driverClass>Pokeworld.JobDriver_PokemonWaitCombat</driverClass>
+    <reportString>watching for targets.</reportString>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <suspendable>false</suspendable>
+    <isIdle>true</isIdle>
+  </JobDef>
+
+  <JobDef>
+    <defName>PW_PokemonAttackMelee</defName>
+    <driverClass>Pokeworld.JobDriver_PokemonAttackMelee</driverClass>
+    <reportString>melee attacking TargetA.</reportString>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+    <collideWithPawns>true</collideWithPawns>
+  </JobDef>
+
+  <JobDef>
+    <defName>PW_PokemonAttackStatic</defName>
+    <driverClass>Pokeworld.JobDriver_PokemonAttackStatic</driverClass>
+    <reportString>attacking TargetA.</reportString>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+    <collideWithPawns>true</collideWithPawns>
+  </JobDef>
+
+  <JobDef>
+    <defName>PW_LayDittoEgg</defName>
+    <driverClass>PokeWorld.JobDriver_LayDittoEgg</driverClass>
+    <reportString>laying egg.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+</Defs>

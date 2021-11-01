@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef Name = "PW_PokemonHiveBase" ParentName="BuildingNaturalBase" Abstract = "True">
+    <label>Pokémon tunnel</label>
+    <description>A tunnel dug by a Pokémon familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <thingClass>Hive</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Natural/Hive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <uiIconScale>0.65</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <pathCost>42</pathCost>
+    <receivesSignals>true</receivesSignals>
+    <blockWind>true</blockWind>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <comps>
+      <li Class="CompProperties_CanBeDormant">
+        <startsDormant>true</startsDormant>
+        <canWakeUpFogged>false</canWakeUpFogged>
+      </li>
+      <li Class="CompProperties_WakeUpDormant" />
+      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>6000</ticksPerHeal> <!-- 60k ticks = 1 day, 10 hp per day -->
+      </li>
+      <li Class="CompProperties_SpawnerHives" />
+      <li Class="CompProperties_Spawner">
+        <thingToSpawn>GlowPod</thingToSpawn>
+        <spawnCount>1</spawnCount>
+        <spawnIntervalRange>30000~60000</spawnIntervalRange>
+        <spawnMaxAdjacent>1</spawnMaxAdjacent>
+        <saveKeysPrefix>pod</saveKeysPrefix>
+        <inheritFaction>true</inheritFaction>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>6</heatPerSecond>
+        <heatPushMaxTemperature>38</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_SpawnerFilth">
+        <filthDef>Filth_Slime</filthDef>
+        <spawnCountOnSpawn>10</spawnCountOnSpawn>
+        <spawnMtbHours>4</spawnMtbHours>
+        <spawnRadius>5</spawnRadius>
+      </li>
+      <li Class="CompProperties_Maintainable">
+        <ticksHealthy>60000</ticksHealthy>
+        <ticksNeedsMaintenance>60000</ticksNeedsMaintenance>
+        <damagePerTickRare>10</damagePerTickRare>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_PokemonHiveGeodude</defName>
+    <label>Geodude tunnel</label>
+    <description>A tunnel dug by a Geodude familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Geodude</li>
+          <li>PW_Graveler</li>
+          <li>PW_Golem</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_PokemonHiveOnix</defName>
+    <label>Onix tunnel</label>
+    <description>A tunnel dug by a Onix familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Onix</li>
+          <li>PW_Steelix</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_PokemonHiveDiglett</defName>
+    <label>Diglett tunnel</label>
+    <description>A tunnel dug by a Diglett familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Diglett</li>
+          <li>PW_Dugtrio</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_PokemonHiveRhyhorn</defName>
+    <label>Rhyhorn tunnel</label>
+    <description>A tunnel dug by a Rhyhorn familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Rhyhorn</li>
+          <li>PW_Rhydon</li>
+          <li>PW_Rhyperior</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_PokemonHiveAron</defName>
+    <label>Aron tunnel</label>
+    <description>A tunnel dug by a Aron familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Aron</li>
+          <li>PW_Lairon</li>
+          <li>PW_Aggron</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <!--==================================================-->
+
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>PW_TunnelPokemonHiveSpawner</defName>
+    <label>Pokémon tunnel</label>
+    <thingClass>PokeWorld.TunnelPokemonHiveSpawner</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <alwaysFlee>true</alwaysFlee>
+  </ThingDef>
+
+</Defs>

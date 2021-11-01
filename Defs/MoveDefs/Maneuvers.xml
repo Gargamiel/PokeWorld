@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--======== Regular Moves ============-->
+
+  <ManeuverDef>
+    <defName>PW_Slash</defName>
+    <requiredCapacity>PW_Slash</requiredCapacity>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonMeleeMove</verbClass>
+      <meleeDamageDef>PW_Slash</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <ManeuverDef Name = 'PW_Stab'>
+    <defName>PW_Stab</defName>
+    <requiredCapacity>PW_Stab</requiredCapacity>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonMeleeMove</verbClass>
+      <meleeDamageDef>PW_Stab</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Stab_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Stab_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <ManeuverDef Name = 'PW_Smash'>
+    <defName>PW_Smash</defName>
+    <requiredCapacity>PW_Smash</requiredCapacity>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonMeleeMove</verbClass>
+      <meleeDamageDef>PW_Smash</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <ManeuverDef Name = 'PW_Scratch'>
+    <defName>PW_Scratch</defName>
+    <requiredCapacity>PW_Scratch</requiredCapacity>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonMeleeMove</verbClass>
+      <meleeDamageDef>PW_Scratch</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Scratch_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Scratch_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Scratch_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Scratch_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <ManeuverDef>
+    <defName>PW_Bite</defName>
+    <requiredCapacity>PW_Bite</requiredCapacity>
+    <verb>
+      <verbClass>PokeWorld.Verb_PokemonMeleeMove</verbClass>
+      <meleeDamageDef>PW_Bite</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+</Defs>

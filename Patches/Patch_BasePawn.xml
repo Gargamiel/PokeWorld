@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="BasePawn"]/comps</xpath>
+    <value>
+      <li>
+      	<compClass>PokeWorld.CompXpEvGiver</compClass>
+      </li>
+    </value>
+  </Operation> 
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="BasePawn"]/statBases</xpath>
+    <value>
+      <PW_BaseXPYield>500</PW_BaseXPYield>
+    </value>
+  </Operation> 
+
+</Patch>

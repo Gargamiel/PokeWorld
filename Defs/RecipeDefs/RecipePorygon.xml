@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>PW_UnfinishedPorygon</defName>
+    <label>unfinished Porygon</label>
+    <description>A Porygon in the making.</description>  
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedComponent</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <Mass>0.5</Mass>
+      <Flammability>0</Flammability>
+      <Beauty>-4</Beauty>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>   
+    <stuffCategories Inherit="false"/>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PW_MakePorygon</defName>
+    <label>make Porygon</label>
+    <description>Make a Porygon</description>
+    <jobString>making Porygon.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>12000</workAmount>
+    <unfinishedThingDef>PW_UnfinishedPorygon</unfinishedThingDef>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <researchPrerequisites>
+      <li>PW_CyberspaceProgramming</li>
+    </researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AIPersonaCore</li>
+        <li>ComponentSpacer</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>AIPersonaCore</li>
+        <li>ComponentSpacer</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Porygon>1</PW_Porygon>
+    </products>
+    <researchPrerequisite>PW_CyberspaceProgramming</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+</Defs>

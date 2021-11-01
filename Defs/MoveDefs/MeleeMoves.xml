@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--======== Melee ============-->
+<!-- Normal Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>Struggle</defName>
+    <label>Struggle</label>
+    <description>This attack is used in desperation only.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Struggle</label>
+      <soundMeleeHit>PW_Struggle</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>3</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Pound</defName>
+    <label>Pound</label>
+    <description>The target is physically pounded with a long tail, a foreleg, or the like.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Pound</label>
+      <soundMeleeHit>PW_Pound</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Scratch</defName>
+    <label>Scratch</label>
+    <description>Hard, pointed, sharp claws rake the target to inflict damage.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Scratch</label>
+      <soundMeleeHit>PW_Scratch</soundMeleeHit>
+      <capacities>
+        <li>PW_Scratch</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Headbutt</defName>
+    <label>Headbutt</label>
+    <description>The user sticks out its head and attacks by charging straight into the target.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Headbutt</label>
+      <soundMeleeHit>PW_Headbutt</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>7</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>FuryAttack</defName>
+    <label>Fury Attack</label>
+    <description>The target is jabbed repeatedly with a horn or beak.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Fury Attack</label>
+      <soundMeleeHit>PW_FuryAttack</soundMeleeHit>
+      <capacities>
+        <li>PW_Stab</li>
+      </capacities>
+      <power>5</power>
+      <cooldownTime>2.3</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Tackle</defName>
+    <label>Tackle</label>
+    <description>The user charges and slams into the target with its whole body.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Tackle</label>
+      <soundMeleeHit>PW_Tackle</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>TakeDown</defName>
+    <label>Take Down</label>
+    <description>A reckless, full-body charge attack for slamming into the target.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Take Down</label>
+      <soundMeleeHit>PW_TakeDown</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2.3</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>DoubleEdge</defName>
+    <label>Double-Edge</label>
+    <description>A reckless, life-risking tackle in which the user rushes the target.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Double-Edge</label>
+      <soundMeleeHit>PW_DoubleEdge</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>12</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>QuickAttack</defName>
+    <label>Quick Attack</label>
+    <description>The user lunges at the target at a speed that makes it almost invisible.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Quick Attack</label>
+      <soundMeleeHit>PW_QuickAttack</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>1.7</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>FurySwipes</defName>
+    <label>Fury Swipes</label>
+    <description>The target is raked with sharp claws or scythes.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Fury Swipes</label>
+      <soundMeleeHit>PW_FurySwipes</soundMeleeHit>
+      <capacities>
+        <li>PW_Scratch</li>
+      </capacities>
+      <power>5</power>
+      <cooldownTime>2.4</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Slash</defName>
+    <label>Slash</label>
+    <description>The target is attacked with a slash of claws or blades.</description>
+    <type>Normal</type>
+    <tool>
+      <label>Slash</label>
+      <soundMeleeHit>PW_Slash</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>7</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Fighting Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>CloseCombat</defName>
+    <label>Close Combat</label>
+    <description>The user fights the target up close without guarding itself.</description>
+    <type>Fighting</type>
+    <tool>
+      <label>Close Combat</label>
+      <soundMeleeHit>PW_CloseCombat</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>12</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>HammerArm</defName>
+    <label>Hammer Arm</label>
+    <description>The user swings and hits with its strong, heavy fist.</description>
+    <type>Fighting</type>
+    <tool>
+      <label>Hammer Arm</label>
+      <soundMeleeHit>PW_HammerArm</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2.2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Superpower</defName>
+    <label>Superpower</label>
+    <description>The user attacks the target with great power.</description>
+    <type>Fighting</type>
+    <tool>
+      <label>Superpower</label>
+      <soundMeleeHit>PW_Superpower</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>12</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Revenge</defName>
+    <label>Revenge</label>
+    <description>The user attacks the target.</description>
+    <type>Fighting</type>
+    <tool>
+      <label>Revenge</label>
+      <soundMeleeHit>PW_Revenge</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>6</power>
+      <cooldownTime>2.4</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>WakeUpSlap</defName>
+    <label>Wake-Up Slap</label>
+    <description>The user attacks the target.</description>
+    <type>Fighting</type>
+    <tool>
+      <label>Wake-Up Slap</label>
+      <soundMeleeHit>PW_WakeUpSlap</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>7</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>LowKick</defName>
+    <label>Low Kick</label>
+    <description>A powerful low kick that makes the target fall over.</description>
+    <type>Fighting</type>
+    <tool>
+      <label>Low Kick</label>
+      <soundMeleeHit>PW_LowKick</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>6</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>DoubleKick</defName>
+    <label>Double Kick</label>
+    <description>The target is quickly kicked twice in succession using both feet.</description>
+    <type>Fighting</type>
+    <tool>
+      <label>Double Kick</label>
+      <soundMeleeHit>PW_DoubleKick</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>6</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Flying Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>Peck</defName>
+    <label>Peck</label>
+    <description>The target is jabbed with a sharply pointed beak or horn.</description>
+    <type>Flying</type>
+    <tool>
+      <label>Peck</label>
+      <soundMeleeHit>PW_Peck</soundMeleeHit>
+      <capacities>
+        <li>PW_Stab</li>
+      </capacities>
+      <power>3.5</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>WingAttack</defName>
+    <label>Wing Attack</label>
+    <description>The target is struck with large, imposing wings spread wide to inflict damage.</description>
+    <type>Flying</type>
+    <tool>
+      <label>Wing Attack</label>
+      <soundMeleeHit>PW_WingAttack</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>6</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Acrobatics</defName>
+    <label>Acrobatics</label>
+    <description>The user nimbly strikes the target.</description>
+    <type>Flying</type>
+    <tool>
+      <label>Acrobatics</label>
+      <soundMeleeHit>PW_Acrobatics</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>5.5</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Poison Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>PoisonSting</defName>
+    <label>Poison Sting</label>
+    <description>The user stabs the target with a poisonous stinger.</description>
+    <type>Poison</type>
+    <tool>
+      <label>Poison Sting</label>
+      <soundMeleeHit>PW_PoisonSting</soundMeleeHit>
+      <capacities>
+        <li>PW_Stab</li>
+      </capacities>
+      <power>1.5</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>PoisonJab</defName>
+    <label>Poison Jab</label>
+    <description>The target is stabbed with a tentacle, arm, or the like steeped in poison.</description>
+    <type>Poison</type>
+    <tool>
+      <label>Poison Jab</label>
+      <soundMeleeHit>PW_PoisonJab</soundMeleeHit>
+      <capacities>
+        <li>PW_Stab</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Ground Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>MudSlap</defName>
+    <label>Mud-Slap</label>
+    <description>The user hurls mud in the target's face to inflict damage.</description>
+    <type>Ground</type>
+    <tool>
+      <label>Mud-Slap</label>
+      <soundMeleeHit>PW_MudSlap</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>2</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Earthquake</defName>
+    <label>Earthquake</label>
+    <description>The user sets off an earthquake that strikes those around it.</description>
+    <type>Ground</type>
+    <tool>
+      <label>Earthquake</label>
+      <soundMeleeHit>PW_Earthquake</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>SandTomb</defName>
+    <label>Sand Tomb</label>
+    <description>The user traps the target inside a harshly raging sandstorm.</description>
+    <type>Ground</type>
+    <tool>
+      <label>Sand Tomb</label>
+      <soundMeleeHit>PW_SandTomb</soundMeleeHit>
+      <capacities>
+        <li>PW_Scratch</li>
+      </capacities>
+      <power>3.5</power>
+      <cooldownTime>2.3</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Rock Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>Rollout</defName>
+    <label>Rollout</label>
+    <description>The user rolls into the target.</description>
+    <type>Rock</type>
+    <tool>
+      <label>Rollout</label>
+      <soundMeleeHit>PW_Rollout</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>3</power>
+      <cooldownTime>2.2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>RockSlide</defName>
+    <label>Rock Slide</label>
+    <description>Large boulders are hurled at the target to inflict damage.</description>
+    <type>Rock</type>
+    <tool>
+      <label>Rock Slide</label>
+      <soundMeleeHit>PW_RockSlide</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>7.5</power>
+      <cooldownTime>2.2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>StoneEdge</defName>
+    <label>Stone Edge</label>
+    <description>The user stabs the target from below with sharpened stones.</description>
+    <type>Rock</type>
+    <tool>
+      <label>Stone Edge</label>
+      <soundMeleeHit>PW_StoneEdge</soundMeleeHit>
+      <capacities>
+        <li>PW_Stab</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2.4</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>RockThrow</defName>
+    <label>Rock Throw</label>
+    <description>The user picks up and throws a small rock at the target to attack.</description>
+    <type>Rock</type>
+    <tool>
+      <label>Rock Throw</label>
+      <soundMeleeHit>PW_RockThrow</soundMeleeHit>
+      <capacities>
+        <li>PW_Scratch</li>
+      </capacities>
+      <power>5</power>
+      <cooldownTime>2.2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>RockBlast</defName>
+    <label>Rock Blast</label>
+    <description>The user hurls hard rocks at the target.</description>
+    <type>Rock</type>
+    <tool>
+      <label>Rock Blast</label>
+      <soundMeleeHit>PW_RockBlast</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>7.5</power>
+      <cooldownTime>2.2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Bug Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>FuryCutter</defName>
+    <label>Fury Cutter</label>
+    <description>The target is slashed with scythes or claws.</description>
+    <type>Bug</type>
+    <tool>
+      <label>Fury Cutter</label>
+      <soundMeleeHit>PW_FuryCutter</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>2.1</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>BugBite</defName>
+    <label>Bug Bite</label>
+    <description>The user bites the target.</description>
+    <type>Bug</type>
+    <tool>
+      <label>Bug Bite</label>
+      <soundMeleeHit>PW_BugBite</soundMeleeHit>
+      <capacities>
+        <li>PW_Bite</li>
+      </capacities>
+      <power>6</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>LeechLife</defName>
+    <label>Leech Life</label>
+    <description>The user drains the target's blood.</description>
+    <type>Bug</type>
+    <tool>
+      <label>Leech Life</label>
+      <soundMeleeHit>PW_LeechLife</soundMeleeHit>
+      <capacities>
+        <li>PW_Bite</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>XScissor</defName>
+    <label>X-Scissor</label>
+    <description>The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.</description>
+    <type>Bug</type>
+    <tool>
+      <label>X-Scissor</label>
+      <soundMeleeHit>PW_XScissor</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Ghost Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>Astonish</defName>
+    <label>Astonish</label>
+    <description>The user attacks the target while shouting in a startling fashion.</description>
+    <type>Ghost</type>
+    <tool>
+      <label>Astonish</label>
+      <soundMeleeHit>PW_Astonish</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>3</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Lick</defName>
+    <label>Lick</label>
+    <description>The target is licked with a long tongue, causing damage.</description>
+    <type>Ghost</type>
+    <tool>
+      <label>Lick</label>
+      <soundMeleeHit>PW_Lick</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>3</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>ShadowSneak</defName>
+    <label>Shadow Sneak</label>
+    <description>The user extends its shadow and attacks the target from behind.</description>
+    <type>Ghost</type>
+    <tool>
+      <label>Shadow Sneak</label>
+      <soundMeleeHit>PW_ShadowSneak</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>3</power>
+      <cooldownTime>1.7</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+  
+<!-- Steel Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>MetalClaw</defName>
+    <label>Metal Claw</label>
+    <description>The target is raked with steel claws.</description>
+    <type>Steel</type>
+    <tool>
+      <label>Metal Claw</label>
+      <soundMeleeHit>PW_MetalClaw</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>5</power>
+      <cooldownTime>2.1</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>GyroBall</defName>
+    <label>Gyro Ball</label>
+    <description>The user tackles the target with a high-speed spin.</description>
+    <type>Steel</type>
+    <tool>
+      <label>Gyro Ball</label>
+      <soundMeleeHit>PW_GyroBall</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>HeavySlam</defName>
+    <label>Heavy Slam</label>
+    <description>The user slams into the target with its heavy body.</description>
+    <type>Steel</type>
+    <tool>
+      <label>Heavy Slam</label>
+      <soundMeleeHit>PW_HeavySlam</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>IronHead</defName>
+    <label>Iron Head</label>
+    <description>The user slams the target with its steel-hard head.</description>
+    <type>Steel</type>
+    <tool>
+      <label>Iron Head</label>
+      <soundMeleeHit>PW_IronHead</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Fire Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>FireFang</defName>
+    <label>Fire Fang</label>
+    <description>The user bites with flame-cloaked fangs.</description>
+    <type>Fire</type>
+    <tool>
+      <label>Fire Fang</label>
+      <soundMeleeHit>PW_FireFang</soundMeleeHit>
+      <capacities>
+        <li>PW_Bite</li>
+      </capacities>
+      <power>6.5</power>
+      <cooldownTime>2.1</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>FirePunch</defName>
+    <label>Fire Punch</label>
+    <description>The target is punched with a fiery fist.</description>
+    <type>Fire</type>
+    <tool>
+      <label>Fire Punch</label>
+      <soundMeleeHit>PW_FirePunch</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>7.5</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Water Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>AquaTail</defName>
+    <label>Aqua Tail</label>
+    <description>The user attacks by swinging its tail as if it were a vicious wave in a raging storm.</description>
+    <type>Water</type>
+    <tool>
+      <label>Aqua Tail</label>
+      <soundMeleeHit>PW_AquaTail</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2.2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Grass Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>RazorLeaf</defName>
+    <label>Razor Leaf</label>
+    <description>Sharp-edged leaves are launched to slash at the opposing target.</description>
+    <type>Grass</type>
+    <tool>
+      <label>Razor Leaf</label>
+      <soundMeleeHit>PW_RazorLeaf</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>5.5</power>
+      <cooldownTime>2.1</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>VineWhip</defName>
+    <label>Vine Whip</label>
+    <description>The target is struck with slender, whiplike vines to inflict damage.</description>
+    <type>Grass</type>
+    <tool>
+      <label>Vine Whip</label>
+      <soundMeleeHit>PW_VineWhip</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>4.5</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Electric Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>ThunderFang</defName>
+    <label>Thunder Fang</label>
+    <description>The user bites with electrified fangs.</description>
+    <type>Electric</type>
+    <tool>
+      <label>Thunder Fang</label>
+      <soundMeleeHit>PW_ThunderFang</soundMeleeHit>
+      <capacities>
+        <li>PW_Bite</li>
+      </capacities>
+      <power>6.5</power>
+      <cooldownTime>2.1</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Spark</defName>
+    <label>Spark</label>
+    <description>The user throws an electrically charged tackle at the target.</description>
+    <type>Electric</type>
+    <tool>
+      <label>Spark</label>
+      <soundMeleeHit>PW_Spark</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>6.5</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>ThunderPunch</defName>
+    <label>Thunder Punch</label>
+    <description>The target is punched with an electrified fist.</description>
+    <type>Electric</type>
+    <tool>
+      <label>Thunder Punch</label>
+      <soundMeleeHit>PW_ThunderPunch</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>7.5</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Psychic Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>ZenHeadbutt</defName>
+    <label>Zen Headbutt</label>
+    <description>The user focuses its willpower to its head and attacks the target.</description>
+    <type>Psychic</type>
+    <tool>
+      <label>Zen Headbutt</label>
+      <soundMeleeHit>PW_ZenHeadbutt</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2.2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Ice Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>IceFang</defName>
+    <label>Ice Fang</label>
+    <description>The user bites with cold-infused fangs.</description>
+    <type>Ice</type>
+    <tool>
+      <label>Ice Fang</label>
+      <soundMeleeHit>PW_IceFang</soundMeleeHit>
+      <capacities>
+        <li>PW_Bite</li>
+      </capacities>
+      <power>6.5</power>
+      <cooldownTime>2.1</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>IceShard</defName>
+    <label>Ice Shard</label>
+    <description>The user flash-freezes chunks of ice and hurls them at the target.</description>
+    <type>Ice</type>
+    <tool>
+      <label>Ice Shard</label>
+      <soundMeleeHit>PW_IceShard</soundMeleeHit>
+      <capacities>
+        <li>PW_Stab</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>1.7</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>IcePunch</defName>
+    <label>Ice Punch</label>
+    <description>The target is punched with an icy fist.</description>
+    <type>Ice</type>
+    <tool>
+      <label>Ice Punch</label>
+      <soundMeleeHit>PW_IcePunch</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>7.5</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Dragon Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>DragonClaw</defName>
+    <label>Dragon Claw</label>
+    <description>The user slashes the target with huge sharp claws.</description>
+    <type>Dragon</type>
+    <tool>
+      <label>Dragon Claw</label>
+      <soundMeleeHit>PW_DragonClaw</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Outrage</defName>
+    <label>Outrage</label>
+    <description>The user rampages and attacks.</description>
+    <type>Dragon</type>
+    <tool>
+      <label>Outrage</label>
+      <soundMeleeHit>PW_Outrage</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>12</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>DragonRush</defName>
+    <label>Dragon Rush</label>
+    <description>The user tackles the target while exhibiting overwhelming menace.</description>
+    <type>Dragon</type>
+    <tool>
+      <label>Dragon Rush</label>
+      <soundMeleeHit>PW_DragonRush</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2.5</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>DragonTail</defName>
+    <label>Dragon Tail</label>
+    <description>The target is knocked away.</description>
+    <type>Dragon</type>
+    <tool>
+      <label>Dragon Tail</label>
+      <soundMeleeHit>PW_DragonTail</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>6</power>
+      <cooldownTime>2.5</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Dark Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>Bite</defName>
+    <label>Bite</label>
+    <description>The target is bitten with viciously sharp fangs.</description>
+    <type>Dark</type>
+    <tool>
+      <label>Bite</label>
+      <soundMeleeHit>PW_Bite</soundMeleeHit>
+      <capacities>
+        <li>PW_Bite</li>
+      </capacities>
+      <power>6</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+  
+  <PokeWorld.MoveDef>
+    <defName>Crunch</defName>
+    <label>Crunch</label>
+    <description>The user crunches up the target with sharp fangs.</description>
+    <type>Dark</type>
+    <tool>
+      <label>Crunch</label>
+      <soundMeleeHit>PW_Crunch</soundMeleeHit>
+      <capacities>
+        <li>PW_Bite</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>FeintAttack</defName>
+    <label>Feint Attack</label>
+    <description>The user approaches the target disarmingly, then throws a sucker punch.</description>
+    <type>Dark</type>
+    <tool>
+      <label>Feint Attack</label>
+      <soundMeleeHit>PW_FeintAttack</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>6</power>
+      <cooldownTime>1.7</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>Pursuit</defName>
+    <label>Pursuit</label>
+    <description>The user attacks the target.</description>
+    <type>Dark</type>
+    <tool>
+      <label>Pursuit</label>
+      <soundMeleeHit>PW_Pursuit</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>SuckerPunch</defName>
+    <label>Sucker Punch</label>
+    <description>The user attacks the target.</description>
+    <type>Dark</type>
+    <tool>
+      <label>Sucker Punch</label>
+      <soundMeleeHit>PW_SuckerPunch</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>7</power>
+      <cooldownTime>1.7</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+  <PokeWorld.MoveDef>
+    <defName>NightSlash</defName>
+    <label>Night Slash</label>
+    <description>The user slashes the target the instant an opportunity arises.</description>
+    <type>Dark</type>
+    <tool>
+      <label>Night Slash</label>
+      <soundMeleeHit>PW_NightSlash</soundMeleeHit>
+      <capacities>
+        <li>PW_Slash</li>
+      </capacities>
+      <power>7</power>
+      <cooldownTime>2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+<!-- Fairy Moves -->
+
+  <PokeWorld.MoveDef>
+    <defName>PlayRough</defName>
+    <label>Play Rough</label>
+    <description>The user plays rough with the target and attacks it.</description>
+    <type>Fairy</type>
+    <tool>
+      <label>Play Rough</label>
+      <soundMeleeHit>PW_PlayRough</soundMeleeHit>
+      <capacities>
+        <li>PW_Smash</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2.2</cooldownTime>
+    </tool>
+  </PokeWorld.MoveDef>
+
+</Defs>

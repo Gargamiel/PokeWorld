@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationInsert">
+    <xpath>/Defs/PawnTableDef[defName="Animals"]/columns/li[contains(text(), "Pregnant")]</xpath>
+    <value>
+      <li>PW_InPokeball</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>/Defs/PawnTableDef[defName="Animals"]/columns/li[contains(text(), "Gender")]</xpath>
+    <value>
+      <li>PW_Level</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationInsert">
+    <xpath>/Defs/PawnTableDef[defName="Wildlife"]/columns/li[contains(text(), "Gender")]</xpath>
+    <value>
+      <li>PW_Level</li>
+      <li>GapTiny</li>
+      <li>PW_Caught</li>     
+    </value>
+  </Operation>
+</Patch>

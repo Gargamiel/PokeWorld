@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Projectile -->
+
+  <ThingDef Name="PW_BasePokeballProjectile" Abstract="True">
+    <category>Projectile</category>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>PokeWorld.Projectile_Pokeball</thingClass>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <drawSize>0.3</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>      
+      <arcHeightFactor>2</arcHeightFactor>
+      <shadowSize>0.4</shadowSize>     
+      <damageDef>PW_Pokeball</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <explosionDelay>5</explosionDelay>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_BasePokeballProjectile">
+    <defName>PW_Proj_ApricornBall</defName>
+    <label>Apricorn Ball</label>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/ApricornBall</texPath>      
+    </graphicData> 
+    <projectile>
+      <speed>10</speed>
+      <explosionRadius>1.5</explosionRadius>
+    </projectile> 
+  </ThingDef>
+
+  <ThingDef ParentName="PW_BasePokeballProjectile">
+    <defName>PW_Proj_PokeBall</defName>
+    <label>Poké Ball</label>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/PokeBall</texPath>      
+    </graphicData> 
+    <projectile>
+      <speed>12</speed>
+      <explosionRadius>1.9</explosionRadius>
+    </projectile> 
+  </ThingDef>
+
+  <ThingDef ParentName="PW_BasePokeballProjectile">
+    <defName>PW_Proj_GreatBall</defName>
+    <label>Great Ball</label>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/GreatBall</texPath>      
+    </graphicData>
+    <projectile>
+      <speed>14</speed>
+      <explosionRadius>2.4</explosionRadius>
+    </projectile> 
+  </ThingDef>
+
+  <ThingDef ParentName="PW_BasePokeballProjectile">
+    <defName>PW_Proj_UltraBall</defName>
+    <label>Ultra Ball</label>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/UltraBall</texPath>      
+    </graphicData> 
+    <projectile>
+      <speed>16</speed>
+      <explosionRadius>2.9</explosionRadius>
+    </projectile>  
+  </ThingDef>
+
+  <ThingDef ParentName="PW_BasePokeballProjectile">
+    <defName>PW_Proj_MasterBall</defName>
+    <label>Master Ball</label>
+    <graphicData>
+      <texPath>Things/Item/Utility/Balls/MasterBall</texPath>      
+    </graphicData>
+    <projectile>
+      <speed>20</speed>
+      <explosionRadius>3.9</explosionRadius>
+    </projectile>   
+  </ThingDef>
+
+  <!-- ========================= -->
+
+  <ThingDef ParentName="ApparelNoQualityBase" Name="PW_PokeballBeltBase" Abstract="True">
+    <thingCategories>
+      <li>PW_Belts</li>
+    </thingCategories>
+    <graphicData>
+      <drawSize>1.1</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>0.7</Mass>
+      <Beauty>-3</Beauty>
+      <Flammability>0.5</Flammability>
+    </statBases> 
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tickerType>Normal</tickerType>
+    <apparel>
+      <wornGraphicData>
+  	    <renderUtilityAsPack>true</renderUtilityAsPack>
+  	    <north>
+  	      <male>  <offset>(0.25, -0.25)</offset> </male>
+  	      <female><offset>(0.25,-0.25)</offset> </female>
+  	      <thin>  <offset>(0.15,-0.25)</offset> </thin>
+  	      <hulk>  <offset>(0.25,-0.3)</offset> </hulk>
+  	      <fat>   <offset>(0.45,-0.25)</offset> </fat>
+  	    </north>
+  	    <south>
+  	      <male>  <offset>(-0.3, -0.25)</offset> </male>
+  	      <female><offset>(-0.3,-0.25)</offset> </female>
+  	      <thin>  <offset>(-0.2,-0.25)</offset> </thin>
+  	      <hulk>  <offset>(-0.3,-0.3)</offset> </hulk>
+  	      <fat>   <offset>(-0.5,-0.25)</offset> </fat>
+  	    </south>
+  	    <east>
+  	      <offset>(-0.05,-0.3)</offset>
+  	    </east>
+  	    <male>  <scale>(0.2,0.2)</scale> </male>
+  	    <female><scale>(0.2,0.2)</scale> </female>
+  	    <thin>  <scale>(0.2,0.2)</scale> </thin>
+  	    <hulk>  <scale>(0.2,0.2)</scale> </hulk>
+  	    <fat>   <scale>(0.2,0.2)</scale> </fat>
+      </wornGraphicData>
+      <tags Inherit="false">
+        <li>PW_BallBelt</li>
+      </tags>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokeballBeltBase" Name="PW_MakeablePokeballBeltBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_MakeablePokeballBeltBase">
+    <defName>PW_ApricornBallBelt</defName>
+    <label>Apricorn Ball belt</label>
+    <description>A belt loaded with old fashioned Apricorns. Used by ancient civilisation before the invention of modern Poké Balls.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Belts/ApricornBallBelt</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Item/Utility/Balls/ApricornBall</wornGraphicPath>
+    </apparel>
+    <techLevel>Neolithic</techLevel>  
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <PW_BonusBall>0.6</PW_BonusBall>
+    </statBases> 
+    <costList>
+      <WoodLog>35</WoodLog>
+    </costList>        
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_ApricornBallResearch</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_MakeBow</soundWorking>  
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>   
+    </recipeMaker>
+    <verbs>
+      <li>
+        <label>Apricorn Ball</label>
+        <verbClass>PokeWorld.Verb_LaunchPokeball</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <violent>false</violent>
+        <range>8.9</range>
+        <burstShotCount>1</burstShotCount>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <forcedMissRadius>0</forcedMissRadius>
+        <accuracyTouch>1</accuracyTouch>
+        <accuracyShort>1</accuracyShort>
+        <accuracyMedium>1</accuracyMedium>
+        <accuracyLong>1</accuracyLong>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>true</canTargetAnimals>
+          <canTargetHumans>false</canTargetHumans>
+          <canTargetMechs>false</canTargetMechs>
+          <canTargetLocations>false</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PW_Proj_ApricornBall</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>10</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+      <li Class="PokeWorld.CompProperties_Pokeball">
+        <ballDef>PW_CryptosleepApricornBall</ballDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_MakeablePokeballBeltBase">
+    <defName>PW_PokeBallBelt</defName>
+    <label>Poké Ball belt</label>
+    <description>A belt loaded with regular Poké Balls. Great for catching wild Pokémon, not so great to fight off raiders.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Belts/PokeBallBelt</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Item/Utility/Balls/PokeBall</wornGraphicPath>
+    </apparel>
+    <techLevel>Industrial</techLevel> 
+    <statBases>
+      <WorkToMake>3200</WorkToMake>
+      <PW_BonusBall>1</PW_BonusBall>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_PokeBallResearch</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>  
+    </recipeMaker>      
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <verbs>
+      <li>
+        <label>Poké Ball</label>
+        <verbClass>PokeWorld.Verb_LaunchPokeball</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <violent>false</violent>
+        <range>9.9</range>
+        <burstShotCount>1</burstShotCount>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <forcedMissRadius>0</forcedMissRadius>
+        <accuracyTouch>1</accuracyTouch>
+        <accuracyShort>1</accuracyShort>
+        <accuracyMedium>1</accuracyMedium>
+        <accuracyLong>1</accuracyLong>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>true</canTargetAnimals>
+          <canTargetHumans>false</canTargetHumans>
+          <canTargetMechs>false</canTargetMechs>
+          <canTargetLocations>false</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PW_Proj_PokeBall</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>20</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+      <li Class="PokeWorld.CompProperties_Pokeball">
+        <ballDef>PW_CryptosleepPokeBall</ballDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_MakeablePokeballBeltBase">
+    <defName>PW_GreatBallBelt</defName>
+    <label>Great Ball belt</label>
+    <description>A belt loaded with Great Balls. Better than a standard Poké Ball, Great Ball gives a better chance of catching wild Pokémon.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Belts/GreatBallBelt</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Item/Utility/Balls/GreatBall</wornGraphicPath>
+    </apparel>
+    <techLevel>Industrial</techLevel> 
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <PW_BonusBall>2</PW_BonusBall>
+    </statBases>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_GreatBallResearch</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>  
+    </recipeMaker>     
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <verbs>
+      <li>
+        <label>Great Ball</label>
+        <verbClass>PokeWorld.Verb_LaunchPokeball</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <violent>false</violent>
+        <range>11.9</range>
+        <burstShotCount>1</burstShotCount>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <forcedMissRadius>0</forcedMissRadius>
+        <accuracyTouch>1</accuracyTouch>
+        <accuracyShort>1</accuracyShort>
+        <accuracyMedium>1</accuracyMedium>
+        <accuracyLong>1</accuracyLong>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>true</canTargetAnimals>
+          <canTargetHumans>false</canTargetHumans>
+          <canTargetMechs>false</canTargetMechs>
+          <canTargetLocations>false</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PW_Proj_GreatBall</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>20</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+      <li Class="PokeWorld.CompProperties_Pokeball">
+        <ballDef>PW_CryptosleepGreatBall</ballDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_MakeablePokeballBeltBase">
+    <defName>PW_UltraBallBelt</defName>
+    <label>Ultra Ball belt</label>
+    <description>A belt loaded with Ultra Balls. Ultra Balls are high-tech Balls that provides a higher success rate for catching Pokémon than a Great Ball.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Belts/UltraBallBelt</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Item/Utility/Balls/UltraBall</wornGraphicPath>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <PW_BonusBall>4</PW_BonusBall>
+    </statBases>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>      
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_UltraBallResearch</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>  
+    </recipeMaker>   
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <verbs>
+      <li>
+        <label>Ultra Ball</label>
+        <verbClass>PokeWorld.Verb_LaunchPokeball</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <violent>false</violent>
+        <range>13.9</range>
+        <burstShotCount>1</burstShotCount>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <forcedMissRadius>0</forcedMissRadius>
+        <accuracyTouch>1</accuracyTouch>
+        <accuracyShort>1</accuracyShort>
+        <accuracyMedium>1</accuracyMedium>
+        <accuracyLong>1</accuracyLong>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>true</canTargetAnimals>
+          <canTargetHumans>false</canTargetHumans>
+          <canTargetMechs>false</canTargetMechs>
+          <canTargetLocations>false</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PW_Proj_UltraBall</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>20</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+      <li Class="PokeWorld.CompProperties_Pokeball">
+        <ballDef>PW_CryptosleepUltraBall</ballDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokeballBeltBase">
+    <defName>PW_MasterBallBelt</defName>
+    <label>Master Ball belt</label>
+    <description>A belt loaded with a few Master Balls. Extremely rare, Master Balls are the best Ball with the ultimate level of performance. Assuming you aim it well, it will catch any wild Pokémon without fail.</description>
+    <graphicData>
+      <texPath>Things/Item/Utility/Belts/MasterBallBelt</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Item/Utility/Balls/MasterBall</wornGraphicPath>
+    </apparel>
+    <techLevel>Ultra</techLevel>  
+    <statBases>
+      <MarketValue>1800</MarketValue>
+      <PW_BonusBall>255</PW_BonusBall>
+    </statBases>      
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <verbs>
+      <li>
+        <label>Master Ball</label>
+        <verbClass>PokeWorld.Verb_LaunchPokeball</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <violent>false</violent>
+        <range>16.9</range>
+        <burstShotCount>1</burstShotCount>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <forcedMissRadius>0</forcedMissRadius>
+        <accuracyTouch>1</accuracyTouch>
+        <accuracyShort>1</accuracyShort>
+        <accuracyMedium>1</accuracyMedium>
+        <accuracyLong>1</accuracyLong>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>true</canTargetAnimals>
+          <canTargetHumans>false</canTargetHumans>
+          <canTargetMechs>false</canTargetMechs>
+          <canTargetLocations>false</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>PW_Proj_MasterBall</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>charge</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+      <li Class="PokeWorld.CompProperties_Pokeball">
+        <ballDef>PW_CryptosleepMasterBall</ballDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

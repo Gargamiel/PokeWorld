@@ -1,0 +1,3215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBulbasaur</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Bulbasaur</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCharmander</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Charmander</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSquirtle</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Squirtle</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCaterpie</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Caterpie</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggWeedle</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Weedle</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPidgey</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Pidgey</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRattata</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Rattata</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSpearow</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Spearow</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggEkans</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Ekans</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSandshrew</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Sandshrew</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggNidoranF</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_NidoranF</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggNidoranM</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_NidoranM</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggVulpix</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Vulpix</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggZubat</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Zubat</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggOddish</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Oddish</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggParas</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Paras</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggVenonat</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Venonat</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDiglett</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Diglett</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMeowth</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Meowth</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPsyduck</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Psyduck</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMankey</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Mankey</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGrowlithe</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Growlithe</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPoliwag</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Poliwag</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggAbra</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Abra</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMachop</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Machop</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBellsprout</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Bellsprout</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTentacool</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Tentacool</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGeodude</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Geodude</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPonyta</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Ponyta</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSlowpoke</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Slowpoke</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMagnemite</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Magnemite</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggFarfetchd</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Farfetchd</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDoduo</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Doduo</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSeel</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Seel</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGrimer</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Grimer</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggShellder</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Shellder</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGastly</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Gastly</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggOnix</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Onix</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDrowzee</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Drowzee</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggKrabby</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Krabby</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggVoltorb</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Voltorb</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggExeggcute</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Exeggcute</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCubone</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Cubone</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLickitung</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Lickitung</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggKoffing</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Koffing</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRhyhorn</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Rhyhorn</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTangela</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Tangela</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggKangaskhan</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Kangaskhan</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHorsea</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Horsea</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGoldeen</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Goldeen</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggStaryu</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Staryu</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggScyther</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Scyther</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPinsir</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Pinsir</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTauros</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Tauros</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMagikarp</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>3</hatcherDaystoHatch>
+        <hatcherPawn>PW_Magikarp</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLapras</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Lapras</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDitto</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Ditto</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggEevee</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>23</hatcherDaystoHatch>
+        <hatcherPawn>PW_Eevee</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPorygon</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Porygon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggOmanyte</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Omanyte</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggKabuto</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Kabuto</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggAerodactyl</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>23</hatcherDaystoHatch>
+        <hatcherPawn>PW_Aerodactyl</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggArticuno</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Articuno</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggZapdos</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Zapdos</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMoltres</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Moltres</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDratini</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Dratini</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMewtwo</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Mewtwo</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMew</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Mew</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggChikorita</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Chikorita</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCyndaquil</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Cyndaquil</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTotodile</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Totodile</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSentret</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Sentret</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHoothoot</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Hoothoot</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLedyba</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Ledyba</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSpinarak</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Spinarak</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggChinchou</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Chinchou</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPichu</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Pichu</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCleffa</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Cleffa</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggIgglybuff</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Igglybuff</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTogepi</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Togepi</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggNatu</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Natu</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMareep</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Mareep</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHoppip</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Hoppip</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggAipom</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Aipom</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSunkern</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Sunkern</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggYanma</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Yanma</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggWooper</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Wooper</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMurkrow</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Murkrow</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMisdreavus</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Misdreavus</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggUnown</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Unown</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGirafarig</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Girafarig</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPineco</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Pineco</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDunsparce</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Dunsparce</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGligar</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Gligar</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSnubbull</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Snubbull</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggQwilfish</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Qwilfish</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggShuckle</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Shuckle</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHeracross</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Heracross</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSneasel</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Sneasel</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTeddiursa</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Teddiursa</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSlugma</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Slugma</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSwinub</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Swinub</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCorsola</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Corsola</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRemoraid</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Remoraid</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDelibird</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Delibird</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSkarmory</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Skarmory</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHoundour</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Houndour</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPhanpy</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Phanpy</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggStantler</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Stantler</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSmeargle</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Smeargle</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTyrogue</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Tyrogue</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSmoochum</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Smoochum</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggElekid</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Elekid</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMagby</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Magby</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMiltank</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Miltank</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRaikou</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Raikou</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggEntei</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Entei</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSuicune</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Suicune</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLarvitar</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Larvitar</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLugia</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Lugia</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHoOh</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_HoOh</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCelebi</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Celebi</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTreecko</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Treecko</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTorchic</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Torchic</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMudkip</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Mudkip</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPoochyena</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Poochyena</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggZigzagoon</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Zigzagoon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggWurmple</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Wurmple</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLotad</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Lotad</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSeedot</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Seedot</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTaillow</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Taillow</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggWingull</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Wingull</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRalts</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Ralts</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSurskit</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Surskit</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggShroomish</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Shroomish</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSlakoth</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Slakoth</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggNincada</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Nincada</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggWhismur</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Whismur</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMakuhita</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Makuhita</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggAzurill</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Azurill</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggNosepass</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Nosepass</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSkitty</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Skitty</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSableye</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Sableye</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMawile</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Mawile</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggAron</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>23</hatcherDaystoHatch>
+        <hatcherPawn>PW_Aron</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMeditite</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Meditite</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggElectrike</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Electrike</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPlusle</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Plusle</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMinun</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Minun</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggVolbeat</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Volbeat</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggIllumise</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Illumise</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGulpin</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Gulpin</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCarvanha</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Carvanha</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggWailmer</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Wailmer</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggNumel</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Numel</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTorkoal</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Torkoal</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSpoink</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Spoink</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSpinda</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Spinda</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTrapinch</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Trapinch</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCacnea</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Cacnea</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSwablu</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Swablu</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggZangoose</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Zangoose</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSeviper</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Seviper</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLunatone</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Lunatone</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSolrock</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Solrock</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBarboach</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Barboach</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCorphish</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Corphish</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBaltoy</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Baltoy</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLileep</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Lileep</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggAnorith</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Anorith</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggFeebas</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Feebas</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCastform</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Castform</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggKecleon</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Kecleon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggShuppet</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Shuppet</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDuskull</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Duskull</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTropius</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Tropius</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggAbsol</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Absol</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggWynaut</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Wynaut</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSnorunt</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Snorunt</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSpheal</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Spheal</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggClamperl</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Clamperl</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRelicanth</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Relicanth</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLuvdisc</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Luvdisc</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBagon</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Bagon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBeldum</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Beldum</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRegirock</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Regirock</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRegice</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Regice</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRegisteel</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Registeel</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLatias</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Latias</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggLatios</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Latios</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggKyogre</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Kyogre</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGroudon</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Groudon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRayquaza</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Rayquaza</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggJirachi</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Jirachi</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDeoxys</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Deoxys</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggTurtwig</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Turtwig</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggChimchar</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Chimchar</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPiplup</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Piplup</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggStarly</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Starly</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBidoof</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Bidoof</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggKricketot</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Kricketot</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggShinx</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Shinx</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBudew</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Budew</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCranidos</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Cranidos</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggShieldon</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Shieldon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBurmy</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Burmy</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCombee</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>10</hatcherDaystoHatch>
+        <hatcherPawn>PW_Combee</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPachirisu</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Pachirisu</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBuizel</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Buizel</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCherubi</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Cherubi</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggShellos</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Shellos</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDrifloon</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Drifloon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBuneary</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Buneary</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGlameow</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Glameow</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggChingling</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Chingling</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggStunky</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Stunky</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBronzor</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Bronzor</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggBonsly</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Bonsly</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMimeJr</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_MimeJr</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHappiny</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Happiny</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggChatot</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Chatot</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSpiritomb</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Spiritomb</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGible</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Gible</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMunchlax</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Munchlax</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRiolu</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Riolu</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHippopotas</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>20</hatcherDaystoHatch>
+        <hatcherPawn>PW_Hippopotas</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSkorupi</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Skorupi</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCroagunk</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Croagunk</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCarnivine</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Carnivine</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggFinneon</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Finneon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMantyke</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>PW_Mantyke</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggSnover</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Snover</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRotom</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>13</hatcherDaystoHatch>
+        <hatcherPawn>PW_Rotom</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggUxie</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Uxie</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggMesprit</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Mesprit</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggAzelf</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>53</hatcherDaystoHatch>
+        <hatcherPawn>PW_Azelf</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDialga</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Dialga</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPalkia</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Palkia</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggHeatran</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Heatran</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggRegigigas</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Regigigas</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggGiratina</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Giratina</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggCresselia</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Cresselia</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggPhione</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>26</hatcherDaystoHatch>
+        <hatcherPawn>PW_Phione</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggManaphy</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>PW_Manaphy</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggDarkrai</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Darkrai</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggShaymin</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Shaymin</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PokemonEggBase">
+    <defName>PW_EggArceus</defName>
+    <label>Pokémon Egg</label>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.</description>
+    <tradeability>None</tradeability>
+    <comps>
+      <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
+        <hatcherDaystoHatch>80</hatcherDaystoHatch>
+        <hatcherPawn>PW_Arceus</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingSetMakerDef[defName="MapGen_AncientTempleContents"]/root/options</xpath>
+    <value>
+      <li>
+        <chance>0.8</chance>
+        <thingSetMaker Class="ThingSetMaker_Count">
+          <fixedParams>
+            <filter>
+              <thingDefs>
+                <li>PW_OddKeystone</li>
+              </thingDefs>
+            </filter>
+          </fixedParams>
+        </thingSetMaker>
+      </li>
+    </value>
+  </Operation>
+</Patch>

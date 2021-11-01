@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <Pokeworld.PawnKindTableDef>
+    <defName>Pokedex</defName>
+    <workerClass>Pokeworld.PawnKindTable_Pokedex</workerClass>
+    <columns>     
+      <li>PokedexIcon</li>
+      <li>PokedexStatus</li>
+      <li>PokedexNumber</li>
+      <li>Label</li>
+      <li>Type1</li>
+      <li>GapTiny</li>
+      <li>Type2</li>
+      <li>GapLarge</li>
+      <li>Info</li>
+      <li>RemainingSpace</li>
+    </columns>
+  </Pokeworld.PawnKindTableDef>
+
+</Defs>

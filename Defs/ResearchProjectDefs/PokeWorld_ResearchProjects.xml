@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>PW_ApricornBallResearch</defName>
+    <label>Apricorn Balls</label>
+    <description>Craft Apricorn Ball belts using the finest quality wood, used by ancient tribes to catch small Pokémon.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+      <li>TribalStart</li>
+    </tags>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PW_PokeBallResearch</defName>
+    <label>Poké Balls</label>
+    <description>Craft Poké Ball belts, used by trainers all over the known Universe to catch Pokémon.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PW_ApricornBallResearch</li>
+      <li>Machining</li>
+    </prerequisites>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PW_GreatBallResearch</defName>
+    <label>Great Balls</label>
+    <description>Craft Great Ball belts, a better variation of the Poké Balls to catch stronger Pokémon.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PW_PokeBallResearch</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PW_UltraBallResearch</defName>
+    <label>Ultra Balls</label>
+    <description>Craft Ultra Ball belts, loaded with high-tech Balls to catch the rarest of Pokémon.</description>
+    <baseCost>2400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PW_GreatBallResearch</li>
+      <li>Fabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+
+    <!--==============================================-->
+
+  <ResearchProjectDef>
+    <defName>PW_FossilResurrectorResearch</defName>
+    <label>fossil revival</label>
+    <description>Construct the Fossil Resurrector, able to resurrect long lost pokemon back to life from a small DNA sample.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+
+    <!--==============================================-->
+
+  <ResearchProjectDef>
+    <defName>PW_PotionResearch</defName>
+    <label>Potion</label>
+    <description>Refine berries and fruits into Pokémon Potion, able to heal Pokémon injuries sustained in combat.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PW_HyperPotionResearch</defName>
+    <label>Hyper Potion</label>
+    <description>Synthesize Hyper Potion, an enhanced form of Pokémon potion used to treat injuried Pokémon.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PW_PotionResearch</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+    <!--==============================================-->
+  
+  <ResearchProjectDef>
+    <defName>PW_StorageSystem</defName>
+    <label>Pokémon storage system</label>
+    <description>Build computers capable of accessing an ancient archotech cyberspace network running across this world. Scattered in hundreds of hidden and sheltered datacenters spread all over the planet, it can be used to safely store Pokémon when they aren't needed.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PW_CyberspaceProgramming</defName>
+    <label>cyberspace programming</label>
+    <description>Use advanced scientific means to discover more secrets of this forgotten cyberspace.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MultiAnalyzer</li>
+      <li>PW_StorageSystem</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PW_PlanetaryDevelopment</defName>
+    <label>planetary development</label>
+    <description>Push the research further to try and access the cyberspace network of other planets.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Fabrication</li>
+      <li>PW_CyberspaceProgramming</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PW_ExtraDimensionalActivity</defName>
+    <label>extra dimensional activity</label>
+    <description>Conduct additional research to allow cyberspace travel through alien dimensions.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+      <li>PW_PlanetaryDevelopment</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

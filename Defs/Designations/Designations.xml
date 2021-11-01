@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignationDef>
+    <defName>PW_PutInBall</defName>
+    <texturePath>UI/Designations/PutInBall</texturePath>
+    <targetType>Thing</targetType>
+  </DesignationDef>
+
+  <DesignationDef>
+    <defName>PW_PutInPortableComputer</defName>
+    <texturePath>Designations/Haul</texturePath>
+    <targetType>Thing</targetType>
+  </DesignationDef>
+
+</Defs>

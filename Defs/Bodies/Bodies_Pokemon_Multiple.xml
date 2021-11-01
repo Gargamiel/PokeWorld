@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  Each coverage value is relative to its parent.
+  Remaining body part coverage (100% minus coverage of all child nodes) is a chance to hit exactly this part.
+  Damage "starts" at corePart, and then "goes deeper" until it hits remaining body part coverage or leaf node
+  - this body part is then hit.
+-->
+
+
+<Defs>
+
+  <BodyDef>
+    <defName>PW_MultipleBodiedPokemon2Head</defName>
+    <label>multiple bodied pokemon</label>
+    <corePart>
+      <def>PW_LevitatingOrMovingBody</def>
+      <height>Bottom</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+	      <def>Head</def>
+	      <customLabel>first head</customLabel>
+	      <coverage>0.666</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>first head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>first head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>first head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>first head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>first head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>first head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>second head</customLabel>
+	      <coverage>0.333</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>second head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>second head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>second head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>second head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>second head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>second head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>second head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>second head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>PW_MultipleBodiedPokemon3Head</defName>
+    <label>multiple bodied pokemon</label>
+    <corePart>
+      <def>PW_LevitatingOrMovingBody</def>
+      <height>Bottom</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+	      <def>Head</def>
+	      <customLabel>first head</customLabel>
+	      <coverage>0.333</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>first head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>first head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>first head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>first head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>first head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>first head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>second head</customLabel>
+	      <coverage>0.333</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>second head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>second head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>second head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>second head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>second head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>second head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>second head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>second head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>third head</customLabel>
+	      <coverage>0.333</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>third head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>third head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>third head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>third head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>third head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>third head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>third head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>third head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>PW_MultipleBodiedPokemon3HeadAndLegs</defName>
+    <label>multiple bodied pokemon</label>
+    <corePart>
+      <def>Body</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+      	<li>
+          <def>Stomach</def>
+          <coverage>0.04</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+	      <def>Head</def>
+	      <customLabel>first head</customLabel>
+	      <coverage>0.08</coverage>
+	      <height>Top</height>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>first head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>first head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>first head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>first head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>first head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>first head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>second head</customLabel>
+	      <coverage>0.08</coverage>
+	      <height>Top</height>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>second head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>second head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>second head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>second head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>second head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>second head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>second head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>second head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>third head</customLabel>
+	      <coverage>0.08</coverage>
+	      <height>Top</height>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>third head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>third head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>third head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>third head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>third head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>third head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>third head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>third head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+          <def>Leg</def>
+          <customLabel>left leg</customLabel>
+          <coverage>0.15</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>left femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>left tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Leg</def>
+          <customLabel>right leg</customLabel>
+          <coverage>0.15</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>right femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>right tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>PW_MultipleBodiedPokemon5Head</defName>
+    <label>multiple bodied pokemon</label>
+    <corePart>
+      <def>PW_LevitatingOrMovingBody</def>
+      <height>Bottom</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+	      <def>Head</def>
+	      <customLabel>first head</customLabel>
+	      <coverage>0.199</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>first head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>first head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>first head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>first head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>first head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>first head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>second head</customLabel>
+	      <coverage>0.2</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>second head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>second head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>second head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>second head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>second head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>second head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>second head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>second head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>third head</customLabel>
+	      <coverage>0.2</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>third head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>third head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>third head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>third head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>third head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>third head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>third head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>third head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>fourth head</customLabel>
+	      <coverage>0.2</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>fourth head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>fourth head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>fourth head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>fourth head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>fourth head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>fourth head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>fourth head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>fourth head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+	    <li>
+	      <def>Head</def>
+	      <customLabel>fifth head</customLabel>
+	      <coverage>0.2</coverage>
+	      <groups>
+	        <li>HeadAttackTool</li>
+	      </groups>
+	      <parts>
+	        <li>
+	          <def>Skull</def>
+	          <customLabel>fifth head skull</customLabel>
+	          <coverage>0.18</coverage>
+	          <depth>Inside</depth>
+	          <parts>
+	            <li>
+	              <def>Brain</def>
+	              <customLabel>fifth head brain</customLabel>
+	              <coverage>0.7</coverage>
+	            </li>
+	          </parts>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>fifth head left eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Eye</def>
+	          <customLabel>fifth head right eye</customLabel>
+	          <coverage>0.12</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>first head left ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Ear</def>
+	          <customLabel>fifth head right ear</customLabel>
+	          <coverage>0.08</coverage>
+	        </li>
+	        <li>
+	          <def>Nose</def>
+	          <customLabel>fifth head nose</customLabel>
+	          <coverage>0.1</coverage>
+	        </li>
+	        <li>
+	          <def>AnimalJaw</def>
+	          <customLabel>fifth head jaw</customLabel>
+	          <coverage>0.1</coverage>
+	          <groups>
+	            <li>Teeth</li>
+	          </groups>
+	        </li>
+	      </parts>
+	    </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+</Defs>
