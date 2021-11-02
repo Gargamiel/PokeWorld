@@ -1,8 +1,8 @@
 # Disclaimer
 
-This mod's scope is quite extensive, touching many aspect of the base game. Since this mod is a one man's work, developed on my free time, I haven't been able to extensively test all its aspects, most notably its compatibility with other mods and DLC. I therefore expect some bugs (hopefully nothing game-breaking) to be found and reported.
+This mod's scope is quite extensive, touching many aspect of the base game. Since this mod is a one man's work, developed on my free time, I haven't been able to extensively test all its aspects, most notably its compatibility with other mods and DLC. I therefore expect some bugs and compatibility issues (hopefully nothing game-breaking) to be found and reported.
 
-My first objective after release will be to fix most of these bugs and compatibility issue before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
+My first objective after release will be to fix most of these bugs and compatibility issues before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
 
 # PokéWorld
 
