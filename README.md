@@ -4,6 +4,8 @@ This mod's scope is quite extensive, touching many aspect of the base game. Sinc
 
 My first objective after release will be to fix most of these bugs and compatibility issues before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
 
+Please use with caution and not with a save you care a lot about, I advise creating a new game for this mod with small or QoL mods until it has been tested further.
+
 # PokéWorld
 
 PokéWorld adds all 493 species of Pokémon from the first four generations to RimWorld, each with their own unique characteristics akin to the original games.
@@ -57,13 +59,13 @@ A slider allows you to set the proportions of Pokémon found in the world over o
 
 **Other Pokémon mod**: No.
 
-**Mods with new biomes**: No, custom biome will not feature any Pokémon, need to patch these biomes to add Pokémon spawn rates.
+**Mods with new biomes**: No, custom biomes will not feature any Pokémon, need to patch these biomes to add Pokémon spawn rates.
 
-Other mods will be added based on tests and feedback from the community.
+Information about other mods will be added based on tests and feedback from the community.
 
 ## Translation
 
-This mod is in English but should fully support translation. If you are a translator, feel free to create a patch (try to respect your respective language grammar conventions and syntax regarding the Pokémon media), the best ones will be added here. Please notice me if you find any typo / mistakes in the base (English) mod.
+This mod is in english but should fully support translation. If you are a translator, feel free to create a patch (try to respect your respective language grammar conventions and syntax regarding the Pokémon media), the best ones will be added here. Please notice me if you find any typo / mistakes in the base (english) mod.
 
 ## Q&A
 
