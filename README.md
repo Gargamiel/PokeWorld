@@ -4,9 +4,9 @@ This mod's scope is quite extensive, touching many aspect of the base game. Sinc
 
 My first objective after release will be to fix most of these bugs and compatibility issue before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
 
-# PokeWorld
+# PokéWorld
 
-PokéWorld adds 493 species of Pokémon from the first four generations to RimWorld, each with their own unique characteristics akin to the original games.
+PokéWorld adds all 493 species of Pokémon from the first four generations to RimWorld, each with their own unique characteristics akin to the original games.
 
 Try and catch as many of these Pokémon as you can to fill up your Pokédex, battle against other wild Pokémon and raiders to gain experience and level up your Pokémon, who will learn more powerfull moves and eventually evolve to grow ever stronger!
 
@@ -37,6 +37,10 @@ Finally, altough it is only just a rumour, it is said amongst the ancient tribes
 
 - More than 30 Legendaries quests.
 
+## Mod options
+
+A slider allows you to set the proportions of Pokémon found in the world over other vanilla or modded animals. If you set this slider to the max (only Pokémon) you will only encounter Pokémon for the whole game, without other creatures breaking the immersion.
+
 ## Compatibility
 
 ### Adding / Removing from existing saves
@@ -51,11 +55,15 @@ Finally, altough it is only just a rumour, it is said amongst the ancient tribes
 
 **Combat Extended**: No, would need to patch every single Pokémon and moves.
 
+**Other Pokémon mod**: No.
+
+**Mods with new biomes**: No, custom biome will not feature any Pokémon, need to patch these biomes to add Pokémon spawn rates.
+
 Other mods will be added based on tests and feedback from the community.
 
 ## Translation
 
-This mod is in English only but should fully support translation. If you are a translator, feel free to create a patch (try to respect your respective language grammar conventions and syntax regarding the Pokémon media), the best ones will be added here. Please notice me if you find any typo / mistakes in the base (English) mod.
+This mod is in English but should fully support translation. If you are a translator, feel free to create a patch (try to respect your respective language grammar conventions and syntax regarding the Pokémon media), the best ones will be added here. Please notice me if you find any typo / mistakes in the base (English) mod.
 
 ## Q&A
 
