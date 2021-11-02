@@ -2,7 +2,7 @@
 
 This mod's scope is quite extensive, touching many aspect of the base game. Since this mod is a one man's work, developed on my free time, I haven't been able to extensively test all its aspects, most notably its compatibility with other mods and DLC. I therefore expect some bugs (hopefully nothing game-breaking) to be found and reported.
 
-My first objective after release will be to fix most of these bugs before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
+My first objective after release will be to fix most of these bugs and compatibility issue before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
 
 # PokeWorld
 
@@ -13,7 +13,7 @@ Try and catch as many of these Pokémon as you can to fill up your Pokédex, bat
 Unlike your vanilla RimWorld animal, Pokémon can't be tamed by simply having your colonist walk up to them. Instead, you'll need to use specially crafted Poké Ball belts to catch these Pokémon. But be carefull! Most of them wont let themselves be caught without a fight!  
 Once caught, you can choose to assign your new Pokémon to a colonist whom it will follow and protect, and give him orders like a regular drafted pawn while in the vicinity of his master. Or you can chose to let him rest in his Poké Ball until he is later needed.
 
-Pokémon aren't the only addition this mod adds to RimWorld. Keep your eyes wide open when mining in the dark caves, for you might stumble onto rare treasure among the rocks, such as rare evolution stones, or, even rarer, ancient fossils buried deep for eons. Who knows, with the right tools, you might be able to bring these fossil back to live.
+Pokémon aren't the only addition this mod adds to RimWorld. Keep your eyes wide open when mining in the dark caves, for you might stumble onto treasure among the rocks, such as rare evolution stones, or, even rarer, ancient fossils buried deep for eons. Who knows, with the right tools, you might be able to bring these fossil back to life.
 
 Once you start learning more and more about these strange creatures by filling your Pokédex, you'll eventually find yourself on the track of exceptionally powerful Pokémon, only ever heard of in myths and legends.
 
@@ -21,7 +21,7 @@ Finally, altough it is only just a rumour, it is said amongst the ancient tribes
 
 ## Features
 
-- 493 new creatures, all Pokémon from generation I-IV with working mechanics such as leveling, evolution, type effectiveness, breeding, their own stats (level, experience, happiness, rarity, catch rate, ...), moves, forms and shiny variations.
+- 493 new creatures, all Pokémon from generation I-IV with working mechanics such as leveling, evolution, moves, type effectiveness, breeding, their own stats (happiness, rarity, catch rate, ...), forms and shiny variations.
 
 - 120 Pokémon moves, 65 melee (physical) and 55 ranged (special). A Pokémon learns new moves when leveling up, and you can chose wich moves to let them uses based on type, power and range. If no other moves are available for a Pokémon, he will default to Struggle.
 
