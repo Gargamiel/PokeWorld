@@ -93,11 +93,11 @@ namespace PokeWorld
 			newReq.wantCoverFromTarget = false;
 			return CastPositionFinder.TryFindCastPosition(newReq, out dest);
 		}
+
 		private static bool ExtraTargetValidator(Pawn pawn, Thing target)
 		{
 			return true;
 		}
-		
 
 		private static Job MeleeAttackJob(Thing enemyTarget)
 		{

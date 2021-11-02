@@ -39,7 +39,7 @@ namespace PokeWorld
                 if (!active && television.Map.GameConditionManager.ConditionIsActive(GameConditionDefOf.Eclipse))               
                 {
                     string name = pawn.LabelShort;
-                    Find.LetterStack.ReceiveLetter("Malevolent TV", "While watching the megascreen television, " + name + " sense an oddly malevolent feeling coming from it.....\n\n Almost as if it's staring.....", LetterDefOf.ThreatSmall, television);
+                    Find.LetterStack.ReceiveLetter("PW_MalevolentTVLetterLabel".Translate(), "PW_MalevolentTVLetterText".Translate(name), LetterDefOf.ThreatSmall, television);
                     active = true;
                 }
                 else if (active)
@@ -49,7 +49,7 @@ namespace PokeWorld
                     {
                         Pawn pokemon = PokemonGeneratorUtility.GenerateAndSpawnNewPokemon(pawnKind, null, television.Position, television.Map);
                         pokemon.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
-                        Find.LetterStack.ReceiveLetter("Wild Rotom", "It looks like there's a Pokemon in the TV!\n\nA wild Rotom has appeared!", LetterDefOf.ThreatBig, pokemon);
+                        Find.LetterStack.ReceiveLetter("PW_WildRotomLetterLabel".Translate(), "PW_WildRotomLetterText".Translate(), LetterDefOf.ThreatBig, pokemon);
                         active = false;
                         canSpawn = false;
                     }

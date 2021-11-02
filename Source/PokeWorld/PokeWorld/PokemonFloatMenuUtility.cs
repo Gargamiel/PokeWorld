@@ -29,12 +29,6 @@ namespace PokeWorld
 			{
 				return null;
 			}
-			/*
-			else if (!pawn.IsColonistPlayerControlled)
-			{
-				failStr = "CannotOrderNonControlledLower".Translate();
-			}
-			*/
 			else if (target.IsValid && !longestRangeVerb.CanHitTarget(target))
 			{
 				if (!pawn.Position.InHorDistOf(target.Cell, longestRangeVerb.verbProps.range))
@@ -57,22 +51,16 @@ namespace PokeWorld
 			}
 			else if (pawn.playerSettings.Master == null || pawn.playerSettings.Master.Map != pawn.Map)
 			{
-				failStr = "This Pokémon has no master";
+				failStr = "PW_WarningNoMaster".Translate();
 			}
 			else if (pawn.playerSettings.Master.Drafted == false)
 			{
-				failStr = "This Pokémon master is not drafted";
+				failStr = "PW_WarningMasterNotDrafted".Translate();
 			}
 			else if (IntVec3Utility.DistanceTo(pawn.Position, pawn.playerSettings.Master.Position) > PokemonMasterUtility.GetMasterObedienceRadius(pawn))
 			{
-				failStr = "This Pokémon's master is too far";
+				failStr = "PW_WarningMasterTooFar".Translate();
 			}
-			/*
-			else if (IntVec3Utility.DistanceTo(target.Cell, pawn.playerSettings.Master.Position) > PokemonMasterUtility.GetMasterObedienceRadius(pawn))
-			{
-				failStr = "The target is too far from this Pokémon's master";
-			}
-			*/
 			else
 			{
 				Pawn target2;
@@ -112,19 +100,19 @@ namespace PokeWorld
 			}
 			else if (pawn.playerSettings.Master == null || pawn.playerSettings.Master.Map != pawn.Map)
 			{
-				failStr = "This Pokémon has no master";
+				failStr = "PW_WarningNoMaster".Translate();
 			}
 			else if (pawn.playerSettings.Master.Drafted == false)
 			{
-				failStr = "This Pokémon's master is not drafted";
+				failStr = "PW_WarningMasterNotDrafted".Translate();
 			}
 			else if (IntVec3Utility.DistanceTo(pawn.Position, pawn.playerSettings.Master.Position) > PokemonMasterUtility.GetMasterObedienceRadius(pawn))
 			{
-				failStr = "This Pokémon's master is too far";
+				failStr = "PW_WarningMasterTooFar".Translate();
 			}
 			else if (target != null && IntVec3Utility.DistanceTo(target.Cell, pawn.playerSettings.Master.Position) > PokemonMasterUtility.GetMasterObedienceRadius(pawn))
 			{
-				failStr = "The target is too far from this Pokémon's master";
+				failStr = "PW_WarningTargetTooFarFromMaster".Translate();
 			}
 			else
 			{

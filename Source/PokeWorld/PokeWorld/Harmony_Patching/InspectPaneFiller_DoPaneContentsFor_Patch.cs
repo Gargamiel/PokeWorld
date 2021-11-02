@@ -69,7 +69,7 @@ namespace PokeWorld
 			}
 		}
 		
-		public static void DrawType(float num, CompPokemon comp)
+		private static void DrawType(float num, CompPokemon comp)
 		{
 			int x = 0;
 			foreach(TypeDef typeDef in comp.types)
@@ -79,7 +79,7 @@ namespace PokeWorld
 				x++;
 			}
 		}
-		public static void DrawExperience(WidgetRow row, CompPokemon comp, bool flag)
+		private static void DrawExperience(WidgetRow row, CompPokemon comp, bool flag)
 		{
 			float fillPct;
 			string label;

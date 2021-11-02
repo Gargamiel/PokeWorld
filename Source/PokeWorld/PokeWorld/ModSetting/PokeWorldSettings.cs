@@ -20,18 +20,18 @@ namespace PokeWorld
 
         public override void ExposeData()
         {
-            Scribe_Values.Look(ref selectedPokemonFrequency, "PW_selectedPokemonFrequency", maxFrequency);
+            Scribe_Values.Look(ref selectedPokemonFrequency, "selectedPokemonFrequency", maxFrequency);
             base.ExposeData();
         }
         public static bool OkforPokemon()
         {
             return Rand.Range(minFrequency, maxFrequency) <= selectedPokemonFrequency;
         }
-        public static bool minSelected()
+        public static bool MinSelected()
         {
             return selectedPokemonFrequency == minFrequency;
         }
-        public static bool maxSelected()
+        public static bool MaxSelected()
         {
             return selectedPokemonFrequency == maxFrequency;
         }
@@ -54,7 +54,6 @@ namespace PokeWorld
             ListingStandardHelper.AddLabelLine(listingStandard, "PW_SettingsWildPokemonFrequencyDesc".Translate());
             /*
             ListingStandardHelper.AddLabeledCheckbox(listingStandard, "Replace trader carriers with Pokémon", );
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "Replace insects in cave and infestation by Pokémon", );
             ListingStandardHelper.AddLabeledCheckbox(listingStandard, "Replace insects in cave and infestation by Pokémon", );
             */
             PokeWorldSettings.selectedPokemonFrequency = (float)Math.Round(PokeWorldSettings.selectedPokemonFrequency);

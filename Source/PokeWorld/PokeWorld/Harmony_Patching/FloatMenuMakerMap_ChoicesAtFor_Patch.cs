@@ -38,7 +38,6 @@ namespace PokeWorld
 					{
 						return false;
 					}
-					//makingFor = __1;
 					try
 					{
 						if (intVec.Fogged(__1.Map))
@@ -68,7 +67,7 @@ namespace PokeWorld
 					}
 					finally
 					{
-						//makingFor = null;
+
 					}				
 				}
 				__result = list;
@@ -91,7 +90,7 @@ namespace PokeWorld
 				{
 					if (!PokemonMasterUtility.IsPokemonMasterDrafted(pawn))
 					{
-						return new FloatMenuOption("Cannot go here: Pokémon has no master", null);
+						return new FloatMenuOption("PW_CannotGoNoMaster".Translate(), null);
 					}
 					if (!pawn.CanReach(curLoc, PathEndMode.OnCell, Danger.Deadly))
 					{
@@ -99,7 +98,7 @@ namespace PokeWorld
 					}
 					if (IntVec3Utility.DistanceTo(clickCell, pawn.playerSettings.Master.Position) > PokemonMasterUtility.GetMasterObedienceRadius(pawn))
 					{
-						return new FloatMenuOption("Cannot go here: too far from master", null);
+						return new FloatMenuOption("PW_CannotGoTooFarFromMaster".Translate(), null);
 					}				
 					Action action = delegate
 					{
@@ -155,11 +154,11 @@ namespace PokeWorld
 					}
 					else if (PokemonMasterUtility.IsPokemonMasterDrafted(pawn))
 					{
-						text = "Cannot go here: Pokémon has no master";
+						text = "PW_CannotGoNoMaster".Translate();
 					}
 					else if (IntVec3Utility.DistanceTo(clickCell, pawn.playerSettings.Master.Position) > PokemonMasterUtility.GetMasterObedienceRadius(pawn))
 					{
-						text = "Cannot go here: too far from master";
+						text = "PW_CannotGoTooFarFromMaster".Translate();
 					}
 					else
 					{
@@ -186,11 +185,11 @@ namespace PokeWorld
 				}
 				else if (pawn.playerSettings == null || pawn.playerSettings.Master == null || !pawn.playerSettings.Master.Spawned || pawn.playerSettings.Master.Map != pawn.Map)
 				{
-					text2 = "Cannot attack: Pokémon has no master";
+					text2 = "PW_CannotAttackNoMaster".Translate();
 				}
 				else if (IntVec3Utility.DistanceTo(clickCell, pawn.playerSettings.Master.Position) > PokemonMasterUtility.GetMasterObedienceRadius(pawn))
 				{
-					text2 = "Cannot attack: too far from master";
+					text2 = "PW_CannotAttackTooFarFromMaster".Translate();
 				}
 				else
 				{
@@ -205,282 +204,11 @@ namespace PokeWorld
 				floatMenuOption2.Label = text2;
 				opts.Add(floatMenuOption2);
 			}
-			//AddJobGiverWorkOrders_NewTmp(clickPos, pawn, opts, drafted: true);
 			FloatMenuOption floatMenuOption3 = GotoLocationOption(clickCell, pawn);
 			if (floatMenuOption3 != null)
 			{
 				opts.Add(floatMenuOption3);
 			}
 		}
-		private static void AddJobGiverWorkOrders_NewTmp(Vector3 clickPos, Pawn pawn, List<FloatMenuOption> opts, bool drafted)
-		{
-			if (pawn.thinker.TryGetMainTreeThinkNode<JobGiver_Work>() == null)
-			{
-				return;
-			}
-			IntVec3 clickCell = IntVec3.FromVector3(clickPos);
-			TargetingParameters targetingParameters = new TargetingParameters();
-			targetingParameters.canTargetPawns = true;
-			targetingParameters.canTargetBuildings = true;
-			targetingParameters.canTargetItems = true;
-			targetingParameters.mapObjectTargetsMustBeAutoAttackable = false;
-			foreach (Thing item in GenUI.ThingsUnderMouse(clickPos, 1f, targetingParameters))
-			{
-				bool flag = false;
-				foreach (WorkTypeDef item2 in DefDatabase<WorkTypeDef>.AllDefsListForReading)
-				{
-					for (int i = 0; i < item2.workGiversByPriority.Count; i++)
-					{
-						WorkGiverDef workGiver2 = item2.workGiversByPriority[i];
-						if (drafted && !workGiver2.canBeDoneWhileDrafted)
-						{
-							continue;
-						}
-						WorkGiver_Scanner workGiver_Scanner = workGiver2.Worker as WorkGiver_Scanner;
-						if (workGiver_Scanner == null || !workGiver_Scanner.def.directOrderable)
-						{
-							continue;
-						}
-						JobFailReason.Clear();
-						if ((!workGiver_Scanner.PotentialWorkThingRequest.Accepts(item) && (workGiver_Scanner.PotentialWorkThingsGlobal(pawn) == null || !workGiver_Scanner.PotentialWorkThingsGlobal(pawn).Contains(item))) || workGiver_Scanner.ShouldSkip(pawn, forced: true))
-						{
-							continue;
-						}
-						string text = null;
-						Action action = null;
-						PawnCapacityDef pawnCapacityDef = workGiver_Scanner.MissingRequiredCapacity(pawn);
-						if (pawnCapacityDef != null)
-						{
-							text = "CannotMissingHealthActivities".Translate(pawnCapacityDef.label);
-						}
-						else
-						{
-							Job job = (workGiver_Scanner.HasJobOnThing(pawn, item, forced: true) ? workGiver_Scanner.JobOnThing(pawn, item, forced: true) : null);
-							if (job == null)
-							{
-								if (JobFailReason.HaveReason)
-								{
-									text = (JobFailReason.CustomJobString.NullOrEmpty() ? ((string)"CannotGenericWork".Translate(workGiver_Scanner.def.verb, item.LabelShort, item)) : ((string)"CannotGenericWorkCustom".Translate(JobFailReason.CustomJobString)));
-									text = text + ": " + JobFailReason.Reason.CapitalizeFirst();
-								}
-								else
-								{
-									if (!item.IsForbidden(pawn))
-									{
-										continue;
-									}
-									text = (item.Position.InAllowedArea(pawn) ? ((string)"CannotPrioritizeForbidden".Translate(item.Label, item)) : ((string)("CannotPrioritizeForbiddenOutsideAllowedArea".Translate() + ": " + pawn.playerSettings.EffectiveAreaRestriction.Label)));
-								}
-							}
-							else
-							{
-								WorkTypeDef workType = workGiver_Scanner.def.workType;
-								if (pawn.WorkTagIsDisabled(workGiver_Scanner.def.workTags))
-								{
-									text = "CannotPrioritizeWorkGiverDisabled".Translate(workGiver_Scanner.def.label);
-								}
-								else if (pawn.jobs.curJob != null && pawn.jobs.curJob.JobIsSameAs(job))
-								{
-									text = "CannotGenericAlreadyAm".Translate(workGiver_Scanner.PostProcessedGerund(job), item.LabelShort, item);
-								}
-								else if (pawn.workSettings.GetPriority(workType) == 0)
-								{
-									text = (pawn.WorkTypeIsDisabled(workType) ? ((string)"CannotPrioritizeWorkTypeDisabled".Translate(workType.gerundLabel)) : ((!"CannotPrioritizeNotAssignedToWorkType".CanTranslate()) ? ((string)"CannotPrioritizeWorkTypeDisabled".Translate(workType.pawnLabel)) : ((string)"CannotPrioritizeNotAssignedToWorkType".Translate(workType.gerundLabel))));
-								}
-								else if (job.def == JobDefOf.Research && item is Building_ResearchBench)
-								{
-									text = "CannotPrioritizeResearch".Translate();
-								}
-								else if (item.IsForbidden(pawn))
-								{
-									text = (item.Position.InAllowedArea(pawn) ? ((string)"CannotPrioritizeForbidden".Translate(item.Label, item)) : ((string)("CannotPrioritizeForbiddenOutsideAllowedArea".Translate() + ": " + pawn.playerSettings.EffectiveAreaRestriction.Label)));
-								}
-								else if (!pawn.CanReach(item, workGiver_Scanner.PathEndMode, Danger.Deadly))
-								{
-									text = (item.Label + ": " + "NoPath".Translate().CapitalizeFirst()).CapitalizeFirst();
-								}
-								else
-								{
-									text = "PrioritizeGeneric".Translate(workGiver_Scanner.PostProcessedGerund(job), item.Label);
-									Job localJob2 = job;
-									WorkGiver_Scanner localScanner2 = workGiver_Scanner;
-									job.workGiverDef = workGiver_Scanner.def;
-									action = delegate
-									{
-										if (pawn.jobs.TryTakeOrderedJobPrioritizedWork(localJob2, localScanner2, clickCell) && workGiver2.forceMote != null)
-										{
-											MoteMaker.MakeStaticMote(clickCell, pawn.Map, workGiver2.forceMote);
-										}
-									};
-								}
-							}
-						}
-						if (DebugViewSettings.showFloatMenuWorkGivers)
-						{
-							text += $" (from {workGiver2.defName})";
-						}
-						FloatMenuOption menuOption = PokemonFloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption(text, action), pawn, item);
-						if (drafted && workGiver2.autoTakeablePriorityDrafted != -1)
-						{
-							menuOption.autoTakeable = true;
-							menuOption.autoTakeablePriority = workGiver2.autoTakeablePriorityDrafted;
-						}
-						if (opts.Any((FloatMenuOption op) => op.Label == menuOption.Label))
-						{
-							continue;
-						}
-						if (workGiver2.equivalenceGroup != null)
-						{
-							if (equivalenceGroupTempStorage[workGiver2.equivalenceGroup.index] == null || (equivalenceGroupTempStorage[workGiver2.equivalenceGroup.index].Disabled && !menuOption.Disabled))
-							{
-								equivalenceGroupTempStorage[workGiver2.equivalenceGroup.index] = menuOption;
-								flag = true;
-							}
-						}
-						else
-						{
-							opts.Add(menuOption);
-						}
-					}
-				}
-				if (!flag)
-				{
-					continue;
-				}
-				for (int j = 0; j < equivalenceGroupTempStorage.Length; j++)
-				{
-					if (equivalenceGroupTempStorage[j] != null)
-					{
-						opts.Add(equivalenceGroupTempStorage[j]);
-						equivalenceGroupTempStorage[j] = null;
-					}
-				}
-			}
-			foreach (WorkTypeDef item3 in DefDatabase<WorkTypeDef>.AllDefsListForReading)
-			{
-				for (int k = 0; k < item3.workGiversByPriority.Count; k++)
-				{
-					WorkGiverDef workGiver = item3.workGiversByPriority[k];
-					if (drafted && !workGiver.canBeDoneWhileDrafted)
-					{
-						continue;
-					}
-					WorkGiver_Scanner workGiver_Scanner2 = workGiver.Worker as WorkGiver_Scanner;
-					if (workGiver_Scanner2 == null || !workGiver_Scanner2.def.directOrderable)
-					{
-						continue;
-					}
-					JobFailReason.Clear();
-					if (!workGiver_Scanner2.PotentialWorkCellsGlobal(pawn).Contains(clickCell) || workGiver_Scanner2.ShouldSkip(pawn, forced: true))
-					{
-						continue;
-					}
-					Action action2 = null;
-					string label = null;
-					PawnCapacityDef pawnCapacityDef2 = workGiver_Scanner2.MissingRequiredCapacity(pawn);
-					if (pawnCapacityDef2 != null)
-					{
-						label = "CannotMissingHealthActivities".Translate(pawnCapacityDef2.label);
-					}
-					else
-					{
-						Job job2 = (workGiver_Scanner2.HasJobOnCell(pawn, clickCell, forced: true) ? workGiver_Scanner2.JobOnCell(pawn, clickCell, forced: true) : null);
-						if (job2 == null)
-						{
-							if (JobFailReason.HaveReason)
-							{
-								if (!JobFailReason.CustomJobString.NullOrEmpty())
-								{
-									label = "CannotGenericWorkCustom".Translate(JobFailReason.CustomJobString);
-								}
-								else
-								{
-									label = "CannotGenericWork".Translate(workGiver_Scanner2.def.verb, "AreaLower".Translate());
-								}
-								label = label + ": " + JobFailReason.Reason.CapitalizeFirst();
-							}
-							else
-							{
-								if (!clickCell.IsForbidden(pawn))
-								{
-									continue;
-								}
-								if (!clickCell.InAllowedArea(pawn))
-								{
-									label = "CannotPrioritizeForbiddenOutsideAllowedArea".Translate() + ": " + pawn.playerSettings.EffectiveAreaRestriction.Label;
-								}
-								else
-								{
-									label = "CannotPrioritizeCellForbidden".Translate();
-								}
-							}
-						}
-						else
-						{
-							WorkTypeDef workType2 = workGiver_Scanner2.def.workType;
-							if (pawn.jobs.curJob != null && pawn.jobs.curJob.JobIsSameAs(job2))
-							{
-								label = "CannotGenericAlreadyAmCustom".Translate(workGiver_Scanner2.PostProcessedGerund(job2));
-							}
-							else if (pawn.workSettings.GetPriority(workType2) == 0)
-							{
-								if (pawn.WorkTypeIsDisabled(workType2))
-								{
-									label = "CannotPrioritizeWorkTypeDisabled".Translate(workType2.gerundLabel);
-								}
-								else if ("CannotPrioritizeNotAssignedToWorkType".CanTranslate())
-								{
-									label = "CannotPrioritizeNotAssignedToWorkType".Translate(workType2.gerundLabel);
-								}
-								else
-								{
-									label = "CannotPrioritizeWorkTypeDisabled".Translate(workType2.pawnLabel);
-								}
-							}
-							else if (clickCell.IsForbidden(pawn))
-							{
-								if (!clickCell.InAllowedArea(pawn))
-								{
-									label = "CannotPrioritizeForbiddenOutsideAllowedArea".Translate() + ": " + pawn.playerSettings.EffectiveAreaRestriction.Label;
-								}
-								else
-								{
-									label = "CannotPrioritizeCellForbidden".Translate();
-								}
-							}
-							else if (!pawn.CanReach(clickCell, PathEndMode.Touch, Danger.Deadly))
-							{
-								label = "AreaLower".Translate().CapitalizeFirst() + ": " + "NoPath".Translate().CapitalizeFirst();
-							}
-							else
-							{
-								label = "PrioritizeGeneric".Translate(workGiver_Scanner2.PostProcessedGerund(job2), "AreaLower".Translate());
-								Job localJob = job2;
-								WorkGiver_Scanner localScanner = workGiver_Scanner2;
-								job2.workGiverDef = workGiver_Scanner2.def;
-								action2 = delegate
-								{
-									if (pawn.jobs.TryTakeOrderedJobPrioritizedWork(localJob, localScanner, clickCell) && workGiver.forceMote != null)
-									{
-										MoteMaker.MakeStaticMote(clickCell, pawn.Map, workGiver.forceMote);
-									}
-								};
-							}
-						}
-					}
-					if (!opts.Any((FloatMenuOption op) => op.Label == label.TrimEnd()))
-					{
-						FloatMenuOption floatMenuOption = PokemonFloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption(label, action2), pawn, clickCell);
-						if (drafted && workGiver.autoTakeablePriorityDrafted != -1)
-						{
-							floatMenuOption.autoTakeable = true;
-							floatMenuOption.autoTakeablePriority = workGiver.autoTakeablePriorityDrafted;
-						}
-						opts.Add(floatMenuOption);
-					}
-				}
-			}
-		}
-
 	}
 }

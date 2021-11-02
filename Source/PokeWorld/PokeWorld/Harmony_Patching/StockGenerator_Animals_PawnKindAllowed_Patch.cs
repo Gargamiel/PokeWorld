@@ -16,12 +16,12 @@ namespace PokeWorld
     {
         public static bool Prefix(PawnKindDef __0, ref bool __result)
         {
-            if (PokeWorldSettings.minSelected() && __0.race.HasComp(typeof(CompPokemon)))
+            if (PokeWorldSettings.MinSelected() && __0.race.HasComp(typeof(CompPokemon)))
             {
                 __result = false;
                 return false;
             }
-            else if(PokeWorldSettings.maxSelected() && !__0.race.HasComp(typeof(CompPokemon)))
+            else if(PokeWorldSettings.MaxSelected() && !__0.race.HasComp(typeof(CompPokemon)))
             {
                 __result = false;
                 return false;

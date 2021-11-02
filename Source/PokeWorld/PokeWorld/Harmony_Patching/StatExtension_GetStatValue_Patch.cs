@@ -22,6 +22,5 @@ namespace PokeWorld
 				__result += (comp.levelTracker.level /100f);
 			}			
 		}
-		//melee.levelInt = (int)(1 + this.level / 5);
 	}
 }

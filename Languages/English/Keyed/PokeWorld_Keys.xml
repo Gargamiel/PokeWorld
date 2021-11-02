@@ -2,7 +2,8 @@
 
 <LanguageData>
 
-  <PW_PokeWorld>PokeWorld</PW_PokeWorld>
+  <PW_PokeWorld>PokéWorld</PW_PokeWorld>
+  <PW_Pokemon>Pokémon</PW_Pokemon>
 
   <PW_CompPokemonEggHatcherSoon>Sounds can be heard coming from inside! This Egg will hatch soon!</PW_CompPokemonEggHatcherSoon>
   <PW_CompPokemonEggHatcherClose>It appears to move occasionally. It may be close to hatching.</PW_CompPokemonEggHatcherClose>
@@ -26,13 +27,13 @@
   <PW_StatTypeDesc>The type of this Pokémon. The type of a Pokémon typically defines which types of damaging moves is super effective against it, which types of moves is not very effective against it, and which types of moves is completely ineffective against it. If the type of a move matches one of the types of the Pokémon using it, it gains a boost in power.</PW_StatTypeDesc>
   <PW_StatUnknownType>Unknown</PW_StatUnknownType>
 
-  <PW_DesignationPutInPokeball>Put in Pokéball</PW_DesignationPutInPokeball>
-  <PW_DesignationPutInPokeballDesc>Put the Pokémon back in its Pokéball</PW_DesignationPutInPokeballDesc>
+  <PW_DesignationPutInPokeball>Put in Poké Ball</PW_DesignationPutInPokeball>
+  <PW_DesignationPutInPokeballDesc>Put the Pokémon back in its Poké Ball</PW_DesignationPutInPokeballDesc>
   <PW_DesignationPutInPokeballWarning>Must designate an owned Pokémon</PW_DesignationPutInPokeballWarning>
 
   <PW_DesignationStoreInPC>Store in PC</PW_DesignationStoreInPC>
   <PW_DesignationStoreInPCDesc>Store the Pokémon in a PC</PW_DesignationStoreInPCDesc>
-  <PW_DesignationStoreInPCWarning>Must designate an owned Pokéball</PW_DesignationStoreInPCWarning>
+  <PW_DesignationStoreInPCWarning>Must designate an owned Poké Ball</PW_DesignationStoreInPCWarning>
 
   <PW_IncidentBabyPokemon>Baby Pokémon join</PW_IncidentBabyPokemon>
   <PW_IncidentBabyPokemonDesc>A baby {0}, abandonned or lost, has wandered into the area.\n\nIt seem accustomed to human contact and is joining your colony.</PW_IncidentBabyPokemonDesc>
@@ -78,10 +79,14 @@
   <PW_WarningMasterNotDrafted>This Pokémon's master is not drafted</PW_WarningMasterNotDrafted>
   <PW_WarningMasterTooFar>This Pokémon's master is too far</PW_WarningMasterTooFar>
   <PW_WarningTargetTooFarFromMaster>Target too far from master</PW_WarningTargetTooFarFromMaster>
+  <PW_CannotGoNoMaster>Cannot go here: Pokémon has no master</PW_CannotGoNoMaster>
+  <PW_CannotGoTooFarFromMaster>Cannot go here: too far from master</PW_CannotGoTooFarFromMaster>
+  <PW_CannotAttackNoMaster>Cannot attack: Pokémon has no master</PW_CannotAttackNoMaster>
+  <PW_CannotAttackTooFarFromMaster>Cannot attack: too far from master</PW_CannotAttackTooFarFromMaster>
 
   <PW_LegendaryTitle>Legendary Pokémon: {0}</PW_LegendaryTitle>
 
-  <PW_StatCatchRateDesc>Chance of successfully catching this Pokémon when at full health with a normal Pokéball belt: {0}</PW_StatCatchRateDesc>
+  <PW_StatCatchRateDesc>Chance of successfully catching this Pokémon when at full health with a normal Poké Ball belt: {0}</PW_StatCatchRateDesc>
   <PW_StatExperienceDesc>Experience: {0} / {1}</PW_StatExperienceDesc>
   <PW_StatExperienceProgress>Progress to next level: {0}</PW_StatExperienceProgress>
   <PW_StatFriendshipMaximum>Maximum</PW_StatFriendshipMaximum>
@@ -107,7 +112,7 @@
   <PW_TabPCContents>Contents</PW_TabPCContents>
 
   <PW_TipAlreadyCaught>Species already caught</PW_TipAlreadyCaught>
-  <PW_TipInPokeball>In Pokéball</PW_TipInPokeball>
+  <PW_TipInPokeball>In Poké Ball</PW_TipInPokeball>
 
   <PW_FormName>{0} form</PW_FormName>
   <PW_BaseForm>Base form</PW_BaseForm>
@@ -137,4 +142,14 @@
 
   <PW_ShinyPokemonLetter>Shiny Pokémon</PW_ShinyPokemonLetter>
   <PW_ShinyPokemonLetterDesc>A rare Pokémon has entered the area! It shines with a peculiar color.\n\nYou should try to catch it before it leaves.</PW_ShinyPokemonLetterDesc>
+
+  <PW_MalevolentTVLetterLabel>Malevolent TV</PW_MalevolentTVLetterLabel>
+  <PW_MalevolentTVLetterText>While watching the megascreen television, {0} sense an oddly malevolent feeling coming from it.....\n\nAlmost as if it's staring.....</PW_MalevolentTVLetterText>
+
+  <PW_WildRotomLetterLabel>Wild Rotom</PW_WildRotomLetterLabel>
+  <PW_WildRotomLetterText>It looks like there's a Pokemon in the TV!\n\nA wild Rotom has appeared!</PW_WildRotomLetterText>
+
+  <PW_PriceFactorLevel>Level {0}: x{1}</PW_PriceFactorLevel>
+  <PW_PriceFactorShiny>★Shiny: x{0}</PW_PriceFactorShiny>
+
 </LanguageData>

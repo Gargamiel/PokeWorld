@@ -11,7 +11,7 @@ namespace PokeWorld
     [HarmonyPatch(typeof(Pawn), "GetGizmos")]
     class Pawn_GetGizmos_Patch
     {
-        static void Postfix(ref IEnumerable<Gizmo> __result, ref Pawn __instance)
+        public static void Postfix(ref IEnumerable<Gizmo> __result, ref Pawn __instance)
         {
             CompPokemon comp = __instance.TryGetComp<CompPokemon>();
             if (comp != null)

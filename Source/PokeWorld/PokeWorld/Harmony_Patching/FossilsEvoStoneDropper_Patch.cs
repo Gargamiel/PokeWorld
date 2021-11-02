@@ -20,7 +20,7 @@ namespace PokeWorld
 				CompPokFossilsEvoStoneDropper comp = __instance.TryGetComp<CompPokFossilsEvoStoneDropper>();
 				if (comp != null)
 				{
-					string defName = fossilEvoStoneDropperUtility.TryGetItemToSpawn(comp.stoneDropRate, comp.fossilDropRate, out string itemString);
+					string defName = FossilEvoStoneDropperUtility.TryGetItemToSpawn(comp.stoneDropRate, comp.fossilDropRate, out string itemString);
 					if (defName != null)
 					{
 						Thing thing = ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed(defName));
@@ -47,7 +47,7 @@ namespace PokeWorld
 			CompPokFossilsEvoStoneDropper comp = __instance.TryGetComp<CompPokFossilsEvoStoneDropper>();
 			if (comp != null)
 			{
-				string defName = fossilEvoStoneDropperUtility.TryGetItemToSpawn(comp.stoneDropRate, comp.fossilDropRate, out string itemString);
+				string defName = FossilEvoStoneDropperUtility.TryGetItemToSpawn(comp.stoneDropRate, comp.fossilDropRate, out string itemString);
 				if(defName != null)
                 {
 					Thing thing = ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed(defName));
@@ -78,7 +78,7 @@ namespace PokeWorld
 			CompPokFossilsEvoStoneDropper comp = __instance.parent.TryGetComp<CompPokFossilsEvoStoneDropper>();
 			if (comp != null)
 			{
-				string defName = fossilEvoStoneDropperUtility.TryGetItemToSpawn(comp.stoneDropRate, comp.fossilDropRate, out string itemString);
+				string defName = FossilEvoStoneDropperUtility.TryGetItemToSpawn(comp.stoneDropRate, comp.fossilDropRate, out string itemString);
 				if (defName != null)
 				{
 					Thing thing = ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed(defName));
@@ -95,7 +95,7 @@ namespace PokeWorld
 		}
 	}
 
-	public static class fossilEvoStoneDropperUtility
+	public static class FossilEvoStoneDropperUtility
     {
 		public static string TryGetItemToSpawn(float stoneDropRate, float fossilDropRate, out string itemString)
         {

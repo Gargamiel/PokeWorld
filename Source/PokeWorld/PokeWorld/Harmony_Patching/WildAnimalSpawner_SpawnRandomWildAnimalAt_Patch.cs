@@ -24,16 +24,20 @@ namespace PokeWorld
 			if (PokeWorldSettings.OkforPokemon())
 			{
 				pawnKindDef = map.Biome.AllWildAnimals.Where((PawnKindDef a) => map.mapTemperature.SeasonAcceptableFor(a.race) && a.race.HasComp(typeof(CompPokemon))).RandomElementByWeight((PawnKindDef def) => map.Biome.CommonalityOfAnimal(def) / def.wildGroupSize.Average);
+				if (pawnKindDef == null)
+				{
+					Log.Error("No spawnable Pokémon right now, defaulting to other animals");
+					return true;
+				}
 			}
 			else
             {
 				pawnKindDef = map.Biome.AllWildAnimals.Where((PawnKindDef a) => map.mapTemperature.SeasonAcceptableFor(a.race) && !a.race.HasComp(typeof(CompPokemon))).RandomElementByWeight((PawnKindDef def) => map.Biome.CommonalityOfAnimal(def) / def.wildGroupSize.Average);
-			}				
-			if (pawnKindDef == null)
-			{
-				Log.Error("No spawnable animals right now.");
-				__result = false;
-			}
+				if (pawnKindDef == null)
+				{
+					return true;
+				}
+			}							
 			int randomInRange = pawnKindDef.wildGroupSize.RandomInRange;
 			int radius = Mathf.CeilToInt(Mathf.Sqrt(pawnKindDef.wildGroupSize.max));
 			for (int i = 0; i < randomInRange; i++)

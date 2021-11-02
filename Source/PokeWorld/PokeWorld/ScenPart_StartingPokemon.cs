@@ -75,7 +75,7 @@ namespace PokeWorld
 
 		private IEnumerable<PawnKindDef> PossibleAnimals(bool checkForTamer = true)
 		{
-            if (PokeWorldSettings.minSelected())
+            if (PokeWorldSettings.MinSelected())
             {
 				return DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef td) => td.RaceProps.Animal && !td.race.HasComp(typeof(CompPokemon)) && (!checkForTamer || CanKeepPetTame(td)));
 			}

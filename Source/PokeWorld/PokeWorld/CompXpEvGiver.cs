@@ -97,9 +97,9 @@ namespace PokeWorld
         }
         public override void PostExposeData()
         {
-            Scribe_Values.Look(ref lastHitTime, "PW_lastHitTime", -1);
-            Scribe_Values.Look(ref expToGive, "PW_expToGive", 0);
-            Scribe_Collections.Look(ref giveTo, "PW_giveTo", LookMode.Reference);
+            Scribe_Values.Look(ref lastHitTime, "lastHitTime", -1);
+            Scribe_Values.Look(ref expToGive, "expToGive", 0);
+            Scribe_Collections.Look(ref giveTo, "giveTo", LookMode.Reference);
         }
     }
 }

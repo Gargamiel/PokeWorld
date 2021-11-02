@@ -11,9 +11,9 @@ namespace PokeWorld
     [StaticConstructorOnStartup]
     public static class PW_DevConsoleMessage
     {
-        static PW_DevConsoleMessage() //our constructor
+        static PW_DevConsoleMessage()
         {
-            Log.Message("Hello from Gargamiel, the PokeWorld creator!"); //Outputs "Hello World!" to the dev console.           
+            Log.Message("Hello from Gargamiel, the PokeWorld creator!");           
         }
     }
 }

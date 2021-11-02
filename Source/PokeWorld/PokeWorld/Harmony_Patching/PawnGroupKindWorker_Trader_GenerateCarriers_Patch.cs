@@ -17,11 +17,11 @@ namespace PokeWorld
         public static bool Prefix(PawnGroupMakerParms __0, PawnGroupMaker __1, Pawn __2, List<Thing> __3, List<Pawn> __4)
         {
             PawnKindDef kind = null;
-            if (PokeWorldSettings.minSelected())
+            if (PokeWorldSettings.MinSelected())
             {
                 kind = __1.carriers.Where((PawnGenOption x) => __0.tile == -1 || (Find.WorldGrid[__0.tile].biome.IsPackAnimalAllowed(x.kind.race) && !x.kind.race.HasComp(typeof(CompPokemon)))).RandomElementByWeight((PawnGenOption x) => x.selectionWeight).kind;          
             }
-            else if (PokeWorldSettings.maxSelected())
+            else if (PokeWorldSettings.MaxSelected())
             {
                 kind = __1.carriers.Where((PawnGenOption x) => __0.tile == -1 || (Find.WorldGrid[__0.tile].biome.IsPackAnimalAllowed(x.kind.race) && x.kind.race.HasComp(typeof(CompPokemon)))).RandomElementByWeight((PawnGenOption x) => x.selectionWeight).kind;
             }

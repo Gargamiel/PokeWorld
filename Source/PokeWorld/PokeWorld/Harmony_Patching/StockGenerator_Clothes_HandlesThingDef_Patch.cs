@@ -11,7 +11,7 @@ namespace PokeWorld
 {
 	[HarmonyPatch(typeof(StockGenerator_Clothes))]
 	[HarmonyPatch("HandlesThingDef")]
-	public class StockGenerator_HandlesThingDef_Patch
+	public class StockGenerator_Clothes_HandlesThingDef_Patch
 	{
 		public static void Postfix(ThingDef __0, bool __result)
 		{

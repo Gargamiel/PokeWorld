@@ -86,5 +86,12 @@ namespace PokeWorld
 				AddPokemonKindCaught(allDef);
 			}
 		}
+		public void DebugFillPokedexNoLegendary()
+		{
+			foreach (PawnKindDef allDef in DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef x) => x.race.HasComp(typeof(CompPokemon)) && !x.race.GetCompProperties<CompProperties_Pokemon>().attributes.Contains(PokemonAttribute.Legendary)))
+			{
+				AddPokemonKindCaught(allDef);
+			}
+		}
 	}
 }

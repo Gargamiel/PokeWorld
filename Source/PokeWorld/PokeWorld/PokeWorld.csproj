@@ -145,7 +145,7 @@
     <Compile Include="Storage_System\JobDriver_CarryToPortableComputer.cs" />
     <Compile Include="Storage_System\StorageSystem.cs" />
     <Compile Include="CompXpEvGiver.cs" />
-    <Compile Include="Harmony_Patching\StockGenerator_HandlesThingDef_Patch.cs" />
+    <Compile Include="Harmony_Patching\StockGenerator_Clothes_HandlesThingDef_Patch.cs" />
     <Compile Include="Harmony_Patching\ManhunterPackGenStepUtility_TryGetAnimalsKind_Patch.cs" />
     <Compile Include="Harmony_Patching\ThingOwnerUtility_ContentsSuspended_Patch.cs" />
     <Compile Include="Harmony_Patching\PawnGenerator_TryGenerateNewPawnInternal_Patch.cs" />

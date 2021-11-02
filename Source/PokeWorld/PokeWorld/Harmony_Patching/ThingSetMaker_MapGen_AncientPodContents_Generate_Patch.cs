@@ -16,8 +16,12 @@ namespace PokeWorld
 	{
         public static bool Prefix(ref List<Thing> __result)
         {
-			__result = GenerateUnown();
-			return false;
+            if (PokeWorldSettings.OkforPokemon())
+            {
+				__result = GenerateUnown();
+				return false;
+			}
+			return true;
 		}
 		private static List<Thing> GenerateUnown()
 		{
@@ -26,7 +30,6 @@ namespace PokeWorld
 			for (int i = 0; i < num; i++)
 			{
 				Pawn pawn = PawnGenerator.GeneratePawn(DefDatabase<PawnKindDef>.GetNamed("PW_Unown"));
-				pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
 				list.Add(pawn);
 			}
 			return list;

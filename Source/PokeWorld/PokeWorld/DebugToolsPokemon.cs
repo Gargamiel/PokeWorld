@@ -121,6 +121,11 @@ namespace PokeWorld
 		{
 			Find.World.GetComponent<PokedexManager>().DebugFillPokedex();
 		}
+		[DebugAction("Pokeworld", "Fill Pokédex no legendary", actionType = DebugActionType.Action, allowedGameStates = AllowedGameStates.Playing)]
+		private static void FillPokedexNoLegendary()
+		{
+			Find.World.GetComponent<PokedexManager>().DebugFillPokedexNoLegendary();
+		}
 		[DebugAction("Pokeworld", "Show hidden stats", actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
 		private static void ShowHiddenStat()
 		{
@@ -150,7 +155,7 @@ namespace PokeWorld
 						int spatEV = comp.statTracker.GetEV(spAttackStatDef);
 						int spdefEV = comp.statTracker.GetEV(spDefenseStatDef);
 						int spdEV = comp.statTracker.GetEV(speedStatDef);
-						text += $"{pawn.ThingID} stats:\nIV: {hpIV} {atIV} {defIV} {spatIV} {spdefIV} {spdIV}, EV: {hpEV} {atEV} {defEV} {spatEV} {spdefEV} {spdEV}";
+						text += $"{pawn.ThingID} stats:\nIV: hp:{hpIV} att:{atIV} def:{defIV} spAt:{spatIV} spDef:{spdefIV} spd:{spdIV}\nEV: hp:{hpEV} att:{atEV} def:{defEV} spAt:{spatEV} spDef:{spdefEV} spd:{spdEV}";
 						Log.Message(text);
 					}
 				}
