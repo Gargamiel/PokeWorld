@@ -10,7 +10,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>  
     <thingCategories>
-      <li>PW_Pokeball</li>
+      <li>PW_PokeBall</li>
     </thingCategories>
     <statBases>
       <Mass>0.7</Mass>

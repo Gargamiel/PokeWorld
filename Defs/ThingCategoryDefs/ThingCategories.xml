@@ -24,7 +24,7 @@
 
     <ThingCategoryDef>
 	  <defName>PW_Belts</defName>
-	  <label>Pokéball belts</label>
+	  <label>Poké Ball belts</label>
 	  <parent>PW_PokeWorld</parent>
 	  <resourceReadoutRoot>true</resourceReadoutRoot>   
 	</ThingCategoryDef>	
@@ -37,8 +37,8 @@
 	</ThingCategoryDef>
       
 	  <ThingCategoryDef>
-	    <defName>PW_Pokeball</defName>
-	    <label>Pokéballs</label>
+	    <defName>PW_PokeBall</defName>
+	    <label>Poké Balls</label>
 	    <parent>PW_Item</parent>
 	    <resourceReadoutRoot>true</resourceReadoutRoot>   
 	  </ThingCategoryDef>

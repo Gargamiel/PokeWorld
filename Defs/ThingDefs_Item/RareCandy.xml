@@ -4,7 +4,7 @@
   <ThingDef ParentName="MedicineBase">
     <defName>PW_RareCandy</defName>
     <label>Rare Candy</label>
-    <description>A candy that is packed with energy. When consumed, it will instantly raise the level of a single Pokémon by one.</description>
+    <description>A Candy that is packed with energy. When consumed, it will instantly raise the level of a single Pokémon by one.</description>
     <graphicData>
       <texPath>Things/Item/Resource/RareCandy</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
