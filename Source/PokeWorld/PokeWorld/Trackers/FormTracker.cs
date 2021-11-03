@@ -215,10 +215,12 @@ namespace PokeWorld
             List<FloatMenuOption> list = new List<FloatMenuOption>();
             foreach (PokemonForm form in comp.forms)
             {
-                PokemonForm localForm = form;
-                FloatMenuOption floatMenuOption = new FloatMenuOption(comp.forms[currentFormIndex].label.CapitalizeFirst(), delegate
+                FloatMenuOption floatMenuOption = new FloatMenuOption(form.label.CapitalizeFirst(), delegate
                 {
-                    ChangeInto(localForm);
+                    if(comp.forms[currentFormIndex] != form)
+                    {
+                        ChangeInto(form);
+                    }
                 });
                 list.Add(floatMenuOption);            
             }

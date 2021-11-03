@@ -152,4 +152,11 @@
   <PW_PriceFactorLevel>Level {0}: x{1}</PW_PriceFactorLevel>
   <PW_PriceFactorShiny>★Shiny: x{0}</PW_PriceFactorShiny>
 
+  <PW_FoundFossilOrEvoStone>{0} has found a {1}</PW_FoundFossilOrEvoStone>
+  <PW_ResurrectedFossil>{0} succesfully resurrected a {1}!</PW_ResurrectedFossil>
+  <PW_CraftedPokemon>{0} succesfully crafted a {1}!</PW_CraftedPokemon>
+  <PW_UnleashedPokemon>{0} unleashed a {1}!</PW_UnleashedPokemon>
+  
+  <PW_PokemonEgg>Pokémon Egg</PW_PokemonEgg>
+
 </LanguageData>

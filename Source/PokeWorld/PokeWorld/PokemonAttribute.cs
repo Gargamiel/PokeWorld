@@ -11,7 +11,6 @@ namespace PokeWorld
         Baby = 0,
         Legendary = 1,
         Fossil = 2,
-        Makeable = 3,
-        Particular = 4
+        Particular = 3
     }
 }

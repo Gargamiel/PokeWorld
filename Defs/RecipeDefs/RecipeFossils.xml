@@ -228,7 +228,7 @@
   <RecipeDef ParentName="PW_ResurrectPokemonFossil">
     <defName>PW_OpenOddKeyStone</defName>
     <label>open Odd Keystone</label>
-    <description>Open an ancient Keystone to unleash the Pokémon prisoned inside it.</description>
+    <description>Open an ancient Keystone to unleash the Pokémon imprisoned inside it.</description>
     <jobString>Opening Odd Keystone.</jobString>
     <unfinishedThingDef>PW_UnfinishedOddKeystone</unfinishedThingDef>
     <ingredients>

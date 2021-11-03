@@ -51,7 +51,7 @@ namespace PokeWorld
                     float damage = (((2 * level / 5f) + 2) * movePower * (spAttack / (float)spDefense) / 10f) * stab * typeMultiplier;
                     damage = Rand.Range(damage * RangedDamageRandomFactorMin, damage * RangedDamageRandomFactorMax);
                     dinfo.SetAmount(damage);
-                    Log.Message(casterPawn.ToString() + " - " + dinfo.Amount.ToString());
+                    //Log.Message(casterPawn.ToString() + " - " + dinfo.Amount.ToString());
                 }
             }
             return base.Apply(dinfo, thing);

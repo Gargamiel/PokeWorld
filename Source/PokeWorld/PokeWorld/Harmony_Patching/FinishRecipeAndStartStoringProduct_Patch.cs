@@ -14,13 +14,13 @@ namespace PokeWorld
 	[HarmonyPatch("FinishRecipeAndStartStoringProduct")]
 	class FinishRecipeAndStartStoringProduct_Patch
 	{
-		public static void Prefix(ref Toil __state)
+		public static bool Prefix(ref Toil __result)
 		{			
 			Toil toil = new Toil();
 			toil.initAction = delegate
 			{
 				RecipeDef recipe = toil.actor.jobs.curJob.RecipeDef;
-				if (recipe != null && recipe.products.Count > 0 && recipe.products[0].thingDef.HasComp(typeof(CompPokemon)) && (recipe.products[0].thingDef.comps.Find((CompProperties x) => x.compClass == typeof(CompPokemon)) as CompProperties_Pokemon).attributes.Contains(PokemonAttribute.Makeable))
+				if (recipe != null && recipe.products.Count > 0 && recipe.products[0].thingDef.HasComp(typeof(CompPokemon)))
 				{
 					Pawn actor = toil.actor;
 					Job curJob = actor.jobs.curJob;
@@ -49,28 +49,11 @@ namespace PokeWorld
 					{
 						actor.jobs.EndCurrentJob(JobCondition.Succeeded);
 					}
-					bool isFossil;
-					string verb;
-					if (curJob.RecipeDef.products[0].thingDef.defName == "PW_Porygon")
-					{
-						verb = "made";
-						isFossil = false;
-					}
-					else if (curJob.RecipeDef.products[0].thingDef.defName == "PW_Spiritomb")
-					{
-						verb = "unleashed";
-						isFossil = false;
-					}
-					else
-					{
-						verb = "resurrected";
-						isFossil = true;
-					}
-					Pawn revivedPokemon = PokemonGeneratorUtility.GenerateAndSpawnNewPokemon(DefDatabase<PawnKindDef>.GetNamed(curJob.RecipeDef.products[0].thingDef.defName), Faction.OfPlayer, actor.Position, actor.Map, actor, true, isFossil);
+					Pawn revivedPokemon = PokemonGeneratorUtility.GenerateAndSpawnNewPokemon(DefDatabase<PawnKindDef>.GetNamed(curJob.RecipeDef.products[0].thingDef.defName), Faction.OfPlayer, actor.Position, actor.Map, actor, true, false);
 					Find.World.GetComponent<PokedexManager>().AddPokemonKindCaught(DefDatabase<PawnKindDef>.GetNamed(curJob.RecipeDef.products[0].thingDef.defName));
-					Messages.Message(actor.ToString() + " succesfully " + verb + " a " + revivedPokemon.KindLabel + "!", revivedPokemon, MessageTypeDefOf.PositiveEvent);
+					Messages.Message("PW_CraftedPokemon".Translate(actor.LabelShortCap, revivedPokemon.KindLabel), revivedPokemon, MessageTypeDefOf.PositiveEvent);
 				}
-                else
+				else
                 {
 					Pawn actor = toil.actor;
 					Job curJob = actor.jobs.curJob;
@@ -82,7 +65,7 @@ namespace PokeWorld
 					}
 					List<Thing> ingredients = CalculateIngredients(curJob, actor);
 					Thing dominantIngredient = CalculateDominantIngredient(curJob, ingredients);
-					List<Thing> list = GenRecipe.MakeRecipeProducts(curJob.RecipeDef, actor, ingredients, dominantIngredient, jobDriver_DoBill.BillGiver).ToList();
+					List<Thing> list = GenRecipe.MakeRecipeProducts(curJob.RecipeDef, actor, ingredients, dominantIngredient, jobDriver_DoBill.BillGiver, curJob.bill.precept).ToList();
 					ConsumeIngredients(ingredients, curJob.RecipeDef, actor.Map);
 					curJob.bill.Notify_IterationCompleted(actor, ingredients);
 					RecordsUtility.Notify_BillDone(actor, list);
@@ -151,17 +134,11 @@ namespace PokeWorld
 							actor.jobs.EndCurrentJob(JobCondition.Succeeded);
 						}
 					}
-				}				
+				}			
 			};
-			__state = toil;
+			__result = toil;
+			return false;
 		}
-
-		public static void Postfix(ref Toil __state, ref Toil __result)
-		{
-			__result = __state;
-		}
-
-
 
 		private static List<Thing> CalculateIngredients(Job job, Pawn actor)
 		{

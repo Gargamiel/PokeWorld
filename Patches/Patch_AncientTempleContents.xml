@@ -5,7 +5,7 @@
     <xpath>/Defs/ThingSetMakerDef[defName="MapGen_AncientTempleContents"]/root/options</xpath>
     <value>
       <li>
-        <chance>0.8</chance>
+        <chance>1</chance>
         <thingSetMaker Class="ThingSetMaker_Count">
           <fixedParams>
             <filter>

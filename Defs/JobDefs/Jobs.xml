@@ -2,9 +2,17 @@
 <Defs>
 
   <JobDef>
+    <defName>PW_CraftPokemon</defName>
+    <driverClass>PokeWorld.JobDriver_CraftPokemon</driverClass>
+    <reportString>crafting Pokémon at TargetA.</reportString>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
     <defName>PW_PutInBall</defName>
     <driverClass>Pokeworld.JobDriver_PutInBall</driverClass>
-    <reportString>putting TargetA in PokéBall.</reportString>
+    <reportString>putting TargetA in Poké Ball.</reportString>
     <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
   </JobDef>
 

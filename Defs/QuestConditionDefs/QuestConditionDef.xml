@@ -70,6 +70,9 @@
       </li>
     </generationsRequirements>
     <requiredKindSeen>
+      <li>PW_Articuno</li>
+      <li>PW_Zapdos</li>
+      <li>PW_Moltres</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
 

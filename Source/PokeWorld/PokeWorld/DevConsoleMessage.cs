@@ -13,7 +13,7 @@ namespace PokeWorld
     {
         static PW_DevConsoleMessage()
         {
-            Log.Message("Hello from Gargamiel, the PokeWorld creator!");           
+            //Log.Message("Hello from Gargamiel, the PokéWorld creator!");           
         }
     }
 }

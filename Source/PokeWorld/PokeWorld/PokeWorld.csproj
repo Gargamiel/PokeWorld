@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WorkGiver_CraftPokemon.cs" />
+    <Compile Include="Toils_RecipeCraftPokemon.cs" />
+    <Compile Include="JobDriver_CraftPokemon.cs" />
     <Compile Include="Eggs\EggGroupDef.cs" />
     <Compile Include="PokemonAttribute.cs" />
     <Compile Include="CompPokemonSpawner.cs" />

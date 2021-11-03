@@ -54,7 +54,10 @@ namespace PokeWorld
             }
             return null;
         }
-
+        public override string TransformLabel(string label)
+        {
+            return "PW_PokemonEgg".Translate();
+        }
         public void HatchPokemon()
         {
             try

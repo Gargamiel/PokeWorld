@@ -2,9 +2,9 @@
 <Defs>
 
   <WorkGiverDef>
-    <defName>PW_ResurectFossil</defName>
-    <label>resurect fossil</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
+    <defName>PW_CraftPokemon</defName>
+    <label>craft Pokémon</label>
+    <giverClass>PokeWorld.WorkGiver_CraftPokemon</giverClass>
     <workType>Crafting</workType>
     <workTags>
       <li>Intellectual</li>
@@ -13,8 +13,8 @@
     <fixedBillGiverDefs>
       <li>PW_FossilResurrector</li>
     </fixedBillGiverDefs>
-    <verb>resurect fossils</verb>
-    <gerund>resurecting fossils at</gerund>
+    <verb>craft Pokémon</verb>
+    <gerund>crafting Pokémon at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -23,11 +23,11 @@
 
   <WorkGiverDef>
     <defName>PW_PutInBall</defName>
-    <label>put in PokéBall</label>
+    <label>put in Poké Ball</label>
     <giverClass>Pokeworld.WorkGiver_PutInBall</giverClass>
     <workType>BasicWorker</workType>
-    <verb>put in PokéBall</verb>
-    <gerund>putting in PokéBall</gerund>
+    <verb>put in Poké Ball</verb>
+    <gerund>putting in Poké Ball</gerund>
     <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
     <priorityInType>400</priorityInType>
   </WorkGiverDef>

@@ -3,6 +3,7 @@
 
   <ThingDef Abstract="True" Name="PokemonEggBase" ParentName="OrganicProductBase" >
     <tickerType>Normal</tickerType>
+    <description>A Pokémon Egg. If all goes well, it should hatch into a new Pokémon.\n\nYou can't tell what sorts of Pokémon could be inside.</description>
     <graphicData>
       <texPath>Things/Item/Eggs/PokemonEgg/PokemonEgg</texPath>
       <graphicClass>Graphic_Single</graphicClass>
