@@ -73,7 +73,7 @@ This mod is in english but should fully support translation. If you are a transl
 
 **Why won't my Pokémon fight?**: Make sure your Pokémon has his "Guard" trainability trained, is assigned a master and is set to follow his master while drafted. When selecting this Pokémon while his master is drafted, you will notice a blue circle aroud the master. The Pokémon can then be freely controlled like a normal pawn in this area. Stronger Pokémon master (with higher "animals" skill) have a larger area.
 
-**How many Pokémon can I have at the same time?**: You can battle with as much Pokémon as you want, the sky is the limit.
+**How many Pokémon can I have at the same time?**: You can battle with as much Pokémon as you want, the sky is the limit. Any Pokémon you don't need/want can be stored in his Poké Ball or in the PC if you don't want to clutter your storage space.
 
 **Do I need another mod to control my Pokémon?**: No, PokéWorld comes with a built-in Pokémon control mechanic.
 
@@ -89,7 +89,7 @@ This mod is in english but should fully support translation. If you are a transl
 
 - Some Pokémon do not have any unlockable moves.
 
-- Ditto transform isn't implemented (yet).
+- Ditto's transform isn't implemented (yet).
 
 ## What's next?
 
