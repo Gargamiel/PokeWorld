@@ -79,13 +79,13 @@ This mod is in english but should fully support translation. If you are a transl
 
 **Will more Pokémon be added in the future?**: Maybe, if a lot of people request it. It wouldn't be very hard, the main difficulty is to handle Pokémon with unique features (Pokémon with forms or those like Nincada / Ditto) to make them feel unique. There is no point in having 1000 different Pokémon if they all behave the same. I would also need to find sprites for each Pokémon.
 
-**Can I play with only x Pokémon / x generation?** No. I initially tought of releasing each generation as a separate mod to let players chose which Pokémon they wanted to play with, but this would have been exhausting work considering this is my first mod ever. There's also the issue of evolution lines beeing separated over different generation, amongst other things.
+**Can I play with only x Pokémon / x generation?** No. I initially tought of releasing each generation as a separate mod to let players chose which Pokémon they wanted to play with, but this would have been exhausting work considering this is my first mod ever. There's also the issue of evolution lines beeing spread over different generation, amongst other things.
 
-**Did you draw each of the Pokémon textures yourself?**: No, there is more than 3000 sprites in total (493 Pokémon x 3 orientation for regular and shiny variation, not accounting forms or gender differences). I used existing ressources (HeartGold & SoulSilver overworld sprites, reason for which there's only the first four generations) and a bit of image manipulation (XBR smooth scaling) to make them more RimWorld friendly.
+**Did you draw each of the Pokémon textures yourself?**: No, there is more than 3000 sprites in total (493 Pokémon x 3 orientation for regular and shiny variation, not accounting forms or gender differences). I used existing ressources (HeartGold & SoulSilver overworld sprites, reason for which there's only the first four generations) and a bit of image manipulation (XBR smooth scaling) to make them more RimWorld friendly. Credit to Larryturbo on DevianArt for some missing textures.
 
 ## Known Issues
 
-- Missing textures for Sunny/Rainy/Snowy forms of Castform, and Sunshine form of Cherrim.
+- Missing some textures, like Sunshine Cherrim or Fairy Arceus (Regular textures are displayed instead).
 
 - Some Pokémon do not have any unlockable moves.
 
@@ -97,10 +97,10 @@ This is a list of features that may or may not be added based on players interes
 
 - Fixing bugs and improving compatibility.
 
-- Moves effect and animation, such as thunder dropping when using Thunder / Thunderbolt, have a meteor fall when using Draco Meteor, explosions, status moves, ...
+- Adding more moves, moves effect and animation, such as thunder dropping when using Thunder / Thunderbolt, have a meteor fall when using Draco Meteor, explosions, status moves,  a TM-like mechanic.
 
-- Adding more moves.
+- Improve forms, change type and move set in addition to texture.
 
-- A TM-like mechanic.
+- Pokémon themed music.
 
 - More Pokémon?
