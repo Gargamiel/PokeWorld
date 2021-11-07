@@ -14,7 +14,7 @@ namespace PokeWorld
 		{
 			CompPokemon compPokemonMale = male.TryGetComp<CompPokemon>();
 			CompPokemon compPokemonFemale = female.TryGetComp<CompPokemon>();
-			if (compPokemonMale == null || compPokemonFemale == null)
+			if (compPokemonMale == null || compPokemonFemale == null || female.health.hediffSet.HasHediff(HediffDefOf.Sterilized))
             {
 				return false;
 			}

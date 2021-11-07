@@ -22,7 +22,7 @@ namespace PokeWorld
 				return true;
 			}
 			CompDittoEggLayer compDittoEggLayer = __1.TryGetComp<CompDittoEggLayer>();
-			if (compDittoEggLayer != null)
+			if (compDittoEggLayer != null && !__0.health.hediffSet.HasHediff(HediffDefOf.Sterilized) && !__1.health.hediffSet.HasHediff(HediffDefOf.Sterilized))
 			{
 				compDittoEggLayer.Fertilize(__0);
 			}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef Name="BasePokemonLeather" ParentName="ResourceBase" Abstract="True">
+  <ThingDef Name="PW_PokemonLeatherBase" ParentName="ResourceBase" Abstract="True">
   	<description>The skin of a dead Pokémon. A good traditional material for making clothes and bags.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Leather</texPath>
@@ -32,6 +32,30 @@
       <commonality>0.025</commonality>
       <statFactors>
         <MaxHitPoints>1.3</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonLeatherBase">
+    <defName>PW_Leather_Legendary</defName>
+    <label>Legendary leather</label>
+    <description>The skin of a dead Legendary Pokémon. Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength. Some say this leather is the reason there are so few Legendary Pokémon left</description>
+    <graphicData>
+      <color>(212,175,55)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>24.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.24</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.52</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>38</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(212,175,55)</color>
+      <commonality>0</commonality>
+      <statFactors>
+        <MaxHitPoints>2.8</MaxHitPoints>
+        <Beauty>18</Beauty>
       </statFactors>
     </stuffProps>
   </ThingDef>

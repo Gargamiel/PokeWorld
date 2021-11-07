@@ -10,6 +10,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Bulbasaur</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -21,6 +26,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Charmander</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -34,6 +44,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Squirtle</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -45,6 +60,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Caterpie</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -58,6 +78,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Weedle</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -69,6 +94,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Pidgey</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -82,6 +112,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Rattata</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -93,6 +128,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Spearow</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -106,6 +146,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Ekans</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -117,6 +162,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Sandshrew</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -130,6 +180,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_NidoranF</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -141,6 +196,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_NidoranM</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -154,6 +214,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Vulpix</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -165,6 +230,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Zubat</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -178,6 +248,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Oddish</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -189,6 +264,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Paras</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -202,6 +282,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Venonat</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -213,6 +298,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Diglett</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -226,6 +316,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Meowth</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -237,6 +332,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Psyduck</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -250,6 +350,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Mankey</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -261,6 +366,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Growlithe</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -274,6 +384,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Poliwag</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -285,6 +400,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Abra</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -298,6 +418,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Machop</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -309,6 +434,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Bellsprout</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -322,6 +452,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Tentacool</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -333,6 +468,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Geodude</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -346,6 +486,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Ponyta</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -357,6 +502,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Slowpoke</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -370,6 +520,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Magnemite</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -381,6 +536,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Farfetchd</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -394,6 +554,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Doduo</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -405,6 +570,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Seel</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -418,6 +588,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Grimer</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -429,6 +604,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Shellder</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -442,6 +622,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Gastly</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -453,6 +638,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Onix</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -466,6 +656,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Drowzee</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -477,6 +672,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Krabby</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -490,6 +690,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Voltorb</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -501,6 +706,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Exeggcute</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -514,6 +724,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Cubone</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -525,6 +740,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Lickitung</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -538,6 +758,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Koffing</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -549,6 +774,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Rhyhorn</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -562,6 +792,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Tangela</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -573,6 +808,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Kangaskhan</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -586,6 +826,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Horsea</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -597,6 +842,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Goldeen</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -610,6 +860,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Staryu</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -621,6 +876,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Scyther</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -634,6 +894,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Pinsir</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -645,6 +910,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Tauros</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -658,6 +928,11 @@
         <hatcherDaystoHatch>3</hatcherDaystoHatch>
         <hatcherPawn>PW_Magikarp</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -669,6 +944,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Lapras</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -682,6 +962,11 @@
         <hatcherDaystoHatch>23</hatcherDaystoHatch>
         <hatcherPawn>PW_Eevee</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -693,6 +978,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Porygon</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -706,6 +996,11 @@
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Omanyte</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -717,6 +1012,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Kabuto</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -730,6 +1030,11 @@
         <hatcherDaystoHatch>23</hatcherDaystoHatch>
         <hatcherPawn>PW_Aerodactyl</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -741,6 +1046,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Dratini</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -754,6 +1064,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Chikorita</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -765,6 +1080,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Cyndaquil</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -778,6 +1098,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Totodile</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -789,6 +1114,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Sentret</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -802,6 +1132,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Hoothoot</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -813,6 +1148,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Ledyba</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -826,6 +1166,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Spinarak</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -837,6 +1182,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Chinchou</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -850,6 +1200,11 @@
         <hatcherDaystoHatch>6</hatcherDaystoHatch>
         <hatcherPawn>PW_Pichu</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -861,6 +1216,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>6</hatcherDaystoHatch>
         <hatcherPawn>PW_Cleffa</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -874,6 +1234,11 @@
         <hatcherDaystoHatch>6</hatcherDaystoHatch>
         <hatcherPawn>PW_Igglybuff</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -885,6 +1250,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>6</hatcherDaystoHatch>
         <hatcherPawn>PW_Togepi</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -898,6 +1268,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Natu</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -909,6 +1284,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Mareep</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -922,6 +1302,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Hoppip</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -933,6 +1318,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Aipom</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -946,6 +1336,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Sunkern</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -957,6 +1352,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Yanma</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -970,6 +1370,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Wooper</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -981,6 +1386,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Murkrow</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -994,6 +1404,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Misdreavus</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1005,6 +1420,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Girafarig</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1018,6 +1438,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Pineco</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1029,6 +1454,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Dunsparce</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1042,6 +1472,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Gligar</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1053,6 +1488,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Snubbull</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1066,6 +1506,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Qwilfish</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1077,6 +1522,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Shuckle</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1090,6 +1540,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Heracross</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1101,6 +1556,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Sneasel</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1114,6 +1574,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Teddiursa</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1125,6 +1590,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Slugma</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1138,6 +1608,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Swinub</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1149,6 +1624,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Corsola</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1162,6 +1642,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Remoraid</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1173,6 +1658,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Delibird</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1186,6 +1676,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Skarmory</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1197,6 +1692,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Houndour</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1210,6 +1710,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Phanpy</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1221,6 +1726,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Stantler</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1234,6 +1744,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Smeargle</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1245,6 +1760,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Tyrogue</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1258,6 +1778,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Smoochum</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1269,6 +1794,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Elekid</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1282,6 +1812,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Magby</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1293,6 +1828,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Miltank</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1306,6 +1846,11 @@
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Larvitar</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1317,6 +1862,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Treecko</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1330,6 +1880,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Torchic</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1341,6 +1896,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Mudkip</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1354,6 +1914,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Poochyena</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1365,6 +1930,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Zigzagoon</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1378,6 +1948,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Wurmple</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1389,6 +1964,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Lotad</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1402,6 +1982,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Seedot</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1413,6 +1998,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Taillow</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1426,6 +2016,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Wingull</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1437,6 +2032,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Ralts</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1450,6 +2050,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Surskit</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1461,6 +2066,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Shroomish</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1474,6 +2084,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Slakoth</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1485,6 +2100,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Nincada</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1498,6 +2118,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Whismur</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1509,6 +2134,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Makuhita</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1522,6 +2152,11 @@
         <hatcherDaystoHatch>6</hatcherDaystoHatch>
         <hatcherPawn>PW_Azurill</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1533,6 +2168,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Nosepass</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1546,6 +2186,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Skitty</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1557,6 +2202,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Sableye</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1570,6 +2220,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Mawile</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1581,6 +2236,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>23</hatcherDaystoHatch>
         <hatcherPawn>PW_Aron</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1594,6 +2254,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Meditite</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1605,6 +2270,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Electrike</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1618,6 +2288,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Plusle</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1629,6 +2304,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Minun</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1642,6 +2322,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Volbeat</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1653,6 +2338,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Illumise</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1666,6 +2356,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Gulpin</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1677,6 +2372,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Carvanha</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1690,6 +2390,11 @@
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Wailmer</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1701,6 +2406,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Numel</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1714,6 +2424,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Torkoal</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1725,6 +2440,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Spoink</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1738,6 +2458,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Spinda</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1749,6 +2474,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Trapinch</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1762,6 +2492,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Cacnea</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1773,6 +2508,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Swablu</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1786,6 +2526,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Zangoose</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1797,6 +2542,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Seviper</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1810,6 +2560,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Lunatone</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1821,6 +2576,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Solrock</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1834,6 +2594,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Barboach</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1845,6 +2610,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Corphish</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1858,6 +2628,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Baltoy</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1869,6 +2644,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Lileep</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1882,6 +2662,11 @@
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Anorith</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1893,6 +2678,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Feebas</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1906,6 +2696,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Castform</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1917,6 +2712,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Kecleon</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1930,6 +2730,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Shuppet</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1941,6 +2746,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Duskull</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1954,6 +2764,11 @@
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Tropius</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1965,6 +2780,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Absol</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -1978,6 +2798,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Wynaut</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -1989,6 +2814,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Snorunt</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2002,6 +2832,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Spheal</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2013,6 +2848,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Clamperl</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2026,6 +2866,11 @@
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Relicanth</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2037,6 +2882,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Luvdisc</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2050,6 +2900,11 @@
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Bagon</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2061,6 +2916,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Beldum</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2074,6 +2934,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Turtwig</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2085,6 +2950,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Chimchar</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>70</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2098,6 +2968,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Piplup</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2109,6 +2984,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Starly</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2122,6 +3002,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Bidoof</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2133,6 +3018,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Kricketot</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2146,6 +3036,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Shinx</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2157,6 +3052,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Budew</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2170,6 +3070,11 @@
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Cranidos</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2181,6 +3086,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Shieldon</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2194,6 +3104,11 @@
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Burmy</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2205,6 +3120,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
         <hatcherPawn>PW_Combee</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2218,6 +3138,11 @@
         <hatcherDaystoHatch>6</hatcherDaystoHatch>
         <hatcherPawn>PW_Pachirisu</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2229,6 +3154,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Buizel</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2242,6 +3172,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Cherubi</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2253,6 +3188,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Shellos</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2266,6 +3206,11 @@
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Drifloon</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2277,6 +3222,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Buneary</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2290,6 +3240,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Glameow</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2301,6 +3256,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Chingling</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2314,6 +3274,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Stunky</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2325,6 +3290,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Bronzor</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2338,6 +3308,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Bonsly</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2349,6 +3324,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_MimeJr</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2362,6 +3342,11 @@
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Happiny</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2373,6 +3358,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Chatot</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2386,6 +3376,11 @@
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Spiritomb</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2397,6 +3392,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Gible</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2410,6 +3410,11 @@
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Munchlax</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2421,6 +3426,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Riolu</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2434,6 +3444,11 @@
         <hatcherDaystoHatch>20</hatcherDaystoHatch>
         <hatcherPawn>PW_Hippopotas</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2445,6 +3460,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Skorupi</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2458,6 +3478,11 @@
         <hatcherDaystoHatch>6</hatcherDaystoHatch>
         <hatcherPawn>PW_Croagunk</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2469,6 +3494,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Carnivine</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2482,6 +3512,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Finneon</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2493,6 +3528,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>PW_Mantyke</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>
@@ -2506,6 +3546,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Snover</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-20</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2518,6 +3563,11 @@
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
         <hatcherPawn>PW_Rotom</hatcherPawn>
       </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
     </comps>
   </ThingDef>
 
@@ -2529,6 +3579,11 @@
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>26</hatcherDaystoHatch>
         <hatcherPawn>PW_Phione</hatcherPawn>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
     </comps>
   </ThingDef>

@@ -36,12 +36,7 @@
         <daysToRotStart>15</daysToRotStart>
         <rotDestroys>true</rotDestroys>
         <disableIfHatcher>true</disableIfHatcher>
-      </li>
-      <li Class="CompProperties_TemperatureRuinable">
-        <minSafeTemperature>0</minSafeTemperature>
-        <maxSafeTemperature>50</maxSafeTemperature>
-        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
-      </li>
+      </li>     
     </comps>
   </ThingDef>
 
