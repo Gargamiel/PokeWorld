@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Verse;
 using HarmonyLib;
 using RimWorld;
+using UnityEngine;
 
 namespace PokeWorld
 {
@@ -17,9 +18,31 @@ namespace PokeWorld
 		{
 			Pawn pawn = __0 as Pawn;
 			CompPokemon comp = pawn.TryGetComp<CompPokemon>();
-			if (comp != null && __1.defName == "MeleeHitChance")
+			if (comp != null)
 			{
-				__result += (comp.levelTracker.level /100f);
+				if(__1 == StatDefOf.MeleeHitChance)
+                {
+					__result += (comp.levelTracker.level / 100f);
+				}
+				else if (__1 == StatDefOf.ArmorRating_Sharp)
+				{
+					__result = Mathf.Clamp((1 / 3.0f * comp.statTracker.defenseStat + 2 / 3.0f * comp.statTracker.defenseSpStat) / 100, 0, 1.5f);
+				}
+				else if (__1 == StatDefOf.ArmorRating_Blunt)
+				{
+					__result = Mathf.Clamp((2 / 3.0f * comp.statTracker.defenseStat + 1 / 3.0f * comp.statTracker.defenseSpStat) / 100, 0, 1.5f);
+				}
+				else if (__1 == StatDefOf.ArmorRating_Heat)
+				{
+                    if (comp.types.Contains(DefDatabase<TypeDef>.GetNamed("Fire")))
+                    {
+						__result = 1.0f;
+					}
+                    else
+                    {
+						__result = Mathf.Clamp(comp.statTracker.defenseSpStat / 200.0f, 0, 1.0f);
+					}					
+				}
 			}			
 		}
 	}
