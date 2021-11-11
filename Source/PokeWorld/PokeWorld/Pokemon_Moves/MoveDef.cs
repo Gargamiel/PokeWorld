@@ -11,6 +11,7 @@ namespace PokeWorld
     public class MoveDef : Def
     {
         public TypeDef type;
+        public MoveCategory category;
         public float accuracy;
         public VerbProperties verb;
         public Tool tool;

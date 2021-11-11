@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pokemon_Moves\MoveCategory.cs" />
     <Compile Include="WorkGiver_CraftPokemon.cs" />
     <Compile Include="Toils_RecipeCraftPokemon.cs" />
     <Compile Include="JobDriver_CraftPokemon.cs" />

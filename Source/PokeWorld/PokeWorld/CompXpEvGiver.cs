@@ -41,7 +41,7 @@ namespace PokeWorld
                 CompPokemon instigatorComp = instigator.TryGetComp<CompPokemon>();
                 if (instigatorComp != null && instigator.Faction == Faction.OfPlayer && parent.Faction != Faction.OfPlayer)
                 {
-                    if (parent.Spawned && (pawn == null || !pawn.Downed)) //null check in case pawn just died
+                    if (pawn == null || !pawn.Downed || pawn.Dead || parent.Destroyed)
                     {
                         if (!giveTo.Contains(instigator) && giveTo.Count < maxCount && instigator != parent)
                         {
@@ -52,8 +52,7 @@ namespace PokeWorld
                 }
             }
             if ((pawn != null && pawn.Dead) || parent.Destroyed)
-            {
-                RemoveDeadAndDownedFromGiveTo();
+            {                
                 DistributeXPandEV();
             }
         }       
@@ -61,21 +60,16 @@ namespace PokeWorld
         {
             return (int)parent.GetStatValue(DefDatabase<StatDef>.GetNamed("PW_BaseXPYield"));
         }
-        private void RemoveDeadAndDownedFromGiveTo()
+        private void FilterDeadAndDownedFromGiveTo()
         {
-            foreach (Pawn pawn in giveTo)
-            {
-                if (pawn == null || pawn.Dead || pawn.Downed)
-                {
-                    giveTo.Remove(pawn);
-                }
-            }
+            giveTo = giveTo.Where((Pawn pawn) => pawn != null && !pawn.Dead && !pawn.Downed).ToList();
         }
         private void DistributeXPandEV()
         {
+            FilterDeadAndDownedFromGiveTo();
             CompPokemon ownComp = parent.TryGetComp<CompPokemon>();
             foreach (Pawn pawn in giveTo)
-            {              
+            {                            
                 CompPokemon ennemyComp = pawn.TryGetComp<CompPokemon>();
                 if (ennemyComp != null)
                 {
@@ -92,7 +86,6 @@ namespace PokeWorld
         }
         public void DistributeAfterCatch()
         {
-            RemoveDeadAndDownedFromGiveTo();
             DistributeXPandEV();
         }
         public override void PostExposeData()

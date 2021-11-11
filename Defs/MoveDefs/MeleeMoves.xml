@@ -9,6 +9,7 @@
     <label>Struggle</label>
     <description>This attack is used in desperation only.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Struggle</label>
       <soundMeleeHit>PW_Struggle</soundMeleeHit>
@@ -25,6 +26,7 @@
     <label>Pound</label>
     <description>The target is physically pounded with a long tail, a foreleg, or the like.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Pound</label>
       <soundMeleeHit>PW_Pound</soundMeleeHit>
@@ -41,6 +43,7 @@
     <label>Scratch</label>
     <description>Hard, pointed, sharp claws rake the target to inflict damage.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Scratch</label>
       <soundMeleeHit>PW_Scratch</soundMeleeHit>
@@ -57,6 +60,7 @@
     <label>Headbutt</label>
     <description>The user sticks out its head and attacks by charging straight into the target.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Headbutt</label>
       <soundMeleeHit>PW_Headbutt</soundMeleeHit>
@@ -73,6 +77,7 @@
     <label>Fury Attack</label>
     <description>The target is jabbed repeatedly with a horn or beak.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Fury Attack</label>
       <soundMeleeHit>PW_FuryAttack</soundMeleeHit>
@@ -89,6 +94,7 @@
     <label>Tackle</label>
     <description>The user charges and slams into the target with its whole body.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Tackle</label>
       <soundMeleeHit>PW_Tackle</soundMeleeHit>
@@ -105,6 +111,7 @@
     <label>Take Down</label>
     <description>A reckless, full-body charge attack for slamming into the target.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Take Down</label>
       <soundMeleeHit>PW_TakeDown</soundMeleeHit>
@@ -121,6 +128,7 @@
     <label>Double-Edge</label>
     <description>A reckless, life-risking tackle in which the user rushes the target.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Double-Edge</label>
       <soundMeleeHit>PW_DoubleEdge</soundMeleeHit>
@@ -137,6 +145,7 @@
     <label>Quick Attack</label>
     <description>The user lunges at the target at a speed that makes it almost invisible.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Quick Attack</label>
       <soundMeleeHit>PW_QuickAttack</soundMeleeHit>
@@ -153,6 +162,7 @@
     <label>Fury Swipes</label>
     <description>The target is raked with sharp claws or scythes.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Fury Swipes</label>
       <soundMeleeHit>PW_FurySwipes</soundMeleeHit>
@@ -169,6 +179,7 @@
     <label>Slash</label>
     <description>The target is attacked with a slash of claws or blades.</description>
     <type>Normal</type>
+    <category>Physical</category>
     <tool>
       <label>Slash</label>
       <soundMeleeHit>PW_Slash</soundMeleeHit>
@@ -187,6 +198,7 @@
     <label>Close Combat</label>
     <description>The user fights the target up close without guarding itself.</description>
     <type>Fighting</type>
+    <category>Physical</category>
     <tool>
       <label>Close Combat</label>
       <soundMeleeHit>PW_CloseCombat</soundMeleeHit>
@@ -203,6 +215,7 @@
     <label>Hammer Arm</label>
     <description>The user swings and hits with its strong, heavy fist.</description>
     <type>Fighting</type>
+    <category>Physical</category>
     <tool>
       <label>Hammer Arm</label>
       <soundMeleeHit>PW_HammerArm</soundMeleeHit>
@@ -219,6 +232,7 @@
     <label>Superpower</label>
     <description>The user attacks the target with great power.</description>
     <type>Fighting</type>
+    <category>Physical</category>
     <tool>
       <label>Superpower</label>
       <soundMeleeHit>PW_Superpower</soundMeleeHit>
@@ -235,6 +249,7 @@
     <label>Revenge</label>
     <description>The user attacks the target.</description>
     <type>Fighting</type>
+    <category>Physical</category>
     <tool>
       <label>Revenge</label>
       <soundMeleeHit>PW_Revenge</soundMeleeHit>
@@ -251,6 +266,7 @@
     <label>Wake-Up Slap</label>
     <description>The user attacks the target.</description>
     <type>Fighting</type>
+    <category>Physical</category>
     <tool>
       <label>Wake-Up Slap</label>
       <soundMeleeHit>PW_WakeUpSlap</soundMeleeHit>
@@ -267,6 +283,7 @@
     <label>Low Kick</label>
     <description>A powerful low kick that makes the target fall over.</description>
     <type>Fighting</type>
+    <category>Physical</category>
     <tool>
       <label>Low Kick</label>
       <soundMeleeHit>PW_LowKick</soundMeleeHit>
@@ -283,6 +300,7 @@
     <label>Double Kick</label>
     <description>The target is quickly kicked twice in succession using both feet.</description>
     <type>Fighting</type>
+    <category>Physical</category>
     <tool>
       <label>Double Kick</label>
       <soundMeleeHit>PW_DoubleKick</soundMeleeHit>
@@ -301,6 +319,7 @@
     <label>Peck</label>
     <description>The target is jabbed with a sharply pointed beak or horn.</description>
     <type>Flying</type>
+    <category>Physical</category>
     <tool>
       <label>Peck</label>
       <soundMeleeHit>PW_Peck</soundMeleeHit>
@@ -317,6 +336,7 @@
     <label>Wing Attack</label>
     <description>The target is struck with large, imposing wings spread wide to inflict damage.</description>
     <type>Flying</type>
+    <category>Physical</category>
     <tool>
       <label>Wing Attack</label>
       <soundMeleeHit>PW_WingAttack</soundMeleeHit>
@@ -333,6 +353,7 @@
     <label>Acrobatics</label>
     <description>The user nimbly strikes the target.</description>
     <type>Flying</type>
+    <category>Physical</category>
     <tool>
       <label>Acrobatics</label>
       <soundMeleeHit>PW_Acrobatics</soundMeleeHit>
@@ -351,6 +372,7 @@
     <label>Poison Sting</label>
     <description>The user stabs the target with a poisonous stinger.</description>
     <type>Poison</type>
+    <category>Physical</category>
     <tool>
       <label>Poison Sting</label>
       <soundMeleeHit>PW_PoisonSting</soundMeleeHit>
@@ -367,6 +389,7 @@
     <label>Poison Jab</label>
     <description>The target is stabbed with a tentacle, arm, or the like steeped in poison.</description>
     <type>Poison</type>
+    <category>Physical</category>
     <tool>
       <label>Poison Jab</label>
       <soundMeleeHit>PW_PoisonJab</soundMeleeHit>
@@ -385,6 +408,7 @@
     <label>Mud-Slap</label>
     <description>The user hurls mud in the target's face to inflict damage.</description>
     <type>Ground</type>
+    <category>Physical</category>
     <tool>
       <label>Mud-Slap</label>
       <soundMeleeHit>PW_MudSlap</soundMeleeHit>
@@ -401,6 +425,7 @@
     <label>Earthquake</label>
     <description>The user sets off an earthquake that strikes those around it.</description>
     <type>Ground</type>
+    <category>Physical</category>
     <tool>
       <label>Earthquake</label>
       <soundMeleeHit>PW_Earthquake</soundMeleeHit>
@@ -417,6 +442,7 @@
     <label>Sand Tomb</label>
     <description>The user traps the target inside a harshly raging sandstorm.</description>
     <type>Ground</type>
+    <category>Physical</category>
     <tool>
       <label>Sand Tomb</label>
       <soundMeleeHit>PW_SandTomb</soundMeleeHit>
@@ -435,6 +461,7 @@
     <label>Rollout</label>
     <description>The user rolls into the target.</description>
     <type>Rock</type>
+    <category>Physical</category>
     <tool>
       <label>Rollout</label>
       <soundMeleeHit>PW_Rollout</soundMeleeHit>
@@ -451,6 +478,7 @@
     <label>Rock Slide</label>
     <description>Large boulders are hurled at the target to inflict damage.</description>
     <type>Rock</type>
+    <category>Physical</category>
     <tool>
       <label>Rock Slide</label>
       <soundMeleeHit>PW_RockSlide</soundMeleeHit>
@@ -467,6 +495,7 @@
     <label>Stone Edge</label>
     <description>The user stabs the target from below with sharpened stones.</description>
     <type>Rock</type>
+    <category>Physical</category>
     <tool>
       <label>Stone Edge</label>
       <soundMeleeHit>PW_StoneEdge</soundMeleeHit>
@@ -483,6 +512,7 @@
     <label>Rock Throw</label>
     <description>The user picks up and throws a small rock at the target to attack.</description>
     <type>Rock</type>
+    <category>Physical</category>
     <tool>
       <label>Rock Throw</label>
       <soundMeleeHit>PW_RockThrow</soundMeleeHit>
@@ -499,6 +529,7 @@
     <label>Rock Blast</label>
     <description>The user hurls hard rocks at the target.</description>
     <type>Rock</type>
+    <category>Physical</category>
     <tool>
       <label>Rock Blast</label>
       <soundMeleeHit>PW_RockBlast</soundMeleeHit>
@@ -517,6 +548,7 @@
     <label>Fury Cutter</label>
     <description>The target is slashed with scythes or claws.</description>
     <type>Bug</type>
+    <category>Physical</category>
     <tool>
       <label>Fury Cutter</label>
       <soundMeleeHit>PW_FuryCutter</soundMeleeHit>
@@ -533,6 +565,7 @@
     <label>Bug Bite</label>
     <description>The user bites the target.</description>
     <type>Bug</type>
+    <category>Physical</category>
     <tool>
       <label>Bug Bite</label>
       <soundMeleeHit>PW_BugBite</soundMeleeHit>
@@ -549,6 +582,7 @@
     <label>Leech Life</label>
     <description>The user drains the target's blood.</description>
     <type>Bug</type>
+    <category>Physical</category>
     <tool>
       <label>Leech Life</label>
       <soundMeleeHit>PW_LeechLife</soundMeleeHit>
@@ -565,6 +599,7 @@
     <label>X-Scissor</label>
     <description>The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.</description>
     <type>Bug</type>
+    <category>Physical</category>
     <tool>
       <label>X-Scissor</label>
       <soundMeleeHit>PW_XScissor</soundMeleeHit>
@@ -583,6 +618,7 @@
     <label>Astonish</label>
     <description>The user attacks the target while shouting in a startling fashion.</description>
     <type>Ghost</type>
+    <category>Physical</category>
     <tool>
       <label>Astonish</label>
       <soundMeleeHit>PW_Astonish</soundMeleeHit>
@@ -599,6 +635,7 @@
     <label>Lick</label>
     <description>The target is licked with a long tongue, causing damage.</description>
     <type>Ghost</type>
+    <category>Physical</category>
     <tool>
       <label>Lick</label>
       <soundMeleeHit>PW_Lick</soundMeleeHit>
@@ -615,6 +652,7 @@
     <label>Shadow Sneak</label>
     <description>The user extends its shadow and attacks the target from behind.</description>
     <type>Ghost</type>
+    <category>Physical</category>
     <tool>
       <label>Shadow Sneak</label>
       <soundMeleeHit>PW_ShadowSneak</soundMeleeHit>
@@ -633,6 +671,7 @@
     <label>Metal Claw</label>
     <description>The target is raked with steel claws.</description>
     <type>Steel</type>
+    <category>Physical</category>
     <tool>
       <label>Metal Claw</label>
       <soundMeleeHit>PW_MetalClaw</soundMeleeHit>
@@ -649,6 +688,7 @@
     <label>Gyro Ball</label>
     <description>The user tackles the target with a high-speed spin.</description>
     <type>Steel</type>
+    <category>Physical</category>
     <tool>
       <label>Gyro Ball</label>
       <soundMeleeHit>PW_GyroBall</soundMeleeHit>
@@ -665,6 +705,7 @@
     <label>Heavy Slam</label>
     <description>The user slams into the target with its heavy body.</description>
     <type>Steel</type>
+    <category>Physical</category>
     <tool>
       <label>Heavy Slam</label>
       <soundMeleeHit>PW_HeavySlam</soundMeleeHit>
@@ -681,6 +722,7 @@
     <label>Iron Head</label>
     <description>The user slams the target with its steel-hard head.</description>
     <type>Steel</type>
+    <category>Physical</category>
     <tool>
       <label>Iron Head</label>
       <soundMeleeHit>PW_IronHead</soundMeleeHit>
@@ -699,6 +741,7 @@
     <label>Fire Fang</label>
     <description>The user bites with flame-cloaked fangs.</description>
     <type>Fire</type>
+    <category>Physical</category>
     <tool>
       <label>Fire Fang</label>
       <soundMeleeHit>PW_FireFang</soundMeleeHit>
@@ -715,6 +758,7 @@
     <label>Fire Punch</label>
     <description>The target is punched with a fiery fist.</description>
     <type>Fire</type>
+    <category>Physical</category>
     <tool>
       <label>Fire Punch</label>
       <soundMeleeHit>PW_FirePunch</soundMeleeHit>
@@ -733,6 +777,7 @@
     <label>Aqua Tail</label>
     <description>The user attacks by swinging its tail as if it were a vicious wave in a raging storm.</description>
     <type>Water</type>
+    <category>Physical</category>
     <tool>
       <label>Aqua Tail</label>
       <soundMeleeHit>PW_AquaTail</soundMeleeHit>
@@ -751,6 +796,7 @@
     <label>Razor Leaf</label>
     <description>Sharp-edged leaves are launched to slash at the opposing target.</description>
     <type>Grass</type>
+    <category>Physical</category>
     <tool>
       <label>Razor Leaf</label>
       <soundMeleeHit>PW_RazorLeaf</soundMeleeHit>
@@ -767,6 +813,7 @@
     <label>Vine Whip</label>
     <description>The target is struck with slender, whiplike vines to inflict damage.</description>
     <type>Grass</type>
+    <category>Physical</category>
     <tool>
       <label>Vine Whip</label>
       <soundMeleeHit>PW_VineWhip</soundMeleeHit>
@@ -785,6 +832,7 @@
     <label>Thunder Fang</label>
     <description>The user bites with electrified fangs.</description>
     <type>Electric</type>
+    <category>Physical</category>
     <tool>
       <label>Thunder Fang</label>
       <soundMeleeHit>PW_ThunderFang</soundMeleeHit>
@@ -801,6 +849,7 @@
     <label>Spark</label>
     <description>The user throws an electrically charged tackle at the target.</description>
     <type>Electric</type>
+    <category>Physical</category>
     <tool>
       <label>Spark</label>
       <soundMeleeHit>PW_Spark</soundMeleeHit>
@@ -817,6 +866,7 @@
     <label>Thunder Punch</label>
     <description>The target is punched with an electrified fist.</description>
     <type>Electric</type>
+    <category>Physical</category>
     <tool>
       <label>Thunder Punch</label>
       <soundMeleeHit>PW_ThunderPunch</soundMeleeHit>
@@ -835,6 +885,7 @@
     <label>Zen Headbutt</label>
     <description>The user focuses its willpower to its head and attacks the target.</description>
     <type>Psychic</type>
+    <category>Physical</category>
     <tool>
       <label>Zen Headbutt</label>
       <soundMeleeHit>PW_ZenHeadbutt</soundMeleeHit>
@@ -853,6 +904,7 @@
     <label>Ice Fang</label>
     <description>The user bites with cold-infused fangs.</description>
     <type>Ice</type>
+    <category>Physical</category>
     <tool>
       <label>Ice Fang</label>
       <soundMeleeHit>PW_IceFang</soundMeleeHit>
@@ -869,6 +921,7 @@
     <label>Ice Shard</label>
     <description>The user flash-freezes chunks of ice and hurls them at the target.</description>
     <type>Ice</type>
+    <category>Physical</category>
     <tool>
       <label>Ice Shard</label>
       <soundMeleeHit>PW_IceShard</soundMeleeHit>
@@ -885,6 +938,7 @@
     <label>Ice Punch</label>
     <description>The target is punched with an icy fist.</description>
     <type>Ice</type>
+    <category>Physical</category>
     <tool>
       <label>Ice Punch</label>
       <soundMeleeHit>PW_IcePunch</soundMeleeHit>
@@ -903,6 +957,7 @@
     <label>Dragon Claw</label>
     <description>The user slashes the target with huge sharp claws.</description>
     <type>Dragon</type>
+    <category>Physical</category>
     <tool>
       <label>Dragon Claw</label>
       <soundMeleeHit>PW_DragonClaw</soundMeleeHit>
@@ -919,6 +974,7 @@
     <label>Outrage</label>
     <description>The user rampages and attacks.</description>
     <type>Dragon</type>
+    <category>Physical</category>
     <tool>
       <label>Outrage</label>
       <soundMeleeHit>PW_Outrage</soundMeleeHit>
@@ -935,6 +991,7 @@
     <label>Dragon Rush</label>
     <description>The user tackles the target while exhibiting overwhelming menace.</description>
     <type>Dragon</type>
+    <category>Physical</category>
     <tool>
       <label>Dragon Rush</label>
       <soundMeleeHit>PW_DragonRush</soundMeleeHit>
@@ -951,6 +1008,7 @@
     <label>Dragon Tail</label>
     <description>The target is knocked away.</description>
     <type>Dragon</type>
+    <category>Physical</category>
     <tool>
       <label>Dragon Tail</label>
       <soundMeleeHit>PW_DragonTail</soundMeleeHit>
@@ -969,6 +1027,7 @@
     <label>Bite</label>
     <description>The target is bitten with viciously sharp fangs.</description>
     <type>Dark</type>
+    <category>Physical</category>
     <tool>
       <label>Bite</label>
       <soundMeleeHit>PW_Bite</soundMeleeHit>
@@ -985,6 +1044,7 @@
     <label>Crunch</label>
     <description>The user crunches up the target with sharp fangs.</description>
     <type>Dark</type>
+    <category>Physical</category>
     <tool>
       <label>Crunch</label>
       <soundMeleeHit>PW_Crunch</soundMeleeHit>
@@ -1001,6 +1061,7 @@
     <label>Feint Attack</label>
     <description>The user approaches the target disarmingly, then throws a sucker punch.</description>
     <type>Dark</type>
+    <category>Physical</category>
     <tool>
       <label>Feint Attack</label>
       <soundMeleeHit>PW_FeintAttack</soundMeleeHit>
@@ -1017,6 +1078,7 @@
     <label>Pursuit</label>
     <description>The user attacks the target.</description>
     <type>Dark</type>
+    <category>Physical</category>
     <tool>
       <label>Pursuit</label>
       <soundMeleeHit>PW_Pursuit</soundMeleeHit>
@@ -1033,6 +1095,7 @@
     <label>Sucker Punch</label>
     <description>The user attacks the target.</description>
     <type>Dark</type>
+    <category>Physical</category>
     <tool>
       <label>Sucker Punch</label>
       <soundMeleeHit>PW_SuckerPunch</soundMeleeHit>
@@ -1049,6 +1112,7 @@
     <label>Night Slash</label>
     <description>The user slashes the target the instant an opportunity arises.</description>
     <type>Dark</type>
+    <category>Physical</category>
     <tool>
       <label>Night Slash</label>
       <soundMeleeHit>PW_NightSlash</soundMeleeHit>
@@ -1067,6 +1131,7 @@
     <label>Play Rough</label>
     <description>The user plays rough with the target and attacks it.</description>
     <type>Fairy</type>
+    <category>Physical</category>
     <tool>
       <label>Play Rough</label>
       <soundMeleeHit>PW_PlayRough</soundMeleeHit>

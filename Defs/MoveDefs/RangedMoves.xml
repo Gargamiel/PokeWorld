@@ -37,6 +37,7 @@
     <label>Hyper Beam</label>
     <description>The target is attacked with a powerful beam.</description>
     <type>Normal</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -73,6 +74,7 @@
     <label>Swift</label>
     <description>Star-shaped rays are shot at the target.</description>
     <type>Normal</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -115,6 +117,7 @@
     <label>Air Slash</label>
     <description>Star-shaped rays are shot at the target.</description>
     <type>Flying</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -151,6 +154,7 @@
     <label>Gust</label>
     <description>A gust of wind is whipped up by wings and launched at the target to inflict damage.</description>
     <type>Flying</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -189,6 +193,7 @@
     <label>Smog</label>
     <description>The target is attacked with a discharge of filthy gases.</description>
     <type>Poison</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -225,6 +230,7 @@
     <label>Acid</label>
     <description>The target is attacked with a spray of harsh acid.</description>
     <type>Poison</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -263,6 +269,7 @@
     <label>Earth Power</label>
     <description>The user makes the ground under the target erupt with power.</description>
     <type>Ground</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -299,6 +306,7 @@
     <label>Mud Bomb</label>
     <description>The user makes the ground under the target erupt with power.</description>
     <type>Ground</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -335,6 +343,7 @@
     <label>Mud Shot</label>
     <description>The user attacks by hurling a blob of mud at the target.</description>
     <type>Ground</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -373,6 +382,7 @@
     <label>Ancient Power</label>
     <description>The user attacks with a prehistoric power.</description>
     <type>Rock</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -409,6 +419,7 @@
     <label>Power Gem</label>
     <description>The user attacks with a ray of light that sparkles as if it were made of gemstones.</description>
     <type>Rock</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -447,6 +458,7 @@
     <label>Bug Buzz</label>
     <description>The user generates a damaging sound wave by vibration.</description>
     <type>Bug</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -483,6 +495,7 @@
     <label>Signal Beam</label>
     <description>The user attacks with a sinister beam of light.</description>
     <type>Bug</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -521,6 +534,7 @@
     <label>Hex</label>
     <description>This relentless attack does massive damage to the target.</description>
     <type>Ghost</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -557,6 +571,7 @@
     <label>Shadow Ball</label>
     <description>The user hurls a shadowy blob at the target.</description>
     <type>Ghost</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -595,6 +610,7 @@
     <label>Flash Cannon</label>
     <description>The user gathers all its light energy and releases it all at once.</description>
     <type>Steel</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -633,6 +649,7 @@
     <label>Ember</label>
     <description>The target is attacked with small flames.</description>
     <type>Fire</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -669,6 +686,7 @@
     <label>Flamethrower</label>
     <description>The target is scorched with an intense blast of fire.</description>
     <type>Fire</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -705,6 +723,7 @@
     <label>Lava Plume</label>
     <description>The user torches everything around it in an inferno of scarlet flames.</description>
     <type>Fire</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -741,6 +760,7 @@
     <label>Inferno</label>
     <description>The user attacks by engulfing the target in an intense fire.</description>
     <type>Fire</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -777,6 +797,7 @@
     <label>Fire Blast</label>
     <description>The target is attacked with an intense blast of all-consuming fire.</description>
     <type>Fire</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -815,6 +836,7 @@
     <label>Water Gun</label>
     <description>The target is blasted with a forceful shot of water.</description>
     <type>Water</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -851,6 +873,7 @@
     <label>Hydro Pump</label>
     <description>The target is blasted by a huge volume of water launched under great pressure.</description>
     <type>Water</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -887,6 +910,7 @@
     <label>Water Pulse</label>
     <description>The user attacks the target with a pulsing blast of water.</description>
     <type>Water</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -923,6 +947,7 @@
     <label>Bubble Beam</label>
     <description>A spray of bubbles is forcefully ejected at the target.</description>
     <type>Water</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -959,6 +984,7 @@
     <label>Bubble</label>
     <description>A spray of countless bubbles is jetted at the opposing Pokémon.</description>
     <type>Water</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -997,6 +1023,7 @@
     <label>Absorb</label>
     <description>A nutrient-draining attack.</description>
     <type>Grass</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1033,6 +1060,7 @@
     <label>Mega Drain</label>
     <description>A nutrient-draining attack.</description>
     <type>Grass</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1069,6 +1097,7 @@
     <label>Giga Drain</label>
     <description>A nutrient-draining attack.</description>
     <type>Grass</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1105,6 +1134,7 @@
     <label>Magical Leaf</label>
     <description>The user scatters curious leaves that chase the target.</description>
     <type>Grass</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1141,6 +1171,7 @@
     <label>Leaf Storm</label>
     <description>The user whips up a storm of leaves around the target.</description>
     <type>Grass</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1177,6 +1208,7 @@
     <label>Solar Beam</label>
     <description>The user gathers light, then blasts a bundled beam.</description>
     <type>Grass</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1215,6 +1247,7 @@
     <label>Discharge</label>
     <description>The user strikes everything around it by letting loose a flare of electricity.</description>
     <type>Electric</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1251,6 +1284,7 @@
     <label>Zap Cannon</label>
     <description>The user fires an electric blast like a cannon to inflict damage.</description>
     <type>Electric</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1287,6 +1321,7 @@
     <label>Thunder Shock</label>
     <description>A jolt of electricity crashes down on the target to inflict damage.</description>
     <type>Electric</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1323,6 +1358,7 @@
     <label>Electro Ball</label>
     <description>The user hurls an electric orb at the target.</description>
     <type>Electric</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1359,6 +1395,7 @@
     <label>Thunder</label>
     <description>A wicked thunderbolt is dropped on the target to inflict damage.</description>
     <type>Electric</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1395,6 +1432,7 @@
     <label>Thunderbolt</label>
     <description>A strong electric blast crashes down on the target.</description>
     <type>Electric</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1433,6 +1471,7 @@
     <label>Confusion</label>
     <description>The target is hit by a weak telekinetic force.</description>
     <type>Psychic</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1469,6 +1508,7 @@
     <label>Psychic</label>
     <description>The target is hit by a strong telekinetic force.</description>
     <type>Psychic</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1505,6 +1545,7 @@
     <label>Psybeam</label>
     <description>The target is attacked with a peculiar ray.</description>
     <type>Psychic</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1541,6 +1582,7 @@
     <label>Extrasensory</label>
     <description>The user attacks with an odd, unseeable power.</description>
     <type>Psychic</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1577,6 +1619,7 @@
     <label>Psywave</label>
     <description>The target is attacked with an odd psychic wave.</description>
     <type>Psychic</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1615,6 +1658,7 @@
     <label>Powder Snow</label>
     <description>The user attacks with a chilling gust of powdery snow.</description>
     <type>Ice</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1651,6 +1695,7 @@
     <label>Blizzard</label>
     <description>A howling blizzard is summoned to strike the target.</description>
     <type>Ice</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1687,6 +1732,7 @@
     <label>Icy Wind</label>
     <description>The user attacks with a gust of chilled air.</description>
     <type>Ice</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1723,6 +1769,7 @@
     <label>Aurora Beam</label>
     <description>The target is hit with a rainbow-colored beam.</description>
     <type>Ice</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1759,6 +1806,7 @@
     <label>Ice Beam</label>
     <description>The target is struck with an icy-cold beam of energy.</description>
     <type>Ice</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1797,6 +1845,7 @@
     <label>Twister</label>
     <description>The target is struck with an icy-cold beam of energy.</description>
     <type>Dragon</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1833,6 +1882,7 @@
     <label>Dragon Pulse</label>
     <description>The target is attacked with a shock wave generated by the user's gaping mouth.</description>
     <type>Dragon</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1869,6 +1919,7 @@
     <label>Dragon Rage</label>
     <description>This attack hits the target with a shock wave of pure rage.</description>
     <type>Dragon</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1905,6 +1956,7 @@
     <label>Dragon Breath</label>
     <description>The user exhales a mighty gust that inflicts damage.</description>
     <type>Dragon</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1943,6 +1995,7 @@
     <label>Dark Pulse</label>
     <description>The user releases a horrible aura imbued with dark thoughts.</description>
     <type>Dark</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -1981,6 +2034,7 @@
     <label>Moonblast</label>
     <description>Borrowing the power of the moon, the user attacks the target.</description>
     <type>Fairy</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>
@@ -2017,6 +2071,7 @@
     <label>Fairy Wind</label>
     <description>Borrowing the power of the moon, the user attacks the target.</description>
     <type>Fairy</type>
+    <category>Special</category>
     <verb>
       <verbClass>PokeWorld.Verb_PokemonRangedMove</verbClass>
       <hasStandardCommand>true</hasStandardCommand>

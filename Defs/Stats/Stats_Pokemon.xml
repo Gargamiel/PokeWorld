@@ -106,7 +106,7 @@
     <defName>PW_BaseXPYield</defName>
     <workerClass>PokeWorld.StatWorker_XPYield</workerClass>
     <label>Base XP yield</label>
-    <description>How much experience a Pokémon earns when killing this creature.\n\nThe experience is distributed equally amongst up to 8 of your Pokémon who attacked this creature. Attacking a fainted Pokémon doesn't give experience.</description>
+    <description>How much experience a Pokémon earns when killing this creature.\n\nThe experience is distributed equally amongst up to 8 of your Pokémon who attacked this creature. Attacking a downed creature doesn't give experience and experience is also given when a Pokémon is caught.</description>
     <category>PW_PokeWorldStat</category>
     <displayPriorityInCategory>2051</displayPriorityInCategory>
     <defaultBaseValue>0</defaultBaseValue>
