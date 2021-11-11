@@ -118,3 +118,7 @@ My first objective after release will be to fix most of these bugs and compatibi
 Please use with caution and not with a save you care a lot about, I advise creating a new game for this mod with small or QoL mods until it has been tested further.
 
 Feel free to give your feedback (positive or negative) and share this mod with other fans of Pokémon and RimWorld alike.
+
+# Links
+
+[PokéWorld on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2652029657)
