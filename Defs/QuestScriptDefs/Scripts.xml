@@ -9,12 +9,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Articuno</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Articuno</li>
+        <li>questDescription->Legendary Pokémon: Articuno</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -79,12 +79,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Zapdos</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Zapdos</li>
+        <li>questDescription->Legendary Pokémon: Zapdos</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -149,12 +149,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Moltres</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Moltres</li>
+        <li>questDescription->Legendary Pokémon: Moltres</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -219,12 +219,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Mewtwo</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Mewtwo</li>
+        <li>questDescription->Legendary Pokémon: Mewtwo</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -289,12 +289,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Mew</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Mew</li>
+        <li>questDescription->Legendary Pokémon: Mew</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -359,12 +359,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Raikou</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Raikou</li>
+        <li>questDescription->Legendary Pokémon: Raikou</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -429,12 +429,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Entei</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Entei</li>
+        <li>questDescription->Legendary Pokémon: Entei</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -499,12 +499,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Suicune</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Suicune</li>
+        <li>questDescription->Legendary Pokémon: Suicune</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -569,12 +569,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Lugia</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Lugia</li>
+        <li>questDescription->Legendary Pokémon: Lugia</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -639,12 +639,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Ho-Oh</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Ho-Oh</li>
+        <li>questDescription->Legendary Pokémon: Ho-Oh</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -709,12 +709,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Celebi</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Celebi</li>
+        <li>questDescription->Legendary Pokémon: Celebi</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -779,12 +779,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Regirock</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Regirock</li>
+        <li>questDescription->Legendary Pokémon: Regirock</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -849,12 +849,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Regice</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Regice</li>
+        <li>questDescription->Legendary Pokémon: Regice</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -919,12 +919,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Registeel</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Registeel</li>
+        <li>questDescription->Legendary Pokémon: Registeel</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -989,12 +989,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Latias</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Latias</li>
+        <li>questDescription->Legendary Pokémon: Latias</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1059,12 +1059,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Latios</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Latios</li>
+        <li>questDescription->Legendary Pokémon: Latios</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1129,12 +1129,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Kyogre</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Kyogre</li>
+        <li>questDescription->Legendary Pokémon: Kyogre</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1199,12 +1199,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Groudon</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Groudon</li>
+        <li>questDescription->Legendary Pokémon: Groudon</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1269,12 +1269,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Rayquaza</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Rayquaza</li>
+        <li>questDescription->Legendary Pokémon: Rayquaza</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1339,12 +1339,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Jirachi</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Jirachi</li>
+        <li>questDescription->Legendary Pokémon: Jirachi</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1409,12 +1409,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Deoxys</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Deoxys</li>
+        <li>questDescription->Legendary Pokémon: Deoxys</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1479,12 +1479,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Uxie</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Uxie</li>
+        <li>questDescription->Legendary Pokémon: Uxie</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1549,12 +1549,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Mesprit</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Mesprit</li>
+        <li>questDescription->Legendary Pokémon: Mesprit</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1619,12 +1619,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Azelf</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Azelf</li>
+        <li>questDescription->Legendary Pokémon: Azelf</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1689,12 +1689,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Dialga</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Dialga</li>
+        <li>questDescription->Legendary Pokémon: Dialga</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1759,12 +1759,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Palkia</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Palkia</li>
+        <li>questDescription->Legendary Pokémon: Palkia</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1829,12 +1829,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Heatran</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Heatran</li>
+        <li>questDescription->Legendary Pokémon: Heatran</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1899,12 +1899,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Regigigas</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Regigigas</li>
+        <li>questDescription->Legendary Pokémon: Regigigas</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -1969,12 +1969,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Giratina</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Giratina</li>
+        <li>questDescription->Legendary Pokémon: Giratina</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -2039,12 +2039,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Cresselia</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Cresselia</li>
+        <li>questDescription->Legendary Pokémon: Cresselia</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -2109,12 +2109,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Phione</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Phione</li>
+        <li>questDescription->Legendary Pokémon: Phione</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -2179,12 +2179,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Manaphy</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Manaphy</li>
+        <li>questDescription->Legendary Pokémon: Manaphy</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -2249,12 +2249,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Darkrai</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Darkrai</li>
+        <li>questDescription->Legendary Pokémon: Darkrai</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -2319,12 +2319,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Shaymin</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Shaymin</li>
+        <li>questDescription->Legendary Pokémon: Shaymin</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">
@@ -2389,12 +2389,12 @@
     <affectedByPoints>false</affectedByPoints>
     <questNameRules>
       <rulesStrings>
-        <li>questName->Arceus</li>
+        <li>questName->Legendary Pokémon</li>
       </rulesStrings>
     </questNameRules>
     <questDescriptionRules>
       <rulesStrings>
-        <li>questDescription->Arceus</li>
+        <li>questDescription->Legendary Pokémon: Arceus</li>
       </rulesStrings>
     </questDescriptionRules>
     <root Class="QuestNode_Sequence">

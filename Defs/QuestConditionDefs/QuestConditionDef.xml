@@ -495,20 +495,7 @@
     <requiredKindSeen>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-  <!-- 
-  <PokeWorld.QuestConditionDef>
-    <defName>QuestCondition_Phione</defName>
-    <questScriptDef>PW_Script_Phione</questScriptDef>
-    <generationsRequirements>
-      <li>
-        <generation>4</generation>
-        <minNoLegCaught>84</minNoLegCaught>
-      </li>
-    </generationsRequirements>
-    <requiredKindSeen>
-    </requiredKindSeen>
-  </PokeWorld.QuestConditionDef>
-  -->
+
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Manaphy</defName>
     <questScriptDef>PW_Script_Manaphy</questScriptDef>
