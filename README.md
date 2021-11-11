@@ -116,3 +116,5 @@ Note that i decided to release this mod even though moves and legendary quests c
 My first objective after release will be to fix most of these bugs and compatibility issues before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
 
 Please use with caution and not with a save you care a lot about, I advise creating a new game for this mod with small or QoL mods until it has been tested further.
+
+Feel free to give your feedback (positive or negative) and share this mod with other fans of Pokémon and RimWorld alike.
