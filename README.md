@@ -1,11 +1,3 @@
-# Disclaimer
-
-This mod's scope is quite extensive, touching many aspect of the base game. Since this mod is a one man's work, developed on my free time between school hours, I haven't been able to extensively test all its aspects, most notably its compatibility with other mods and DLC. I therefore expect some bugs and compatibility issues (hopefully nothing game-breaking) to be found and reported.
-
-My first objective after release will be to fix most of these bugs and compatibility issues before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
-
-Please use with caution and not with a save you care a lot about, I advise creating a new game for this mod with small or QoL mods until it has been tested further.
-
 # PokéWorld
 
 PokéWorld adds all 493 species of Pokémon from the first four generations to RimWorld, each with their own unique characteristics akin to the original games.
@@ -23,21 +15,23 @@ Finally, altough it is only just a rumour, it is said amongst the ancient tribes
 
 ## Features
 
-- 493 new creatures, all Pokémon from generation I-IV with working mechanics such as leveling, evolution, moves, type effectiveness, breeding, their own stats (happiness, rarity, catch rate, ...), forms and shiny variations.
+- 493 new creatures, all Pokémon from generation I-IV with working mechanics such as leveling, evolution, moves, type effectiveness, breeding, happiness, forms and shiny variations.
 
 - 120 Pokémon moves, 65 melee (physical) and 55 ranged (special). A Pokémon learns new moves when leveling up, and you can chose wich moves to let them uses based on type, power and range. If no other moves are available for a Pokémon, he will default to Struggle.
 
 - A lot of Pokémon themed items, including 7 Fossils, 5 types of Poké Ball belts used to catch Pokémon, 8 Evolution stones, 3 tiers of potions, Rare Candy and every available Pokémon Eggs.
 
-- 2 new buildings, the Pokémon resurrector, a workbench able to bring fossils back to life, and the Portable Computer, which can access the Pokémon Storage System to store up to a thousand Pokémon.
+- 2 new buildings: the Pokémon resurrector, a workbench able to bring fossils back to life, and the Portable Computer, which can access the Pokémon Storage System to store up to a thousand Pokémon.
 
-- New or reworked events and incidents, such as manhunter packs and infestations.
+- New or reworked events and incidents, such as manhunter Pokémon packs and infestations.
 
 - 11 research projects.
 
 - A Pokédex tab to keep track of your Pokémon collection.
 
 - More than 30 Legendaries quests.
+
+Since the main Pokémon games and RimWorld are quite different, I had to take some creative liberties in order to implements items or mechanics in a way that would be enjoyable in RimWorld while still beeing faithfull to the original game. Some evolutions requirement in this mod are therefore different than the original ones, trade based evolutions in particular have other requirements, and some item based evolution may not need the exact stone you'd expect, in order to reduce the clutter of unused stones in your stockpile (the Dawn Stone, for example, affects the evolution of only two Pokémon in gen. 4, I therefore removed it and these two now have different requirement to evolve). On the other hand, I have fixed some odd things like Nidorina/Nidoqueen egg group or male Gardevoir.
 
 ## Mod options
 
@@ -59,13 +53,15 @@ A slider allows you to set the proportions of Pokémon found in the world over o
 
 **Other Pokémon mod**: No.
 
+**Giddy-up!, animals bionics and other animals QoL mods**: Maybe, Pokémon control when battling is handled in this mod, so there might be compatibility issues with others. As for bionics, it may work for some Pokémon but not all, hopefully we can make patches for that, because who wouldn't want Pokémon with bionics or laser eyes?
+
 **Mods with new biomes**: No, custom biomes will not feature any Pokémon, need to patch these biomes to add Pokémon spawn rates.
 
-Information about other mods will be added based on tests and feedback from the community.
+Information about other mods will be added based on tests and feedback from the community. If patches are made available i will also link to them here.
 
 ## Translation
 
-This mod is in english but should fully support translation. If you are a translator, feel free to create a patch (try to respect your respective language grammar conventions and syntax regarding the Pokémon media), the best ones will be added here. Please notice me if you find any typo / mistakes in the base (english) mod.
+This mod is in english but should fully support translation. If you are a translator, feel free to create a patch (try to respect your respective language grammar conventions and syntax regarding the Pokémon media), I'll add them here. Please notice me if you find any typo / mistakes in the base (english) mod.
 
 ## Q&A
 
@@ -83,13 +79,15 @@ This mod is in english but should fully support translation. If you are a transl
 
 **Did you draw each of the Pokémon textures yourself?**: No, there is more than 3000 sprites in total (493 Pokémon x 3 orientation for regular and shiny variation, not accounting forms or gender differences). I used existing ressources (HeartGold & SoulSilver overworld sprites, reason for which there's only the first four generations) and a bit of image manipulation (XBR smooth scaling) to make them more RimWorld friendly. Credit to Larryturbo on DevianArt for some missing textures.
 
+**Can I use ressources from this mod for my own project?**: Of course, but credit would be appreciated.
+
 ## Known Issues
 
 - Missing some textures, like Sunshine Cherrim or Fairy Arceus (Regular textures are displayed instead).
 
 - Some Pokémon do not have any unlockable moves.
 
-- Ditto's transform isn't implemented (yet).
+- Some very specific features like Ditto's transform and Smeargle's sketch aren't implemented (yet).
 
 ## What's next?
 
@@ -97,10 +95,24 @@ This is a list of features that may or may not be added based on players interes
 
 - Fixing bugs and improving compatibility.
 
-- Adding more moves, moves effect and animation, such as thunder dropping when using Thunder / Thunderbolt, have a meteor fall when using Draco Meteor, explosions, status moves,  a TM-like mechanic.
+- Improving Legendary Pokémon quests, make them more challenging, with weather event for exemple, and adding proper lore linked with the RimWorld universe for each Legendary.
+
+- Adding more moves, moves effect and animation, such as thunder dropping when using Thunder / Thunderbolt, have a meteor fall when using Draco Meteor, explosions, have dark/ghost-type moves reduce pawns mood, status moves, a TM-like mechanic.
 
 - Improve forms, change type and move set in addition to texture.
+
+- Pokémon themed Pawn backstories and traits.
 
 - Pokémon themed music.
 
 - More Pokémon?
+
+# Disclaimer
+
+This mod's scope is quite extensive, touching many aspect of the base game. Since this mod is a one man's work, developed on my free time between school hours, I haven't been able to extensively test all its aspects, most notably its compatibility with other mods and DLC. I therefore expect some bugs and compatibility issues (hopefully nothing game-breaking) to be found and reported.
+
+Note that i decided to release this mod even though moves and legendary quests could use some improvement, but I currently have a lot of projects for school and exams are approaching, so i decided to release now and let you enjoy PokéWorld despite it not beeing fully finished, so as to not make you wait several more month.
+
+My first objective after release will be to fix most of these bugs and compatibility issues before adding new content. If you do find a bug, please report it so that i may fix it. I could have spent more time testing, but this would mean pushing the release further and further, instead of letting the community enjoy my work.
+
+Please use with caution and not with a save you care a lot about, I advise creating a new game for this mod with small or QoL mods until it has been tested further.
