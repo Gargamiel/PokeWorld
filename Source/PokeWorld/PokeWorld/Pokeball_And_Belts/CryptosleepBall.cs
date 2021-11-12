@@ -10,7 +10,7 @@ using Verse.AI;
 
 namespace PokeWorld
 {
-    public class CryptosleepBall : ThingWithComps, IThingHolder, IOpenable
+    public class CryptosleepBall : ThingWithComps, ISuspendableThingHolder, IOpenable
     {
 		public ThingOwner innerContainer;
 		protected bool contentsKnown;
@@ -24,6 +24,8 @@ namespace PokeWorld
 		}
 
 		public bool HasAnyContents => innerContainer.Count > 0;
+
+		public bool IsContentsSuspended => true;
 
 		public Thing ContainedThing
 		{

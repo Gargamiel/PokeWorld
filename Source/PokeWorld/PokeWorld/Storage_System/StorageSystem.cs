@@ -11,12 +11,14 @@ using Verse.AI;
 
 namespace PokeWorld
 {
-    public class StorageSystem : WorldComponent, IThingHolder
+    public class StorageSystem : WorldComponent, ISuspendableThingHolder
 	{
 		public ThingOwner innerContainer;
 		protected bool contentsKnown;
 		public readonly int maxCount = 999;
 		public bool HasAnyContents => innerContainer.Count > 0;
+
+		public bool IsContentsSuspended => true;
 
 		public StorageSystem(World world) : base(world)
 		{
