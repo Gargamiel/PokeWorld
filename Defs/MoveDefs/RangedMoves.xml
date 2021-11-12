@@ -115,7 +115,7 @@
   <PokeWorld.MoveDef>
     <defName>AirSlash</defName>
     <label>Air Slash</label>
-    <description>Star-shaped rays are shot at the target.</description>
+    <description>The user attacks with a blade of air that slices even the sky.</description>
     <type>Flying</type>
     <category>Special</category>
     <verb>
@@ -304,7 +304,7 @@
   <PokeWorld.MoveDef>
     <defName>MudBomb</defName>
     <label>Mud Bomb</label>
-    <description>The user makes the ground under the target erupt with power.</description>
+    <description>The user launches a hard-packed mud ball to attack.</description>
     <type>Ground</type>
     <category>Special</category>
     <verb>
