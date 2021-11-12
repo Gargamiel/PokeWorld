@@ -141,6 +141,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bulbasaur</defName>
     <label>Bulbasaur</label>
+    <labelPlural>Bulbasaur</labelPlural>
     <race>PW_Bulbasaur</race>
     <combatPower>46</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -307,6 +308,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ivysaur</defName>
     <label>Ivysaur</label>
+    <labelPlural>Ivysaur</labelPlural>
     <race>PW_Ivysaur</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -462,6 +464,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Venusaur</defName>
     <label>Venusaur</label>
+    <labelPlural>Venusaur</labelPlural>
     <race>PW_Venusaur</race>
     <combatPower>362</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -638,6 +641,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Charmander</defName>
     <label>Charmander</label>
+    <labelPlural>Charmander</labelPlural>
     <race>PW_Charmander</race>
     <combatPower>44</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -807,6 +811,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Charmeleon</defName>
     <label>Charmeleon</label>
+    <labelPlural>Charmeleon</labelPlural>
     <race>PW_Charmeleon</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -977,6 +982,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Charizard</defName>
     <label>Charizard</label>
+    <labelPlural>Charizard</labelPlural>
     <race>PW_Charizard</race>
     <combatPower>378</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -1145,6 +1151,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Squirtle</defName>
     <label>Squirtle</label>
+    <labelPlural>Squirtle</labelPlural>
     <race>PW_Squirtle</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -1314,6 +1321,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wartortle</defName>
     <label>Wartortle</label>
+    <labelPlural>Wartortle</labelPlural>
     <race>PW_Wartortle</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -1475,6 +1483,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Blastoise</defName>
     <label>Blastoise</label>
+    <labelPlural>Blastoise</labelPlural>
     <race>PW_Blastoise</race>
     <combatPower>375</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -1622,6 +1631,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Caterpie</defName>
     <label>Caterpie</label>
+    <labelPlural>Caterpie</labelPlural>
     <race>PW_Caterpie</race>
     <combatPower>10</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -1762,6 +1772,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Metapod</defName>
     <label>Metapod</label>
+    <labelPlural>Metapod</labelPlural>
     <race>PW_Metapod</race>
     <combatPower>26</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -1908,6 +1919,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Butterfree</defName>
     <label>Butterfree</label>
+    <labelPlural>Butterfree</labelPlural>
     <race>PW_Butterfree</race>
     <combatPower>143</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -2056,6 +2068,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Weedle</defName>
     <label>Weedle</label>
+    <labelPlural>Weedle</labelPlural>
     <race>PW_Weedle</race>
     <combatPower>10</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -2197,6 +2210,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kakuna</defName>
     <label>Kakuna</label>
+    <labelPlural>Kakuna</labelPlural>
     <race>PW_Kakuna</race>
     <combatPower>22</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -2339,6 +2353,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Beedrill</defName>
     <label>Beedrill</label>
+    <labelPlural>Beedrill</labelPlural>
     <race>PW_Beedrill</race>
     <combatPower>143</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -2503,6 +2518,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pidgey</defName>
     <label>Pidgey</label>
+    <labelPlural>Pidgey</labelPlural>
     <race>PW_Pidgey</race>
     <combatPower>27</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -2668,6 +2684,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pidgeotto</defName>
     <label>Pidgeotto</label>
+    <labelPlural>Pidgeotto</labelPlural>
     <race>PW_Pidgeotto</race>
     <combatPower>145</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -2821,6 +2838,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pidgeot</defName>
     <label>Pidgeot</label>
+    <labelPlural>Pidgeot</labelPlural>
     <race>PW_Pidgeot</race>
     <combatPower>339</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -2988,6 +3006,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Rattata</defName>
     <label>Rattata</label>
+    <labelPlural>Rattata</labelPlural>
     <race>PW_Rattata</race>
     <combatPower>23</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -3145,6 +3164,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Raticate</defName>
     <label>Raticate</label>
+    <labelPlural>Raticate</labelPlural>
     <race>PW_Raticate</race>
     <combatPower>187</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -3297,6 +3317,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Spearow</defName>
     <label>Spearow</label>
+    <labelPlural>Spearow</labelPlural>
     <race>PW_Spearow</race>
     <combatPower>28</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -3439,6 +3460,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Fearow</defName>
     <label>Fearow</label>
+    <labelPlural>Fearow</labelPlural>
     <race>PW_Fearow</race>
     <combatPower>208</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -3595,6 +3617,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ekans</defName>
     <label>Ekans</label>
+    <labelPlural>Ekans</labelPlural>
     <race>PW_Ekans</race>
     <combatPower>41</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -3757,6 +3780,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Arbok</defName>
     <label>Arbok</label>
+    <labelPlural>Arbok</labelPlural>
     <race>PW_Arbok</race>
     <combatPower>211</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -3918,6 +3942,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pikachu</defName>
     <label>Pikachu</label>
+    <labelPlural>Pikachu</labelPlural>
     <race>PW_Pikachu</race>
     <combatPower>46</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -4067,6 +4092,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Raichu</defName>
     <label>Raichu</label>
+    <labelPlural>Raichu</labelPlural>
     <race>PW_Raichu</race>
     <combatPower>229</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -4246,6 +4272,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sandshrew</defName>
     <label>Sandshrew</label>
+    <labelPlural>Sandshrew</labelPlural>
     <race>PW_Sandshrew</race>
     <combatPower>43</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -4415,6 +4442,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sandslash</defName>
     <label>Sandslash</label>
+    <labelPlural>Sandslash</labelPlural>
     <race>PW_Sandslash</race>
     <combatPower>212</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -4579,6 +4607,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_NidoranF</defName>
     <label>Nidoran♀</label>
+    <labelPlural>Nidoran♀</labelPlural>
     <race>PW_NidoranF</race>
     <combatPower>30</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -4741,6 +4770,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Nidorina</defName>
     <label>Nidorina</label>
+    <labelPlural>Nidorina</labelPlural>
     <race>PW_Nidorina</race>
     <combatPower>139</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -4891,6 +4921,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Nidoqueen</defName>
     <label>Nidoqueen</label>
+    <labelPlural>Nidoqueen</labelPlural>
     <race>PW_Nidoqueen</race>
     <combatPower>330</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -5051,6 +5082,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_NidoranM</defName>
     <label>Nidoran♂</label>
+    <labelPlural>Nidoran♂</labelPlural>
     <race>PW_NidoranM</race>
     <combatPower>29</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -5209,6 +5241,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Nidorino</defName>
     <label>Nidorino</label>
+    <labelPlural>Nidorino</labelPlural>
     <race>PW_Nidorino</race>
     <combatPower>139</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -5355,6 +5388,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Nidoking</defName>
     <label>Nidoking</label>
+    <labelPlural>Nidoking</labelPlural>
     <race>PW_Nidoking</race>
     <combatPower>330</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -5503,6 +5537,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Clefairy</defName>
     <label>Clefairy</label>
+    <labelPlural>Clefairy</labelPlural>
     <race>PW_Clefairy</race>
     <combatPower>64</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -5631,6 +5666,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Clefable</defName>
     <label>Clefable</label>
+    <labelPlural>Clefable</labelPlural>
     <race>PW_Clefable</race>
     <combatPower>228</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -5799,6 +5835,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Vulpix</defName>
     <label>Vulpix</label>
+    <labelPlural>Vulpix</labelPlural>
     <race>PW_Vulpix</race>
     <combatPower>59</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -5936,6 +5973,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ninetales</defName>
     <label>Ninetales</label>
+    <labelPlural>Ninetales</labelPlural>
     <race>PW_Ninetales</race>
     <combatPower>238</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -6093,6 +6131,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Jigglypuff</defName>
     <label>Jigglypuff</label>
+    <labelPlural>Jigglypuff</labelPlural>
     <race>PW_Jigglypuff</race>
     <combatPower>54</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -6230,6 +6269,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wigglytuff</defName>
     <label>Wigglytuff</label>
+    <labelPlural>Wigglytuff</labelPlural>
     <race>PW_Wigglytuff</race>
     <combatPower>205</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -6398,6 +6438,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Zubat</defName>
     <label>Zubat</label>
+    <labelPlural>Zubat</labelPlural>
     <race>PW_Zubat</race>
     <combatPower>26</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -6567,6 +6608,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Golbat</defName>
     <label>Golbat</label>
+    <labelPlural>Golbat</labelPlural>
     <race>PW_Golbat</race>
     <combatPower>198</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -6723,6 +6765,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Oddish</defName>
     <label>Oddish</label>
+    <labelPlural>Oddish</labelPlural>
     <race>PW_Oddish</race>
     <combatPower>46</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -6883,6 +6926,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gloom</defName>
     <label>Gloom</label>
+    <labelPlural>Gloom</labelPlural>
     <race>PW_Gloom</race>
     <combatPower>165</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -7020,6 +7064,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Vileplume</defName>
     <label>Vileplume</label>
+    <labelPlural>Vileplume</labelPlural>
     <race>PW_Vileplume</race>
     <combatPower>311</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -7185,6 +7230,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Paras</defName>
     <label>Paras</label>
+    <labelPlural>Paras</labelPlural>
     <race>PW_Paras</race>
     <combatPower>41</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -7341,6 +7387,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Parasect</defName>
     <label>Parasect</label>
+    <labelPlural>Parasect</labelPlural>
     <race>PW_Parasect</race>
     <combatPower>198</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -7509,6 +7556,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Venonat</defName>
     <label>Venonat</label>
+    <labelPlural>Venonat</labelPlural>
     <race>PW_Venonat</race>
     <combatPower>55</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -7676,6 +7724,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Venomoth</defName>
     <label>Venomoth</label>
+    <labelPlural>Venomoth</labelPlural>
     <race>PW_Venomoth</race>
     <combatPower>270</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -7847,6 +7896,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Diglett</defName>
     <label>Diglett</label>
+    <labelPlural>Diglett</labelPlural>
     <race>PW_Diglett</race>
     <combatPower>48</combatPower>
     <ecoSystemWeight>0.16</ecoSystemWeight>
@@ -8016,6 +8066,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dugtrio</defName>
     <label>Dugtrio</label>
+    <labelPlural>Dugtrio</labelPlural>
     <race>PW_Dugtrio</race>
     <combatPower>231</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -8179,6 +8230,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Meowth</defName>
     <label>Meowth</label>
+    <labelPlural>Meowth</labelPlural>
     <race>PW_Meowth</race>
     <combatPower>52</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -8344,6 +8396,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Persian</defName>
     <label>Persian</label>
+    <labelPlural>Persian</labelPlural>
     <race>PW_Persian</race>
     <combatPower>264</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -8516,6 +8569,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Psyduck</defName>
     <label>Psyduck</label>
+    <labelPlural>Psyduck</labelPlural>
     <race>PW_Psyduck</race>
     <combatPower>58</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -8678,6 +8732,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Golduck</defName>
     <label>Golduck</label>
+    <labelPlural>Golduck</labelPlural>
     <race>PW_Golduck</race>
     <combatPower>318</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -8833,6 +8888,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mankey</defName>
     <label>Mankey</label>
+    <labelPlural>Mankey</labelPlural>
     <race>PW_Mankey</race>
     <combatPower>55</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -8978,6 +9034,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Primeape</defName>
     <label>Primeape</label>
+    <labelPlural>Primeape</labelPlural>
     <race>PW_Primeape</race>
     <combatPower>273</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -9142,6 +9199,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Growlithe</defName>
     <label>Growlithe</label>
+    <labelPlural>Growlithe</labelPlural>
     <race>PW_Growlithe</race>
     <combatPower>76</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -9282,6 +9340,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Arcanine</defName>
     <label>Arcanine</label>
+    <labelPlural>Arcanine</labelPlural>
     <race>PW_Arcanine</race>
     <combatPower>292</combatPower>
     <ecoSystemWeight>1.52</ecoSystemWeight>
@@ -9449,6 +9508,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Poliwag</defName>
     <label>Poliwag</label>
+    <labelPlural>Poliwag</labelPlural>
     <race>PW_Poliwag</race>
     <combatPower>43</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -9620,6 +9680,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Poliwhirl</defName>
     <label>Poliwhirl</label>
+    <labelPlural>Poliwhirl</labelPlural>
     <race>PW_Poliwhirl</race>
     <combatPower>189</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -9753,6 +9814,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Poliwrath</defName>
     <label>Poliwrath</label>
+    <labelPlural>Poliwrath</labelPlural>
     <race>PW_Poliwrath</race>
     <combatPower>333</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -9892,6 +9954,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Abra</defName>
     <label>Abra</label>
+    <labelPlural>Abra</labelPlural>
     <race>PW_Abra</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -10043,6 +10106,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kadabra</defName>
     <label>Kadabra</label>
+    <labelPlural>Kadabra</labelPlural>
     <race>PW_Kadabra</race>
     <combatPower>160</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -10183,6 +10247,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Alakazam</defName>
     <label>Alakazam</label>
+    <labelPlural>Alakazam</labelPlural>
     <race>PW_Alakazam</race>
     <combatPower>372</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -10334,6 +10399,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Machop</defName>
     <label>Machop</label>
+    <labelPlural>Machop</labelPlural>
     <race>PW_Machop</race>
     <combatPower>55</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -10486,6 +10552,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Machoke</defName>
     <label>Machoke</label>
+    <labelPlural>Machoke</labelPlural>
     <race>PW_Machoke</race>
     <combatPower>220</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -10626,6 +10693,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Machamp</defName>
     <label>Machamp</label>
+    <labelPlural>Machamp</labelPlural>
     <race>PW_Machamp</race>
     <combatPower>376</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -10778,6 +10846,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bellsprout</defName>
     <label>Bellsprout</label>
+    <labelPlural>Bellsprout</labelPlural>
     <race>PW_Bellsprout</race>
     <combatPower>43</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -10928,6 +10997,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Weepinbell</defName>
     <label>Weepinbell</label>
+    <labelPlural>Weepinbell</labelPlural>
     <race>PW_Weepinbell</race>
     <combatPower>170</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -11069,6 +11139,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Victreebel</defName>
     <label>Victreebel</label>
+    <labelPlural>Victreebel</labelPlural>
     <race>PW_Victreebel</race>
     <combatPower>302</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -11237,6 +11308,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Tentacool</defName>
     <label>Tentacool</label>
+    <labelPlural>Tentacool</labelPlural>
     <race>PW_Tentacool</race>
     <combatPower>48</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -11395,6 +11467,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Tentacruel</defName>
     <label>Tentacruel</label>
+    <labelPlural>Tentacruel</labelPlural>
     <race>PW_Tentacruel</race>
     <combatPower>327</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -11563,6 +11636,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Geodude</defName>
     <label>Geodude</label>
+    <labelPlural>Geodude</labelPlural>
     <race>PW_Geodude</race>
     <combatPower>43</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -11732,6 +11806,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Graveler</defName>
     <label>Graveler</label>
+    <labelPlural>Graveler</labelPlural>
     <race>PW_Graveler</race>
     <combatPower>191</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -11889,6 +11964,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Golem</defName>
     <label>Golem</label>
+    <labelPlural>Golem</labelPlural>
     <race>PW_Golem</race>
     <combatPower>369</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -12048,6 +12124,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ponyta</defName>
     <label>Ponyta</label>
+    <labelPlural>Ponyta</labelPlural>
     <race>PW_Ponyta</race>
     <combatPower>89</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -12204,6 +12281,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Rapidash</defName>
     <label>Rapidash</label>
+    <labelPlural>Rapidash</labelPlural>
     <race>PW_Rapidash</race>
     <combatPower>381</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -12379,6 +12457,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Slowpoke</defName>
     <label>Slowpoke</label>
+    <labelPlural>Slowpoke</labelPlural>
     <race>PW_Slowpoke</race>
     <combatPower>68</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -12538,6 +12617,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Slowbro</defName>
     <label>Slowbro</label>
+    <labelPlural>Slowbro</labelPlural>
     <race>PW_Slowbro</race>
     <combatPower>347</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -12711,6 +12791,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Magnemite</defName>
     <label>Magnemite</label>
+    <labelPlural>Magnemite</labelPlural>
     <race>PW_Magnemite</race>
     <combatPower>65</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -12882,6 +12963,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Magneton</defName>
     <label>Magneton</label>
+    <labelPlural>Magneton</labelPlural>
     <race>PW_Magneton</race>
     <combatPower>279</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -13044,6 +13126,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Farfetchd</defName>
     <label>Farfetch'd</label>
+    <labelPlural>Farfetch'd</labelPlural>
     <race>PW_Farfetchd</race>
     <combatPower>143</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -13200,6 +13283,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Doduo</defName>
     <label>Doduo</label>
+    <labelPlural>Doduo</labelPlural>
     <race>PW_Doduo</race>
     <combatPower>67</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -13346,6 +13430,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dodrio</defName>
     <label>Dodrio</label>
+    <labelPlural>Dodrio</labelPlural>
     <race>PW_Dodrio</race>
     <combatPower>282</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -13514,6 +13599,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Seel</defName>
     <label>Seel</label>
+    <labelPlural>Seel</labelPlural>
     <race>PW_Seel</race>
     <combatPower>70</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -13677,6 +13763,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dewgong</defName>
     <label>Dewgong</label>
+    <labelPlural>Dewgong</labelPlural>
     <race>PW_Dewgong</race>
     <combatPower>319</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -13828,6 +13915,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Grimer</defName>
     <label>Grimer</label>
+    <labelPlural>Grimer</labelPlural>
     <race>PW_Grimer</race>
     <combatPower>70</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -13970,6 +14058,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Muk</defName>
     <label>Muk</label>
+    <labelPlural>Muk</labelPlural>
     <race>PW_Muk</race>
     <combatPower>363</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -14126,6 +14215,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shellder</defName>
     <label>Shellder</label>
+    <labelPlural>Shellder</labelPlural>
     <race>PW_Shellder</race>
     <combatPower>72</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -14264,6 +14354,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cloyster</defName>
     <label>Cloyster</label>
+    <labelPlural>Cloyster</labelPlural>
     <race>PW_Cloyster</race>
     <combatPower>334</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -14424,6 +14515,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gastly</defName>
     <label>Gastly</label>
+    <labelPlural>Gastly</labelPlural>
     <race>PW_Gastly</race>
     <combatPower>56</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -14585,6 +14677,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Haunter</defName>
     <label>Haunter</label>
+    <labelPlural>Haunter</labelPlural>
     <race>PW_Haunter</race>
     <combatPower>198</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -14734,6 +14827,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gengar</defName>
     <label>Gengar</label>
+    <labelPlural>Gengar</labelPlural>
     <race>PW_Gengar</race>
     <combatPower>372</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -14906,6 +15000,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Onix</defName>
     <label>Onix</label>
+    <labelPlural>Onix</labelPlural>
     <race>PW_Onix</race>
     <combatPower>175</combatPower>
     <ecoSystemWeight>2.00</ecoSystemWeight>
@@ -15069,6 +15164,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Drowzee</defName>
     <label>Drowzee</label>
+    <labelPlural>Drowzee</labelPlural>
     <race>PW_Drowzee</race>
     <combatPower>59</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -15222,6 +15318,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hypno</defName>
     <label>Hypno</label>
+    <labelPlural>Hypno</labelPlural>
     <race>PW_Hypno</race>
     <combatPower>281</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -15377,6 +15474,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Krabby</defName>
     <label>Krabby</label>
+    <labelPlural>Krabby</labelPlural>
     <race>PW_Krabby</race>
     <combatPower>65</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -15522,6 +15620,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kingler</defName>
     <label>Kingler</label>
+    <labelPlural>Kingler</labelPlural>
     <race>PW_Kingler</race>
     <combatPower>285</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -15686,6 +15785,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Voltorb</defName>
     <label>Voltorb</label>
+    <labelPlural>Voltorb</labelPlural>
     <race>PW_Voltorb</race>
     <combatPower>66</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -15840,6 +15940,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Electrode</defName>
     <label>Electrode</label>
+    <labelPlural>Electrode</labelPlural>
     <race>PW_Electrode</race>
     <combatPower>294</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -15989,6 +16090,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Exeggcute</defName>
     <label>Exeggcute</label>
+    <labelPlural>Exeggcute</labelPlural>
     <race>PW_Exeggcute</race>
     <combatPower>76</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -16127,6 +16229,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Exeggutor</defName>
     <label>Exeggutor</label>
+    <labelPlural>Exeggutor</labelPlural>
     <race>PW_Exeggutor</race>
     <combatPower>375</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -16274,6 +16377,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cubone</defName>
     <label>Cubone</label>
+    <labelPlural>Cubone</labelPlural>
     <race>PW_Cubone</race>
     <combatPower>75</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -16410,6 +16514,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Marowak</defName>
     <label>Marowak</label>
+    <labelPlural>Marowak</labelPlural>
     <race>PW_Marowak</race>
     <combatPower>255</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -16550,6 +16655,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hitmonlee</defName>
     <label>Hitmonlee</label>
+    <labelPlural>Hitmonlee</labelPlural>
     <race>PW_Hitmonlee</race>
     <combatPower>273</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -16702,6 +16808,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hitmonchan</defName>
     <label>Hitmonchan</label>
+    <labelPlural>Hitmonchan</labelPlural>
     <race>PW_Hitmonchan</race>
     <combatPower>273</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -16846,6 +16953,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lickitung</defName>
     <label>Lickitung</label>
+    <labelPlural>Lickitung</labelPlural>
     <race>PW_Lickitung</race>
     <combatPower>112</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -16997,6 +17105,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Koffing</defName>
     <label>Koffing</label>
+    <labelPlural>Koffing</labelPlural>
     <race>PW_Koffing</race>
     <combatPower>80</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -17134,6 +17243,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Weezing</defName>
     <label>Weezing</label>
+    <labelPlural>Weezing</labelPlural>
     <race>PW_Weezing</race>
     <combatPower>329</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -17295,6 +17405,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Rhyhorn</defName>
     <label>Rhyhorn</label>
+    <labelPlural>Rhyhorn</labelPlural>
     <race>PW_Rhyhorn</race>
     <combatPower>119</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -17457,6 +17568,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Rhydon</defName>
     <label>Rhydon</label>
+    <labelPlural>Rhydon</labelPlural>
     <race>PW_Rhydon</race>
     <combatPower>388</combatPower>
     <ecoSystemWeight>1.52</ecoSystemWeight>
@@ -17605,6 +17717,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Chansey</defName>
     <label>Chansey</label>
+    <labelPlural>Chansey</labelPlural>
     <race>PW_Chansey</race>
     <combatPower>245</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -17764,6 +17877,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Tangela</defName>
     <label>Tangela</label>
+    <labelPlural>Tangela</labelPlural>
     <race>PW_Tangela</race>
     <combatPower>189</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -17908,6 +18022,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kangaskhan</defName>
     <label>Kangaskhan</label>
+    <labelPlural>Kangaskhan</labelPlural>
     <race>PW_Kangaskhan</race>
     <combatPower>285</combatPower>
     <ecoSystemWeight>1.76</ecoSystemWeight>
@@ -18072,6 +18187,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Horsea</defName>
     <label>Horsea</label>
+    <labelPlural>Horsea</labelPlural>
     <race>PW_Horsea</race>
     <combatPower>64</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -18238,6 +18354,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Seadra</defName>
     <label>Seadra</label>
+    <labelPlural>Seadra</labelPlural>
     <race>PW_Seadra</race>
     <combatPower>280</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -18389,6 +18506,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Goldeen</defName>
     <label>Goldeen</label>
+    <labelPlural>Goldeen</labelPlural>
     <race>PW_Goldeen</race>
     <combatPower>64</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -18534,6 +18652,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Seaking</defName>
     <label>Seaking</label>
+    <labelPlural>Seaking</labelPlural>
     <race>PW_Seaking</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -18699,6 +18818,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Staryu</defName>
     <label>Staryu</label>
+    <labelPlural>Staryu</labelPlural>
     <race>PW_Staryu</race>
     <combatPower>74</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -18842,6 +18962,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Starmie</defName>
     <label>Starmie</label>
+    <labelPlural>Starmie</labelPlural>
     <race>PW_Starmie</race>
     <combatPower>321</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -18991,6 +19112,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_MrMime</defName>
     <label>Mr. Mime</label>
+    <labelPlural>Mr. Mime</labelPlural>
     <race>PW_MrMime</race>
     <combatPower>200</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -19163,6 +19285,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Scyther</defName>
     <label>Scyther</label>
+    <labelPlural>Scyther</labelPlural>
     <race>PW_Scyther</race>
     <combatPower>245</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -19316,6 +19439,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Jynx</defName>
     <label>Jynx</label>
+    <labelPlural>Jynx</labelPlural>
     <race>PW_Jynx</race>
     <combatPower>198</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -19488,6 +19612,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Electabuzz</defName>
     <label>Electabuzz</label>
+    <labelPlural>Electabuzz</labelPlural>
     <race>PW_Electabuzz</race>
     <combatPower>213</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -19652,6 +19777,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Magmar</defName>
     <label>Magmar</label>
+    <labelPlural>Magmar</labelPlural>
     <race>PW_Magmar</race>
     <combatPower>216</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -19792,6 +19918,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pinsir</defName>
     <label>Pinsir</label>
+    <labelPlural>Pinsir</labelPlural>
     <race>PW_Pinsir</race>
     <combatPower>263</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -19937,6 +20064,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Tauros</defName>
     <label>Tauros</label>
+    <labelPlural>Tauros</labelPlural>
     <race>PW_Tauros</race>
     <combatPower>258</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -20081,6 +20209,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Magikarp</defName>
     <label>Magikarp</label>
+    <labelPlural>Magikarp</labelPlural>
     <race>PW_Magikarp</race>
     <combatPower>18</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -20240,6 +20369,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gyarados</defName>
     <label>Gyarados</label>
+    <labelPlural>Gyarados</labelPlural>
     <race>PW_Gyarados</race>
     <combatPower>343</combatPower>
     <ecoSystemWeight>2.00</ecoSystemWeight>
@@ -20390,6 +20520,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lapras</defName>
     <label>Lapras</label>
+    <labelPlural>Lapras</labelPlural>
     <race>PW_Lapras</race>
     <combatPower>340</combatPower>
     <ecoSystemWeight>2.00</ecoSystemWeight>
@@ -20517,6 +20648,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ditto</defName>
     <label>Ditto</label>
+    <labelPlural>Ditto</labelPlural>
     <race>PW_Ditto</race>
     <combatPower>141</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -20719,6 +20851,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Eevee</defName>
     <label>Eevee</label>
+    <labelPlural>Eevee</labelPlural>
     <race>PW_Eevee</race>
     <combatPower>94</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -20871,6 +21004,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Vaporeon</defName>
     <label>Vaporeon</label>
+    <labelPlural>Vaporeon</labelPlural>
     <race>PW_Vaporeon</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -21027,6 +21161,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Jolteon</defName>
     <label>Jolteon</label>
+    <labelPlural>Jolteon</labelPlural>
     <race>PW_Jolteon</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -21183,6 +21318,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Flareon</defName>
     <label>Flareon</label>
+    <labelPlural>Flareon</labelPlural>
     <race>PW_Flareon</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -21344,6 +21480,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Porygon</defName>
     <label>Porygon</label>
+    <labelPlural>Porygon</labelPlural>
     <race>PW_Porygon</race>
     <combatPower>143</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -21518,6 +21655,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Omanyte</defName>
     <label>Omanyte</label>
+    <labelPlural>Omanyte</labelPlural>
     <race>PW_Omanyte</race>
     <combatPower>129</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -21681,6 +21819,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Omastar</defName>
     <label>Omastar</label>
+    <labelPlural>Omastar</labelPlural>
     <race>PW_Omastar</race>
     <combatPower>360</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -21847,6 +21986,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kabuto</defName>
     <label>Kabuto</label>
+    <labelPlural>Kabuto</labelPlural>
     <race>PW_Kabuto</race>
     <combatPower>129</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -22010,6 +22150,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kabutops</defName>
     <label>Kabutops</label>
+    <labelPlural>Kabutops</labelPlural>
     <race>PW_Kabutops</race>
     <combatPower>360</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -22188,6 +22329,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Aerodactyl</defName>
     <label>Aerodactyl</label>
+    <labelPlural>Aerodactyl</labelPlural>
     <race>PW_Aerodactyl</race>
     <combatPower>187</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -22337,6 +22479,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Snorlax</defName>
     <label>Snorlax</label>
+    <labelPlural>Snorlax</labelPlural>
     <race>PW_Snorlax</race>
     <combatPower>343</combatPower>
     <ecoSystemWeight>1.68</ecoSystemWeight>
@@ -22487,6 +22630,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Articuno</defName>
     <label>Articuno</label>
+    <labelPlural>Articuno</labelPlural>
     <race>PW_Articuno</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -22638,6 +22782,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Zapdos</defName>
     <label>Zapdos</label>
+    <labelPlural>Zapdos</labelPlural>
     <race>PW_Zapdos</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -22789,6 +22934,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Moltres</defName>
     <label>Moltres</label>
+    <labelPlural>Moltres</labelPlural>
     <race>PW_Moltres</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -22958,6 +23104,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dratini</defName>
     <label>Dratini</label>
+    <labelPlural>Dratini</labelPlural>
     <race>PW_Dratini</race>
     <combatPower>92</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -23126,6 +23273,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dragonair</defName>
     <label>Dragonair</label>
+    <labelPlural>Dragonair</labelPlural>
     <race>PW_Dragonair</race>
     <combatPower>259</combatPower>
     <ecoSystemWeight>1.52</ecoSystemWeight>
@@ -23296,6 +23444,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dragonite</defName>
     <label>Dragonite</label>
+    <labelPlural>Dragonite</labelPlural>
     <race>PW_Dragonite</race>
     <combatPower>610</combatPower>
     <ecoSystemWeight>1.76</ecoSystemWeight>
@@ -23433,6 +23582,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mewtwo</defName>
     <label>Mewtwo</label>
+    <labelPlural>Mewtwo</labelPlural>
     <race>PW_Mewtwo</race>
     <combatPower>865</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -23571,6 +23721,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mew</defName>
     <label>Mew</label>
+    <labelPlural>Mew</labelPlural>
     <race>PW_Mew</race>
     <combatPower>327</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -23728,6 +23879,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Chikorita</defName>
     <label>Chikorita</label>
+    <labelPlural>Chikorita</labelPlural>
     <race>PW_Chikorita</race>
     <combatPower>46</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -23885,6 +24037,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bayleef</defName>
     <label>Bayleef</label>
+    <labelPlural>Bayleef</labelPlural>
     <race>PW_Bayleef</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -24031,6 +24184,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Meganium</defName>
     <label>Meganium</label>
+    <labelPlural>Meganium</labelPlural>
     <race>PW_Meganium</race>
     <combatPower>362</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -24214,6 +24368,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cyndaquil</defName>
     <label>Cyndaquil</label>
+    <labelPlural>Cyndaquil</labelPlural>
     <race>PW_Cyndaquil</race>
     <combatPower>44</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -24390,6 +24545,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Quilava</defName>
     <label>Quilava</label>
+    <labelPlural>Quilava</labelPlural>
     <race>PW_Quilava</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -24558,6 +24714,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Typhlosion</defName>
     <label>Typhlosion</label>
+    <labelPlural>Typhlosion</labelPlural>
     <race>PW_Typhlosion</race>
     <combatPower>378</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -24734,6 +24891,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Totodile</defName>
     <label>Totodile</label>
+    <labelPlural>Totodile</labelPlural>
     <race>PW_Totodile</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -24911,6 +25069,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Croconaw</defName>
     <label>Croconaw</label>
+    <labelPlural>Croconaw</labelPlural>
     <race>PW_Croconaw</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -25077,6 +25236,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Feraligatr</defName>
     <label>Feraligatr</label>
+    <labelPlural>Feraligatr</labelPlural>
     <race>PW_Feraligatr</race>
     <combatPower>375</combatPower>
     <ecoSystemWeight>1.84</ecoSystemWeight>
@@ -25232,6 +25392,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sentret</defName>
     <label>Sentret</label>
+    <labelPlural>Sentret</labelPlural>
     <race>PW_Sentret</race>
     <combatPower>23</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -25377,6 +25538,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Furret</defName>
     <label>Furret</label>
+    <labelPlural>Furret</labelPlural>
     <race>PW_Furret</race>
     <combatPower>150</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -25545,6 +25707,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hoothoot</defName>
     <label>Hoothoot</label>
+    <labelPlural>Hoothoot</labelPlural>
     <race>PW_Hoothoot</race>
     <combatPower>33</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -25703,6 +25866,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Noctowl</defName>
     <label>Noctowl</label>
+    <labelPlural>Noctowl</labelPlural>
     <race>PW_Noctowl</race>
     <combatPower>197</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -25859,6 +26023,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ledyba</defName>
     <label>Ledyba</label>
+    <labelPlural>Ledyba</labelPlural>
     <race>PW_Ledyba</race>
     <combatPower>38</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -26005,6 +26170,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ledian</defName>
     <label>Ledian</label>
+    <labelPlural>Ledian</labelPlural>
     <race>PW_Ledian</race>
     <combatPower>148</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -26173,6 +26339,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Spinarak</defName>
     <label>Spinarak</label>
+    <labelPlural>Spinarak</labelPlural>
     <race>PW_Spinarak</race>
     <combatPower>31</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -26335,6 +26502,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ariados</defName>
     <label>Ariados</label>
+    <labelPlural>Ariados</labelPlural>
     <race>PW_Ariados</race>
     <combatPower>174</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -26492,6 +26660,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Crobat</defName>
     <label>Crobat</label>
+    <labelPlural>Crobat</labelPlural>
     <race>PW_Crobat</race>
     <combatPower>321</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -26668,6 +26837,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Chinchou</defName>
     <label>Chinchou</label>
+    <labelPlural>Chinchou</labelPlural>
     <race>PW_Chinchou</race>
     <combatPower>48</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -26834,6 +27004,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lanturn</defName>
     <label>Lanturn</label>
+    <labelPlural>Lanturn</labelPlural>
     <race>PW_Lanturn</race>
     <combatPower>242</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -26987,6 +27158,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pichu</defName>
     <label>Pichu</label>
+    <labelPlural>Pichu</labelPlural>
     <race>PW_Pichu</race>
     <combatPower>11</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -27132,6 +27304,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cleffa</defName>
     <label>Cleffa</label>
+    <labelPlural>Cleffa</labelPlural>
     <race>PW_Cleffa</race>
     <combatPower>11</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -27274,6 +27447,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Igglybuff</defName>
     <label>Igglybuff</label>
+    <labelPlural>Igglybuff</labelPlural>
     <race>PW_Igglybuff</race>
     <combatPower>11</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -27419,6 +27593,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Togepi</defName>
     <label>Togepi</label>
+    <labelPlural>Togepi</labelPlural>
     <race>PW_Togepi</race>
     <combatPower>13</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -27574,6 +27749,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Togetic</defName>
     <label>Togetic</label>
+    <labelPlural>Togetic</labelPlural>
     <race>PW_Togetic</race>
     <combatPower>139</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -27722,6 +27898,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Natu</defName>
     <label>Natu</label>
+    <labelPlural>Natu</labelPlural>
     <race>PW_Natu</race>
     <combatPower>52</combatPower>
     <ecoSystemWeight>0.16</ecoSystemWeight>
@@ -27861,6 +28038,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Xatu</defName>
     <label>Xatu</label>
+    <labelPlural>Xatu</labelPlural>
     <race>PW_Xatu</race>
     <combatPower>239</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -28033,6 +28211,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mareep</defName>
     <label>Mareep</label>
+    <labelPlural>Mareep</labelPlural>
     <race>PW_Mareep</race>
     <combatPower>25</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -28206,6 +28385,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Flaaffy</defName>
     <label>Flaaffy</label>
+    <labelPlural>Flaaffy</labelPlural>
     <race>PW_Flaaffy</race>
     <combatPower>112</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -28383,6 +28563,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ampharos</defName>
     <label>Ampharos</label>
+    <labelPlural>Ampharos</labelPlural>
     <race>PW_Ampharos</race>
     <combatPower>315</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -28523,6 +28704,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bellossom</defName>
     <label>Bellossom</label>
+    <labelPlural>Bellossom</labelPlural>
     <race>PW_Bellossom</race>
     <combatPower>294</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -28704,6 +28886,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Marill</defName>
     <label>Marill</label>
+    <labelPlural>Marill</labelPlural>
     <race>PW_Marill</race>
     <combatPower>36</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -28874,6 +29057,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Azumarill</defName>
     <label>Azumarill</label>
+    <labelPlural>Azumarill</labelPlural>
     <race>PW_Azumarill</race>
     <combatPower>206</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -29034,6 +29218,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sudowoodo</defName>
     <label>Sudowoodo</label>
+    <labelPlural>Sudowoodo</labelPlural>
     <race>PW_Sudowoodo</race>
     <combatPower>156</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -29166,6 +29351,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Politoed</defName>
     <label>Politoed</label>
+    <labelPlural>Politoed</labelPlural>
     <race>PW_Politoed</race>
     <combatPower>300</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -29327,6 +29513,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hoppip</defName>
     <label>Hoppip</label>
+    <labelPlural>Hoppip</labelPlural>
     <race>PW_Hoppip</race>
     <combatPower>22</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -29489,6 +29676,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Skiploom</defName>
     <label>Skiploom</label>
+    <labelPlural>Skiploom</labelPlural>
     <race>PW_Skiploom</race>
     <combatPower>123</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -29639,6 +29827,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Jumpluff</defName>
     <label>Jumpluff</label>
+    <labelPlural>Jumpluff</labelPlural>
     <race>PW_Jumpluff</race>
     <combatPower>259</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -29794,6 +29983,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Aipom</defName>
     <label>Aipom</label>
+    <labelPlural>Aipom</labelPlural>
     <race>PW_Aipom</race>
     <combatPower>104</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -29954,6 +30144,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sunkern</defName>
     <label>Sunkern</label>
+    <labelPlural>Sunkern</labelPlural>
     <race>PW_Sunkern</race>
     <combatPower>16</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -30115,6 +30306,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sunflora</defName>
     <label>Sunflora</label>
+    <labelPlural>Sunflora</labelPlural>
     <race>PW_Sunflora</race>
     <combatPower>154</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -30283,6 +30475,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Yanma</defName>
     <label>Yanma</label>
+    <labelPlural>Yanma</labelPlural>
     <race>PW_Yanma</race>
     <combatPower>70</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -30441,6 +30634,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wooper</defName>
     <label>Wooper</label>
+    <labelPlural>Wooper</labelPlural>
     <race>PW_Wooper</race>
     <combatPower>26</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -30588,6 +30782,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Quagsire</defName>
     <label>Quagsire</label>
+    <labelPlural>Quagsire</labelPlural>
     <race>PW_Quagsire</race>
     <combatPower>195</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -30740,6 +30935,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Espeon</defName>
     <label>Espeon</label>
+    <labelPlural>Espeon</labelPlural>
     <race>PW_Espeon</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -30884,6 +31080,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Umbreon</defName>
     <label>Umbreon</label>
+    <labelPlural>Umbreon</labelPlural>
     <race>PW_Umbreon</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -31048,6 +31245,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Murkrow</defName>
     <label>Murkrow</label>
+    <labelPlural>Murkrow</labelPlural>
     <race>PW_Murkrow</race>
     <combatPower>66</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -31210,6 +31408,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Slowking</defName>
     <label>Slowking</label>
+    <labelPlural>Slowking</labelPlural>
     <race>PW_Slowking</race>
     <combatPower>311</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -31373,6 +31572,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Misdreavus</defName>
     <label>Misdreavus</label>
+    <labelPlural>Misdreavus</labelPlural>
     <race>PW_Misdreavus</race>
     <combatPower>71</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -31617,6 +31817,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Unown</defName>
     <label>Unown</label>
+    <labelPlural>Unown</labelPlural>
     <race>PW_Unown</race>
     <combatPower>152</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -31746,6 +31947,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wobbuffet</defName>
     <label>Wobbuffet</label>
+    <labelPlural>Wobbuffet</labelPlural>
     <race>PW_Wobbuffet</race>
     <combatPower>162</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -31911,6 +32113,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Girafarig</defName>
     <label>Girafarig</label>
+    <labelPlural>Girafarig</labelPlural>
     <race>PW_Girafarig</race>
     <combatPower>182</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -32070,6 +32273,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pineco</defName>
     <label>Pineco</label>
+    <labelPlural>Pineco</labelPlural>
     <race>PW_Pineco</race>
     <combatPower>47</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -32228,6 +32432,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Forretress</defName>
     <label>Forretress</label>
+    <labelPlural>Forretress</labelPlural>
     <race>PW_Forretress</race>
     <combatPower>295</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -32376,6 +32581,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dunsparce</defName>
     <label>Dunsparce</label>
+    <labelPlural>Dunsparce</labelPlural>
     <race>PW_Dunsparce</race>
     <combatPower>150</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -32544,6 +32750,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gligar</defName>
     <label>Gligar</label>
+    <labelPlural>Gligar</labelPlural>
     <race>PW_Gligar</race>
     <combatPower>78</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -32718,6 +32925,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Steelix</defName>
     <label>Steelix</label>
+    <labelPlural>Steelix</labelPlural>
     <race>PW_Steelix</race>
     <combatPower>408</combatPower>
     <ecoSystemWeight>2.00</ecoSystemWeight>
@@ -32902,6 +33110,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Snubbull</defName>
     <label>Snubbull</label>
+    <labelPlural>Snubbull</labelPlural>
     <race>PW_Snubbull</race>
     <combatPower>43</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -33072,6 +33281,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Granbull</defName>
     <label>Granbull</label>
+    <labelPlural>Granbull</labelPlural>
     <race>PW_Granbull</race>
     <combatPower>220</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -33241,6 +33451,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Qwilfish</defName>
     <label>Qwilfish</label>
+    <labelPlural>Qwilfish</labelPlural>
     <race>PW_Qwilfish</race>
     <combatPower>160</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -33402,6 +33613,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Scizor</defName>
     <label>Scizor</label>
+    <labelPlural>Scizor</labelPlural>
     <race>PW_Scizor</race>
     <combatPower>400</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -33552,6 +33764,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shuckle</defName>
     <label>Shuckle</label>
+    <labelPlural>Shuckle</labelPlural>
     <race>PW_Shuckle</race>
     <combatPower>202</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -33701,6 +33914,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Heracross</defName>
     <label>Heracross</label>
+    <labelPlural>Heracross</labelPlural>
     <race>PW_Heracross</race>
     <combatPower>245</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -33878,6 +34092,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sneasel</defName>
     <label>Sneasel</label>
+    <labelPlural>Sneasel</labelPlural>
     <race>PW_Sneasel</race>
     <combatPower>125</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -34037,6 +34252,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Teddiursa</defName>
     <label>Teddiursa</label>
+    <labelPlural>Teddiursa</labelPlural>
     <race>PW_Teddiursa</race>
     <combatPower>48</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -34190,6 +34406,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ursaring</defName>
     <label>Ursaring</label>
+    <labelPlural>Ursaring</labelPlural>
     <race>PW_Ursaring</race>
     <combatPower>300</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -34361,6 +34578,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Slugma</defName>
     <label>Slugma</label>
+    <labelPlural>Slugma</labelPlural>
     <race>PW_Slugma</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -34523,6 +34741,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Magcargo</defName>
     <label>Magcargo</label>
+    <labelPlural>Magcargo</labelPlural>
     <race>PW_Magcargo</race>
     <combatPower>312</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -34699,6 +34918,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Swinub</defName>
     <label>Swinub</label>
+    <labelPlural>Swinub</labelPlural>
     <race>PW_Swinub</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -34882,6 +35102,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Piloswine</defName>
     <label>Piloswine</label>
+    <labelPlural>Piloswine</labelPlural>
     <race>PW_Piloswine</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -35041,6 +35262,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Corsola</defName>
     <label>Corsola</label>
+    <labelPlural>Corsola</labelPlural>
     <race>PW_Corsola</race>
     <combatPower>149</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -35217,6 +35439,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Remoraid</defName>
     <label>Remoraid</label>
+    <labelPlural>Remoraid</labelPlural>
     <race>PW_Remoraid</race>
     <combatPower>38</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -35384,6 +35607,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Octillery</defName>
     <label>Octillery</label>
+    <labelPlural>Octillery</labelPlural>
     <race>PW_Octillery</race>
     <combatPower>235</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -35514,6 +35738,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Delibird</defName>
     <label>Delibird</label>
+    <labelPlural>Delibird</labelPlural>
     <race>PW_Delibird</race>
     <combatPower>132</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -35687,6 +35912,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mantine</defName>
     <label>Mantine</label>
+    <labelPlural>Mantine</labelPlural>
     <race>PW_Mantine</race>
     <combatPower>264</combatPower>
     <ecoSystemWeight>1.68</ecoSystemWeight>
@@ -35840,6 +36066,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Skarmory</defName>
     <label>Skarmory</label>
+    <labelPlural>Skarmory</labelPlural>
     <race>PW_Skarmory</race>
     <combatPower>295</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -36012,6 +36239,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Houndour</defName>
     <label>Houndour</label>
+    <labelPlural>Houndour</labelPlural>
     <race>PW_Houndour</race>
     <combatPower>54</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -36178,6 +36406,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Houndoom</defName>
     <label>Houndoom</label>
+    <labelPlural>Houndoom</labelPlural>
     <race>PW_Houndoom</race>
     <combatPower>245</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -36334,6 +36563,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kingdra</defName>
     <label>Kingdra</label>
+    <labelPlural>Kingdra</labelPlural>
     <race>PW_Kingdra</race>
     <combatPower>461</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -36489,6 +36719,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Phanpy</defName>
     <label>Phanpy</label>
+    <labelPlural>Phanpy</labelPlural>
     <race>PW_Phanpy</race>
     <combatPower>48</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -36639,6 +36870,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Donphan</defName>
     <label>Donphan</label>
+    <labelPlural>Donphan</labelPlural>
     <race>PW_Donphan</race>
     <combatPower>281</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -36804,6 +37036,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Porygon2_</defName>
     <label>Porygon2</label>
+    <labelPlural>Porygon2</labelPlural>
     <race>PW_Porygon2_</race>
     <combatPower>187</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -36949,6 +37182,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Stantler</defName>
     <label>Stantler</label>
+    <labelPlural>Stantler</labelPlural>
     <race>PW_Stantler</race>
     <combatPower>186</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -37077,6 +37311,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Smeargle</defName>
     <label>Smeargle</label>
+    <labelPlural>Smeargle</labelPlural>
     <race>PW_Smeargle</race>
     <combatPower>90</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -37235,6 +37470,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Tyrogue</defName>
     <label>Tyrogue</label>
+    <labelPlural>Tyrogue</labelPlural>
     <race>PW_Tyrogue</race>
     <combatPower>11</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -37384,6 +37620,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hitmontop</defName>
     <label>Hitmontop</label>
+    <labelPlural>Hitmontop</labelPlural>
     <race>PW_Hitmontop</race>
     <combatPower>273</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -37545,6 +37782,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Smoochum</defName>
     <label>Smoochum</label>
+    <labelPlural>Smoochum</labelPlural>
     <race>PW_Smoochum</race>
     <combatPower>16</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -37718,6 +37956,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Elekid</defName>
     <label>Elekid</label>
+    <labelPlural>Elekid</labelPlural>
     <race>PW_Elekid</race>
     <combatPower>19</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -37883,6 +38122,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Magby</defName>
     <label>Magby</label>
+    <labelPlural>Magby</labelPlural>
     <race>PW_Magby</race>
     <combatPower>19</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -38032,6 +38272,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Miltank</defName>
     <label>Miltank</label>
+    <labelPlural>Miltank</labelPlural>
     <race>PW_Miltank</race>
     <combatPower>213</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -38172,6 +38413,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Blissey</defName>
     <label>Blissey</label>
+    <labelPlural>Blissey</labelPlural>
     <race>PW_Blissey</race>
     <combatPower>373</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -38334,6 +38576,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Raikou</defName>
     <label>Raikou</label>
+    <labelPlural>Raikou</labelPlural>
     <race>PW_Raikou</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -38489,6 +38732,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Entei</defName>
     <label>Entei</label>
+    <labelPlural>Entei</labelPlural>
     <race>PW_Entei</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -38648,6 +38892,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Suicune</defName>
     <label>Suicune</label>
+    <labelPlural>Suicune</labelPlural>
     <race>PW_Suicune</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -38817,6 +39062,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Larvitar</defName>
     <label>Larvitar</label>
+    <labelPlural>Larvitar</labelPlural>
     <race>PW_Larvitar</race>
     <combatPower>65</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -38985,6 +39231,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pupitar</defName>
     <label>Pupitar</label>
+    <labelPlural>Pupitar</labelPlural>
     <race>PW_Pupitar</race>
     <combatPower>246</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -39154,6 +39401,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Tyranitar</defName>
     <label>Tyranitar</label>
+    <labelPlural>Tyranitar</labelPlural>
     <race>PW_Tyranitar</race>
     <combatPower>610</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -39300,6 +39548,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lugia</defName>
     <label>Lugia</label>
+    <labelPlural>Lugia</labelPlural>
     <race>PW_Lugia</race>
     <combatPower>865</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -39443,6 +39692,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_HoOh</defName>
     <label>Ho-Oh</label>
+    <labelPlural>Ho-Oh</labelPlural>
     <race>PW_HoOh</race>
     <combatPower>865</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -39586,6 +39836,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Celebi</defName>
     <label>Celebi</label>
+    <labelPlural>Celebi</labelPlural>
     <race>PW_Celebi</race>
     <combatPower>327</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -39751,6 +40002,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Treecko</defName>
     <label>Treecko</label>
+    <labelPlural>Treecko</labelPlural>
     <race>PW_Treecko</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -39915,6 +40167,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Grovyle</defName>
     <label>Grovyle</label>
+    <labelPlural>Grovyle</labelPlural>
     <race>PW_Grovyle</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -40072,6 +40325,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sceptile</defName>
     <label>Sceptile</label>
+    <labelPlural>Sceptile</labelPlural>
     <race>PW_Sceptile</race>
     <combatPower>366</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -40235,6 +40489,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Torchic</defName>
     <label>Torchic</label>
+    <labelPlural>Torchic</labelPlural>
     <race>PW_Torchic</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -40400,6 +40655,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Combusken</defName>
     <label>Combusken</label>
+    <labelPlural>Combusken</labelPlural>
     <race>PW_Combusken</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -40557,6 +40813,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Blaziken</defName>
     <label>Blaziken</label>
+    <labelPlural>Blaziken</labelPlural>
     <race>PW_Blaziken</race>
     <combatPower>375</combatPower>
     <ecoSystemWeight>1.52</ecoSystemWeight>
@@ -40717,6 +40974,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mudkip</defName>
     <label>Mudkip</label>
+    <labelPlural>Mudkip</labelPlural>
     <race>PW_Mudkip</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -40886,6 +41144,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Marshtomp</defName>
     <label>Marshtomp</label>
+    <labelPlural>Marshtomp</labelPlural>
     <race>PW_Marshtomp</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -41048,6 +41307,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Swampert</defName>
     <label>Swampert</label>
+    <labelPlural>Swampert</labelPlural>
     <race>PW_Swampert</race>
     <combatPower>379</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -41207,6 +41467,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Poochyena</defName>
     <label>Poochyena</label>
+    <labelPlural>Poochyena</labelPlural>
     <race>PW_Poochyena</race>
     <combatPower>28</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -41356,6 +41617,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mightyena</defName>
     <label>Mightyena</label>
+    <labelPlural>Mightyena</labelPlural>
     <race>PW_Mightyena</race>
     <combatPower>183</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -41503,6 +41765,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Zigzagoon</defName>
     <label>Zigzagoon</label>
+    <labelPlural>Zigzagoon</labelPlural>
     <race>PW_Zigzagoon</race>
     <combatPower>26</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -41652,6 +41915,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Linoone</defName>
     <label>Linoone</label>
+    <labelPlural>Linoone</labelPlural>
     <race>PW_Linoone</race>
     <combatPower>175</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -41812,6 +42076,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wurmple</defName>
     <label>Wurmple</label>
+    <labelPlural>Wurmple</labelPlural>
     <race>PW_Wurmple</race>
     <combatPower>10</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -41952,6 +42217,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Silcoon</defName>
     <label>Silcoon</label>
+    <labelPlural>Silcoon</labelPlural>
     <race>PW_Silcoon</race>
     <combatPower>26</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -42101,6 +42367,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Beautifly</defName>
     <label>Beautifly</label>
+    <labelPlural>Beautifly</labelPlural>
     <race>PW_Beautifly</race>
     <combatPower>143</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -42240,6 +42507,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cascoon</defName>
     <label>Cascoon</label>
+    <labelPlural>Cascoon</labelPlural>
     <race>PW_Cascoon</race>
     <combatPower>26</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -42385,6 +42653,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dustox</defName>
     <label>Dustox</label>
+    <labelPlural>Dustox</labelPlural>
     <race>PW_Dustox</race>
     <combatPower>140</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -42546,6 +42815,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lotad</defName>
     <label>Lotad</label>
+    <labelPlural>Lotad</labelPlural>
     <race>PW_Lotad</race>
     <combatPower>24</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -42709,6 +42979,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lombre</defName>
     <label>Lombre</label>
+    <labelPlural>Lombre</labelPlural>
     <race>PW_Lombre</race>
     <combatPower>117</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -42847,6 +43118,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ludicolo</defName>
     <label>Ludicolo</label>
+    <labelPlural>Ludicolo</labelPlural>
     <race>PW_Ludicolo</race>
     <combatPower>279</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -42987,6 +43259,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Seedot</defName>
     <label>Seedot</label>
+    <labelPlural>Seedot</labelPlural>
     <race>PW_Seedot</race>
     <combatPower>24</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -43142,6 +43415,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Nuzleaf</defName>
     <label>Nuzleaf</label>
+    <labelPlural>Nuzleaf</labelPlural>
     <race>PW_Nuzleaf</race>
     <combatPower>117</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -43284,6 +43558,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shiftry</defName>
     <label>Shiftry</label>
+    <labelPlural>Shiftry</labelPlural>
     <race>PW_Shiftry</race>
     <combatPower>279</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -43440,6 +43715,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Taillow</defName>
     <label>Taillow</label>
+    <labelPlural>Taillow</labelPlural>
     <race>PW_Taillow</race>
     <combatPower>34</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -43586,6 +43862,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Swellow</defName>
     <label>Swellow</label>
+    <labelPlural>Swellow</labelPlural>
     <race>PW_Swellow</race>
     <combatPower>223</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -43751,6 +44028,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wingull</defName>
     <label>Wingull</label>
+    <labelPlural>Wingull</labelPlural>
     <race>PW_Wingull</race>
     <combatPower>39</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -43898,6 +44176,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pelipper</defName>
     <label>Pelipper</label>
+    <labelPlural>Pelipper</labelPlural>
     <race>PW_Pelipper</race>
     <combatPower>232</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -44051,6 +44330,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ralts</defName>
     <label>Ralts</label>
+    <labelPlural>Ralts</labelPlural>
     <race>PW_Ralts</race>
     <combatPower>28</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -44213,6 +44493,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kirlia</defName>
     <label>Kirlia</label>
+    <labelPlural>Kirlia</labelPlural>
     <race>PW_Kirlia</race>
     <combatPower>111</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -44359,6 +44640,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gardevoir</defName>
     <label>Gardevoir</label>
+    <labelPlural>Gardevoir</labelPlural>
     <race>PW_Gardevoir</race>
     <combatPower>348</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -44512,6 +44794,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Surskit</defName>
     <label>Surskit</label>
+    <labelPlural>Surskit</labelPlural>
     <race>PW_Surskit</race>
     <combatPower>34</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -44664,6 +44947,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Masquerain</defName>
     <label>Masquerain</label>
+    <labelPlural>Masquerain</labelPlural>
     <race>PW_Masquerain</race>
     <combatPower>206</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -44824,6 +45108,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shroomish</defName>
     <label>Shroomish</label>
+    <labelPlural>Shroomish</labelPlural>
     <race>PW_Shroomish</race>
     <combatPower>42</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -44971,6 +45256,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Breloom</defName>
     <label>Breloom</label>
+    <labelPlural>Breloom</labelPlural>
     <race>PW_Breloom</race>
     <combatPower>242</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -45118,6 +45404,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Slakoth</defName>
     <label>Slakoth</label>
+    <labelPlural>Slakoth</labelPlural>
     <race>PW_Slakoth</race>
     <combatPower>35</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -45270,6 +45557,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Vigoroth</defName>
     <label>Vigoroth</label>
+    <labelPlural>Vigoroth</labelPlural>
     <race>PW_Vigoroth</race>
     <combatPower>184</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -45410,6 +45698,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Slaking</defName>
     <label>Slaking</label>
+    <labelPlural>Slaking</labelPlural>
     <race>PW_Slaking</race>
     <combatPower>499</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -45579,6 +45868,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Nincada</defName>
     <label>Nincada</label>
+    <labelPlural>Nincada</labelPlural>
     <race>PW_Nincada</race>
     <combatPower>33</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -45737,6 +46027,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ninjask</defName>
     <label>Ninjask</label>
+    <labelPlural>Ninjask</labelPlural>
     <race>PW_Ninjask</race>
     <combatPower>207</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -45891,6 +46182,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shedinja</defName>
     <label>Shedinja</label>
+    <labelPlural>Shedinja</labelPlural>
     <race>PW_Shedinja</race>
     <combatPower>107</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -46040,6 +46332,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Whismur</defName>
     <label>Whismur</label>
+    <labelPlural>Whismur</labelPlural>
     <race>PW_Whismur</race>
     <combatPower>26</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -46193,6 +46486,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Loudred</defName>
     <label>Loudred</label>
+    <labelPlural>Loudred</labelPlural>
     <race>PW_Loudred</race>
     <combatPower>150</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -46354,6 +46648,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Exploud</defName>
     <label>Exploud</label>
+    <labelPlural>Exploud</labelPlural>
     <race>PW_Exploud</race>
     <combatPower>374</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -46509,6 +46804,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Makuhita</defName>
     <label>Makuhita</label>
+    <labelPlural>Makuhita</labelPlural>
     <race>PW_Makuhita</race>
     <combatPower>47</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -46654,6 +46950,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hariyama</defName>
     <label>Hariyama</label>
+    <labelPlural>Hariyama</labelPlural>
     <race>PW_Hariyama</race>
     <combatPower>275</combatPower>
     <ecoSystemWeight>1.84</ecoSystemWeight>
@@ -46803,6 +47100,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Azurill</defName>
     <label>Azurill</label>
+    <labelPlural>Azurill</labelPlural>
     <race>PW_Azurill</race>
     <combatPower>10</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -46983,6 +47281,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Nosepass</defName>
     <label>Nosepass</label>
+    <labelPlural>Nosepass</labelPlural>
     <race>PW_Nosepass</race>
     <combatPower>88</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -47141,6 +47440,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Skitty</defName>
     <label>Skitty</label>
+    <labelPlural>Skitty</labelPlural>
     <race>PW_Skitty</race>
     <combatPower>28</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -47272,6 +47572,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Delcatty</defName>
     <label>Delcatty</label>
+    <labelPlural>Delcatty</labelPlural>
     <race>PW_Delcatty</race>
     <combatPower>181</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -47434,6 +47735,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sableye</defName>
     <label>Sableye</label>
+    <labelPlural>Sableye</labelPlural>
     <race>PW_Sableye</race>
     <combatPower>152</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -47597,6 +47899,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mawile</defName>
     <label>Mawile</label>
+    <labelPlural>Mawile</labelPlural>
     <race>PW_Mawile</race>
     <combatPower>152</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -47769,6 +48072,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Aron</defName>
     <label>Aron</label>
+    <labelPlural>Aron</labelPlural>
     <race>PW_Aron</race>
     <combatPower>48</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -47941,6 +48245,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lairon</defName>
     <label>Lairon</label>
+    <labelPlural>Lairon</labelPlural>
     <race>PW_Lairon</race>
     <combatPower>258</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -48102,6 +48407,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Aggron</defName>
     <label>Aggron</label>
+    <labelPlural>Aggron</labelPlural>
     <race>PW_Aggron</race>
     <combatPower>433</combatPower>
     <ecoSystemWeight>1.68</ecoSystemWeight>
@@ -48246,6 +48552,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Meditite</defName>
     <label>Meditite</label>
+    <labelPlural>Meditite</labelPlural>
     <race>PW_Meditite</race>
     <combatPower>56</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -48396,6 +48703,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Medicham</defName>
     <label>Medicham</label>
+    <labelPlural>Medicham</labelPlural>
     <race>PW_Medicham</race>
     <combatPower>305</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -48563,6 +48871,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Electrike</defName>
     <label>Electrike</label>
+    <labelPlural>Electrike</labelPlural>
     <race>PW_Electrike</race>
     <combatPower>42</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -48724,6 +49033,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Manectric</defName>
     <label>Manectric</label>
+    <labelPlural>Manectric</labelPlural>
     <race>PW_Manectric</race>
     <combatPower>267</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -48872,6 +49182,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Plusle</defName>
     <label>Plusle</label>
+    <labelPlural>Plusle</labelPlural>
     <race>PW_Plusle</race>
     <combatPower>147</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -49021,6 +49332,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Minun</defName>
     <label>Minun</label>
+    <labelPlural>Minun</labelPlural>
     <race>PW_Minun</race>
     <combatPower>147</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -49175,6 +49487,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Volbeat</defName>
     <label>Volbeat</label>
+    <labelPlural>Volbeat</labelPlural>
     <race>PW_Volbeat</race>
     <combatPower>156</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -49320,6 +49633,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Illumise</defName>
     <label>Illumise</label>
+    <labelPlural>Illumise</labelPlural>
     <race>PW_Illumise</race>
     <combatPower>156</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -49478,6 +49792,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Roselia</defName>
     <label>Roselia</label>
+    <labelPlural>Roselia</labelPlural>
     <race>PW_Roselia</race>
     <combatPower>145</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -49621,6 +49936,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gulpin</defName>
     <label>Gulpin</label>
+    <labelPlural>Gulpin</labelPlural>
     <race>PW_Gulpin</race>
     <combatPower>43</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -49754,6 +50070,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Swalot</defName>
     <label>Swalot</label>
+    <labelPlural>Swalot</labelPlural>
     <race>PW_Swalot</race>
     <combatPower>254</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -49910,6 +50227,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Carvanha</defName>
     <label>Carvanha</label>
+    <labelPlural>Carvanha</labelPlural>
     <race>PW_Carvanha</race>
     <combatPower>55</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -50060,6 +50378,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sharpedo</defName>
     <label>Sharpedo</label>
+    <labelPlural>Sharpedo</labelPlural>
     <race>PW_Sharpedo</race>
     <combatPower>292</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -50224,6 +50543,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wailmer</defName>
     <label>Wailmer</label>
+    <labelPlural>Wailmer</labelPlural>
     <race>PW_Wailmer</race>
     <combatPower>123</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -50377,6 +50697,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wailord</defName>
     <label>Wailord</label>
+    <labelPlural>Wailord</labelPlural>
     <race>PW_Wailord</race>
     <combatPower>390</combatPower>
     <ecoSystemWeight>2.00</ecoSystemWeight>
@@ -50549,6 +50870,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Numel</defName>
     <label>Numel</label>
+    <labelPlural>Numel</labelPlural>
     <race>PW_Numel</race>
     <combatPower>55</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -50708,6 +51030,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Camerupt</defName>
     <label>Camerupt</label>
+    <labelPlural>Camerupt</labelPlural>
     <race>PW_Camerupt</race>
     <combatPower>326</combatPower>
     <ecoSystemWeight>1.52</ecoSystemWeight>
@@ -50856,6 +51179,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Torkoal</defName>
     <label>Torkoal</label>
+    <labelPlural>Torkoal</labelPlural>
     <race>PW_Torkoal</race>
     <combatPower>230</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -51015,6 +51339,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Spoink</defName>
     <label>Spoink</label>
+    <labelPlural>Spoink</labelPlural>
     <race>PW_Spoink</race>
     <combatPower>48</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -51164,6 +51489,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Grumpig</defName>
     <label>Grumpig</label>
+    <labelPlural>Grumpig</labelPlural>
     <race>PW_Grumpig</race>
     <combatPower>299</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -51313,6 +51639,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Spinda</defName>
     <label>Spinda</label>
+    <labelPlural>Spinda</labelPlural>
     <race>PW_Spinda</race>
     <combatPower>130</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -51493,6 +51820,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Trapinch</defName>
     <label>Trapinch</label>
+    <labelPlural>Trapinch</labelPlural>
     <race>PW_Trapinch</race>
     <combatPower>63</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -51663,6 +51991,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Vibrava</defName>
     <label>Vibrava</label>
+    <labelPlural>Vibrava</labelPlural>
     <race>PW_Vibrava</race>
     <combatPower>222</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -51830,6 +52159,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Flygon</defName>
     <label>Flygon</label>
+    <labelPlural>Flygon</labelPlural>
     <race>PW_Flygon</race>
     <combatPower>463</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -51986,6 +52316,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cacnea</defName>
     <label>Cacnea</label>
+    <labelPlural>Cacnea</labelPlural>
     <race>PW_Cacnea</race>
     <combatPower>60</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -52138,6 +52469,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cacturne</defName>
     <label>Cacturne</label>
+    <labelPlural>Cacturne</labelPlural>
     <race>PW_Cacturne</race>
     <combatPower>302</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -52303,6 +52635,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Swablu</defName>
     <label>Swablu</label>
+    <labelPlural>Swablu</labelPlural>
     <race>PW_Swablu</race>
     <combatPower>56</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -52461,6 +52794,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Altaria</defName>
     <label>Altaria</label>
+    <labelPlural>Altaria</labelPlural>
     <race>PW_Altaria</race>
     <combatPower>347</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -52621,6 +52955,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Zangoose</defName>
     <label>Zangoose</label>
+    <labelPlural>Zangoose</labelPlural>
     <race>PW_Zangoose</race>
     <combatPower>216</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -52771,6 +53106,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Seviper</defName>
     <label>Seviper</label>
+    <labelPlural>Seviper</labelPlural>
     <race>PW_Seviper</race>
     <combatPower>216</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -52933,6 +53269,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lunatone</defName>
     <label>Lunatone</label>
+    <labelPlural>Lunatone</labelPlural>
     <race>PW_Lunatone</race>
     <combatPower>217</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -53095,6 +53432,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Solrock</defName>
     <label>Solrock</label>
+    <labelPlural>Solrock</labelPlural>
     <race>PW_Solrock</race>
     <combatPower>217</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -53259,6 +53597,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Barboach</defName>
     <label>Barboach</label>
+    <labelPlural>Barboach</labelPlural>
     <race>PW_Barboach</race>
     <combatPower>41</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -53417,6 +53756,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Whiscash</defName>
     <label>Whiscash</label>
+    <labelPlural>Whiscash</labelPlural>
     <race>PW_Whiscash</race>
     <combatPower>280</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -53573,6 +53913,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Corphish</defName>
     <label>Corphish</label>
+    <labelPlural>Corphish</labelPlural>
     <race>PW_Corphish</race>
     <combatPower>44</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -53724,6 +54065,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Crawdaunt</defName>
     <label>Crawdaunt</label>
+    <labelPlural>Crawdaunt</labelPlural>
     <race>PW_Crawdaunt</race>
     <combatPower>280</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -53889,6 +54231,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Baltoy</defName>
     <label>Baltoy</label>
+    <labelPlural>Baltoy</labelPlural>
     <race>PW_Baltoy</race>
     <combatPower>54</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -54048,6 +54391,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Claydol</defName>
     <label>Claydol</label>
+    <labelPlural>Claydol</labelPlural>
     <race>PW_Claydol</race>
     <combatPower>354</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -54204,6 +54548,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lileep</defName>
     <label>Lileep</label>
+    <labelPlural>Lileep</labelPlural>
     <race>PW_Lileep</race>
     <combatPower>129</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -54350,6 +54695,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cradily</defName>
     <label>Cradily</label>
+    <labelPlural>Cradily</labelPlural>
     <race>PW_Cradily</race>
     <combatPower>360</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -54527,6 +54873,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Anorith</defName>
     <label>Anorith</label>
+    <labelPlural>Anorith</labelPlural>
     <race>PW_Anorith</race>
     <combatPower>129</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -54693,6 +55040,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Armaldo</defName>
     <label>Armaldo</label>
+    <labelPlural>Armaldo</labelPlural>
     <race>PW_Armaldo</race>
     <combatPower>360</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -54838,6 +55186,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Feebas</defName>
     <label>Feebas</label>
+    <labelPlural>Feebas</labelPlural>
     <race>PW_Feebas</race>
     <combatPower>18</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -54987,6 +55336,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Milotic</defName>
     <label>Milotic</label>
+    <labelPlural>Milotic</labelPlural>
     <race>PW_Milotic</race>
     <combatPower>343</combatPower>
     <ecoSystemWeight>2.00</ecoSystemWeight>
@@ -55185,6 +55535,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Castform</defName>
     <label>Castform</label>
+    <labelPlural>Castform</labelPlural>
     <race>PW_Castform</race>
     <combatPower>183</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -55353,6 +55704,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kecleon</defName>
     <label>Kecleon</label>
+    <labelPlural>Kecleon</labelPlural>
     <race>PW_Kecleon</race>
     <combatPower>192</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -55512,6 +55864,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shuppet</defName>
     <label>Shuppet</label>
+    <labelPlural>Shuppet</labelPlural>
     <race>PW_Shuppet</race>
     <combatPower>64</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -55661,6 +56014,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Banette</defName>
     <label>Banette</label>
+    <labelPlural>Banette</labelPlural>
     <race>PW_Banette</race>
     <combatPower>339</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -55816,6 +56170,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Duskull</defName>
     <label>Duskull</label>
+    <labelPlural>Duskull</labelPlural>
     <race>PW_Duskull</race>
     <combatPower>64</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -55985,6 +56340,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dusclops</defName>
     <label>Dusclops</label>
+    <labelPlural>Dusclops</labelPlural>
     <race>PW_Dusclops</race>
     <combatPower>314</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -56139,6 +56495,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Tropius</defName>
     <label>Tropius</label>
+    <labelPlural>Tropius</labelPlural>
     <race>PW_Tropius</race>
     <combatPower>250</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -56292,6 +56649,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Chimecho</defName>
     <label>Chimecho</label>
+    <labelPlural>Chimecho</labelPlural>
     <race>PW_Chimecho</race>
     <combatPower>206</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -56448,6 +56806,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Absol</defName>
     <label>Absol</label>
+    <labelPlural>Absol</labelPlural>
     <race>PW_Absol</race>
     <combatPower>270</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -56584,6 +56943,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wynaut</defName>
     <label>Wynaut</label>
+    <labelPlural>Wynaut</labelPlural>
     <race>PW_Wynaut</race>
     <combatPower>14</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -56766,6 +57126,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Snorunt</defName>
     <label>Snorunt</label>
+    <labelPlural>Snorunt</labelPlural>
     <race>PW_Snorunt</race>
     <combatPower>54</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -56928,6 +57289,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Glalie</defName>
     <label>Glalie</label>
+    <labelPlural>Glalie</labelPlural>
     <race>PW_Glalie</race>
     <combatPower>392</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -57085,6 +57447,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Spheal</defName>
     <label>Spheal</label>
+    <labelPlural>Spheal</labelPlural>
     <race>PW_Spheal</race>
     <combatPower>58</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -57243,6 +57606,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Sealeo</defName>
     <label>Sealeo</label>
+    <labelPlural>Sealeo</labelPlural>
     <race>PW_Sealeo</race>
     <combatPower>253</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -57397,6 +57761,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Walrein</defName>
     <label>Walrein</label>
+    <labelPlural>Walrein</labelPlural>
     <race>PW_Walrein</race>
     <combatPower>443</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -57549,6 +57914,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Clamperl</defName>
     <label>Clamperl</label>
+    <labelPlural>Clamperl</labelPlural>
     <race>PW_Clamperl</race>
     <combatPower>62</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -57702,6 +58068,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Huntail</defName>
     <label>Huntail</label>
+    <labelPlural>Huntail</labelPlural>
     <race>PW_Huntail</race>
     <combatPower>264</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -57850,6 +58217,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gorebyss</defName>
     <label>Gorebyss</label>
+    <labelPlural>Gorebyss</labelPlural>
     <race>PW_Gorebyss</race>
     <combatPower>264</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -58005,6 +58373,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Relicanth</defName>
     <label>Relicanth</label>
+    <labelPlural>Relicanth</labelPlural>
     <race>PW_Relicanth</race>
     <combatPower>220</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -58153,6 +58522,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Luvdisc</defName>
     <label>Luvdisc</label>
+    <labelPlural>Luvdisc</labelPlural>
     <race>PW_Luvdisc</race>
     <combatPower>78</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -58325,6 +58695,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bagon</defName>
     <label>Bagon</label>
+    <labelPlural>Bagon</labelPlural>
     <race>PW_Bagon</race>
     <combatPower>65</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -58496,6 +58867,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shelgon</defName>
     <label>Shelgon</label>
+    <labelPlural>Shelgon</labelPlural>
     <race>PW_Shelgon</race>
     <combatPower>252</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -58669,6 +59041,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Salamence</defName>
     <label>Salamence</label>
+    <labelPlural>Salamence</labelPlural>
     <race>PW_Salamence</race>
     <combatPower>610</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -58814,6 +59187,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Beldum</defName>
     <label>Beldum</label>
+    <labelPlural>Beldum</labelPlural>
     <race>PW_Beldum</race>
     <combatPower>60</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -58983,6 +59357,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Metang</defName>
     <label>Metang</label>
+    <labelPlural>Metang</labelPlural>
     <race>PW_Metang</race>
     <combatPower>175</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -59145,6 +59520,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Metagross</defName>
     <label>Metagross</label>
+    <labelPlural>Metagross</labelPlural>
     <race>PW_Metagross</race>
     <combatPower>578</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -59298,6 +59674,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Regirock</defName>
     <label>Regirock</label>
+    <labelPlural>Regirock</labelPlural>
     <race>PW_Regirock</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -59452,6 +59829,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Regice</defName>
     <label>Regice</label>
+    <labelPlural>Regice</labelPlural>
     <race>PW_Regice</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -59611,6 +59989,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Registeel</defName>
     <label>Registeel</label>
+    <labelPlural>Registeel</labelPlural>
     <race>PW_Registeel</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -59758,6 +60137,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Latias</defName>
     <label>Latias</label>
+    <labelPlural>Latias</labelPlural>
     <race>PW_Latias</race>
     <combatPower>545</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -59905,6 +60285,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Latios</defName>
     <label>Latios</label>
+    <labelPlural>Latios</labelPlural>
     <race>PW_Latios</race>
     <combatPower>545</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -60055,6 +60436,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kyogre</defName>
     <label>Kyogre</label>
+    <labelPlural>Kyogre</labelPlural>
     <race>PW_Kyogre</race>
     <combatPower>852</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -60213,6 +60595,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Groudon</defName>
     <label>Groudon</label>
+    <labelPlural>Groudon</labelPlural>
     <race>PW_Groudon</race>
     <combatPower>852</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -60369,6 +60752,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Rayquaza</defName>
     <label>Rayquaza</label>
+    <labelPlural>Rayquaza</labelPlural>
     <race>PW_Rayquaza</race>
     <combatPower>989</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -60516,6 +60900,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Jirachi</defName>
     <label>Jirachi</label>
+    <labelPlural>Jirachi</labelPlural>
     <race>PW_Jirachi</race>
     <combatPower>327</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -60680,6 +61065,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Deoxys</defName>
     <label>Deoxys</label>
+    <labelPlural>Deoxys</labelPlural>
     <race>PW_Deoxys</race>
     <combatPower>545</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -60853,6 +61239,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Turtwig</defName>
     <label>Turtwig</label>
+    <labelPlural>Turtwig</labelPlural>
     <race>PW_Turtwig</race>
     <combatPower>46</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -61026,6 +61413,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Grotle</defName>
     <label>Grotle</label>
+    <labelPlural>Grotle</labelPlural>
     <race>PW_Grotle</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -61193,6 +61581,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Torterra</defName>
     <label>Torterra</label>
+    <labelPlural>Torterra</labelPlural>
     <race>PW_Torterra</race>
     <combatPower>362</combatPower>
     <ecoSystemWeight>1.76</ecoSystemWeight>
@@ -61353,6 +61742,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Chimchar</defName>
     <label>Chimchar</label>
+    <labelPlural>Chimchar</labelPlural>
     <race>PW_Chimchar</race>
     <combatPower>44</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -61515,6 +61905,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Monferno</defName>
     <label>Monferno</label>
+    <labelPlural>Monferno</labelPlural>
     <race>PW_Monferno</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -61667,6 +62058,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Infernape</defName>
     <label>Infernape</label>
+    <labelPlural>Infernape</labelPlural>
     <race>PW_Infernape</race>
     <combatPower>378</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -61831,6 +62223,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Piplup</defName>
     <label>Piplup</label>
+    <labelPlural>Piplup</labelPlural>
     <race>PW_Piplup</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -61999,6 +62392,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Prinplup</defName>
     <label>Prinplup</label>
+    <labelPlural>Prinplup</labelPlural>
     <race>PW_Prinplup</race>
     <combatPower>169</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -62157,6 +62551,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Empoleon</defName>
     <label>Empoleon</label>
+    <labelPlural>Empoleon</labelPlural>
     <race>PW_Empoleon</race>
     <combatPower>375</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -62313,6 +62708,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Starly</defName>
     <label>Starly</label>
+    <labelPlural>Starly</labelPlural>
     <race>PW_Starly</race>
     <combatPower>26</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -62470,6 +62866,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Staravia</defName>
     <label>Staravia</label>
+    <labelPlural>Staravia</labelPlural>
     <race>PW_Staravia</race>
     <combatPower>123</combatPower>
     <ecoSystemWeight>0.48</ecoSystemWeight>
@@ -62619,6 +63016,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Staraptor</defName>
     <label>Staraptor</label>
+    <labelPlural>Staraptor</labelPlural>
     <race>PW_Staraptor</race>
     <combatPower>343</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -62779,6 +63177,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bidoof</defName>
     <label>Bidoof</label>
+    <labelPlural>Bidoof</labelPlural>
     <race>PW_Bidoof</race>
     <combatPower>22</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -62934,6 +63333,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bibarel</defName>
     <label>Bibarel</label>
+    <labelPlural>Bibarel</labelPlural>
     <race>PW_Bibarel</race>
     <combatPower>171</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -63077,6 +63477,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kricketot</defName>
     <label>Kricketot</label>
+    <labelPlural>Kricketot</labelPlural>
     <race>PW_Kricketot</race>
     <combatPower>14</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -63230,6 +63631,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Kricketune</defName>
     <label>Kricketune</label>
+    <labelPlural>Kricketune</labelPlural>
     <race>PW_Kricketune</race>
     <combatPower>118</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -63393,6 +63795,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shinx</defName>
     <label>Shinx</label>
+    <labelPlural>Shinx</labelPlural>
     <race>PW_Shinx</race>
     <combatPower>38</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -63556,6 +63959,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Luxio</defName>
     <label>Luxio</label>
+    <labelPlural>Luxio</labelPlural>
     <race>PW_Luxio</race>
     <combatPower>125</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -63708,6 +64112,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Luxray</defName>
     <label>Luxray</label>
+    <labelPlural>Luxray</labelPlural>
     <race>PW_Luxray</race>
     <combatPower>332</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -63853,6 +64258,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Budew</defName>
     <label>Budew</label>
+    <labelPlural>Budew</labelPlural>
     <race>PW_Budew</race>
     <combatPower>15</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -63996,6 +64402,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Roserade</defName>
     <label>Roserade</label>
+    <labelPlural>Roserade</labelPlural>
     <race>PW_Roserade</race>
     <combatPower>309</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -64159,6 +64566,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cranidos</defName>
     <label>Cranidos</label>
+    <labelPlural>Cranidos</labelPlural>
     <race>PW_Cranidos</race>
     <combatPower>127</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -64312,6 +64720,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Rampardos</defName>
     <label>Rampardos</label>
+    <labelPlural>Rampardos</labelPlural>
     <race>PW_Rampardos</race>
     <combatPower>270</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -64477,6 +64886,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shieldon</defName>
     <label>Shieldon</label>
+    <labelPlural>Shieldon</labelPlural>
     <race>PW_Shieldon</race>
     <combatPower>127</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -64631,6 +65041,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bastiodon</defName>
     <label>Bastiodon</label>
+    <labelPlural>Bastiodon</labelPlural>
     <race>PW_Bastiodon</race>
     <combatPower>270</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -64814,6 +65225,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Burmy</defName>
     <label>Burmy</label>
+    <labelPlural>Burmy</labelPlural>
     <race>PW_Burmy</race>
     <combatPower>20</combatPower>
     <ecoSystemWeight>0.16</ecoSystemWeight>
@@ -64987,6 +65399,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Wormadam</defName>
     <label>Wormadam</label>
+    <labelPlural>Wormadam</labelPlural>
     <race>PW_Wormadam</race>
     <combatPower>185</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -65149,6 +65562,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mothim</defName>
     <label>Mothim</label>
+    <labelPlural>Mothim</labelPlural>
     <race>PW_Mothim</race>
     <combatPower>185</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -65301,6 +65715,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Combee</defName>
     <label>Combee</label>
+    <labelPlural>Combee</labelPlural>
     <race>PW_Combee</race>
     <combatPower>31</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -65472,6 +65887,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Vespiquen</defName>
     <label>Vespiquen</label>
+    <labelPlural>Vespiquen</labelPlural>
     <race>PW_Vespiquen</race>
     <combatPower>232</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -65621,6 +66037,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Pachirisu</defName>
     <label>Pachirisu</label>
+    <labelPlural>Pachirisu</labelPlural>
     <race>PW_Pachirisu</race>
     <combatPower>147</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -65786,6 +66203,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Buizel</defName>
     <label>Buizel</label>
+    <labelPlural>Buizel</labelPlural>
     <race>PW_Buizel</race>
     <combatPower>60</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -65948,6 +66366,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Floatzel</defName>
     <label>Floatzel</label>
+    <labelPlural>Floatzel</labelPlural>
     <race>PW_Floatzel</race>
     <combatPower>279</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -66104,6 +66523,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cherubi</defName>
     <label>Cherubi</label>
+    <labelPlural>Cherubi</labelPlural>
     <race>PW_Cherubi</race>
     <combatPower>40</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -66266,6 +66686,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cherrim</defName>
     <label>Cherrim</label>
+    <labelPlural>Cherrim</labelPlural>
     <race>PW_Cherrim</race>
     <combatPower>220</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -66429,6 +66850,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shellos</defName>
     <label>Shellos</label>
+    <labelPlural>Shellos</labelPlural>
     <race>PW_Shellos</race>
     <combatPower>47</combatPower>
     <ecoSystemWeight>0.24</ecoSystemWeight>
@@ -66583,6 +67005,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gastrodon</defName>
     <label>Gastrodon</label>
+    <labelPlural>Gastrodon</labelPlural>
     <race>PW_Gastrodon</race>
     <combatPower>285</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -66727,6 +67150,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Ambipom</defName>
     <label>Ambipom</label>
+    <labelPlural>Ambipom</labelPlural>
     <race>PW_Ambipom</race>
     <combatPower>306</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -66883,6 +67307,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Drifloon</defName>
     <label>Drifloon</label>
+    <labelPlural>Drifloon</labelPlural>
     <race>PW_Drifloon</race>
     <combatPower>63</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -67029,6 +67454,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Drifblim</defName>
     <label>Drifblim</label>
+    <labelPlural>Drifblim</labelPlural>
     <race>PW_Drifblim</race>
     <combatPower>298</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -67177,6 +67603,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Buneary</defName>
     <label>Buneary</label>
+    <labelPlural>Buneary</labelPlural>
     <race>PW_Buneary</race>
     <combatPower>44</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -67315,6 +67742,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lopunny</defName>
     <label>Lopunny</label>
+    <labelPlural>Lopunny</labelPlural>
     <race>PW_Lopunny</race>
     <combatPower>218</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -67460,6 +67888,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mismagius</defName>
     <label>Mismagius</label>
+    <labelPlural>Mismagius</labelPlural>
     <race>PW_Mismagius</race>
     <combatPower>315</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -67613,6 +68042,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Honchkrow</defName>
     <label>Honchkrow</label>
+    <labelPlural>Honchkrow</labelPlural>
     <race>PW_Honchkrow</race>
     <combatPower>321</combatPower>
     <ecoSystemWeight>0.72</ecoSystemWeight>
@@ -67776,6 +68206,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Glameow</defName>
     <label>Glameow</label>
+    <labelPlural>Glameow</labelPlural>
     <race>PW_Glameow</race>
     <combatPower>45</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -67921,6 +68352,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Purugly</defName>
     <label>Purugly</label>
+    <labelPlural>Purugly</labelPlural>
     <race>PW_Purugly</race>
     <combatPower>328</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -68065,6 +68497,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Chingling</defName>
     <label>Chingling</label>
+    <labelPlural>Chingling</labelPlural>
     <race>PW_Chingling</race>
     <combatPower>15</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -68222,6 +68655,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Stunky</defName>
     <label>Stunky</label>
+    <labelPlural>Stunky</labelPlural>
     <race>PW_Stunky</race>
     <combatPower>47</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -68372,6 +68806,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Skuntank</defName>
     <label>Skuntank</label>
+    <labelPlural>Skuntank</labelPlural>
     <race>PW_Skuntank</race>
     <combatPower>322</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -68545,6 +68980,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bronzor</defName>
     <label>Bronzor</label>
+    <labelPlural>Bronzor</labelPlural>
     <race>PW_Bronzor</race>
     <combatPower>109</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -68709,6 +69145,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bronzong</defName>
     <label>Bronzong</label>
+    <labelPlural>Bronzong</labelPlural>
     <race>PW_Bronzong</race>
     <combatPower>336</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -68870,6 +69307,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Bonsly</defName>
     <label>Bonsly</label>
+    <labelPlural>Bonsly</labelPlural>
     <race>PW_Bonsly</race>
     <combatPower>15</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -69020,6 +69458,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_MimeJr</defName>
     <label>Mime Jr.</label>
+    <labelPlural>Mime Jr.</labelPlural>
     <race>PW_MimeJr</race>
     <combatPower>16</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -69161,6 +69600,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Happiny</defName>
     <label>Happiny</label>
+    <labelPlural>Happiny</labelPlural>
     <race>PW_Happiny</race>
     <combatPower>12</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -69299,6 +69739,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Chatot</defName>
     <label>Chatot</label>
+    <labelPlural>Chatot</labelPlural>
     <race>PW_Chatot</race>
     <combatPower>112</combatPower>
     <ecoSystemWeight>0.40</ecoSystemWeight>
@@ -69453,6 +69894,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Spiritomb</defName>
     <label>Spiritomb</label>
+    <labelPlural>Spiritomb</labelPlural>
     <race>PW_Spiritomb</race>
     <combatPower>220</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -69623,6 +70065,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gible</defName>
     <label>Gible</label>
+    <labelPlural>Gible</labelPlural>
     <race>PW_Gible</race>
     <combatPower>65</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -69800,6 +70243,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gabite</defName>
     <label>Gabite</label>
+    <labelPlural>Gabite</labelPlural>
     <race>PW_Gabite</race>
     <combatPower>246</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -69974,6 +70418,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Garchomp</defName>
     <label>Garchomp</label>
+    <labelPlural>Garchomp</labelPlural>
     <race>PW_Garchomp</race>
     <combatPower>610</combatPower>
     <ecoSystemWeight>1.52</ecoSystemWeight>
@@ -70130,6 +70575,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Munchlax</defName>
     <label>Munchlax</label>
+    <labelPlural>Munchlax</labelPlural>
     <race>PW_Munchlax</race>
     <combatPower>21</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -70271,6 +70717,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Riolu</defName>
     <label>Riolu</label>
+    <labelPlural>Riolu</labelPlural>
     <race>PW_Riolu</race>
     <combatPower>15</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -70419,6 +70866,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lucario</defName>
     <label>Lucario</label>
+    <labelPlural>Lucario</labelPlural>
     <race>PW_Lucario</race>
     <combatPower>238</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -70586,6 +71034,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hippopotas</defName>
     <label>Hippopotas</label>
+    <labelPlural>Hippopotas</labelPlural>
     <race>PW_Hippopotas</race>
     <combatPower>54</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -70763,6 +71212,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Hippowdon</defName>
     <label>Hippowdon</label>
+    <labelPlural>Hippowdon</labelPlural>
     <race>PW_Hippowdon</race>
     <combatPower>353</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -70936,6 +71386,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Skorupi</defName>
     <label>Skorupi</label>
+    <labelPlural>Skorupi</labelPlural>
     <race>PW_Skorupi</race>
     <combatPower>54</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -71103,6 +71554,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Drapion</defName>
     <label>Drapion</label>
+    <labelPlural>Drapion</labelPlural>
     <race>PW_Drapion</race>
     <combatPower>381</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -71279,6 +71731,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Croagunk</defName>
     <label>Croagunk</label>
+    <labelPlural>Croagunk</labelPlural>
     <race>PW_Croagunk</race>
     <combatPower>49</combatPower>
     <ecoSystemWeight>0.56</ecoSystemWeight>
@@ -71445,6 +71898,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Toxicroak</defName>
     <label>Toxicroak</label>
+    <labelPlural>Toxicroak</labelPlural>
     <race>PW_Toxicroak</race>
     <combatPower>347</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -71589,6 +72043,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Carnivine</defName>
     <label>Carnivine</label>
+    <labelPlural>Carnivine</labelPlural>
     <race>PW_Carnivine</race>
     <combatPower>206</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -71744,6 +72199,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Finneon</defName>
     <label>Finneon</label>
+    <labelPlural>Finneon</labelPlural>
     <race>PW_Finneon</race>
     <combatPower>48</combatPower>
     <ecoSystemWeight>0.32</ecoSystemWeight>
@@ -71889,6 +72345,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lumineon</defName>
     <label>Lumineon</label>
+    <labelPlural>Lumineon</labelPlural>
     <race>PW_Lumineon</race>
     <combatPower>284</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -72062,6 +72519,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mantyke</defName>
     <label>Mantyke</label>
+    <labelPlural>Mantyke</labelPlural>
     <race>PW_Mantyke</race>
     <combatPower>18</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -72224,6 +72682,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Snover</defName>
     <label>Snover</label>
+    <labelPlural>Snover</labelPlural>
     <race>PW_Snover</race>
     <combatPower>54</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -72380,6 +72839,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Abomasnow</defName>
     <label>Abomasnow</label>
+    <labelPlural>Abomasnow</labelPlural>
     <race>PW_Abomasnow</race>
     <combatPower>377</combatPower>
     <ecoSystemWeight>1.76</ecoSystemWeight>
@@ -72546,6 +73006,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Weavile</defName>
     <label>Weavile</label>
+    <labelPlural>Weavile</labelPlural>
     <race>PW_Weavile</race>
     <combatPower>287</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
@@ -72708,6 +73169,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Magnezone</defName>
     <label>Magnezone</label>
+    <labelPlural>Magnezone</labelPlural>
     <race>PW_Magnezone</race>
     <combatPower>408</combatPower>
     <ecoSystemWeight>0.96</ecoSystemWeight>
@@ -72848,6 +73310,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Lickilicky</defName>
     <label>Lickilicky</label>
+    <labelPlural>Lickilicky</labelPlural>
     <race>PW_Lickilicky</race>
     <combatPower>346</combatPower>
     <ecoSystemWeight>1.36</ecoSystemWeight>
@@ -73006,6 +73469,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Rhyperior</defName>
     <label>Rhyperior</label>
+    <labelPlural>Rhyperior</labelPlural>
     <race>PW_Rhyperior</race>
     <combatPower>505</combatPower>
     <ecoSystemWeight>1.92</ecoSystemWeight>
@@ -73154,6 +73618,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Tangrowth</defName>
     <label>Tangrowth</label>
+    <labelPlural>Tangrowth</labelPlural>
     <race>PW_Tangrowth</race>
     <combatPower>359</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -73322,6 +73787,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Electivire</defName>
     <label>Electivire</label>
+    <labelPlural>Electivire</labelPlural>
     <race>PW_Electivire</race>
     <combatPower>461</combatPower>
     <ecoSystemWeight>1.44</ecoSystemWeight>
@@ -73486,6 +73952,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Magmortar</defName>
     <label>Magmortar</label>
+    <labelPlural>Magmortar</labelPlural>
     <race>PW_Magmortar</race>
     <combatPower>461</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -73621,6 +74088,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Togekiss</defName>
     <label>Togekiss</label>
+    <labelPlural>Togekiss</labelPlural>
     <race>PW_Togekiss</race>
     <combatPower>346</combatPower>
     <ecoSystemWeight>1.20</ecoSystemWeight>
@@ -73786,6 +74254,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Yanmega</defName>
     <label>Yanmega</label>
+    <labelPlural>Yanmega</labelPlural>
     <race>PW_Yanmega</race>
     <combatPower>393</combatPower>
     <ecoSystemWeight>1.52</ecoSystemWeight>
@@ -73934,6 +74403,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Leafeon</defName>
     <label>Leafeon</label>
+    <labelPlural>Leafeon</labelPlural>
     <race>PW_Leafeon</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>0.80</ecoSystemWeight>
@@ -74090,6 +74560,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Glaceon</defName>
     <label>Glaceon</label>
+    <labelPlural>Glaceon</labelPlural>
     <race>PW_Glaceon</race>
     <combatPower>286</combatPower>
     <ecoSystemWeight>0.64</ecoSystemWeight>
@@ -74259,6 +74730,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gliscor</defName>
     <label>Gliscor</label>
+    <labelPlural>Gliscor</labelPlural>
     <race>PW_Gliscor</race>
     <combatPower>389</combatPower>
     <ecoSystemWeight>1.60</ecoSystemWeight>
@@ -74424,6 +74896,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mamoswine</defName>
     <label>Mamoswine</label>
+    <labelPlural>Mamoswine</labelPlural>
     <race>PW_Mamoswine</race>
     <combatPower>404</combatPower>
     <ecoSystemWeight>2.00</ecoSystemWeight>
@@ -74581,6 +75054,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_PorygonZ</defName>
     <label>Porygon-Z</label>
+    <labelPlural>Porygon-Z</labelPlural>
     <race>PW_PorygonZ</race>
     <combatPower>194</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -74732,6 +75206,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Gallade</defName>
     <label>Gallade</label>
+    <labelPlural>Gallade</labelPlural>
     <race>PW_Gallade</race>
     <combatPower>348</combatPower>
     <ecoSystemWeight>1.28</ecoSystemWeight>
@@ -74898,6 +75373,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Probopass</defName>
     <label>Probopass</label>
+    <labelPlural>Probopass</labelPlural>
     <race>PW_Probopass</race>
     <combatPower>400</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
@@ -75055,6 +75531,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dusknoir</defName>
     <label>Dusknoir</label>
+    <labelPlural>Dusknoir</labelPlural>
     <race>PW_Dusknoir</race>
     <combatPower>448</combatPower>
     <ecoSystemWeight>1.76</ecoSystemWeight>
@@ -75209,6 +75686,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Froslass</defName>
     <label>Froslass</label>
+    <labelPlural>Froslass</labelPlural>
     <race>PW_Froslass</race>
     <combatPower>392</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
@@ -75392,6 +75870,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Rotom</defName>
     <label>Rotom</label>
+    <labelPlural>Rotom</labelPlural>
     <race>PW_Rotom</race>
     <combatPower>160</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -75531,6 +76010,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Uxie</defName>
     <label>Uxie</label>
+    <labelPlural>Uxie</labelPlural>
     <race>PW_Uxie</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -75671,6 +76151,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Mesprit</defName>
     <label>Mesprit</label>
+    <labelPlural>Mesprit</labelPlural>
     <race>PW_Mesprit</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -75810,6 +76291,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Azelf</defName>
     <label>Azelf</label>
+    <labelPlural>Azelf</labelPlural>
     <race>PW_Azelf</race>
     <combatPower>527</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -75969,6 +76451,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Dialga</defName>
     <label>Dialga</label>
+    <labelPlural>Dialga</labelPlural>
     <race>PW_Dialga</race>
     <combatPower>865</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -76132,6 +76615,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Palkia</defName>
     <label>Palkia</label>
+    <labelPlural>Palkia</labelPlural>
     <race>PW_Palkia</race>
     <combatPower>865</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -76287,6 +76771,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Heatran</defName>
     <label>Heatran</label>
+    <labelPlural>Heatran</labelPlural>
     <race>PW_Heatran</race>
     <combatPower>545</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -76437,6 +76922,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Regigigas</defName>
     <label>Regigigas</label>
+    <labelPlural>Regigigas</labelPlural>
     <race>PW_Regigigas</race>
     <combatPower>852</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -76604,6 +77090,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Giratina</defName>
     <label>Giratina</label>
+    <labelPlural>Giratina</labelPlural>
     <race>PW_Giratina</race>
     <combatPower>989</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -76750,6 +77237,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Cresselia</defName>
     <label>Cresselia</label>
+    <labelPlural>Cresselia</labelPlural>
     <race>PW_Cresselia</race>
     <combatPower>545</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -76897,6 +77385,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Phione</defName>
     <label>Phione</label>
+    <labelPlural>Phione</labelPlural>
     <race>PW_Phione</race>
     <combatPower>261</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -77044,6 +77533,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Manaphy</defName>
     <label>Manaphy</label>
+    <labelPlural>Manaphy</labelPlural>
     <race>PW_Manaphy</race>
     <combatPower>327</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -77183,6 +77673,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Darkrai</defName>
     <label>Darkrai</label>
+    <labelPlural>Darkrai</labelPlural>
     <race>PW_Darkrai</race>
     <combatPower>545</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -77325,6 +77816,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Shaymin</defName>
     <label>Shaymin</label>
+    <labelPlural>Shaymin</labelPlural>
     <race>PW_Shaymin</race>
     <combatPower>327</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
@@ -77535,6 +78027,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PW_Arceus</defName>
     <label>Arceus</label>
+    <labelPlural>Arceus</labelPlural>
     <race>PW_Arceus</race>
     <combatPower>1178</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
