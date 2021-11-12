@@ -1843,7 +1843,7 @@
   <PokeWorld.MoveDef>
     <defName>Twister</defName>
     <label>Twister</label>
-    <description>The target is struck with an icy-cold beam of energy.</description>
+    <description>The user whips up a vicious tornado to tear at the opposing Pokémon.</description>
     <type>Dragon</type>
     <category>Special</category>
     <verb>
@@ -2069,7 +2069,7 @@
   <PokeWorld.MoveDef>
     <defName>FairyWind</defName>
     <label>Fairy Wind</label>
-    <description>Borrowing the power of the moon, the user attacks the target.</description>
+    <description>The user stirs up a fairy wind and strikes the target with it.</description>
     <type>Fairy</type>
     <category>Special</category>
     <verb>
