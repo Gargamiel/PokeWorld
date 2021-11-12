@@ -165,7 +165,7 @@
       <texPath>Things/Item/Utility/Belts/ApricornBallBelt</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Item/Utility/Balls/ApricornBall</wornGraphicPath>
+      <wornGraphicPath>Things/Item/Utility/Worn/ApricornBall/ApricornBall</wornGraphicPath>
     </apparel>
     <techLevel>Neolithic</techLevel>  
     <statBases>
@@ -237,7 +237,7 @@
       <texPath>Things/Item/Utility/Belts/PokeBallBelt</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Item/Utility/Balls/PokeBall</wornGraphicPath>
+      <wornGraphicPath>Things/Item/Utility/Worn/PokeBall/PokeBall</wornGraphicPath>
     </apparel>
     <techLevel>Industrial</techLevel> 
     <statBases>
@@ -310,7 +310,7 @@
       <texPath>Things/Item/Utility/Belts/GreatBallBelt</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Item/Utility/Balls/GreatBall</wornGraphicPath>
+      <wornGraphicPath>Things/Item/Utility/Worn/GreatBall/GreatBall</wornGraphicPath>
     </apparel>
     <techLevel>Industrial</techLevel> 
     <statBases>
@@ -383,7 +383,7 @@
       <texPath>Things/Item/Utility/Belts/UltraBallBelt</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Item/Utility/Balls/UltraBall</wornGraphicPath>
+      <wornGraphicPath>Things/Item/Utility/Worn/UltraBall/UltraBall</wornGraphicPath>
     </apparel>
     <techLevel>Industrial</techLevel>
     <statBases>
@@ -456,7 +456,7 @@
       <texPath>Things/Item/Utility/Belts/MasterBallBelt</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Item/Utility/Balls/MasterBall</wornGraphicPath>
+      <wornGraphicPath>Things/Item/Utility/Worn/MasterBall/MasterBall</wornGraphicPath>
     </apparel>
     <techLevel>Ultra</techLevel>  
     <statBases>
