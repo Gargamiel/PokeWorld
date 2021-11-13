@@ -159,9 +159,9 @@
       </li>
     </generationsRequirements>
     <requiredKindSeen>
-      <li>PW_Articuno</li>
-      <li>PW_Zapdos</li>
-      <li>PW_Moltres</li>
+      <li>PW_Raikou</li>
+      <li>PW_Entei</li>
+      <li>PW_Suicune</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
 

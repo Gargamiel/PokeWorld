@@ -39,7 +39,7 @@
       </li>
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>1~3</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -111,7 +111,7 @@
       </li>
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>1~3</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -173,7 +173,7 @@
       <!-- none -->
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>-1~1</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -286,7 +286,7 @@
       </li>
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>2~2</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -348,7 +348,7 @@
       <!-- none -->
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>0~1</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -516,7 +516,7 @@
       </li>
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>2~3</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -579,7 +579,7 @@
       <!-- none -->
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>-1~2</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -750,7 +750,7 @@
       </li>
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>2~3</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -802,7 +802,7 @@
       <!-- none -->
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>-2~1</thingDefCountRange>
         <countRange>1~1</countRange>
@@ -853,7 +853,7 @@
       <!-- none -->
 
       <!-- Eggs -->
-      <li Class="StockGenerator_Category">
+      <li Class="PokeWorld.StockGenerator_PokemonEgg">
         <categoryDef>PW_Eggs</categoryDef>
         <thingDefCountRange>-2~1</thingDefCountRange>
         <countRange>1~1</countRange>

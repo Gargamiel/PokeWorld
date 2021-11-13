@@ -55,7 +55,7 @@ namespace PokeWorld
 		{
 			if (PokeWorldSettings.OkforPokemon())
 			{
-				return DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef x) => x.RaceProps.Animal && x.race.HasComp(typeof(CompPokemon)) && (x.race.comps.Find((CompProperties y) => y.compClass == typeof(CompPokemon)) as CompProperties_Pokemon).attributes.Contains(PokemonAttribute.Baby) && map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(x.race)).TryRandomElement(out kind);
+				return DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef x) => x.RaceProps.Animal && x.race.HasComp(typeof(CompPokemon)) && x.race.GetCompProperties<CompProperties_Pokemon>().attributes.Contains(PokemonAttribute.Baby) && PokeWorldSettings.GenerationAllowed(x.race.GetCompProperties<CompProperties_Pokemon>().generation) && map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(x.race)).TryRandomElement(out kind);
 			}
 			else
 			{

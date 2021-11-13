@@ -23,7 +23,7 @@ namespace PokeWorld
 			PawnKindDef pawnKindDef = null;
 			if (PokeWorldSettings.OkforPokemon())
 			{
-				pawnKindDef = map.Biome.AllWildAnimals.Where((PawnKindDef a) => map.mapTemperature.SeasonAcceptableFor(a.race) && a.race.HasComp(typeof(CompPokemon))).RandomElementByWeight((PawnKindDef def) => map.Biome.CommonalityOfAnimal(def) / def.wildGroupSize.Average);
+				pawnKindDef = map.Biome.AllWildAnimals.Where((PawnKindDef a) => map.mapTemperature.SeasonAcceptableFor(a.race) && a.race.HasComp(typeof(CompPokemon)) && PokeWorldSettings.GenerationAllowed(a.race.GetCompProperties<CompProperties_Pokemon>().generation)).RandomElementByWeight((PawnKindDef def) => map.Biome.CommonalityOfAnimal(def) / def.wildGroupSize.Average);
 				if (pawnKindDef == null)
 				{
 					Log.Error("No spawnable Pokémon right now, defaulting to other animals");

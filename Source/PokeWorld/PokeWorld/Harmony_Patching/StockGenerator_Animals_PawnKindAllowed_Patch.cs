@@ -26,6 +26,11 @@ namespace PokeWorld
                 __result = false;
                 return false;
             }
+            else if (__0.race.HasComp(typeof(CompPokemon)) && !PokeWorldSettings.GenerationAllowed(__0.race.GetCompProperties<CompProperties_Pokemon>().generation))
+            {
+                __result = false;
+                return false;
+            }
             else
             {
                 return true;

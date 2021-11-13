@@ -91,7 +91,7 @@ namespace PokeWorld
 		{
 			if (PokeWorldSettings.OkforPokemon())
 			{
-				IEnumerable<PawnKindDef> source = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => k.RaceProps.Animal && k.race.HasComp(typeof(CompPokemon)) && k.canArriveManhunter && (tile == -1 || Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)));
+				IEnumerable<PawnKindDef> source = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => k.RaceProps.Animal && k.race.HasComp(typeof(CompPokemon)) && PokeWorldSettings.GenerationAllowed(k.race.GetCompProperties<CompProperties_Pokemon>().generation) && k.canArriveManhunter && (tile == -1 || Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)));
 				PawnKindDef singlePokemonKind = null;
 				if (source.Any())
 				{

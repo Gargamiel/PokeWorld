@@ -107,8 +107,27 @@ namespace PokeWorld
 			}
 			if (Rand.Value <= fossilDropRate)
 			{
-				IEnumerable<ThingDef> fossils = DefDatabase<ThingDef>.AllDefs.Where((ThingDef x) => x.thingCategories != null && x.thingCategories.Contains(DefDatabase<ThingCategoryDef>.GetNamed("PW_Fossils")));
-				return fossils.RandomElement();				
+				List<ThingDef> fossils = DefDatabase<ThingDef>.AllDefs.Where((ThingDef x) => x.thingCategories != null && x.thingCategories.Contains(DefDatabase<ThingCategoryDef>.GetNamed("PW_Fossils"))).ToList();
+				if (!PokeWorldSettings.allowGen1)
+                {
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_HelixFossil"));
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_DomeFossil"));
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_OldAmber"));
+				}
+				if (!PokeWorldSettings.allowGen3)
+				{
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_RootFossil"));
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_ClawFossil"));
+				}
+				if (!PokeWorldSettings.allowGen4)
+				{
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_SkullFossil"));
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_ArmorFossil"));
+				}
+                if (fossils.Any())
+                {
+					return fossils.RandomElement();
+				}					
 			}
 			return null;
 		}

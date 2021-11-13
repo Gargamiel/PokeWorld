@@ -34,7 +34,7 @@ namespace PokeWorld
         {
             Thing television = jobDriver.job.targetA.Thing;
             Pawn pawn = jobDriver.pawn;
-            if (canSpawn && television != null && television.TryGetComp<CompPokemonSpawner>() == this && television.Spawned && pawn != null && pawn.Faction.IsPlayer)
+            if (canSpawn && television != null && television.TryGetComp<CompPokemonSpawner>() == this && television.Spawned && pawn != null && pawn.Faction.IsPlayer && PokeWorldSettings.allowGen4)
             {
                 if (!active && television.Map.GameConditionManager.ConditionIsActive(GameConditionDefOf.Eclipse))               
                 {

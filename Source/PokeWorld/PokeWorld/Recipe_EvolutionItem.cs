@@ -19,5 +19,22 @@ namespace PokeWorld
                 pawn.GetComp<CompPokemon>().levelTracker.TryEvolveWithItem(ingredients[0]);
             }
         }
+        public override bool AvailableOnNow(Thing thing, BodyPartRecord part = null)
+        {
+            if(thing is Pawn pawn)
+            {
+                CompPokemon comp = pawn.TryGetComp<CompPokemon>();
+                if (comp != null && comp.evolutions != null) {
+                    foreach(Evolution evo in comp.evolutions)
+                    {
+                        if (PokeWorldSettings.GenerationAllowed(evo.evolution.race.GetCompProperties<CompProperties_Pokemon>().generation))
+                        {
+                            return true;
+                        }
+                    }                    
+                }
+            }
+            return false;
+        }
     }
 }

@@ -81,7 +81,7 @@ namespace PokeWorld
 			}
             else
             {
-				return DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef td) => td.RaceProps.Animal && td.race.HasComp(typeof(CompPokemon)) && td.race.GetCompProperties<CompProperties_Pokemon>().starter && (!checkForTamer || CanKeepPetTame(td)));
+				return DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef td) => td.RaceProps.Animal && td.race.HasComp(typeof(CompPokemon)) && PokeWorldSettings.GenerationAllowed(td.race.GetCompProperties<CompProperties_Pokemon>().generation) && td.race.GetCompProperties<CompProperties_Pokemon>().starter && (!checkForTamer || CanKeepPetTame(td)));
 			}
 		}
 

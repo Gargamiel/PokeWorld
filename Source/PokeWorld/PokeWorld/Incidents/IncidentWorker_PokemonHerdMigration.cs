@@ -61,7 +61,7 @@ namespace PokeWorld
 
 		private bool TryFindAnimalKind(int tile, out List<PawnKindDef> allPokemonKind)
 		{
-			IEnumerable<PawnKindDef> source = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => k.RaceProps.Animal && k.race.HasComp(typeof(CompPokemon)) && k.RaceProps.CanDoHerdMigration && (tile == -1 || Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)));
+			IEnumerable<PawnKindDef> source = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => k.RaceProps.Animal && k.race.HasComp(typeof(CompPokemon)) && PokeWorldSettings.GenerationAllowed(k.race.GetCompProperties<CompProperties_Pokemon>().generation) && k.RaceProps.CanDoHerdMigration && (tile == -1 || Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)));
 			PawnKindDef singlePokemonKind = null;
 			if (source.Any())
 			{

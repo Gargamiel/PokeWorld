@@ -16,7 +16,7 @@ namespace PokeWorld
 	{
         public static bool Prefix(ref List<Thing> __result)
         {
-            if (PokeWorldSettings.OkforPokemon())
+            if (PokeWorldSettings.OkforPokemon() && PokeWorldSettings.allowGen2)
             {
 				__result = GenerateUnown();
 				return false;

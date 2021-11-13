@@ -53,7 +53,7 @@ namespace PokeWorld
                     {
                         foreach (Evolution evo in evolutions)
                         {
-                            if (evo.requirement == EvolutionRequirement.level && (evo.gender == Gender.None || pokemonHolder.gender == evo.gender))
+                            if (evo.requirement == EvolutionRequirement.level && (evo.gender == Gender.None || pokemonHolder.gender == evo.gender) && PokeWorldSettings.GenerationAllowed(evo.evolution.race.GetCompProperties<CompProperties_Pokemon>().generation))
                             {
                                 Command_Toggle command_Toggle = new Command_Toggle();
                                 command_Toggle.isActive = () => flagEverstoneOn;
@@ -144,7 +144,8 @@ namespace PokeWorld
             {
                 foreach (Evolution evo in evolutions)
                 {
-                    if (evo.requirement == EvolutionRequirement.level && level >= evo.level
+                    if (PokeWorldSettings.GenerationAllowed(evo.evolution.race.GetCompProperties<CompProperties_Pokemon>().generation)
+                    && evo.requirement == EvolutionRequirement.level && level >= evo.level
                     && comp.friendshipTracker.EvolutionAllowed(evo.friendship)
                     && (evo.gender == Gender.None || pokemonHolder.gender == evo.gender))                   
                     {
