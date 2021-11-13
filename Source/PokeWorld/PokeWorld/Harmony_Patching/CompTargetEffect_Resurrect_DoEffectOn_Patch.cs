@@ -15,9 +15,9 @@ namespace PokeWorld
 	{
 		public static bool Prefix(Thing __1)
 		{
-			if (__1 != null && __1 is Pawn pawn && pawn.TryGetComp<CompPokemon>() != null)
+			if (__1 != null && __1 is Corpse corpse && corpse.InnerPawn != null && corpse.InnerPawn.TryGetComp<CompPokemon>() != null)
 			{
-				Log.Warning("Tried to resurrect a Pokémon, this is currently bugged and therefore disabled: " + pawn.ToStringSafe());
+				Log.Error("Tried to resurrect a Pokémon, this is currently bugged and therefore disabled: " + corpse.InnerPawn.ToStringSafe());
 				return false;
 			}
 			return true;

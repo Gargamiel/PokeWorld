@@ -17,7 +17,7 @@ namespace PokeWorld
 		{
 			if (__0 != null && __0.TryGetComp<CompPokemon>() != null)
 			{
-				Log.Warning("Tried to resurrect a Pokémon, this is currently bugged and therefore disabled: " + __0.ToStringSafe());
+				Log.Error("Tried to resurrect a Pokémon, this is currently bugged and therefore disabled: " + __0.ToStringSafe());
 				return false;
 			}
 			return true;
