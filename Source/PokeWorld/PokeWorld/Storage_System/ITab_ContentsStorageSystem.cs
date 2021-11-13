@@ -230,7 +230,7 @@ namespace PokeWorld
 			{
 				if(GenDrop.TryDropSpawn(pawn, base.SelThing.Position, base.SelThing.Map, ThingPlaceMode.Near, out var _))
                 {
-					PutInBallUtility.PutInBall(pawn);
+					PutInBallUtility.PutPokemonInBall(pawn);
 				}			
 			}
 		}

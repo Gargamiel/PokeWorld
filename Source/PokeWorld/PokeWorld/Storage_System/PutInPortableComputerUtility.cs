@@ -14,7 +14,11 @@ namespace PokeWorld
         {
             CryptosleepBall ball = t as CryptosleepBall;
             Designation designation = t.Map.designationManager.DesignationOn(t, DefDatabase<DesignationDef>.GetNamed("PW_PutInPortableComputer"));
-            if (ball != null && designation == null)
+            if(ball != null && ball.Faction != Faction.OfPlayer)
+            {
+                Messages.Message("PW_CantStoreBallInPCWarning".Translate(), ball, MessageTypeDefOf.RejectInput);
+            }
+            else if (ball != null && designation == null)
             {
                 ball.wantPutInPortableComputer = true;
                 t.Map.designationManager.AddDesignation(new Designation(t, DefDatabase<DesignationDef>.GetNamed("PW_PutInPortableComputer")));

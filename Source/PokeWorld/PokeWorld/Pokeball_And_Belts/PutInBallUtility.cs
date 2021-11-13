@@ -26,7 +26,7 @@ namespace PokeWorld
             }
         }
 
-        public static void PutInBall(Pawn pokemon)
+        public static void PutPokemonInBall(Pawn pokemon)
         {
             CompPokemon comp = pokemon.TryGetComp<CompPokemon>();
             if (comp != null)
@@ -55,6 +55,17 @@ namespace PokeWorld
                 ball.SetFaction(pokemon.Faction);
                 GenPlace.TryPlaceThing(ball, pos, map, ThingPlaceMode.Near);                            
             }          
+        }
+        public static void PutCorpseInBall(Corpse corpse, ThingDef ballDef)
+        {           
+            IntVec3 pos = corpse.Position;
+            Map map = corpse.Map;
+            corpse.DeSpawn();
+            Thing thing = ThingMaker.MakeThing(ballDef);
+            CryptosleepBall ball = thing as CryptosleepBall;
+            ball.stackCount = 1;
+            ball.TryAcceptThing(corpse);
+            GenPlace.TryPlaceThing(ball, pos, map, ThingPlaceMode.Near);         
         }
     }
 }

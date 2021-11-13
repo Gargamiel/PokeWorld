@@ -486,7 +486,7 @@
         <targetParams>
           <canTargetBuildings>false</canTargetBuildings>
           <canTargetAnimals>true</canTargetAnimals>
-          <canTargetHumans>false</canTargetHumans>
+          <canTargetHumans>true</canTargetHumans>
           <canTargetMechs>false</canTargetMechs>
           <canTargetLocations>false</canTargetLocations>
         </targetParams>

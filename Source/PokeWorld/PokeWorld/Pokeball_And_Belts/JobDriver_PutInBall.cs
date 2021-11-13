@@ -27,7 +27,7 @@ namespace PokeWorld
 			Toil enter = new Toil();
 			enter.initAction = delegate
 			{
-				PutInBallUtility.PutInBall(pokemon);				
+				PutInBallUtility.PutPokemonInBall(pokemon);				
 			};
 			enter.defaultCompleteMode = ToilCompleteMode.Instant;
 			yield return enter;

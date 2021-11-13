@@ -55,7 +55,7 @@ namespace PokeWorld
 								pawn.ClearMind();
 								compPokemon.ballDef = compPokeballBelt.ballDef;
 								Find.World.GetComponent<PokedexManager>().AddPokemonKindCaught(pawn.kindDef);
-								PutInBallUtility.PutInBall(pawn);
+								PutInBallUtility.PutPokemonInBall(pawn);
 								if(instigator.Faction != null && instigator.Faction == Faction.OfPlayer && instigator.skills != null && !instigator.skills.GetSkill(SkillDefOf.Animals).TotallyDisabled)
                                 {
 									instigator.skills.Learn(SkillDefOf.Animals, compPokemon.levelTracker.level * 50);
@@ -109,7 +109,22 @@ namespace PokeWorld
 								}
 							}
 						}
-					}					
+					}		
+					else if (dinfo.Weapon == DefDatabase<ThingDef>.GetNamed("PW_MasterBallBelt") && pawn.def == ThingDefOf.Human)
+                    {
+						float rand = Rand.Range(0f, 1f);
+						if (rand < 0.1f)
+						{
+							CompProperties_Pokeball compPokeballBelt = dinfo.Weapon.GetCompProperties<CompProperties_Pokeball>();
+							HealthUtility.DamageUntilDead(pawn);
+							PutInBallUtility.PutCorpseInBall(pawn.Corpse, compPokeballBelt.ballDef);							
+						}
+                        else
+                        {
+							string text = "PW_TextMoteCatchFailed".Translate(0.1f.ToStringPercent());
+							MoteMaker.ThrowText(pawn.DrawPos, pawn.Map, text, 8f);
+						}
+					}
 					else if (compPokemon == null)
 					{
 						string text = "PW_TextMoteCatchFailedNotPokemon".Translate();

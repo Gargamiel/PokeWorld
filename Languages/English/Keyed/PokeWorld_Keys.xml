@@ -161,4 +161,6 @@
 
   <PW_AllowGeneration>Allow Gen. {0} Pokémon:</PW_AllowGeneration>
 
+  <PW_CantStoreBallInPCWarning>You can't store the content of this Poké Ball in a PC!</PW_CantStoreBallInPCWarning>
+
 </LanguageData>

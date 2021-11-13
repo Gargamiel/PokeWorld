@@ -13,7 +13,7 @@ namespace PokeWorld
     public class CryptosleepBall : ThingWithComps, ISuspendableThingHolder, IOpenable
     {
 		public ThingOwner innerContainer;
-		protected bool contentsKnown;
+		protected bool contentsKnown = false;
 		public bool wantPutInPortableComputer = false;
 		public int OpenTicks 
 		{
@@ -43,10 +43,24 @@ namespace PokeWorld
 
 		public CryptosleepBall()
 		{
-			innerContainer = new ThingOwner<Pawn>(this, oneStackOnly: true);
+			innerContainer = new ThingOwner<Thing>(this, oneStackOnly: true);
 		}
 
-        public override string Label => base.Label + " (" + ((Pawn)ContainedThing).Name + ")";
+        public override string Label
+		{
+            get
+            {
+				if(contentsKnown && ContainedThing is Pawn pawn)
+                {
+					return base.Label + " (" + pawn.Name + ")";
+				}
+                else
+                {
+					return base.Label;
+				}
+			}
+		}
+			
 
         public virtual bool Accepts(Thing thing)
 		{
