@@ -4,6 +4,7 @@
 	<name>PokéWorld</name>
 	<author>Gargamiel</author>
 	<packageId>Gargamiel.PokeWorld</packageId>
+	<url>https://github.com/Gargamiel/PokeWorld.git</url>
 	<supportedVersions>
 		<li>1.3</li>
 	</supportedVersions>
