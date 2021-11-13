@@ -131,6 +131,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -298,6 +299,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -454,6 +456,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -631,6 +634,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -801,6 +805,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -972,6 +977,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -1141,6 +1147,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -1311,6 +1318,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -1473,6 +1481,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -1621,6 +1630,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -1762,6 +1772,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -1909,6 +1920,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -2058,6 +2070,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -2200,6 +2213,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -2343,6 +2357,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -2508,6 +2523,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -2674,6 +2690,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -2828,6 +2845,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -2996,6 +3014,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -3154,6 +3173,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -3307,6 +3327,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -3450,6 +3471,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -3607,6 +3629,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -3770,6 +3793,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -3931,6 +3955,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeThunderStone</li>
@@ -4082,6 +4107,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -4262,6 +4288,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -4432,6 +4459,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -4597,6 +4625,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -4759,6 +4788,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeMoonStone</li>
@@ -4911,6 +4941,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -5072,6 +5103,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -5230,6 +5262,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeMoonStone</li>
@@ -5378,6 +5411,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -5526,6 +5560,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeMoonStone</li>
@@ -5656,6 +5691,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -5824,6 +5860,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeFireStone</li>
@@ -5963,6 +6000,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -6120,6 +6158,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeMoonStone</li>
@@ -6259,6 +6298,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -6428,6 +6468,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -6598,6 +6639,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -6755,6 +6797,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -6914,6 +6957,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeShinyStone</li>
@@ -7054,6 +7098,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -7220,6 +7265,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -7377,6 +7423,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -7546,6 +7593,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -7714,6 +7762,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -7886,6 +7935,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -8056,6 +8106,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -8220,6 +8271,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -8386,6 +8438,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -8559,6 +8612,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -8722,6 +8776,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -8878,6 +8933,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -9024,6 +9080,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -9188,6 +9245,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeFireStone</li>
@@ -9330,6 +9388,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -9498,6 +9557,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -9668,6 +9728,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeWaterStone</li>
@@ -9804,6 +9865,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -9944,6 +10006,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -10096,6 +10159,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -10237,6 +10301,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -10389,6 +10454,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -10542,6 +10608,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -10683,6 +10750,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -10836,6 +10904,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -10986,6 +11055,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeLeafStone</li>
@@ -11129,6 +11199,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -11298,6 +11369,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -11457,6 +11529,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -11626,6 +11699,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -11796,6 +11870,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -11954,6 +12029,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -12114,6 +12190,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -12271,6 +12348,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -12446,6 +12524,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeKingsRock</li>
@@ -12607,6 +12686,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -12781,6 +12861,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -12952,6 +13033,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeThunderStone</li>
@@ -13116,6 +13198,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -13273,6 +13356,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -13420,6 +13504,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -13589,6 +13674,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -13753,6 +13839,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -13905,6 +13992,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -14048,6 +14136,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -14204,6 +14293,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeWaterStone</li>
@@ -14344,6 +14434,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -14505,6 +14596,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -14667,6 +14759,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -14817,6 +14910,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -14990,6 +15084,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -15154,6 +15249,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -15308,6 +15404,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -15464,6 +15561,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -15610,6 +15708,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -15775,6 +15874,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -15930,6 +16030,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -16079,6 +16180,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeLeafStone</li>
@@ -16219,6 +16321,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -16367,6 +16470,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -16504,6 +16608,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -16645,6 +16750,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -16798,6 +16904,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -16942,6 +17049,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeKingsRock</li>
@@ -17095,6 +17203,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -17233,6 +17342,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -17395,6 +17505,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -17557,6 +17668,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeKingsRock</li>
@@ -17706,6 +17818,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeShinyStone</li>
@@ -17867,6 +17980,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -18012,6 +18126,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -18177,6 +18292,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -18344,6 +18460,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -18496,6 +18613,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -18642,6 +18760,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -18807,6 +18926,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeWaterStone</li>
@@ -18952,6 +19072,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -19102,6 +19223,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -19275,6 +19397,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -19429,6 +19552,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -19601,6 +19725,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeThunderStone</li>
@@ -19766,6 +19891,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeFireStone</li>
@@ -19908,6 +20034,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -20054,6 +20181,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -20199,6 +20327,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -20359,6 +20488,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -20510,6 +20640,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -20638,6 +20769,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -20836,6 +20968,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeWaterStone</li>
@@ -20994,6 +21127,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -21151,6 +21285,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -21308,6 +21443,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -21469,6 +21605,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeUpgrade</li>
@@ -21645,6 +21782,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -21809,6 +21947,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -21976,6 +22115,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -22140,6 +22280,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -22319,6 +22460,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -22469,6 +22611,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -22620,6 +22763,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -22772,6 +22916,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -22924,6 +23069,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -23094,6 +23240,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -23263,6 +23410,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -23434,6 +23582,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -23572,6 +23721,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -23711,6 +23861,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -23869,6 +24020,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -24027,6 +24179,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -24174,6 +24327,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -24358,6 +24512,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -24535,6 +24690,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -24704,6 +24860,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -24881,6 +25038,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -25059,6 +25217,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -25226,6 +25385,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -25382,6 +25542,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -25528,6 +25689,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -25697,6 +25859,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -25856,6 +26019,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -26013,6 +26177,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -26160,6 +26325,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -26329,6 +26495,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -26492,6 +26659,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -26650,6 +26818,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -26827,6 +26996,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -26994,6 +27164,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -27148,6 +27319,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -27294,6 +27466,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -27437,6 +27610,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -27583,6 +27757,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -27738,6 +27913,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeShinyStone</li>
@@ -27888,6 +28064,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -28028,6 +28205,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -28201,6 +28379,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -28375,6 +28554,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -28553,6 +28733,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -28694,6 +28875,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -28876,6 +29058,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -29047,6 +29230,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -29208,6 +29392,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -29341,6 +29526,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -29503,6 +29689,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -29666,6 +29853,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -29817,6 +30005,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -29973,6 +30162,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -30133,6 +30323,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeShinyStone</li>
@@ -30296,6 +30487,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -30465,6 +30657,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -30624,6 +30817,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -30772,6 +30966,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -30925,6 +31120,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -31070,6 +31266,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -31235,6 +31432,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -31398,6 +31596,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -31562,6 +31761,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -31807,6 +32007,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -31937,6 +32138,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -32103,6 +32305,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -32263,6 +32466,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -32422,6 +32626,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -32571,6 +32776,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -32740,6 +32946,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -32915,6 +33122,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -33100,6 +33308,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -33271,6 +33480,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -33441,6 +33651,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -33603,6 +33814,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -33754,6 +33966,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -33904,6 +34117,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -34081,6 +34295,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeIceStone</li>
@@ -34242,6 +34457,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -34396,6 +34612,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -34568,6 +34785,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -34731,6 +34949,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -34908,6 +35127,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -35091,6 +35311,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeIceStone</li>
@@ -35252,6 +35473,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -35429,6 +35651,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -35597,6 +35820,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -35728,6 +35952,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -35902,6 +36127,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -36056,6 +36282,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -36229,6 +36456,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -36396,6 +36624,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -36553,6 +36782,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -36709,6 +36939,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -36860,6 +37091,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -37025,6 +37257,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeDubiousDisc</li>
@@ -37172,6 +37405,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -37301,6 +37535,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -37460,6 +37695,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -37610,6 +37846,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -37772,6 +38009,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -37946,6 +38184,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -38112,6 +38351,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -38262,6 +38502,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -38403,6 +38644,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -38566,6 +38808,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -38722,6 +38965,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -38882,6 +39126,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -39052,6 +39297,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -39221,6 +39467,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -39391,6 +39638,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -39538,6 +39786,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -39682,6 +39931,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -39826,6 +40076,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -39992,6 +40243,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -40157,6 +40409,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -40315,6 +40568,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -40479,6 +40733,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -40645,6 +40900,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -40803,6 +41059,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -40964,6 +41221,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -41134,6 +41392,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -41297,6 +41556,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -41457,6 +41717,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -41607,6 +41868,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -41755,6 +42017,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -41905,6 +42168,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -42066,6 +42330,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -42207,6 +42472,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -42357,6 +42623,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -42497,6 +42764,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -42643,6 +42911,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -42805,6 +43074,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -42968,6 +43238,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeWaterStone</li>
@@ -43108,6 +43379,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -43249,6 +43521,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -43404,6 +43677,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeLeafStone</li>
@@ -43548,6 +43822,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -43705,6 +43980,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -43852,6 +44128,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -44018,6 +44295,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -44166,6 +44444,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -44320,6 +44599,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -44483,6 +44763,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -44630,6 +44911,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -44784,6 +45066,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -44937,6 +45220,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -45098,6 +45382,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -45246,6 +45531,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -45394,6 +45680,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -45547,6 +45834,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -45688,6 +45976,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -45858,6 +46147,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -46017,6 +46307,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -46172,6 +46463,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -46322,6 +46614,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -46476,6 +46769,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -46638,6 +46932,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -46794,6 +47089,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -46940,6 +47236,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -47090,6 +47387,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -47271,6 +47569,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -47429,6 +47728,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeMoonStone</li>
@@ -47562,6 +47862,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -47725,6 +48026,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -47889,6 +48191,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -48062,6 +48365,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -48235,6 +48539,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -48397,6 +48702,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -48542,6 +48848,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -48693,6 +49000,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -48861,6 +49169,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -49023,6 +49332,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -49172,6 +49482,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -49322,6 +49633,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -49477,6 +49789,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -49623,6 +49936,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -49781,6 +50095,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeShinyStone</li>
@@ -49926,6 +50241,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -50060,6 +50376,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -50217,6 +50534,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -50368,6 +50686,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -50533,6 +50852,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -50687,6 +51007,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -50860,6 +51181,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -51020,6 +51342,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -51169,6 +51492,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -51329,6 +51653,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -51479,6 +51804,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -51629,6 +51955,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -51810,6 +52137,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -51981,6 +52309,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -52149,6 +52478,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -52306,6 +52636,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -52459,6 +52790,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -52625,6 +52957,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -52784,6 +53117,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -52945,6 +53279,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -53096,6 +53431,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -53259,6 +53595,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -53422,6 +53759,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -53587,6 +53925,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -53746,6 +54085,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -53903,6 +54243,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -54055,6 +54396,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -54221,6 +54563,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -54381,6 +54724,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -54538,6 +54882,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -54685,6 +55030,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -54863,6 +55209,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -55030,6 +55377,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -55176,6 +55524,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -55326,6 +55675,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -55525,6 +55875,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -55694,6 +56045,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -55854,6 +56206,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -56004,6 +56357,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -56160,6 +56514,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -56330,6 +56685,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -56485,6 +56841,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -56639,6 +56996,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -56796,6 +57154,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -56933,6 +57292,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -57116,6 +57476,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -57279,6 +57640,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -57437,6 +57799,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -57596,6 +57959,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -57751,6 +58115,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -57904,6 +58269,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -58058,6 +58424,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -58207,6 +58574,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -58363,6 +58731,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -58512,6 +58881,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -58685,6 +59055,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -58857,6 +59228,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -59031,6 +59403,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -59177,6 +59550,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -59347,6 +59721,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -59510,6 +59885,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -59664,6 +60040,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -59819,6 +60196,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -59979,6 +60357,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -60127,6 +60506,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -60275,6 +60655,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -60426,6 +60807,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -60585,6 +60967,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -60742,6 +61125,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -60890,6 +61274,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -61055,6 +61440,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -61229,6 +61615,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -61403,6 +61790,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -61571,6 +61959,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -61732,6 +62121,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -61895,6 +62285,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -62048,6 +62439,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -62213,6 +62605,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -62382,6 +62775,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -62541,6 +62935,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -62698,6 +63093,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -62856,6 +63252,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -63006,6 +63403,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -63167,6 +63565,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -63323,6 +63722,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -63467,6 +63867,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -63621,6 +64022,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -63785,6 +64187,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -63949,6 +64352,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -64102,6 +64506,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -64248,6 +64653,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -64392,6 +64798,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -64556,6 +64963,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -64710,6 +65118,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -64876,6 +65285,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -65031,6 +65441,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -65215,6 +65626,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -65389,6 +65801,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -65552,6 +65965,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -65705,6 +66119,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -65877,6 +66292,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -66027,6 +66443,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -66193,6 +66610,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -66356,6 +66774,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -66513,6 +66932,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -66676,6 +67096,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -66840,6 +67261,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -66995,6 +67417,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -67140,6 +67563,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -67297,6 +67721,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -67444,6 +67869,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -67593,6 +68019,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -67732,6 +68159,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -67878,6 +68306,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -68032,6 +68461,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -68196,6 +68626,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -68342,6 +68773,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -68487,6 +68919,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -68645,6 +69078,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -68796,6 +69230,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -68970,6 +69405,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -69135,6 +69571,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -69297,6 +69734,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -69448,6 +69886,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -69590,6 +70029,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -69729,6 +70169,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -69884,6 +70325,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -70055,6 +70497,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -70233,6 +70676,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -70408,6 +70852,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -70565,6 +71010,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -70707,6 +71153,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -70856,6 +71303,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -71024,6 +71472,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -71202,6 +71651,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -71376,6 +71826,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -71544,6 +71995,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -71721,6 +72173,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -71888,6 +72341,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -72033,6 +72487,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -72189,6 +72644,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -72335,6 +72791,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -72509,6 +72966,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -72672,6 +73130,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -72829,6 +73288,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -72996,6 +73456,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -73159,6 +73620,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -73300,6 +73762,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -73459,6 +73922,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -73608,6 +74072,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -73777,6 +74242,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -73942,6 +74408,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -74078,6 +74545,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -74244,6 +74712,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -74393,6 +74862,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -74550,6 +75020,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -74720,6 +75191,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -74886,6 +75358,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -75044,6 +75517,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -75196,6 +75670,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -75363,6 +75838,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -75521,6 +75997,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -75676,6 +76153,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -75860,6 +76338,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -76000,6 +76479,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -76141,6 +76621,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -76281,6 +76762,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -76441,6 +76923,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -76605,6 +77088,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -76761,6 +77245,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -76912,6 +77397,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -77080,6 +77566,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -77227,6 +77714,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -77375,6 +77863,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -77523,6 +78012,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -77663,6 +78153,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -77806,6 +78297,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>
@@ -78017,6 +78509,7 @@
       <li>PW_AdministerPotion</li>
       <li>PW_AdministerHyperPotion</li>
       <li>PW_AdministerMaxPotion</li>
+      <li>PW_AdministerHealPowder</li>
       <li>PW_GiveOneRareCandy</li>
       <li>PW_GiveFiveRareCandy</li>
     </recipes>

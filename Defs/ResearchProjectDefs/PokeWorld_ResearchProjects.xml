@@ -107,7 +107,7 @@
     <defName>PW_HyperPotionResearch</defName>
     <label>Hyper Potion</label>
     <description>Synthesize Hyper Potion, an enhanced form of Pokémon potion used to treat injuried Pokémon.</description>
-    <baseCost>1500</baseCost>
+    <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>PW_PotionResearch</li>
@@ -116,6 +116,22 @@
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <tab>PW_PokeWorldResearchTab</tab>
     <researchViewX>1.00</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PW_HealPowderResearch</defName>
+    <label>Heal Powder</label>
+    <description>Synthesize Heal Powder, a very bitter Pokémon medicine used to heal incurable health conditions, scars and lost limbs.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PW_HyperPotionResearch</li>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>PW_PokeWorldResearchTab</tab>
+    <researchViewX>2.00</researchViewX>
     <researchViewY>0.75</researchViewY>
   </ResearchProjectDef>
 
