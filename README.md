@@ -1,3 +1,7 @@
+# Links
+
+[PokéWorld on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2652029657)
+
 # PokéWorld
 
 PokéWorld adds all 493 species of Pokémon from the first four generations to RimWorld, each with their own unique characteristics akin to the original games.
@@ -37,19 +41,21 @@ Since the main Pokémon games and RimWorld are quite different, I had to take so
 
 A slider allows you to set the proportions of Pokémon found in the world over other vanilla or modded animals. If you set this slider to the max (only Pokémon) you will only encounter Pokémon for the whole game, without other creatures breaking the immersion.
 
+Generation selection: You can choose which generation of Pokémon you want your game to feature. You can change it at anytime during play, already existing Pokémon will not disappear.
+
 ## Compatibility
 
 ### Adding / Removing from existing saves
 
-(Untested) Adding or removing PokéWorld from an existing save may or may not break that save, backup and do so at your own risk. Will update this with feedback from the community when more tests have been done.
+Adding or removing PokéWorld from an existing save should be safe, but backup and do so at your own risk. Note that removing this mod from a save will remove all your Pokémon and all Pokémon related stuff.
 
 ### Royalty & Ideology
 
-(Untested) Will update this with feedback from the community when more tests have been done.
+There appears to be no big issues.
 
 ### Other Mods
 
-**Combat Extended**: No, would need to patch every single Pokémon and moves.
+**Combat Extended**: It apparently works fine.
 
 **Other Pokémon mod**: No.
 
@@ -61,7 +67,9 @@ Information about other mods will be added based on tests and feedback from the 
 
 ## Translation
 
-This mod is in english but should fully support translation. If you are a translator, feel free to create a patch (try to respect your respective language grammar conventions and syntax regarding the Pokémon media), I'll add them here. Please notice me if you find any typo / mistakes in the base (english) mod.
+If you are a translator, feel free to create a patch (try to respect your respective language grammar conventions and syntax regarding the Pokémon media), I'll add them here.
+
+Spanish translation by Imgginspace: https://steamcommunity.com/sharedfiles/filedetails/?id=2653551899
 
 ## Q&A
 
@@ -118,7 +126,3 @@ My first objective after release will be to fix most of these bugs and compatibi
 Please use with caution and not with a save you care a lot about, I advise creating a new game for this mod with small or QoL mods until it has been tested further.
 
 Feel free to give your feedback (positive or negative) and share this mod with other fans of Pokémon and RimWorld alike.
-
-# Links
-
-[PokéWorld on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2652029657)
