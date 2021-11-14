@@ -16,21 +16,36 @@ namespace PokeWorld
 	{
         public static bool Prefix(ref List<Thing> __result)
         {
-            if (PokeWorldSettings.OkforPokemon() && PokeWorldSettings.allowGen2)
+            if (PokeWorldSettings.OkforPokemon())
             {
-				__result = GenerateUnown();
-				return false;
+				__result = GenerateUnownAndBronzor();
+				if(__result.Count > 0)
+                {
+					return false;
+				}
+                else
+                {
+					return true;
+                }
 			}
 			return true;
 		}
-		private static List<Thing> GenerateUnown()
+		private static List<Thing> GenerateUnownAndBronzor()
 		{
 			List<Thing> list = new List<Thing>();
-			int num = Rand.Range(2, 4);
-			for (int i = 0; i < num; i++)
-			{
-				Pawn pawn = PawnGenerator.GeneratePawn(DefDatabase<PawnKindDef>.GetNamed("PW_Unown"));
-				list.Add(pawn);
+			if (PokeWorldSettings.allowGen2)
+            {
+				int num = Rand.Range(3, 5);
+				for (int i = 0; i < num; i++)
+				{
+					Pawn unown = PawnGenerator.GeneratePawn(DefDatabase<PawnKindDef>.GetNamed("PW_Unown"));
+					list.Add(unown);
+				}
+			}
+			if (PokeWorldSettings.allowGen4)
+            {
+				Pawn bronzor = PawnGenerator.GeneratePawn(DefDatabase<PawnKindDef>.GetNamed("PW_Bronzor"));
+				list.Add(bronzor);
 			}
 			return list;
 		}

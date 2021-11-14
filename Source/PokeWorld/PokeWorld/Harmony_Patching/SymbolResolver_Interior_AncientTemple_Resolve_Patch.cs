@@ -11,6 +11,7 @@ using HarmonyLib;
 
 namespace PokeWorld
 {
+	/*
 	[HarmonyPatch(typeof(SymbolResolver_Interior_AncientTemple))]
 	[HarmonyPatch("Resolve")]
 	public class SymbolResolver_Interior_AncientTemple_Resolve_Patch
@@ -43,4 +44,5 @@ namespace PokeWorld
 			}
 		}
 	}
+	*/
 }
