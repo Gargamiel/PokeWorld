@@ -113,7 +113,9 @@
     </statBases>
     <tradeability>None</tradeability>
     <stackLimit>1</stackLimit>
-    <thingCategories Inherit="false" />
+    <thingCategories Inherit="false">
+      <li>PW_Item</li>
+    </thingCategories>
   </ThingDef>
 
   <!-- ================= -->
