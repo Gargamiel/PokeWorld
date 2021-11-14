@@ -163,4 +163,7 @@
 
   <PW_CantStoreBallInPCWarning>You can't store the content of this Poké Ball in a PC!</PW_CantStoreBallInPCWarning>
 
+  <PW_InspectLevelExperiencePlayerPokemon>Lv.{0}, exp: {1}/{2}</PW_InspectLevelExperiencePlayerPokemon>
+  <PW_InspectLevelExperienceNonPlayerPokemon>Lv.{0}</PW_InspectLevelExperienceNonPlayerPokemon>
+
 </LanguageData>

@@ -223,7 +223,20 @@ namespace PokeWorld
                 Pokemon.jobs.DrawLinesBetweenTargets();
             }
         }
-        
+        public override string CompInspectStringExtra()
+        {
+            string text;
+            if (Pokemon.Faction != null && Pokemon.Faction.IsPlayer)
+            {
+                text = "PW_InspectLevelExperiencePlayerPokemon".Translate(levelTracker.level, levelTracker.experience, levelTracker.totalExpForNextLevel);
+                text += '\n' + friendshipTracker.GetStatement();
+            }
+            else
+            {
+                text = "PW_InspectLevelExperienceNonPlayerPokemon".Translate(levelTracker.level);
+            }
+            return text;
+        }
         public override void PrePreTraded(TradeAction action, Pawn playerNegotiator, ITrader trader)
         {
             base.PrePreTraded(action, playerNegotiator, trader);
