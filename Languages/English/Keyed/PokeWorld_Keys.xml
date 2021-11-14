@@ -44,8 +44,8 @@
   <PW_SettingsOnlyPokemon>Only Pokémon</PW_SettingsOnlyPokemon>
 
   <PW_PokeballContainsShort>Contains: {0}.</PW_PokeballContainsShort>
-  <PW_PokeballContainsLongGendered>Contains: {0}, level {1} {2}.</PW_PokeballContainsLongGendered>
-  <PW_PokeballContainsLongNoGender>Contains: {0}, level {1} {2} {3}.</PW_PokeballContainsLongNoGender>
+  <PW_PokeballContainsLongGendered>Contains: {0}, level {1} {2} {3}.</PW_PokeballContainsLongGendered>
+  <PW_PokeballContainsLongNoGender>Contains: {0}, level {1} {2}.</PW_PokeballContainsLongNoGender>
   
   <PW_TextMoteCatchFailed>Failed!\n{0} chance</PW_TextMoteCatchFailed>
   <PW_TextMoteCatchFailedNotPokemon>Failed!\nNot a Pokémon!</PW_TextMoteCatchFailedNotPokemon>

@@ -204,15 +204,14 @@ namespace PokeWorld
 					if (comp != null)
 					{
 						string species = pokemon.def.label;
-						string gender = pokemon.gender != Gender.None ? pokemon.gender.ToString().ToLower() : null;
 						string level = comp.levelTracker.level.ToString();
 						if (!text.NullOrEmpty())
 						{
 							text += "\n";
 						}
-						if(gender != null)
+						if(pokemon.gender != Gender.None)
                         {
-							return text + "PW_PokeballContainsLongGendered".Translate(str.CapitalizeFirst(), level, gender, species);
+							return text + "PW_PokeballContainsLongGendered".Translate(str.CapitalizeFirst(), level, pokemon.gender.ToString().ToLower(), species);
 						}
                         else
                         {
