@@ -12155,7 +12155,7 @@
       <li>PokeWorld.ITab_Pawn_Moves</li>
     </inspectorTabs>
     <race>
-      <body>PW_QuadrupedPokemonWithPaws</body>
+      <body>PW_QuadrupedPokemonWithHoovesAndTail</body>
       <petness>1.0</petness>
       <packAnimal>true</packAnimal>
       <herdAnimal>false</herdAnimal>
@@ -12313,7 +12313,7 @@
       <li>PokeWorld.ITab_Pawn_Moves</li>
     </inspectorTabs>
     <race>
-      <body>PW_QuadrupedPokemonWithPaws</body>
+      <body>PW_QuadrupedPokemonWithHoovesAndTail</body>
       <petness>1.0</petness>
       <packAnimal>true</packAnimal>
       <herdAnimal>false</herdAnimal>
@@ -20146,7 +20146,7 @@
       <li>PokeWorld.ITab_Pawn_Moves</li>
     </inspectorTabs>
     <race>
-      <body>PW_QuadrupedPokemonWithPaws</body>
+      <body>PW_QuadrupedPokemonWithHoovesAndTail</body>
       <petness>1.0</petness>
       <packAnimal>true</packAnimal>
       <herdAnimal>false</herdAnimal>
@@ -32270,7 +32270,7 @@
       <li>PokeWorld.ITab_Pawn_Moves</li>
     </inspectorTabs>
     <race>
-      <body>PW_QuadrupedPokemonWithPaws</body>
+      <body>PW_QuadrupedPokemonWithHoovesAndTail</body>
       <petness>1.0</petness>
       <packAnimal>true</packAnimal>
       <herdAnimal>false</herdAnimal>
@@ -37370,7 +37370,7 @@
       <li>PokeWorld.ITab_Pawn_Moves</li>
     </inspectorTabs>
     <race>
-      <body>PW_QuadrupedPokemonWithPaws</body>
+      <body>PW_QuadrupedPokemonWithHoovesAndTail</body>
       <petness>1.0</petness>
       <packAnimal>true</packAnimal>
       <herdAnimal>false</herdAnimal>
@@ -78472,7 +78472,7 @@
       <li>PokeWorld.ITab_Pawn_Moves</li>
     </inspectorTabs>
     <race>
-      <body>PW_QuadrupedPokemonWithPaws</body>
+      <body>PW_QuadrupedPokemonWithHoovesAndTail</body>
       <hasGenders>false</hasGenders>
       <herdMigrationAllowed>false</herdMigrationAllowed>
       <petness>1.0</petness>
