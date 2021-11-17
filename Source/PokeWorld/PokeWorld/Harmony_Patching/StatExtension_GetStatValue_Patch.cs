@@ -26,11 +26,11 @@ namespace PokeWorld
 				}
 				else if (__1 == StatDefOf.ArmorRating_Sharp)
 				{
-					__result = Mathf.Clamp((1 / 4.0f * comp.statTracker.defenseStat + 3 / 4.0f * comp.statTracker.defenseSpStat) / 120, 0, 1.5f);
+					__result = Mathf.Clamp((0.4f * comp.statTracker.defenseStat + 0.6f * comp.statTracker.defenseSpStat) / 100, 0, 1.5f);
 				}
 				else if (__1 == StatDefOf.ArmorRating_Blunt)
 				{
-					__result = Mathf.Clamp((3 / 4.0f * comp.statTracker.defenseStat + 1 / 4.0f * comp.statTracker.defenseSpStat) / 120, 0, 1.5f);
+					__result = Mathf.Clamp((0.6f * comp.statTracker.defenseStat + 0.4f * comp.statTracker.defenseSpStat) / 100, 0, 1.5f);
 				}
 				else if (__1 == StatDefOf.ArmorRating_Heat)
 				{

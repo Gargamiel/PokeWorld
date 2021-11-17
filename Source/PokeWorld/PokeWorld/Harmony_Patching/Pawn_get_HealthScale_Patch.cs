@@ -21,7 +21,7 @@ namespace PokeWorld
 				CompPokemon comp = __instance.TryGetComp<CompPokemon>();
 				if (comp != null && comp.statTracker != null)
 				{
-					__result *= comp.statTracker.healthScaleMult;
+					__result *= comp.statTracker.HealthScaleMult;
 				}
 			}			
 		}

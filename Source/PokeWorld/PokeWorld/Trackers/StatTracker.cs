@@ -19,8 +19,15 @@ namespace PokeWorld
         public int attackSpStat;
         public int defenseSpStat;
         public int speedStat;
+        private float healthScaleMult = 1;
 
-        public float healthScaleMult = 1;
+        public float HealthScaleMult
+        {
+            get
+            {
+                return healthScaleMult;
+            }
+        }
 
         public NatureDef nature;
 
@@ -183,14 +190,7 @@ namespace PokeWorld
             attackSpStat = (int)StatExtension.GetStatValue(pokemonHolder, DefDatabase<StatDef>.GetNamed("PW_SpecialAttack"));
             defenseSpStat = (int)StatExtension.GetStatValue(pokemonHolder, DefDatabase<StatDef>.GetNamed("PW_SpecialDefense"));
             speedStat = (int)StatExtension.GetStatValue(pokemonHolder, DefDatabase<StatDef>.GetNamed("PW_Speed"));
-            healthScaleMult = hpStat / 60f;
-            /*
-            foreach(Tool tool in pokemonHolder.Tools)
-            {
-                tool.power = attackStat / 5f;
-                tool.cooldownTime = (float)Math.Pow(attackStat + speedStat + 10, -0.3f) * 7;
-            }   
-            */
+            healthScaleMult = hpStat / 50f;
         }
         public void ExposeData()
         {

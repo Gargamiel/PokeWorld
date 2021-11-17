@@ -41,12 +41,12 @@ namespace PokeWorld
                         }
                         else
                         {
-                            spDefense = 50;//(int)(targetPawn.GetStatValue(StatDefOf.ArmorRating_Blunt) * 40 + targetPawn.GetStatValue(StatDefOf.ArmorRating_Sharp) * 40 + targetPawn.GetStatValue(StatDefOf.ArmorRating_Heat) * 20);
+                            spDefense = PokemonDamageUtility.GetNonPokemonPawnDefense(targetPawn);
                         }
                     }
                     else
                     {
-                        spDefense = 30;//(int)(thing.GetStatValue(StatDefOf.ArmorRating_Blunt) * 40 + thing.GetStatValue(StatDefOf.ArmorRating_Sharp) * 40 + thing.GetStatValue(StatDefOf.ArmorRating_Heat) * 20);
+                        spDefense = 50;
                     }
                     float damage = (((2 * level / 5f) + 2) * movePower * (spAttack / (float)spDefense) / 10f) * stab * typeMultiplier;
                     damage = Rand.Range(damage * RangedDamageRandomFactorMin, damage * RangedDamageRandomFactorMax);
