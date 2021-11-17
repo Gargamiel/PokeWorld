@@ -27,7 +27,7 @@ namespace PokeWorld
 
 		public override string CompInspectStringExtra()
 		{
-			if (pawn.Any)
+			if (pawn != null && pawn.Any)
 			{
 				return "PW_LegendaryTitle".Translate(pawn[0].LabelCap);
 			}
