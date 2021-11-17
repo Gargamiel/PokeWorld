@@ -166,4 +166,31 @@
   <PW_InspectLevelExperiencePlayerPokemon>Lv.{0}, exp: {1}/{2}</PW_InspectLevelExperiencePlayerPokemon>
   <PW_InspectLevelExperienceNonPlayerPokemon>Lv.{0}</PW_InspectLevelExperienceNonPlayerPokemon>
 
+  <PW_Evolution>Evolution</PW_Evolution>
+  <PW_StatEvolutionDesc>Evolution is a process in which a Pokémon changes into a different species of Pokémon.\n\nEvolution is not a merely visual change, as Pokémon of a higher evolutionary stage have different stats, can learn different moves, and sometimes change types. Most Pokémon evolve once they reach a certain level or when exposed to an item. Others need particular conditions to evolve, such as beeing happy or at specific time of the day.</PW_StatEvolutionDesc>
+  <PW_StatUnknownEvolution>Unknown</PW_StatUnknownEvolution>
+  <PW_StatCatchPokemonToLearnMore>You need to catch this Pokémon to learn more about his species.</PW_StatCatchPokemonToLearnMore>
+  <PW_StatNoEvolution>None</PW_StatNoEvolution>  
+  <PW_CannotEvolve>This Pokémon cannot evolve</PW_CannotEvolve>
+
+  <PW_HappyPokemon>a happy {0}</PW_HappyPokemon>
+  <PW_MalePokemon>a male {0}</PW_MalePokemon>
+  <PW_FemalePokemon>a female {0}</PW_FemalePokemon>
+  <PW_HappyMalePokemon>a happy male {0}</PW_HappyMalePokemon>
+  <PW_HappyFemalePokemon>a happy female {0}</PW_HappyFemalePokemon>
+
+  <PW_CertainItem>certain item</PW_CertainItem>
+  <PW_StatEvolutionNeedItem>{0} requires a {1} to evolve into: {2}</PW_StatEvolutionNeedItem>
+  
+  <PW_StatEvolutionNeedFixedLevel>{0} needs to reach level {1} to evolve into: {2}</PW_StatEvolutionNeedFixedLevel>
+  <PW_StatEvolutionNeedFixedLevelDay>{0} needs to reach level {1} and level up during the day to evolve into: {2}</PW_StatEvolutionNeedFixedLevelDay>
+  <PW_StatEvolutionNeedFixedLevelNight>{0} needs to reach level {1} and level up during the night to evolve into: {2}</PW_StatEvolutionNeedFixedLevelNight>
+  
+  <PW_StatEvolutionNeedLevelUp>{0} needs to level up to evolve into: {1}</PW_StatEvolutionNeedLevelUp>
+  <PW_StatEvolutionNeedLevelUpDay>{0} needs to level up during the day to evolve into: {1}</PW_StatEvolutionNeedLevelUpDay>
+  <PW_StatEvolutionNeedLevelUpNight>{0} needs to level up during the night to evolve into: {1}</PW_StatEvolutionNeedLevelUpNight>
+
+  
+
+  
 </LanguageData>

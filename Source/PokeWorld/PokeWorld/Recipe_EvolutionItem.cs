@@ -27,7 +27,7 @@ namespace PokeWorld
                 if (comp != null && comp.evolutions != null) {
                     foreach(Evolution evo in comp.evolutions)
                     {
-                        if (PokeWorldSettings.GenerationAllowed(evo.evolution.race.GetCompProperties<CompProperties_Pokemon>().generation))
+                        if (PokeWorldSettings.GenerationAllowed(evo.pawnKind.race.GetCompProperties<CompProperties_Pokemon>().generation))
                         {
                             return true;
                         }

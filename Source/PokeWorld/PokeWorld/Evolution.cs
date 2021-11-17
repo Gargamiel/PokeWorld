@@ -11,7 +11,7 @@ namespace PokeWorld
 {
     public class Evolution
     {
-        public PawnKindDef evolution;
+        public PawnKindDef pawnKind;
         public EvolutionRequirement requirement;
         public OtherEvolutionRequirement otherRequirement;
 

@@ -19,7 +19,7 @@
         <evolutionLine>1</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ivysaur</evolution>
+            <pawnKind>PW_Ivysaur</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -182,7 +182,7 @@
         <evolutionLine>1</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Venusaur</evolution>
+            <pawnKind>PW_Venusaur</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -514,7 +514,7 @@
         <evolutionLine>2</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Charmeleon</evolution>
+            <pawnKind>PW_Charmeleon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -684,7 +684,7 @@
         <evolutionLine>2</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Charizard</evolution>
+            <pawnKind>PW_Charizard</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -1027,7 +1027,7 @@
         <evolutionLine>3</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Wartortle</evolution>
+            <pawnKind>PW_Wartortle</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -1197,7 +1197,7 @@
         <evolutionLine>3</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Blastoise</evolution>
+            <pawnKind>PW_Blastoise</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -1531,7 +1531,7 @@
         <evolutionLine>4</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Metapod</evolution>
+            <pawnKind>PW_Metapod</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>7</level>
@@ -1681,7 +1681,7 @@
         <evolutionLine>4</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Butterfree</evolution>
+            <pawnKind>PW_Butterfree</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>10</level>
@@ -1971,7 +1971,7 @@
         <evolutionLine>5</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Kakuna</evolution>
+            <pawnKind>PW_Kakuna</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>7</level>
@@ -2122,7 +2122,7 @@
         <evolutionLine>5</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Beedrill</evolution>
+            <pawnKind>PW_Beedrill</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>10</level>
@@ -2408,7 +2408,7 @@
         <evolutionLine>6</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Pidgeotto</evolution>
+            <pawnKind>PW_Pidgeotto</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>18</level>
@@ -2575,7 +2575,7 @@
         <evolutionLine>6</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Pidgeot</evolution>
+            <pawnKind>PW_Pidgeot</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -2895,7 +2895,7 @@
         <evolutionLine>7</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Raticate</evolution>
+            <pawnKind>PW_Raticate</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -3224,7 +3224,7 @@
         <evolutionLine>8</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Fearow</evolution>
+            <pawnKind>PW_Fearow</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -3521,7 +3521,7 @@
         <evolutionLine>9</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Arbok</evolution>
+            <pawnKind>PW_Arbok</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>22</level>
@@ -3843,7 +3843,7 @@
         <evolutionLine>10</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Raichu</evolution>
+            <pawnKind>PW_Raichu</pawnKind>
             <requirement>item</requirement>
             <item>PW_ThunderStone</item>
           </li>
@@ -4157,7 +4157,7 @@
         <evolutionLine>11</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Sandslash</evolution>
+            <pawnKind>PW_Sandslash</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>22</level>
@@ -4509,7 +4509,7 @@
         <evolutionLine>12</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Nidorina</evolution>
+            <pawnKind>PW_Nidorina</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -4676,7 +4676,7 @@
         <evolutionLine>12</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Nidoqueen</evolution>
+            <pawnKind>PW_Nidoqueen</pawnKind>
             <requirement>item</requirement>
             <item>PW_MoonStone</item>
           </li>
@@ -4991,7 +4991,7 @@
         <evolutionLine>13</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Nidorino</evolution>
+            <pawnKind>PW_Nidorino</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -5154,7 +5154,7 @@
         <evolutionLine>13</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Nidoking</evolution>
+            <pawnKind>PW_Nidoking</pawnKind>
             <requirement>item</requirement>
             <item>PW_MoonStone</item>
           </li>
@@ -5461,7 +5461,7 @@
         <evolutionLine>14</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Clefable</evolution>
+            <pawnKind>PW_Clefable</pawnKind>
             <requirement>item</requirement>
             <item>PW_MoonStone</item>
           </li>
@@ -5741,7 +5741,7 @@
         <evolutionLine>15</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ninetales</evolution>
+            <pawnKind>PW_Ninetales</pawnKind>
             <requirement>item</requirement>
             <item>PW_FireStone</item>
           </li>
@@ -6051,7 +6051,7 @@
         <evolutionLine>16</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Wigglytuff</evolution>
+            <pawnKind>PW_Wigglytuff</pawnKind>
             <requirement>item</requirement>
             <item>PW_MoonStone</item>
           </li>
@@ -6349,7 +6349,7 @@
         <evolutionLine>17</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Golbat</evolution>
+            <pawnKind>PW_Golbat</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>22</level>
@@ -6520,7 +6520,7 @@
         <evolutionLine>17</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Crobat</evolution>
+            <pawnKind>PW_Crobat</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -6690,7 +6690,7 @@
         <evolutionLine>18</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Gloom</evolution>
+            <pawnKind>PW_Gloom</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>21</level>
@@ -6849,12 +6849,12 @@
         <evolutionLine>18</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Bellossom</evolution>
+            <pawnKind>PW_Bellossom</pawnKind>
             <requirement>item</requirement>
             <item>PW_ShinyStone</item>
           </li>
           <li>
-            <evolution>PW_Vileplume</evolution>
+            <pawnKind>PW_Vileplume</pawnKind>
             <requirement>item</requirement>
             <item>PW_LeafStone</item>
           </li>
@@ -7149,7 +7149,7 @@
         <evolutionLine>19</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Parasect</evolution>
+            <pawnKind>PW_Parasect</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>24</level>
@@ -7474,7 +7474,7 @@
         <evolutionLine>20</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Venomoth</evolution>
+            <pawnKind>PW_Venomoth</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>31</level>
@@ -7812,7 +7812,7 @@
         <evolutionLine>21</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Dugtrio</evolution>
+            <pawnKind>PW_Dugtrio</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>26</level>
@@ -8156,7 +8156,7 @@
         <evolutionLine>22</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Persian</evolution>
+            <pawnKind>PW_Persian</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>28</level>
@@ -8488,7 +8488,7 @@
         <evolutionLine>23</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Golduck</evolution>
+            <pawnKind>PW_Golduck</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>33</level>
@@ -8826,7 +8826,7 @@
         <evolutionLine>24</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Primeape</evolution>
+            <pawnKind>PW_Primeape</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>28</level>
@@ -9130,7 +9130,7 @@
         <evolutionLine>25</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Arcanine</evolution>
+            <pawnKind>PW_Arcanine</pawnKind>
             <requirement>item</requirement>
             <item>PW_FireStone</item>
           </li>
@@ -9438,7 +9438,7 @@
         <evolutionLine>26</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Poliwhirl</evolution>
+            <pawnKind>PW_Poliwhirl</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>25</level>
@@ -9608,12 +9608,12 @@
         <evolutionLine>26</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Poliwrath</evolution>
+            <pawnKind>PW_Poliwrath</pawnKind>
             <requirement>item</requirement>
             <item>PW_WaterStone</item>
           </li>
           <li>
-            <evolution>PW_Politoed</evolution>
+            <pawnKind>PW_Politoed</pawnKind>
             <requirement>item</requirement>
             <item>PW_KingsRock</item>
           </li>
@@ -9915,7 +9915,7 @@
         <evolutionLine>27</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Kadabra</evolution>
+            <pawnKind>PW_Kadabra</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -10056,7 +10056,7 @@
         <evolutionLine>27</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Alakazam</evolution>
+            <pawnKind>PW_Alakazam</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -10351,7 +10351,7 @@
         <evolutionLine>28</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Machoke</evolution>
+            <pawnKind>PW_Machoke</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>28</level>
@@ -10505,7 +10505,7 @@
         <evolutionLine>28</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Machamp</evolution>
+            <pawnKind>PW_Machamp</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -10801,7 +10801,7 @@
         <evolutionLine>29</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Weepinbell</evolution>
+            <pawnKind>PW_Weepinbell</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>21</level>
@@ -10956,7 +10956,7 @@
         <evolutionLine>29</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Victreebel</evolution>
+            <pawnKind>PW_Victreebel</pawnKind>
             <requirement>item</requirement>
             <item>PW_LeafStone</item>
           </li>
@@ -11250,7 +11250,7 @@
         <evolutionLine>30</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Tentacruel</evolution>
+            <pawnKind>PW_Tentacruel</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -11580,7 +11580,7 @@
         <evolutionLine>31</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Graveler</evolution>
+            <pawnKind>PW_Graveler</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>25</level>
@@ -11751,7 +11751,7 @@
         <evolutionLine>31</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Golem</evolution>
+            <pawnKind>PW_Golem</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -12079,7 +12079,7 @@
         <evolutionLine>32</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Rapidash</evolution>
+            <pawnKind>PW_Rapidash</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -12399,12 +12399,12 @@
         <evolutionLine>33</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Slowking</evolution>
+            <pawnKind>PW_Slowking</pawnKind>
             <requirement>item</requirement>
             <item>PW_KingsRock</item>
           </li>
           <li>
-            <evolution>PW_Slowbro</evolution>
+            <pawnKind>PW_Slowbro</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>37</level>
@@ -12737,7 +12737,7 @@
         <evolutionLine>34</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Magneton</evolution>
+            <pawnKind>PW_Magneton</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -12913,7 +12913,7 @@
         <evolutionLine>34</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Magnezone</evolution>
+            <pawnKind>PW_Magnezone</pawnKind>
             <requirement>item</requirement>
             <item>PW_ThunderStone</item>
           </li>
@@ -13249,7 +13249,7 @@
         <evolutionLine>36</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Dodrio</evolution>
+            <pawnKind>PW_Dodrio</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>31</level>
@@ -13554,7 +13554,7 @@
         <evolutionLine>37</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Dewgong</evolution>
+            <pawnKind>PW_Dewgong</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>34</level>
@@ -13889,7 +13889,7 @@
         <evolutionLine>38</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Muk</evolution>
+            <pawnKind>PW_Muk</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -14186,7 +14186,7 @@
         <evolutionLine>39</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Cloyster</evolution>
+            <pawnKind>PW_Cloyster</pawnKind>
             <requirement>item</requirement>
             <item>PW_WaterStone</item>
           </li>
@@ -14485,7 +14485,7 @@
         <evolutionLine>40</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Haunter</evolution>
+            <pawnKind>PW_Haunter</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>25</level>
@@ -14648,7 +14648,7 @@
         <evolutionLine>40</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Gengar</evolution>
+            <pawnKind>PW_Gengar</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -14961,7 +14961,7 @@
         <evolutionLine>41</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Steelix</evolution>
+            <pawnKind>PW_Steelix</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -15134,7 +15134,7 @@
         <evolutionLine>42</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Hypno</evolution>
+            <pawnKind>PW_Hypno</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>26</level>
@@ -15454,7 +15454,7 @@
         <evolutionLine>43</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Kingler</evolution>
+            <pawnKind>PW_Kingler</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>28</level>
@@ -15758,7 +15758,7 @@
         <evolutionLine>44</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Electrode</evolution>
+            <pawnKind>PW_Electrode</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -16081,7 +16081,7 @@
         <evolutionLine>45</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Exeggutor</evolution>
+            <pawnKind>PW_Exeggutor</pawnKind>
             <requirement>item</requirement>
             <item>PW_LeafStone</item>
           </li>
@@ -16371,7 +16371,7 @@
         <evolutionLine>46</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Marowak</evolution>
+            <pawnKind>PW_Marowak</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>28</level>
@@ -16954,7 +16954,7 @@
         <evolutionLine>48</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Lickilicky</evolution>
+            <pawnKind>PW_Lickilicky</pawnKind>
             <requirement>item</requirement>
             <item>PW_KingsRock</item>
           </li>
@@ -17100,7 +17100,7 @@
         <evolutionLine>49</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Weezing</evolution>
+            <pawnKind>PW_Weezing</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>35</level>
@@ -17393,7 +17393,7 @@
         <evolutionLine>50</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Rhydon</evolution>
+            <pawnKind>PW_Rhydon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>42</level>
@@ -17556,7 +17556,7 @@
         <evolutionLine>50</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Rhyperior</evolution>
+            <pawnKind>PW_Rhyperior</pawnKind>
             <requirement>item</requirement>
             <item>PW_KingsRock</item>
           </li>
@@ -17719,7 +17719,7 @@
         <evolutionLine>51</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Blissey</evolution>
+            <pawnKind>PW_Blissey</pawnKind>
             <requirement>item</requirement>
             <item>PW_ShinyStone</item>
           </li>
@@ -17869,7 +17869,7 @@
         <evolutionLine>52</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Tangrowth</evolution>
+            <pawnKind>PW_Tangrowth</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -18176,7 +18176,7 @@
         <evolutionLine>54</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Seadra</evolution>
+            <pawnKind>PW_Seadra</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -18343,7 +18343,7 @@
         <evolutionLine>54</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Kingdra</evolution>
+            <pawnKind>PW_Kingdra</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>45</level>
@@ -18510,7 +18510,7 @@
         <evolutionLine>55</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Seaking</evolution>
+            <pawnKind>PW_Seaking</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>33</level>
@@ -18810,7 +18810,7 @@
         <evolutionLine>56</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Starmie</evolution>
+            <pawnKind>PW_Starmie</pawnKind>
             <requirement>item</requirement>
             <item>PW_WaterStone</item>
           </li>
@@ -19274,7 +19274,7 @@
         <evolutionLine>58</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Scizor</evolution>
+            <pawnKind>PW_Scizor</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -19602,7 +19602,7 @@
         <evolutionLine>60</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Electivire</evolution>
+            <pawnKind>PW_Electivire</pawnKind>
             <requirement>item</requirement>
             <item>PW_ThunderStone</item>
           </li>
@@ -19776,7 +19776,7 @@
         <evolutionLine>61</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Magmortar</evolution>
+            <pawnKind>PW_Magmortar</pawnKind>
             <requirement>item</requirement>
             <item>PW_FireStone</item>
           </li>
@@ -20231,7 +20231,7 @@
         <evolutionLine>64</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Gyarados</evolution>
+            <pawnKind>PW_Gyarados</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -20819,32 +20819,32 @@
         <evolutionLine>67</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Vaporeon</evolution>
+            <pawnKind>PW_Vaporeon</pawnKind>
             <requirement>item</requirement>
             <item>PW_WaterStone</item>
           </li>
           <li>
-            <evolution>PW_Jolteon</evolution>
+            <pawnKind>PW_Jolteon</pawnKind>
             <requirement>item</requirement>
             <item>PW_ThunderStone</item>
           </li>
           <li>
-            <evolution>PW_Leafeon</evolution>
+            <pawnKind>PW_Leafeon</pawnKind>
             <requirement>item</requirement>
             <item>PW_LeafStone</item>
           </li>
           <li>
-            <evolution>PW_Glaceon</evolution>
+            <pawnKind>PW_Glaceon</pawnKind>
             <requirement>item</requirement>
             <item>PW_IceStone</item>
           </li>
           <li>
-            <evolution>PW_Flareon</evolution>
+            <pawnKind>PW_Flareon</pawnKind>
             <requirement>item</requirement>
             <item>PW_FireStone</item>
           </li>
           <li>
-            <evolution>PW_Umbreon</evolution>
+            <pawnKind>PW_Umbreon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -20853,7 +20853,7 @@
             <gender>None</gender>
           </li>
           <li>
-            <evolution>PW_Espeon</evolution>
+            <pawnKind>PW_Espeon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -21493,7 +21493,7 @@
         <evolutionLine>68</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Porygon2_</evolution>
+            <pawnKind>PW_Porygon2_</pawnKind>
             <requirement>item</requirement>
             <item>PW_Upgrade</item>
           </li>
@@ -21658,7 +21658,7 @@
         <evolutionLine>69</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Omastar</evolution>
+            <pawnKind>PW_Omastar</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -21999,7 +21999,7 @@
         <evolutionLine>70</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Kabutops</evolution>
+            <pawnKind>PW_Kabutops</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -23120,7 +23120,7 @@
         <evolutionLine>76</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Dragonair</evolution>
+            <pawnKind>PW_Dragonair</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -23290,7 +23290,7 @@
         <evolutionLine>76</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Dragonite</evolution>
+            <pawnKind>PW_Dragonite</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>55</level>
@@ -23912,7 +23912,7 @@
         <evolutionLine>79</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Bayleef</evolution>
+            <pawnKind>PW_Bayleef</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -24070,7 +24070,7 @@
         <evolutionLine>79</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Meganium</evolution>
+            <pawnKind>PW_Meganium</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -24385,7 +24385,7 @@
         <evolutionLine>80</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Quilava</evolution>
+            <pawnKind>PW_Quilava</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>14</level>
@@ -24562,7 +24562,7 @@
         <evolutionLine>80</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Typhlosion</evolution>
+            <pawnKind>PW_Typhlosion</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -24910,7 +24910,7 @@
         <evolutionLine>81</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Croconaw</evolution>
+            <pawnKind>PW_Croconaw</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>18</level>
@@ -25088,7 +25088,7 @@
         <evolutionLine>81</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Feraligatr</evolution>
+            <pawnKind>PW_Feraligatr</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -25435,7 +25435,7 @@
         <evolutionLine>82</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Furret</evolution>
+            <pawnKind>PW_Furret</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>15</level>
@@ -25740,7 +25740,7 @@
         <evolutionLine>83</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Noctowl</evolution>
+            <pawnKind>PW_Noctowl</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -26070,7 +26070,7 @@
         <evolutionLine>84</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ledian</evolution>
+            <pawnKind>PW_Ledian</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>18</level>
@@ -26376,7 +26376,7 @@
         <evolutionLine>85</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ariados</evolution>
+            <pawnKind>PW_Ariados</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>22</level>
@@ -26869,7 +26869,7 @@
         <evolutionLine>87</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Lanturn</evolution>
+            <pawnKind>PW_Lanturn</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>27</level>
@@ -27214,7 +27214,7 @@
         <evolutionLine>10</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Pikachu</evolution>
+            <pawnKind>PW_Pikachu</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -27370,7 +27370,7 @@
         <evolutionLine>14</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Clefairy</evolution>
+            <pawnKind>PW_Clefairy</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -27518,7 +27518,7 @@
         <evolutionLine>16</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Jigglypuff</evolution>
+            <pawnKind>PW_Jigglypuff</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -27661,7 +27661,7 @@
         <evolutionLine>88</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Togetic</evolution>
+            <pawnKind>PW_Togetic</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -27809,7 +27809,7 @@
         <evolutionLine>88</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Togekiss</evolution>
+            <pawnKind>PW_Togekiss</pawnKind>
             <requirement>item</requirement>
             <item>PW_ShinyStone</item>
           </li>
@@ -27965,7 +27965,7 @@
         <evolutionLine>89</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Xatu</evolution>
+            <pawnKind>PW_Xatu</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>25</level>
@@ -28255,7 +28255,7 @@
         <evolutionLine>90</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Flaaffy</evolution>
+            <pawnKind>PW_Flaaffy</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>15</level>
@@ -28430,7 +28430,7 @@
         <evolutionLine>90</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ampharos</evolution>
+            <pawnKind>PW_Ampharos</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -28926,7 +28926,7 @@
         <evolutionLine>91</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Azumarill</evolution>
+            <pawnKind>PW_Azumarill</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>18</level>
@@ -29577,7 +29577,7 @@
         <evolutionLine>93</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Skiploom</evolution>
+            <pawnKind>PW_Skiploom</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>18</level>
@@ -29741,7 +29741,7 @@
         <evolutionLine>93</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Jumpluff</evolution>
+            <pawnKind>PW_Jumpluff</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>27</level>
@@ -30055,7 +30055,7 @@
         <evolutionLine>94</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ambipom</evolution>
+            <pawnKind>PW_Ambipom</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -30212,7 +30212,7 @@
         <evolutionLine>95</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Sunflora</evolution>
+            <pawnKind>PW_Sunflora</pawnKind>
             <requirement>item</requirement>
             <item>PW_ShinyStone</item>
           </li>
@@ -30538,7 +30538,7 @@
         <evolutionLine>96</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Yanmega</evolution>
+            <pawnKind>PW_Yanmega</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -30709,7 +30709,7 @@
         <evolutionLine>97</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Quagsire</evolution>
+            <pawnKind>PW_Quagsire</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -31317,7 +31317,7 @@
         <evolutionLine>98</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Honchkrow</evolution>
+            <pawnKind>PW_Honchkrow</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -31646,7 +31646,7 @@
         <evolutionLine>99</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Mismagius</evolution>
+            <pawnKind>PW_Mismagius</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -32355,7 +32355,7 @@
         <evolutionLine>103</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Forretress</evolution>
+            <pawnKind>PW_Forretress</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>31</level>
@@ -32827,7 +32827,7 @@
         <evolutionLine>105</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Gliscor</evolution>
+            <pawnKind>PW_Gliscor</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -33180,7 +33180,7 @@
         <evolutionLine>106</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Granbull</evolution>
+            <pawnKind>PW_Granbull</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>23</level>
@@ -34176,7 +34176,7 @@
         <evolutionLine>110</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Weavile</evolution>
+            <pawnKind>PW_Weavile</pawnKind>
             <requirement>item</requirement>
             <item>PW_IceStone</item>
           </li>
@@ -34346,7 +34346,7 @@
         <evolutionLine>111</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ursaring</evolution>
+            <pawnKind>PW_Ursaring</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -34662,7 +34662,7 @@
         <evolutionLine>112</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Magcargo</evolution>
+            <pawnKind>PW_Magcargo</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -35000,7 +35000,7 @@
         <evolutionLine>113</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Piloswine</evolution>
+            <pawnKind>PW_Piloswine</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>33</level>
@@ -35179,7 +35179,7 @@
         <evolutionLine>113</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Mamoswine</evolution>
+            <pawnKind>PW_Mamoswine</pawnKind>
             <requirement>item</requirement>
             <item>PW_IceStone</item>
           </li>
@@ -35523,7 +35523,7 @@
         <evolutionLine>115</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Octillery</evolution>
+            <pawnKind>PW_Octillery</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>25</level>
@@ -36333,7 +36333,7 @@
         <evolutionLine>119</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Houndoom</evolution>
+            <pawnKind>PW_Houndoom</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>24</level>
@@ -36832,7 +36832,7 @@
         <evolutionLine>120</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Donphan</evolution>
+            <pawnKind>PW_Donphan</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>25</level>
@@ -37141,7 +37141,7 @@
         <evolutionLine>68</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_PorygonZ</evolution>
+            <pawnKind>PW_PorygonZ</pawnKind>
             <requirement>item</requirement>
             <item>PW_DubiousDisc</item>
           </li>
@@ -37585,7 +37585,7 @@
         <evolutionLine>47</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Hitmonchan</evolution>
+            <pawnKind>PW_Hitmonchan</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>defense</otherRequirement>
             <level>20</level>
@@ -37594,7 +37594,7 @@
             <gender>None</gender>
           </li>
           <li>
-            <evolution>PW_Hitmontop</evolution>
+            <pawnKind>PW_Hitmontop</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>balanced</otherRequirement>
             <level>20</level>
@@ -37603,7 +37603,7 @@
             <gender>None</gender>
           </li>
           <li>
-            <evolution>PW_Hitmonlee</evolution>
+            <pawnKind>PW_Hitmonlee</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>attack</otherRequirement>
             <level>20</level>
@@ -37897,7 +37897,7 @@
         <evolutionLine>59</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Jynx</evolution>
+            <pawnKind>PW_Jynx</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -38060,7 +38060,7 @@
         <evolutionLine>60</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Electabuzz</evolution>
+            <pawnKind>PW_Electabuzz</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -38235,7 +38235,7 @@
         <evolutionLine>61</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Magmar</evolution>
+            <pawnKind>PW_Magmar</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -39178,7 +39178,7 @@
         <evolutionLine>127</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Pupitar</evolution>
+            <pawnKind>PW_Pupitar</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -39348,7 +39348,7 @@
         <evolutionLine>127</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Tyranitar</evolution>
+            <pawnKind>PW_Tyranitar</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>55</level>
@@ -40127,7 +40127,7 @@
         <evolutionLine>131</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Grovyle</evolution>
+            <pawnKind>PW_Grovyle</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -40293,7 +40293,7 @@
         <evolutionLine>131</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Sceptile</evolution>
+            <pawnKind>PW_Sceptile</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -40618,7 +40618,7 @@
         <evolutionLine>132</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Combusken</evolution>
+            <pawnKind>PW_Combusken</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -40784,7 +40784,7 @@
         <evolutionLine>132</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Blaziken</evolution>
+            <pawnKind>PW_Blaziken</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -41109,7 +41109,7 @@
         <evolutionLine>133</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Marshtomp</evolution>
+            <pawnKind>PW_Marshtomp</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -41272,7 +41272,7 @@
         <evolutionLine>133</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Swampert</evolution>
+            <pawnKind>PW_Swampert</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -41606,7 +41606,7 @@
         <evolutionLine>134</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Mightyena</evolution>
+            <pawnKind>PW_Mightyena</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>18</level>
@@ -41918,7 +41918,7 @@
         <evolutionLine>135</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Linoone</evolution>
+            <pawnKind>PW_Linoone</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -42218,7 +42218,7 @@
         <evolutionLine>136</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Cascoon</evolution>
+            <pawnKind>PW_Cascoon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>7</level>
@@ -42227,7 +42227,7 @@
             <gender>None</gender>
           </li>
           <li>
-            <evolution>PW_Silcoon</evolution>
+            <pawnKind>PW_Silcoon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>7</level>
@@ -42381,7 +42381,7 @@
         <evolutionLine>136</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Beautifly</evolution>
+            <pawnKind>PW_Beautifly</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>10</level>
@@ -42673,7 +42673,7 @@
         <evolutionLine>136</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Dustox</evolution>
+            <pawnKind>PW_Dustox</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>10</level>
@@ -42962,7 +42962,7 @@
         <evolutionLine>137</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Lombre</evolution>
+            <pawnKind>PW_Lombre</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>14</level>
@@ -43126,7 +43126,7 @@
         <evolutionLine>137</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ludicolo</evolution>
+            <pawnKind>PW_Ludicolo</pawnKind>
             <requirement>item</requirement>
             <item>PW_WaterStone</item>
           </li>
@@ -43429,7 +43429,7 @@
         <evolutionLine>138</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Nuzleaf</evolution>
+            <pawnKind>PW_Nuzleaf</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>14</level>
@@ -43573,7 +43573,7 @@
         <evolutionLine>138</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Shiftry</evolution>
+            <pawnKind>PW_Shiftry</pawnKind>
             <requirement>item</requirement>
             <item>PW_LeafStone</item>
           </li>
@@ -43873,7 +43873,7 @@
         <evolutionLine>139</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Swellow</evolution>
+            <pawnKind>PW_Swellow</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>22</level>
@@ -44179,7 +44179,7 @@
         <evolutionLine>140</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Pelipper</evolution>
+            <pawnKind>PW_Pelipper</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>25</level>
@@ -44495,7 +44495,7 @@
         <evolutionLine>141</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Kirlia</evolution>
+            <pawnKind>PW_Kirlia</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -44650,7 +44650,7 @@
         <evolutionLine>141</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Gardevoir</evolution>
+            <pawnKind>PW_Gardevoir</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -44659,7 +44659,7 @@
             <gender>Female</gender>
           </li>
           <li>
-            <evolution>PW_Gallade</evolution>
+            <pawnKind>PW_Gallade</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -44962,7 +44962,7 @@
         <evolutionLine>142</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Masquerain</evolution>
+            <pawnKind>PW_Masquerain</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>22</level>
@@ -45270,7 +45270,7 @@
         <evolutionLine>143</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Breloom</evolution>
+            <pawnKind>PW_Breloom</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>23</level>
@@ -45581,7 +45581,7 @@
         <evolutionLine>144</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Vigoroth</evolution>
+            <pawnKind>PW_Vigoroth</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>18</level>
@@ -45731,7 +45731,7 @@
         <evolutionLine>144</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Slaking</evolution>
+            <pawnKind>PW_Slaking</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -46027,7 +46027,7 @@
         <evolutionLine>145</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Ninjask</evolution>
+            <pawnKind>PW_Ninjask</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -46036,7 +46036,7 @@
             <gender>None</gender>
           </li>
           <li>
-            <evolution>PW_Shedinja</evolution>
+            <pawnKind>PW_Shedinja</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -46514,7 +46514,7 @@
         <evolutionLine>146</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Loudred</evolution>
+            <pawnKind>PW_Loudred</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -46665,7 +46665,7 @@
         <evolutionLine>146</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Exploud</evolution>
+            <pawnKind>PW_Exploud</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -46982,7 +46982,7 @@
         <evolutionLine>147</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Hariyama</evolution>
+            <pawnKind>PW_Hariyama</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>24</level>
@@ -47287,7 +47287,7 @@
         <evolutionLine>91</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Marill</evolution>
+            <pawnKind>PW_Marill</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -47438,7 +47438,7 @@
         <evolutionLine>148</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Probopass</evolution>
+            <pawnKind>PW_Probopass</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -47620,7 +47620,7 @@
         <evolutionLine>149</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Delcatty</evolution>
+            <pawnKind>PW_Delcatty</pawnKind>
             <requirement>item</requirement>
             <item>PW_MoonStone</item>
           </li>
@@ -48242,7 +48242,7 @@
         <evolutionLine>152</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Lairon</evolution>
+            <pawnKind>PW_Lairon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -48416,7 +48416,7 @@
         <evolutionLine>152</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Aggron</evolution>
+            <pawnKind>PW_Aggron</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>42</level>
@@ -48753,7 +48753,7 @@
         <evolutionLine>153</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Medicham</evolution>
+            <pawnKind>PW_Medicham</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>37</level>
@@ -49050,7 +49050,7 @@
         <evolutionLine>154</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Manectric</evolution>
+            <pawnKind>PW_Manectric</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>26</level>
@@ -49987,7 +49987,7 @@
         <evolutionLine>159</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Roserade</evolution>
+            <pawnKind>PW_Roserade</pawnKind>
             <requirement>item</requirement>
             <item>PW_ShinyStone</item>
           </li>
@@ -50146,7 +50146,7 @@
         <evolutionLine>160</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Swalot</evolution>
+            <pawnKind>PW_Swalot</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>26</level>
@@ -50427,7 +50427,7 @@
         <evolutionLine>161</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Sharpedo</evolution>
+            <pawnKind>PW_Sharpedo</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -50736,7 +50736,7 @@
         <evolutionLine>162</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Wailord</evolution>
+            <pawnKind>PW_Wailord</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -51058,7 +51058,7 @@
         <evolutionLine>163</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Camerupt</evolution>
+            <pawnKind>PW_Camerupt</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>33</level>
@@ -51542,7 +51542,7 @@
         <evolutionLine>165</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Grumpig</evolution>
+            <pawnKind>PW_Grumpig</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -52005,7 +52005,7 @@
         <evolutionLine>167</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Vibrava</evolution>
+            <pawnKind>PW_Vibrava</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>35</level>
@@ -52188,7 +52188,7 @@
         <evolutionLine>167</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Flygon</evolution>
+            <pawnKind>PW_Flygon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>45</level>
@@ -52528,7 +52528,7 @@
         <evolutionLine>168</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Cacturne</evolution>
+            <pawnKind>PW_Cacturne</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -52841,7 +52841,7 @@
         <evolutionLine>169</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Altaria</evolution>
+            <pawnKind>PW_Altaria</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>35</level>
@@ -53810,7 +53810,7 @@
         <evolutionLine>174</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Whiscash</evolution>
+            <pawnKind>PW_Whiscash</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -54135,7 +54135,7 @@
         <evolutionLine>175</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Crawdaunt</evolution>
+            <pawnKind>PW_Crawdaunt</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -54447,7 +54447,7 @@
         <evolutionLine>176</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Claydol</evolution>
+            <pawnKind>PW_Claydol</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -54775,7 +54775,7 @@
         <evolutionLine>177</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Cradily</evolution>
+            <pawnKind>PW_Cradily</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -55082,7 +55082,7 @@
         <evolutionLine>178</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Armaldo</evolution>
+            <pawnKind>PW_Armaldo</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -55428,7 +55428,7 @@
         <evolutionLine>179</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Milotic</evolution>
+            <pawnKind>PW_Milotic</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -56095,7 +56095,7 @@
         <evolutionLine>182</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Banette</evolution>
+            <pawnKind>PW_Banette</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>37</level>
@@ -56407,7 +56407,7 @@
         <evolutionLine>183</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Dusclops</evolution>
+            <pawnKind>PW_Dusclops</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>37</level>
@@ -56565,7 +56565,7 @@
         <evolutionLine>183</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Dusknoir</evolution>
+            <pawnKind>PW_Dusknoir</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>45</level>
@@ -57204,7 +57204,7 @@
         <evolutionLine>101</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Wobbuffet</evolution>
+            <pawnKind>PW_Wobbuffet</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>15</level>
@@ -57343,7 +57343,7 @@
         <evolutionLine>187</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Froslass</evolution>
+            <pawnKind>PW_Froslass</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>42</level>
@@ -57352,7 +57352,7 @@
             <gender>Female</gender>
           </li>
           <li>
-            <evolution>PW_Glalie</evolution>
+            <pawnKind>PW_Glalie</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>42</level>
@@ -57691,7 +57691,7 @@
         <evolutionLine>188</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Sealeo</evolution>
+            <pawnKind>PW_Sealeo</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -57851,7 +57851,7 @@
         <evolutionLine>188</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Walrein</evolution>
+            <pawnKind>PW_Walrein</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>44</level>
@@ -58165,7 +58165,7 @@
         <evolutionLine>189</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Gorebyss</evolution>
+            <pawnKind>PW_Gorebyss</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>24</level>
@@ -58174,7 +58174,7 @@
             <gender>Female</gender>
           </li>
           <li>
-            <evolution>PW_Huntail</evolution>
+            <pawnKind>PW_Huntail</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>24</level>
@@ -58932,7 +58932,7 @@
         <evolutionLine>192</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Shelgon</evolution>
+            <pawnKind>PW_Shelgon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -59105,7 +59105,7 @@
         <evolutionLine>192</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Salamence</evolution>
+            <pawnKind>PW_Salamence</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>50</level>
@@ -59454,7 +59454,7 @@
         <evolutionLine>193</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Metang</evolution>
+            <pawnKind>PW_Metang</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -59601,7 +59601,7 @@
         <evolutionLine>193</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Metagross</evolution>
+            <pawnKind>PW_Metagross</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>45</level>
@@ -61491,7 +61491,7 @@
         <evolutionLine>204</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Grotle</evolution>
+            <pawnKind>PW_Grotle</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>18</level>
@@ -61665,7 +61665,7 @@
         <evolutionLine>204</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Torterra</evolution>
+            <pawnKind>PW_Torterra</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>32</level>
@@ -62009,7 +62009,7 @@
         <evolutionLine>205</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Monferno</evolution>
+            <pawnKind>PW_Monferno</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>14</level>
@@ -62172,7 +62172,7 @@
         <evolutionLine>205</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Infernape</evolution>
+            <pawnKind>PW_Infernape</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -62489,7 +62489,7 @@
         <evolutionLine>206</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Prinplup</evolution>
+            <pawnKind>PW_Prinplup</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>16</level>
@@ -62655,7 +62655,7 @@
         <evolutionLine>206</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Empoleon</evolution>
+            <pawnKind>PW_Empoleon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>36</level>
@@ -62986,7 +62986,7 @@
         <evolutionLine>207</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Staravia</evolution>
+            <pawnKind>PW_Staravia</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>14</level>
@@ -63145,7 +63145,7 @@
         <evolutionLine>207</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Staraptor</evolution>
+            <pawnKind>PW_Staraptor</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>34</level>
@@ -63453,7 +63453,7 @@
         <evolutionLine>208</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Bibarel</evolution>
+            <pawnKind>PW_Bibarel</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>15</level>
@@ -63772,7 +63772,7 @@
         <evolutionLine>209</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Kricketune</evolution>
+            <pawnKind>PW_Kricketune</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>10</level>
@@ -64072,7 +64072,7 @@
         <evolutionLine>210</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Luxio</evolution>
+            <pawnKind>PW_Luxio</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>15</level>
@@ -64237,7 +64237,7 @@
         <evolutionLine>210</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Luxray</evolution>
+            <pawnKind>PW_Luxray</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -64557,7 +64557,7 @@
         <evolutionLine>159</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Roselia</evolution>
+            <pawnKind>PW_Roselia</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -64848,7 +64848,7 @@
         <evolutionLine>211</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Rampardos</evolution>
+            <pawnKind>PW_Rampardos</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -65170,7 +65170,7 @@
         <evolutionLine>212</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Bastiodon</evolution>
+            <pawnKind>PW_Bastiodon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -65492,7 +65492,7 @@
         <evolutionLine>213</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Wormadam</evolution>
+            <pawnKind>PW_Wormadam</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -65501,7 +65501,7 @@
             <gender>Female</gender>
           </li>
           <li>
-            <evolution>PW_Mothim</evolution>
+            <pawnKind>PW_Mothim</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>20</level>
@@ -66016,7 +66016,7 @@
         <evolutionLine>214</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Vespiquen</evolution>
+            <pawnKind>PW_Vespiquen</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>21</level>
@@ -66494,7 +66494,7 @@
         <evolutionLine>216</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Floatzel</evolution>
+            <pawnKind>PW_Floatzel</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>26</level>
@@ -66824,7 +66824,7 @@
         <evolutionLine>217</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Cherrim</evolution>
+            <pawnKind>PW_Cherrim</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>25</level>
@@ -67146,7 +67146,7 @@
         <evolutionLine>218</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Gastrodon</evolution>
+            <pawnKind>PW_Gastrodon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>30</level>
@@ -67614,7 +67614,7 @@
         <evolutionLine>219</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Drifblim</evolution>
+            <pawnKind>PW_Drifblim</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>28</level>
@@ -67919,7 +67919,7 @@
         <evolutionLine>220</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Lopunny</evolution>
+            <pawnKind>PW_Lopunny</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -68511,7 +68511,7 @@
         <evolutionLine>221</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Purugly</evolution>
+            <pawnKind>PW_Purugly</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>38</level>
@@ -68823,7 +68823,7 @@
         <evolutionLine>185</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Chimecho</evolution>
+            <pawnKind>PW_Chimecho</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -68971,7 +68971,7 @@
         <evolutionLine>222</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Skuntank</evolution>
+            <pawnKind>PW_Skuntank</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>34</level>
@@ -69281,7 +69281,7 @@
         <evolutionLine>223</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Bronzong</evolution>
+            <pawnKind>PW_Bronzong</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>33</level>
@@ -69622,7 +69622,7 @@
         <evolutionLine>92</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Sudowoodo</evolution>
+            <pawnKind>PW_Sudowoodo</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -69786,7 +69786,7 @@
         <evolutionLine>57</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_MrMime</evolution>
+            <pawnKind>PW_MrMime</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -69937,7 +69937,7 @@
         <evolutionLine>51</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Chansey</evolution>
+            <pawnKind>PW_Chansey</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -70377,7 +70377,7 @@
         <evolutionLine>226</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Gabite</evolution>
+            <pawnKind>PW_Gabite</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>24</level>
@@ -70556,7 +70556,7 @@
         <evolutionLine>226</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Garchomp</evolution>
+            <pawnKind>PW_Garchomp</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>48</level>
@@ -70910,7 +70910,7 @@
         <evolutionLine>72</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Snorlax</evolution>
+            <pawnKind>PW_Snorlax</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -71061,7 +71061,7 @@
         <evolutionLine>227</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Lucario</evolution>
+            <pawnKind>PW_Lucario</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -71353,7 +71353,7 @@
         <evolutionLine>228</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Hippowdon</evolution>
+            <pawnKind>PW_Hippowdon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>34</level>
@@ -71710,7 +71710,7 @@
         <evolutionLine>229</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Drapion</evolution>
+            <pawnKind>PW_Drapion</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>
@@ -72046,7 +72046,7 @@
         <evolutionLine>230</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Toxicroak</evolution>
+            <pawnKind>PW_Toxicroak</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>37</level>
@@ -72537,7 +72537,7 @@
         <evolutionLine>232</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Lumineon</evolution>
+            <pawnKind>PW_Lumineon</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>31</level>
@@ -72842,7 +72842,7 @@
         <evolutionLine>117</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Mantine</evolution>
+            <pawnKind>PW_Mantine</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>1</level>
@@ -73018,7 +73018,7 @@
         <evolutionLine>233</evolutionLine>
         <evolutions>
           <li>
-            <evolution>PW_Abomasnow</evolution>
+            <pawnKind>PW_Abomasnow</pawnKind>
             <requirement>level</requirement>
             <otherRequirement>none</otherRequirement>
             <level>40</level>

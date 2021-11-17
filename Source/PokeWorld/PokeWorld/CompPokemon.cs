@@ -106,26 +106,28 @@ namespace PokeWorld
                 yield return new StatDrawEntry(DefDatabase<StatCategoryDef>.GetNamed("PW_PokeWorldStat"), "PW_Nature".Translate(), natureLabel, natureDescription, 4050);
             }
                        
-            string eggGroupLabel = "";
+            string eggGroupValue = "";
             string eggGroupDescription = "PW_StatEggGroupDesc".Translate() + "\n";
-            string typeLabel = "";
+            string typeValue = "";
             string typeDescription = "PW_StatTypeDesc".Translate() + "\n";
+            string evolutionValue = "";
+            string evolutionDescription = "PW_StatEvolutionDesc".Translate() + "\n";
             if (Find.World.GetComponent<PokedexManager>().IsPokemonCaught(parent.def.race.AnyPawnKind))
             {
                 foreach (EggGroupDef eggGroupDef in eggGroups)
                 {
-                    if (eggGroupLabel.Length > 0)
+                    if (eggGroupValue.Length > 0)
                     {
-                        eggGroupLabel += ", ";
+                        eggGroupValue += ", ";
                     }
-                    eggGroupLabel += eggGroupDef.LabelCap;
+                    eggGroupValue += eggGroupDef.LabelCap;
                     eggGroupDescription += "\n" + "PW_EggGroupLabelAndDesc".Translate(eggGroupDef.LabelCap, eggGroupDef.description);
                 }
                 for(int x = 0; x < types.Count(); x++)
                 {
-                    if (typeLabel.Length > 0)
+                    if (typeValue.Length > 0)
                     {
-                        typeLabel += ", ";
+                        typeValue += ", ";
                     }
                     string text;                   
                     if (x == 0)
@@ -140,17 +142,124 @@ namespace PokeWorld
                     {
                         text = "PW_Type".Translate();
                     }                   
-                    typeLabel += types[x].LabelCap;
+                    typeValue += types[x].LabelCap;
                     typeDescription += "\n" + "PW_TypeName".Translate(text, types[x].LabelCap);
+                }
+                if (canEvolve)
+                {
+                    foreach (Evolution evolution in evolutions)
+                    {
+                        if (evolutionValue.Length > 0)
+                        {
+                            evolutionValue += ", ";
+                        }
+                        string evolutionLabel;
+                        if (Find.World.GetComponent<PokedexManager>().IsPokemonCaught(evolution.pawnKind))
+                        {
+                            evolutionLabel = evolution.pawnKind.LabelCap;
+                        }
+                        else
+                        {
+                            evolutionLabel = "PW_StatUnknownEvolution".Translate();
+                        }
+                        evolutionValue += evolutionLabel;
+                        if (evolution.requirement == EvolutionRequirement.level)
+                        {
+                            string text2;
+                            if (evolution.friendship > 0)
+                            {
+                                switch (evolution.gender)
+                                {
+                                    case Gender.Male:
+                                        text2 = "PW_HappyMalePokemon".Translate(Pokemon.KindLabel).CapitalizeFirst();
+                                        break;
+                                    case Gender.Female:
+                                        text2 = "PW_HappyFemalePokemon".Translate(Pokemon.KindLabel).CapitalizeFirst();
+                                        break;
+                                    default:
+                                        text2 = "PW_HappyPokemon".Translate(Pokemon.KindLabel).CapitalizeFirst();
+                                        break;
+                                }
+                            }
+                            else
+                            {
+                                switch (evolution.gender)
+                                {
+                                    case Gender.Male:
+                                        text2 = "PW_MalePokemon".Translate(Pokemon.KindLabel).CapitalizeFirst();
+                                        break;
+                                    case Gender.Female:
+                                        text2 = "PW_FemalePokemon".Translate(Pokemon.KindLabel).CapitalizeFirst();
+                                        break;
+                                    default:
+                                        text2 = Pokemon.KindLabel;
+                                        break;
+                                }
+                            }
+                            if (evolution.level > 1)
+                            {
+                                switch (evolution.timeOfDay)
+                                {
+                                    case TimeOfDay.Day:
+                                        evolutionDescription += "\n" + "PW_StatEvolutionNeedFixedLevelDay".Translate(text2, evolution.level, evolutionLabel);
+                                        break;
+                                    case TimeOfDay.Night:
+                                        evolutionDescription += "\n" + "PW_StatEvolutionNeedFixedLevelNight".Translate(text2, evolution.level, evolutionLabel);
+                                        break;
+                                    default:
+                                        evolutionDescription += "\n" + "PW_StatEvolutionNeedFixedLevel".Translate(text2, evolution.level, evolutionLabel);
+                                        break;
+                                }                        
+                            }
+                            else
+                            {
+                                switch (evolution.timeOfDay)
+                                {
+                                    case TimeOfDay.Day:
+                                        evolutionDescription += "\n" + "PW_StatEvolutionNeedLevelUpDay".Translate(text2, evolutionLabel);
+                                        break;
+                                    case TimeOfDay.Night:
+                                        evolutionDescription += "\n" + "PW_StatEvolutionNeedLevelUpNight".Translate(text2, evolutionLabel);
+                                        break;
+                                    default:
+                                        evolutionDescription += "\n" + "PW_StatEvolutionNeedLevelUp".Translate(text2, evolutionLabel);
+                                        break;
+                                }
+                            }
+                        }
+                        else if (evolution.requirement == EvolutionRequirement.item)
+                        {
+                            string itemLabel;
+                            if (Find.World.GetComponent<PokedexManager>().IsPokemonCaught(evolution.pawnKind))
+                            {
+                                itemLabel = evolution.item.LabelCap;
+                            }
+                            else
+                            {
+                                itemLabel = "PW_CertainItem".Translate();
+                            }
+                            evolutionDescription += "\n" + "PW_StatEvolutionNeedItem".Translate(Pokemon.KindLabel, itemLabel, evolutionLabel);
+                        }
+                    }
+                }
+                else
+                {
+                    evolutionValue = "PW_StatNoEvolution".Translate();
+                    evolutionDescription += "\n" + "PW_CannotEvolve".Translate();
                 }
             }
             else
             {
-                eggGroupLabel = "PW_StatUnknownEggGroup".Translate();
-                typeLabel = "PW_StatUnknownType".Translate();
+                eggGroupValue = "PW_StatUnknownEggGroup".Translate();
+                typeValue = "PW_StatUnknownType".Translate();
+                evolutionValue = "PW_StatUnknownEvolution".Translate();
+                eggGroupDescription += "\n" + "PW_StatCatchPokemonToLearnMore".Translate();
+                typeDescription += "\n" + "PW_StatCatchPokemonToLearnMore".Translate();
+                evolutionDescription += "\n" + "PW_StatCatchPokemonToLearnMore".Translate();
             }                  
-            yield return new StatDrawEntry(DefDatabase<StatCategoryDef>.GetNamed("PW_PokeWorldStat"), "PW_EggGroup".Translate(), eggGroupLabel, eggGroupDescription, 4049);           
-            yield return new StatDrawEntry(DefDatabase<StatCategoryDef>.GetNamed("PW_PokeWorldStat"), "PW_Type".Translate(), typeLabel, typeDescription, 4054);           
+            yield return new StatDrawEntry(DefDatabase<StatCategoryDef>.GetNamed("PW_PokeWorldStat"), "PW_EggGroup".Translate(), eggGroupValue, eggGroupDescription, 4049);           
+            yield return new StatDrawEntry(DefDatabase<StatCategoryDef>.GetNamed("PW_PokeWorldStat"), "PW_Type".Translate(), typeValue, typeDescription, 4054);
+            yield return new StatDrawEntry(DefDatabase<StatCategoryDef>.GetNamed("PW_PokeWorldStat"), "PW_Evolution".Translate(), evolutionValue, evolutionDescription, 4050);
         }
 
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
