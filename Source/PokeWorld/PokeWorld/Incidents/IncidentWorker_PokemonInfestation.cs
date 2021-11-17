@@ -30,10 +30,10 @@ namespace PokeWorld
 
 		protected override bool TryExecuteWorker(IncidentParms parms)
 		{
-			if (PokeWorldSettings.OkforPokemon())
+			if (PokeWorldSettings.OkforPokemon() && PokeWorldSettings.allowPokemonInfestation)
 			{
 				Map map = (Map)parms.target;
-				ThingDef hiveDef = PokemonInfestationUtility.GetRandomPokemonHiveDef();
+				ThingDef hiveDef = PokemonInfestationUtility.GetInfestationPokemonHiveDef();
 				TunnelPokemonHiveSpawner t = PokemonInfestationUtility.SpawnTunnels(hiveDef, Mathf.Max(GenMath.RoundRandom(parms.points / 220f), 1), map);
 				SendStandardLetter(parms, t);
 				Find.TickManager.slower.SignalForceNormalSpeedShort();
@@ -101,13 +101,21 @@ namespace PokeWorld
 			}
 			return thing;
 		}
-		public static ThingDef GetRandomPokemonHiveDef()
+		public static ThingDef GetNaturalPokemonHiveDef()
 		{
 			ThingDef def = DefDatabase<ThingDef>.AllDefs.Where((ThingDef x) => x.defName == "PW_PokemonHiveGeodude"
 																|| x.defName == "PW_PokemonHiveOnix"
+																|| x.defName == "PW_PokemonHiveParas"
 																|| x.defName == "PW_PokemonHiveDiglett"
 																|| x.defName == "PW_PokemonHiveRhyhorn"
+																|| x.defName == "PW_PokemonHivePhanpy"
 																|| x.defName == "PW_PokemonHiveAron").RandomElement();
+			return def;
+		}
+		public static ThingDef GetInfestationPokemonHiveDef()
+		{
+			ThingDef def = DefDatabase<ThingDef>.AllDefs.Where((ThingDef x) => x.defName == "PW_InsectPokemonHive"
+																|| x.defName == "PW_GroundPokemonHive").RandomElement();
 			return def;
 		}
 	}

@@ -15,12 +15,14 @@ namespace PokeWorld
 
         // min = no pokémon, max/2 = 50/50, max = only pokémon
         public static float minFrequency = 0f;
-        public static float maxFrequency = 4f;
+        public static float maxFrequency = 8f;
         public static float selectedPokemonFrequency = maxFrequency;
         public static bool allowGen1 = true;
         public static bool allowGen2 = true;
         public static bool allowGen3 = true;
         public static bool allowGen4 = true;
+        public static bool allowPokemonInfestation = true;
+        public static bool allowNPCPokemonPack = true;
 
         public override void ExposeData()
         {
@@ -29,6 +31,8 @@ namespace PokeWorld
             Scribe_Values.Look(ref allowGen2, "allowGen2", true);
             Scribe_Values.Look(ref allowGen3, "allowGen3", true);
             Scribe_Values.Look(ref allowGen4, "allowGen4", true);
+            Scribe_Values.Look(ref allowPokemonInfestation, "allowPokemonInfestation", true);
+            Scribe_Values.Look(ref allowNPCPokemonPack, "allowNPCPokemonPack", true);
             base.ExposeData();
         }
         public static bool OkforPokemon()
@@ -76,14 +80,13 @@ namespace PokeWorld
 
             ListingStandardHelper.AddLabeledSlider(listingStandard, "PW_SettingsWildPokemonFrequency".Translate(), ref PokeWorldSettings.selectedPokemonFrequency, PokeWorldSettings.minFrequency, PokeWorldSettings.maxFrequency, "PW_SettingsNoPokemon".Translate(), "PW_SettingsOnlyPokemon".Translate());
             ListingStandardHelper.AddLabelLine(listingStandard, "PW_SettingsWildPokemonFrequencyDesc".Translate());
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_AllowGeneration".Translate(1), ref PokeWorldSettings.allowGen1);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_AllowGeneration".Translate(2), ref PokeWorldSettings.allowGen2);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_AllowGeneration".Translate(3), ref PokeWorldSettings.allowGen3);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_AllowGeneration".Translate(4), ref PokeWorldSettings.allowGen4);
-            /*
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "Replace trader carriers with Pokémon", );
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "Replace insects in cave and infestation by Pokémon", );
-            */
+            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowPokemonInfestation".Translate(), ref PokeWorldSettings.allowPokemonInfestation);
+            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowNPCPokemonPack".Translate(), ref PokeWorldSettings.allowNPCPokemonPack);
+            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(1), ref PokeWorldSettings.allowGen1);
+            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(2), ref PokeWorldSettings.allowGen2);
+            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(3), ref PokeWorldSettings.allowGen3);
+            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(4), ref PokeWorldSettings.allowGen4);
+
             PokeWorldSettings.selectedPokemonFrequency = (float)Math.Round(PokeWorldSettings.selectedPokemonFrequency);
             if(PokeWorldSettings.allowGen1 == false && PokeWorldSettings.allowGen2 == false && PokeWorldSettings.allowGen3 == false && PokeWorldSettings.allowGen4 == false)
             {

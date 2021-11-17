@@ -18,7 +18,7 @@ namespace PokeWorld
 		public static bool Prefix(GenStep_CaveHives __instance, Map __0)
 		{
 			
-			if (PokeWorldSettings.OkforPokemon())
+			if (PokeWorldSettings.OkforPokemon() && PokeWorldSettings.allowPokemonInfestation)
 			{
 				var field1 = __instance.GetType().GetField("possibleSpawnCells", BindingFlags.NonPublic | BindingFlags.Instance);
 				List<IntVec3> possibleSpawnCells = (List<IntVec3>)field1.GetValue(__instance);
@@ -35,7 +35,7 @@ namespace PokeWorld
 				{
 					IntVec3 spawnCell = (IntVec3)parameters[1];
 					possibleSpawnCells.Remove(spawnCell);
-					ThingDef hiveDef = PokemonInfestationUtility.GetRandomPokemonHiveDef();
+					ThingDef hiveDef = PokemonInfestationUtility.GetNaturalPokemonHiveDef();
 					Hive hive = (Hive)GenSpawn.Spawn(ThingMaker.MakeThing(hiveDef), spawnCell, __0);
 					hive.SetFaction(Find.FactionManager.AllFactions.Where((Faction f) => f.def.defName == "PW_HostilePokemon").First());
 					hive.PawnSpawner.aggressive = false;

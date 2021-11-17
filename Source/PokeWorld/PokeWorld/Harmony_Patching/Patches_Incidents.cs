@@ -73,7 +73,7 @@ namespace PokeWorld
     {
         public static bool Prefix(ref bool __result)
         {
-            if (PokeWorldSettings.OkforPokemon())
+            if (PokeWorldSettings.allowPokemonInfestation && PokeWorldSettings.OkforPokemon())
             {
                 __result = false;
                 return false;
@@ -90,7 +90,7 @@ namespace PokeWorld
     {
         public static bool Prefix(ref bool __result)
         {
-            if (PokeWorldSettings.OkforPokemon())
+            if (PokeWorldSettings.allowPokemonInfestation && PokeWorldSettings.OkforPokemon())
             {
                 __result = false;
                 return false;

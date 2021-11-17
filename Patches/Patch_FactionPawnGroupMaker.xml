@@ -5,9 +5,41 @@
 		<xpath>/Defs/FactionDef[@Name = "OutlanderFactionBase"]/pawnGroupMakers/li[3]/carriers</xpath>
 		<value>
 			<PW_Piloswine>6</PW_Piloswine>
-			<PW_Dodrio>5</PW_Dodrio>
-			<PW_Tropius>2</PW_Tropius>
-			<PW_Hippowdon>1</PW_Hippowdon>
+			<PW_Venusaur>2</PW_Venusaur>
+			<PW_Blastoise>2</PW_Blastoise>
+			<PW_Nidoqueen>3</PW_Nidoqueen>
+			<PW_Nidoking>3</PW_Nidoking>
+			<PW_Poliwrath>3</PW_Poliwrath>
+			<PW_Machamp>3</PW_Machamp>
+			<PW_Tauros>4</PW_Tauros>
+			<PW_Feraligatr>2</PW_Feraligatr>
+			<PW_Ursaring>4</PW_Ursaring>
+			<PW_Sceptile>2</PW_Sceptile>
+			<PW_Swampert>2</PW_Swampert>
+			<PW_Shiftry>3</PW_Shiftry>
+			<PW_Torterra>2</PW_Torterra>
+			<PW_Lapras>1</PW_Lapras>
+			<PW_Walrein>3</PW_Walrein>
+			<PW_Empoleon>2</PW_Empoleon>
+			<PW_Dodrio>6</PW_Dodrio>
+			<PW_Charizard>2</PW_Charizard>
+			<PW_Arcanine>3</PW_Arcanine>
+			<PW_Golem>3</PW_Golem>
+			<PW_Rapidash>3</PW_Rapidash>
+			<PW_Rhydon>3</PW_Rhydon>
+			<PW_Kangaskhan>4</PW_Kangaskhan>
+			<PW_Meganium>2</PW_Meganium>
+			<PW_Typhlosion>3</PW_Typhlosion>
+			<PW_Donphan>4</PW_Donphan>
+			<PW_Blaziken>3</PW_Blaziken>
+			<PW_Manectric>5</PW_Manectric>
+			<PW_Ludicolo>4</PW_Ludicolo>
+			<PW_Tropius>4</PW_Tropius>
+			<PW_Slaking>2</PW_Slaking>
+			<PW_Hippowdon>4</PW_Hippowdon>
+			<PW_Hariyama>4</PW_Hariyama>
+			<PW_Camerupt>4</PW_Camerupt>
+			<PW_Infernape>2</PW_Infernape>
 		</value>
 	</Operation>
 
@@ -15,9 +47,41 @@
 		<xpath>/Defs/FactionDef[@Name = "TribeBase"]/pawnGroupMakers/li[6]/carriers</xpath>
 		<value>
 			<PW_Piloswine>6</PW_Piloswine>
-			<PW_Dodrio>5</PW_Dodrio>
-			<PW_Tropius>2</PW_Tropius>
-			<PW_Hippowdon>1</PW_Hippowdon>
+			<PW_Venusaur>2</PW_Venusaur>
+			<PW_Blastoise>2</PW_Blastoise>
+			<PW_Nidoqueen>3</PW_Nidoqueen>
+			<PW_Nidoking>3</PW_Nidoking>
+			<PW_Poliwrath>3</PW_Poliwrath>
+			<PW_Machamp>3</PW_Machamp>
+			<PW_Tauros>4</PW_Tauros>
+			<PW_Feraligatr>2</PW_Feraligatr>
+			<PW_Ursaring>4</PW_Ursaring>
+			<PW_Sceptile>2</PW_Sceptile>
+			<PW_Swampert>2</PW_Swampert>
+			<PW_Shiftry>3</PW_Shiftry>
+			<PW_Torterra>2</PW_Torterra>
+			<PW_Lapras>1</PW_Lapras>
+			<PW_Walrein>3</PW_Walrein>
+			<PW_Empoleon>2</PW_Empoleon>
+			<PW_Dodrio>6</PW_Dodrio>
+			<PW_Charizard>2</PW_Charizard>
+			<PW_Arcanine>3</PW_Arcanine>
+			<PW_Golem>3</PW_Golem>
+			<PW_Rapidash>3</PW_Rapidash>
+			<PW_Rhydon>3</PW_Rhydon>
+			<PW_Kangaskhan>4</PW_Kangaskhan>
+			<PW_Meganium>2</PW_Meganium>
+			<PW_Typhlosion>3</PW_Typhlosion>
+			<PW_Donphan>4</PW_Donphan>
+			<PW_Blaziken>3</PW_Blaziken>
+			<PW_Manectric>5</PW_Manectric>
+			<PW_Ludicolo>4</PW_Ludicolo>
+			<PW_Tropius>4</PW_Tropius>
+			<PW_Slaking>2</PW_Slaking>
+			<PW_Hippowdon>4</PW_Hippowdon>
+			<PW_Hariyama>4</PW_Hariyama>
+			<PW_Camerupt>4</PW_Camerupt>
+			<PW_Infernape>2</PW_Infernape>
 		</value>
 	</Operation>
 

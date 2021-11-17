@@ -42,6 +42,9 @@
   <PW_SettingsWildPokemonFrequencyDesc>The percentage of Pokémon found in the wild over other creatures, such as vanilla Rimworld animals and other modded creatures.\nThis settings affects wild creatures spawn, creatures in incidents, and those sold by traders. (Can be changed anytime)</PW_SettingsWildPokemonFrequencyDesc>
   <PW_SettingsNoPokemon>No Pokémon</PW_SettingsNoPokemon>
   <PW_SettingsOnlyPokemon>Only Pokémon</PW_SettingsOnlyPokemon>
+  <PW_SettingsAllowPokemonInfestation>Allow Pokémon infestations:</PW_SettingsAllowPokemonInfestation>
+  <PW_SettingsAllowNPCPokemonPack>Allow NPC trade caravan to have Pokémon as pack:</PW_SettingsAllowNPCPokemonPack>
+  <PW_SettingsAllowGeneration>Allow Gen. {0} Pokémon:</PW_SettingsAllowGeneration>
 
   <PW_PokeballContainsShort>Contains: {0}.</PW_PokeballContainsShort>
   <PW_PokeballContainsLongGendered>Contains: {0}, level {1} {2} {3}.</PW_PokeballContainsLongGendered>
@@ -158,8 +161,6 @@
   <PW_UnleashedPokemon>{0} unleashed a {1}!</PW_UnleashedPokemon>
   
   <PW_PokemonEgg>Pokémon Egg</PW_PokemonEgg>
-
-  <PW_AllowGeneration>Allow Gen. {0} Pokémon:</PW_AllowGeneration>
 
   <PW_CantStoreBallInPCWarning>You can't store the content of this Poké Ball in a PC!</PW_CantStoreBallInPCWarning>
 

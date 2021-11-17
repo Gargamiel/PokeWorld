@@ -35,7 +35,7 @@ namespace PokeWorld
 
 		protected override bool TryExecuteWorker(IncidentParms parms)
 		{
-			if (PokeWorldSettings.OkforPokemon())
+			if (PokeWorldSettings.OkforPokemon() && PokeWorldSettings.allowPokemonInfestation)
 			{
 				Map map = (Map)parms.target;
 				tmpDrills.Clear();
@@ -44,7 +44,7 @@ namespace PokeWorld
 				{
 					return false;
 				}
-				ThingDef hiveDef = PokemonInfestationUtility.GetRandomPokemonHiveDef();
+				ThingDef hiveDef = PokemonInfestationUtility.GetInfestationPokemonHiveDef();
 				IntVec3 intVec = CellFinder.FindNoWipeSpawnLocNear(deepDrill.Position, map, DefDatabase<ThingDef>.GetNamed("PW_TunnelPokemonHiveSpawner"), Rot4.North, 2, (IntVec3 x) => x.Walkable(map) && x.GetFirstThing(map, deepDrill.def) == null && x.GetFirstThingWithComp<CompCreatesInfestations>(map) == null && x.GetFirstThing(map, hiveDef) == null && x.GetFirstThing(map, DefDatabase<ThingDef>.GetNamed("PW_TunnelPokemonHiveSpawner")) == null);
 				if (intVec == deepDrill.Position)
 				{

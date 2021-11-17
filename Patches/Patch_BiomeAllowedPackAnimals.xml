@@ -4,30 +4,59 @@
     <xpath>/Defs/BiomeDef[defName="BorealForest"]/allowedPackAnimals</xpath>
     <value>
       <li>PW_Piloswine</li>
+      <li>PW_Venusaur</li>
+      <li>PW_Blastoise</li>
+      <li>PW_Nidoqueen</li>
+      <li>PW_Nidoking</li>
+      <li>PW_Poliwrath</li>
+      <li>PW_Machamp</li>
+      <li>PW_Tauros</li>
+      <li>PW_Feraligatr</li>
+      <li>PW_Ursaring</li>
+      <li>PW_Sceptile</li>
+      <li>PW_Swampert</li>
+      <li>PW_Shiftry</li>
+      <li>PW_Torterra</li>      
     </value>
   </Operation>  
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="Tundra"]/allowedPackAnimals</xpath>
     <value>
-      <li>PW_Piloswine</li>    
+      <li>PW_Piloswine</li>
+      <li>PW_Blastoise</li>  
+      <li>PW_Poliwrath</li>
+      <li>PW_Feraligatr</li> 
+      <li>PW_Ursaring</li> 
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="ColdBog"]/allowedPackAnimals</xpath>
     <value>
-      <li>PW_Piloswine</li>    	
+      <li>PW_Piloswine</li> 
+      <li>PW_Blastoise</li>  
+      <li>PW_Poliwrath</li>
+      <li>PW_Feraligatr</li> 
+      <li>PW_Ursaring</li>
+      <li>PW_Sceptile</li>
+      <li>PW_Swampert</li>	
     </value>
   </Operation>  
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="IceSheet"]/allowedPackAnimals</xpath>
     <value>
       <li>PW_Piloswine</li>
+      <li>PW_Lapras</li>
+      <li>PW_Walrein</li>
+      <li>PW_Empoleon</li>
     </value>
   </Operation>  
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="SeaIce"]/allowedPackAnimals</xpath>
     <value>
       <li>PW_Piloswine</li>
+      <li>PW_Lapras</li>
+      <li>PW_Walrein</li>
+      <li>PW_Empoleon</li>
     </value>
   </Operation> 
   <Operation Class="PatchOperationAdd">
@@ -35,6 +64,27 @@
     <value>
       <li>PW_Piloswine</li>
       <li>PW_Dodrio</li>
+      <li>PW_Venusaur</li>
+      <li>PW_Blastoise</li>
+      <li>PW_Charizard</li>
+      <li>PW_Nidoqueen</li>
+      <li>PW_Nidoking</li>
+      <li>PW_Arcanine</li>
+      <li>PW_Poliwrath</li>
+      <li>PW_Machamp</li>
+      <li>PW_Golem</li>
+      <li>PW_Rapidash</li>
+      <li>PW_Rhydon</li>
+      <li>PW_Kangaskhan</li>
+      <li>PW_Tauros</li>
+      <li>PW_Meganium</li>
+      <li>PW_Typhlosion</li>
+      <li>PW_Ursaring</li>  
+      <li>PW_Donphan</li>
+      <li>PW_Sceptile</li>
+      <li>PW_Blaziken</li>
+      <li>PW_Manectric</li>
+      <li>PW_Torterra</li> 
     </value>
   </Operation>  
   <Operation Class="PatchOperationAdd">
@@ -42,6 +92,20 @@
     <value>
       <li>PW_Piloswine</li>
       <li>PW_Dodrio</li>
+      <li>PW_Venusaur</li>
+      <li>PW_Blastoise</li>
+      <li>PW_Nidoqueen</li>
+      <li>PW_Nidoking</li>
+      <li>PW_Poliwrath</li>
+      <li>PW_Machamp</li>
+      <li>PW_Meganium</li>
+      <li>PW_Feraligatr</li>
+      <li>PW_Ursaring</li> 
+      <li>PW_Sceptile</li>
+      <li>PW_Swampert</li> 
+      <li>PW_Ludicolo</li> 
+      <li>PW_Shiftry</li>
+      <li>PW_Torterra</li> 
     </value>
   </Operation>  
   <Operation Class="PatchOperationAdd">
@@ -49,6 +113,18 @@
     <value>
       <li>PW_Dodrio</li>
       <li>PW_Tropius</li>
+      <li>PW_Venusaur</li>
+      <li>PW_Blastoise</li>
+      <li>PW_Poliwrath</li>
+      <li>PW_Meganium</li>
+      <li>PW_Feraligatr</li>
+      <li>PW_Ursaring</li> 
+      <li>PW_Sceptile</li>
+      <li>PW_Swampert</li>  
+      <li>PW_Ludicolo</li>
+      <li>PW_Shiftry</li>
+      <li>PW_Slaking</li>
+      <li>PW_Torterra</li> 
     </value>
   </Operation> 
   <Operation Class="PatchOperationAdd">
@@ -56,26 +132,71 @@
     <value>
       <li>PW_Dodrio</li>
       <li>PW_Tropius</li>
+      <li>PW_Venusaur</li>
+      <li>PW_Blastoise</li>
+      <li>PW_Poliwrath</li>
+      <li>PW_Meganium</li>
+      <li>PW_Feraligatr</li>
+      <li>PW_Ursaring</li> 
+      <li>PW_Sceptile</li>
+      <li>PW_Swampert</li> 
+      <li>PW_Ludicolo</li> 
+      <li>PW_Shiftry</li>
+      <li>PW_Slaking</li>
+      <li>PW_Torterra</li> 
     </value>
   </Operation>  
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="AridShrubland"]/allowedPackAnimals</xpath>
     <value>
-      <li>PW_Piloswine</li>
       <li>PW_Dodrio</li>
       <li>PW_Hippowdon</li>
+      <li>PW_Charizard</li>
+      <li>PW_Nidoqueen</li>
+      <li>PW_Nidoking</li>
+      <li>PW_Arcanine</li>
+      <li>PW_Golem</li>
+      <li>PW_Rapidash</li>
+      <li>PW_Rhydon</li>
+      <li>PW_Kangaskhan</li>
+      <li>PW_Tauros</li>
+      <li>PW_Typhlosion</li>
+      <li>PW_Donphan</li>
+      <li>PW_Blaziken</li>
+      <li>PW_Manectric</li>
     </value>
   </Operation>  
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="Desert"]/allowedPackAnimals</xpath>
     <value>
       <li>PW_Hippowdon</li>
+      <li>PW_Charizard</li>
+      <li>PW_Arcanine</li>
+      <li>PW_Golem</li>
+      <li>PW_Rapidash</li>
+      <li>PW_Rhydon</li>
+      <li>PW_Typhlosion</li>
+      <li>PW_Donphan</li>
+      <li>PW_Blaziken</li>
+      <li>PW_Hariyama</li>
+      <li>PW_Camerupt</li>
+      <li>PW_Infernape</li>
     </value>
   </Operation>  
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/allowedPackAnimals</xpath>
     <value>
       <li>PW_Hippowdon</li>
+      <li>PW_Charizard</li>
+      <li>PW_Arcanine</li>
+      <li>PW_Golem</li>
+      <li>PW_Rapidash</li>
+      <li>PW_Rhydon</li>
+      <li>PW_Typhlosion</li>
+      <li>PW_Donphan</li>
+      <li>PW_Blaziken</li>
+      <li>PW_Camerupt</li>
+      <li>PW_Infernape</li>
     </value>
   </Operation>  
 </Patch>

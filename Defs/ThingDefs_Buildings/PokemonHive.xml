@@ -79,6 +79,24 @@
   </ThingDef>
 
   <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_PokemonHiveParas</defName>
+    <label>Paras tunnel</label>
+    <description>A tunnel dug by a Paras familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Paras</li>
+          <li>PW_Parasect</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
     <defName>PW_PokemonHiveOnix</defName>
     <label>Onix tunnel</label>
     <description>A tunnel dug by a Onix familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
@@ -134,12 +152,96 @@
   </ThingDef>
 
   <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_PokemonHivePhanpy</defName>
+    <label>Phanpy tunnel</label>
+    <description>A tunnel dug by a Phanpy familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Phanpy</li>
+          <li>PW_Donphan</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
     <defName>PW_PokemonHiveAron</defName>
     <label>Aron tunnel</label>
     <description>A tunnel dug by a Aron familly. If activated, it will spawn additional Pokémon and tunnels over time.</description>
     <comps>
       <li Class="CompProperties_SpawnerPawn">
         <spawnablePawnKinds>
+          <li>PW_Aron</li>
+          <li>PW_Lairon</li>
+          <li>PW_Aggron</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <!--==================================================-->
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_InsectPokemonHive</defName>
+    <label>Pokémon tunnel</label>
+    <description>A tunnel dug by a group of Insect Pokémon. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Paras</li>
+          <li>PW_Parasect</li>
+          <li>PW_Venonat</li>
+          <li>PW_Pinsir</li>
+          <li>PW_Spinarak</li>
+          <li>PW_Ariados</li>
+          <li>PW_Shuckle</li>
+          <li>PW_Heracross</li>
+          <li>PW_Nincada</li>
+          <li>PW_Ninjask</li>
+          <li>PW_Trapinch</li>
+          <li>PW_Vibrava</li>
+          <li>PW_Skorupi</li>
+          <li>PW_Drapion</li>
+          <li>PW_Dunsparce</li>
+        </spawnablePawnKinds>
+        <lordJob>LordJob_DefendAndExpandHive</lordJob>
+        <spawnSound>Hive_Spawn</spawnSound>
+        <initialPawnsPoints>200</initialPawnsPoints>
+        <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+      </li> 
+    </comps>   
+  </ThingDef>
+
+  <ThingDef ParentName="PW_PokemonHiveBase">
+    <defName>PW_GroundPokemonHive</defName>
+    <label>Pokémon tunnel</label>
+    <description>A tunnel dug by a group of Ground Pokémon. If activated, it will spawn additional Pokémon and tunnels over time.</description>
+    <comps>
+      <li Class="CompProperties_SpawnerPawn">
+        <spawnablePawnKinds>
+          <li>PW_Sandshrew</li>
+          <li>PW_Sandslash</li>
+          <li>PW_Diglett</li>
+          <li>PW_Dugtrio</li>
+          <li>PW_Onix</li>
+          <li>PW_Steelix</li>
+          <li>PW_Hippopotas</li>
+          <li>PW_Hippowdon</li>
+          <li>PW_Geodude</li>
+          <li>PW_Graveler</li>
+          <li>PW_Golem</li>
+          <li>PW_Rhyhorn</li>
+          <li>PW_Rhydon</li>
+          <li>PW_Rhyperior</li>
           <li>PW_Aron</li>
           <li>PW_Lairon</li>
           <li>PW_Aggron</li>
