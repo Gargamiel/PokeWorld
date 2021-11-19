@@ -3,7 +3,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBulbasaur</defName>
-    <label>Bulbasaur Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -20,7 +19,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCharmander</defName>
-    <label>Charmander Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -37,7 +35,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSquirtle</defName>
-    <label>Squirtle Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -54,7 +51,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCaterpie</defName>
-    <label>Caterpie Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -71,7 +67,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggWeedle</defName>
-    <label>Weedle Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -88,7 +83,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPidgey</defName>
-    <label>Pidgey Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -105,7 +99,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggRattata</defName>
-    <label>Rattata Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -122,7 +115,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSpearow</defName>
-    <label>Spearow Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -139,7 +131,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggEkans</defName>
-    <label>Ekans Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -156,7 +147,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSandshrew</defName>
-    <label>Sandshrew Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -173,7 +163,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggNidoranF</defName>
-    <label>Nidoran♀ Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -190,7 +179,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggNidoranM</defName>
-    <label>Nidoran♂ Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -207,7 +195,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggVulpix</defName>
-    <label>Vulpix Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -224,7 +211,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggZubat</defName>
-    <label>Zubat Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -241,7 +227,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggOddish</defName>
-    <label>Oddish Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -258,7 +243,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggParas</defName>
-    <label>Paras Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -275,7 +259,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggVenonat</defName>
-    <label>Venonat Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -292,7 +275,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggDiglett</defName>
-    <label>Diglett Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -309,7 +291,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMeowth</defName>
-    <label>Meowth Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -326,7 +307,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPsyduck</defName>
-    <label>Psyduck Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -343,7 +323,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMankey</defName>
-    <label>Mankey Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -360,7 +339,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGrowlithe</defName>
-    <label>Growlithe Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -377,7 +355,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPoliwag</defName>
-    <label>Poliwag Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -394,7 +371,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggAbra</defName>
-    <label>Abra Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -411,7 +387,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMachop</defName>
-    <label>Machop Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -428,7 +403,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBellsprout</defName>
-    <label>Bellsprout Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -445,7 +419,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTentacool</defName>
-    <label>Tentacool Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -462,7 +435,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGeodude</defName>
-    <label>Geodude Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -479,7 +451,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPonyta</defName>
-    <label>Ponyta Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -496,7 +467,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSlowpoke</defName>
-    <label>Slowpoke Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -513,7 +483,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMagnemite</defName>
-    <label>Magnemite Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -530,7 +499,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggFarfetchd</defName>
-    <label>Farfetch'd Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -547,7 +515,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggDoduo</defName>
-    <label>Doduo Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -564,7 +531,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSeel</defName>
-    <label>Seel Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -581,7 +547,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGrimer</defName>
-    <label>Grimer Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -598,7 +563,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggShellder</defName>
-    <label>Shellder Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -615,7 +579,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGastly</defName>
-    <label>Gastly Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -632,7 +595,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggOnix</defName>
-    <label>Onix Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -649,7 +611,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggDrowzee</defName>
-    <label>Drowzee Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -666,7 +627,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggKrabby</defName>
-    <label>Krabby Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -683,7 +643,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggVoltorb</defName>
-    <label>Voltorb Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -700,7 +659,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggExeggcute</defName>
-    <label>Exeggcute Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -717,7 +675,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCubone</defName>
-    <label>Cubone Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -734,7 +691,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggLickitung</defName>
-    <label>Lickitung Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -751,7 +707,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggKoffing</defName>
-    <label>Koffing Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -768,7 +723,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggRhyhorn</defName>
-    <label>Rhyhorn Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -785,7 +739,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTangela</defName>
-    <label>Tangela Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -802,7 +755,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggKangaskhan</defName>
-    <label>Kangaskhan Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -819,7 +771,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggHorsea</defName>
-    <label>Horsea Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -836,7 +787,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGoldeen</defName>
-    <label>Goldeen Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -853,7 +803,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggStaryu</defName>
-    <label>Staryu Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -870,7 +819,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggScyther</defName>
-    <label>Scyther Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -887,7 +835,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPinsir</defName>
-    <label>Pinsir Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -904,7 +851,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTauros</defName>
-    <label>Tauros Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -921,7 +867,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMagikarp</defName>
-    <label>Magikarp Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -938,7 +883,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggLapras</defName>
-    <label>Lapras Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -955,7 +899,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggEevee</defName>
-    <label>Eevee Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -972,7 +915,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPorygon</defName>
-    <label>Porygon Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -989,7 +931,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggOmanyte</defName>
-    <label>Omanyte Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1006,7 +947,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggKabuto</defName>
-    <label>Kabuto Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1023,7 +963,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggAerodactyl</defName>
-    <label>Aerodactyl Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1040,7 +979,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggDratini</defName>
-    <label>Dratini Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1057,7 +995,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggChikorita</defName>
-    <label>Chikorita Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1074,7 +1011,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCyndaquil</defName>
-    <label>Cyndaquil Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1091,7 +1027,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTotodile</defName>
-    <label>Totodile Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1108,7 +1043,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSentret</defName>
-    <label>Sentret Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1125,7 +1059,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggHoothoot</defName>
-    <label>Hoothoot Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1142,7 +1075,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggLedyba</defName>
-    <label>Ledyba Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1159,7 +1091,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSpinarak</defName>
-    <label>Spinarak Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1176,7 +1107,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggChinchou</defName>
-    <label>Chinchou Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1193,7 +1123,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPichu</defName>
-    <label>Pichu Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1210,7 +1139,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCleffa</defName>
-    <label>Cleffa Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1227,7 +1155,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggIgglybuff</defName>
-    <label>Igglybuff Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1244,7 +1171,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTogepi</defName>
-    <label>Togepi Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1261,7 +1187,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggNatu</defName>
-    <label>Natu Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1278,7 +1203,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMareep</defName>
-    <label>Mareep Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1295,7 +1219,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggHoppip</defName>
-    <label>Hoppip Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1312,7 +1235,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggAipom</defName>
-    <label>Aipom Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1329,7 +1251,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSunkern</defName>
-    <label>Sunkern Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1346,7 +1267,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggYanma</defName>
-    <label>Yanma Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1363,7 +1283,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggWooper</defName>
-    <label>Wooper Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1380,7 +1299,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMurkrow</defName>
-    <label>Murkrow Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1397,7 +1315,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMisdreavus</defName>
-    <label>Misdreavus Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1414,7 +1331,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGirafarig</defName>
-    <label>Girafarig Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1431,7 +1347,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPineco</defName>
-    <label>Pineco Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1448,7 +1363,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggDunsparce</defName>
-    <label>Dunsparce Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1465,7 +1379,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGligar</defName>
-    <label>Gligar Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1482,7 +1395,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSnubbull</defName>
-    <label>Snubbull Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1499,7 +1411,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggQwilfish</defName>
-    <label>Qwilfish Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1516,7 +1427,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggShuckle</defName>
-    <label>Shuckle Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1533,7 +1443,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggHeracross</defName>
-    <label>Heracross Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1550,7 +1459,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSneasel</defName>
-    <label>Sneasel Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1567,7 +1475,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTeddiursa</defName>
-    <label>Teddiursa Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1584,7 +1491,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSlugma</defName>
-    <label>Slugma Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1601,7 +1507,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSwinub</defName>
-    <label>Swinub Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1618,7 +1523,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCorsola</defName>
-    <label>Corsola Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1635,7 +1539,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggRemoraid</defName>
-    <label>Remoraid Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1652,7 +1555,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggDelibird</defName>
-    <label>Delibird Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1669,7 +1571,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSkarmory</defName>
-    <label>Skarmory Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1686,7 +1587,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggHoundour</defName>
-    <label>Houndour Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1703,7 +1603,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPhanpy</defName>
-    <label>Phanpy Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1720,7 +1619,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggStantler</defName>
-    <label>Stantler Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1737,7 +1635,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSmeargle</defName>
-    <label>Smeargle Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1754,7 +1651,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTyrogue</defName>
-    <label>Tyrogue Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1771,7 +1667,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSmoochum</defName>
-    <label>Smoochum Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1788,7 +1683,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggElekid</defName>
-    <label>Elekid Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1805,7 +1699,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMagby</defName>
-    <label>Magby Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1822,7 +1715,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMiltank</defName>
-    <label>Miltank Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1839,7 +1731,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggLarvitar</defName>
-    <label>Larvitar Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1856,7 +1747,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTreecko</defName>
-    <label>Treecko Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1873,7 +1763,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTorchic</defName>
-    <label>Torchic Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1890,7 +1779,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMudkip</defName>
-    <label>Mudkip Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1907,7 +1795,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPoochyena</defName>
-    <label>Poochyena Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1924,7 +1811,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggZigzagoon</defName>
-    <label>Zigzagoon Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1941,7 +1827,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggWurmple</defName>
-    <label>Wurmple Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1958,7 +1843,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggLotad</defName>
-    <label>Lotad Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1975,7 +1859,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSeedot</defName>
-    <label>Seedot Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -1992,7 +1875,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTaillow</defName>
-    <label>Taillow Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2009,7 +1891,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggWingull</defName>
-    <label>Wingull Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2026,7 +1907,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggRalts</defName>
-    <label>Ralts Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2043,7 +1923,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSurskit</defName>
-    <label>Surskit Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2060,7 +1939,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggShroomish</defName>
-    <label>Shroomish Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2077,7 +1955,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSlakoth</defName>
-    <label>Slakoth Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2094,7 +1971,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggNincada</defName>
-    <label>Nincada Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2111,7 +1987,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggWhismur</defName>
-    <label>Whismur Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2128,7 +2003,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMakuhita</defName>
-    <label>Makuhita Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2145,7 +2019,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggAzurill</defName>
-    <label>Azurill Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2162,7 +2035,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggNosepass</defName>
-    <label>Nosepass Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2179,7 +2051,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSkitty</defName>
-    <label>Skitty Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2196,7 +2067,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSableye</defName>
-    <label>Sableye Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2213,7 +2083,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMawile</defName>
-    <label>Mawile Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2230,7 +2099,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggAron</defName>
-    <label>Aron Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2247,7 +2115,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMeditite</defName>
-    <label>Meditite Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2264,7 +2131,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggElectrike</defName>
-    <label>Electrike Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2281,7 +2147,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPlusle</defName>
-    <label>Plusle Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2298,7 +2163,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMinun</defName>
-    <label>Minun Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2315,7 +2179,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggVolbeat</defName>
-    <label>Volbeat Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2332,7 +2195,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggIllumise</defName>
-    <label>Illumise Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2349,7 +2211,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGulpin</defName>
-    <label>Gulpin Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2366,7 +2227,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCarvanha</defName>
-    <label>Carvanha Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2383,7 +2243,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggWailmer</defName>
-    <label>Wailmer Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2400,7 +2259,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggNumel</defName>
-    <label>Numel Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2417,7 +2275,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTorkoal</defName>
-    <label>Torkoal Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2434,7 +2291,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSpoink</defName>
-    <label>Spoink Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2451,7 +2307,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSpinda</defName>
-    <label>Spinda Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2468,7 +2323,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTrapinch</defName>
-    <label>Trapinch Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2485,7 +2339,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCacnea</defName>
-    <label>Cacnea Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2502,7 +2355,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSwablu</defName>
-    <label>Swablu Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2519,7 +2371,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggZangoose</defName>
-    <label>Zangoose Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2536,7 +2387,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSeviper</defName>
-    <label>Seviper Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2553,7 +2403,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggLunatone</defName>
-    <label>Lunatone Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2570,7 +2419,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSolrock</defName>
-    <label>Solrock Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2587,7 +2435,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBarboach</defName>
-    <label>Barboach Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2604,7 +2451,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCorphish</defName>
-    <label>Corphish Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2621,7 +2467,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBaltoy</defName>
-    <label>Baltoy Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2638,7 +2483,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggLileep</defName>
-    <label>Lileep Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2655,7 +2499,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggAnorith</defName>
-    <label>Anorith Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2672,7 +2515,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggFeebas</defName>
-    <label>Feebas Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2689,7 +2531,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCastform</defName>
-    <label>Castform Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2706,7 +2547,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggKecleon</defName>
-    <label>Kecleon Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2723,7 +2563,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggShuppet</defName>
-    <label>Shuppet Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2740,7 +2579,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggDuskull</defName>
-    <label>Duskull Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2757,7 +2595,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTropius</defName>
-    <label>Tropius Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2774,7 +2611,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggAbsol</defName>
-    <label>Absol Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2791,7 +2627,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggWynaut</defName>
-    <label>Wynaut Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2808,7 +2643,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSnorunt</defName>
-    <label>Snorunt Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2825,7 +2659,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSpheal</defName>
-    <label>Spheal Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2842,7 +2675,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggClamperl</defName>
-    <label>Clamperl Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2859,7 +2691,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggRelicanth</defName>
-    <label>Relicanth Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2876,7 +2707,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggLuvdisc</defName>
-    <label>Luvdisc Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2893,7 +2723,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBagon</defName>
-    <label>Bagon Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2910,7 +2739,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBeldum</defName>
-    <label>Beldum Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2927,7 +2755,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggTurtwig</defName>
-    <label>Turtwig Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2944,7 +2771,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggChimchar</defName>
-    <label>Chimchar Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2961,7 +2787,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPiplup</defName>
-    <label>Piplup Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2978,7 +2803,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggStarly</defName>
-    <label>Starly Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -2995,7 +2819,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBidoof</defName>
-    <label>Bidoof Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3012,7 +2835,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggKricketot</defName>
-    <label>Kricketot Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3029,7 +2851,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggShinx</defName>
-    <label>Shinx Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3046,7 +2867,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBudew</defName>
-    <label>Budew Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3063,7 +2883,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCranidos</defName>
-    <label>Cranidos Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3080,7 +2899,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggShieldon</defName>
-    <label>Shieldon Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3097,7 +2915,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBurmy</defName>
-    <label>Burmy Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3114,7 +2931,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCombee</defName>
-    <label>Combee Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3131,7 +2947,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPachirisu</defName>
-    <label>Pachirisu Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3148,7 +2963,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBuizel</defName>
-    <label>Buizel Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3165,7 +2979,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCherubi</defName>
-    <label>Cherubi Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3182,7 +2995,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggShellos</defName>
-    <label>Shellos Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3199,7 +3011,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggDrifloon</defName>
-    <label>Drifloon Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3216,7 +3027,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBuneary</defName>
-    <label>Buneary Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3233,7 +3043,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGlameow</defName>
-    <label>Glameow Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3250,7 +3059,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggChingling</defName>
-    <label>Chingling Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3267,7 +3075,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggStunky</defName>
-    <label>Stunky Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3284,7 +3091,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBronzor</defName>
-    <label>Bronzor Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3301,7 +3107,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggBonsly</defName>
-    <label>Bonsly Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3318,7 +3123,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMimeJr</defName>
-    <label>Mime Jr. Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3335,7 +3139,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggHappiny</defName>
-    <label>Happiny Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3352,7 +3155,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggChatot</defName>
-    <label>Chatot Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3369,7 +3171,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSpiritomb</defName>
-    <label>Spiritomb Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3386,7 +3187,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggGible</defName>
-    <label>Gible Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3403,7 +3203,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMunchlax</defName>
-    <label>Munchlax Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3420,7 +3219,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggRiolu</defName>
-    <label>Riolu Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3437,7 +3235,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggHippopotas</defName>
-    <label>Hippopotas Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3454,7 +3251,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSkorupi</defName>
-    <label>Skorupi Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3471,7 +3267,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCroagunk</defName>
-    <label>Croagunk Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3488,7 +3283,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggCarnivine</defName>
-    <label>Carnivine Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3505,7 +3299,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggFinneon</defName>
-    <label>Finneon Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3522,7 +3315,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMantyke</defName>
-    <label>Mantyke Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3539,7 +3331,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggSnover</defName>
-    <label>Snover Egg</label>
     <tradeability>Buyable</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3556,7 +3347,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggRotom</defName>
-    <label>Rotom Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
@@ -3573,7 +3363,6 @@
 
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggPhione</defName>
-    <label>Phione Egg</label>
     <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">

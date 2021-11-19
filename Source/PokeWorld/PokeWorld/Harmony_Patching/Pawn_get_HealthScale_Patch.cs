@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using HarmonyLib;
 using Verse;
 using RimWorld;
-using PokeWorld;
 
 namespace PokeWorld
 {
