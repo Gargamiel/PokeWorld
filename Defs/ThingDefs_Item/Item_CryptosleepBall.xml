@@ -16,7 +16,6 @@
       <Mass>0.7</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
-    <isFrameInt>true</isFrameInt>
     <tradeability>None</tradeability>
     <stackLimit>1</stackLimit>
     <inspectorTabs>

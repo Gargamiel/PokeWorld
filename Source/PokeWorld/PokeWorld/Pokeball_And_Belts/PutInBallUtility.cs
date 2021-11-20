@@ -52,7 +52,6 @@ namespace PokeWorld
                 CryptosleepBall ball = thing as CryptosleepBall;
                 ball.stackCount = 1;
                 ball.TryAcceptThing(pokemon);
-                ball.SetFaction(pokemon.Faction);
                 GenPlace.TryPlaceThing(ball, pos, map, ThingPlaceMode.Near);                            
             }          
         }

@@ -85,10 +85,7 @@ namespace PokeWorld
 			}
 			if (flag)
 			{
-				if (thing.Faction != null && thing.Faction.IsPlayer)
-				{
-					contentsKnown = true;
-				}
+				contentsKnown = true;
 				return true;
 			}
 			return false;
@@ -133,10 +130,7 @@ namespace PokeWorld
 		public override void SpawnSetup(Map map, bool respawningAfterLoad)
 		{
 			base.SpawnSetup(map, respawningAfterLoad);
-			if (base.Faction != null && base.Faction.IsPlayer)
-			{
-				contentsKnown = true;
-			}
+			contentsKnown = true;
 			if (innerContainer.NullOrEmpty())
 			{
 				Log.Error("Error: Tried to spawn empty Poké Ball");
@@ -233,7 +227,7 @@ namespace PokeWorld
 			{
 				yield return item;
 			}
-			if (DefDatabase<ResearchProjectDef>.GetNamed("PW_StorageSystem").IsFinished && Faction == Faction.OfPlayer)
+			if (DefDatabase<ResearchProjectDef>.GetNamed("PW_StorageSystem").IsFinished && ContainedThing is Pawn pawn && pawn.Faction == Faction.OfPlayer)
 			{
 				if (Map.designationManager.DesignationOn(this, DefDatabase<DesignationDef>.GetNamed("PW_PutInPortableComputer")) == null)
 				{

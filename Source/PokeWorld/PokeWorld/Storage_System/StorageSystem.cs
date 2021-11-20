@@ -41,7 +41,7 @@ namespace PokeWorld
 		}
 		public virtual bool Accepts(CryptosleepBall cryptosleepBall)
 		{
-			if (cryptosleepBall.ContainedThing != null && cryptosleepBall.ContainedThing.GetType() == typeof(Pawn))
+			if (cryptosleepBall.ContainedThing != null && cryptosleepBall.ContainedThing is Pawn pawn && pawn.Faction == Faction.OfPlayer)
 			{
 				return true;
 			}
@@ -62,10 +62,7 @@ namespace PokeWorld
 			}
 			if (flag)
 			{
-				if (cryptosleepBall.Faction != null && cryptosleepBall.Faction.IsPlayer)
-				{
-					contentsKnown = true;
-				}
+				contentsKnown = true;
 				return true;
 			}
 			return false;

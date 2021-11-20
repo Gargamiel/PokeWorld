@@ -55,7 +55,7 @@ namespace PokeWorld
 		public override AcceptanceReport CanDesignateThing(Thing t)
 		{
 			CryptosleepBall ball = t as CryptosleepBall;
-			if (ball != null && ball.Faction == Faction.OfPlayer && base.Map.designationManager.DesignationOn(ball, Designation) == null)
+			if (ball != null && ball.ContainedThing is Pawn pawn && pawn.Faction == Faction.OfPlayer && base.Map.designationManager.DesignationOn(ball, Designation) == null)
 			{
 				return true;
 			}

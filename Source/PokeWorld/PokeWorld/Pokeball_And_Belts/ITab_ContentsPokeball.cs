@@ -38,7 +38,18 @@ namespace PokeWorld
 
 		public string containedItemsKey;
 
-		public override bool IsVisible => base.SelThing.Faction == Faction.OfPlayer;
+		public override bool IsVisible 
+		{
+            get
+            {
+				if(SelThing is CryptosleepBall ball && ball.ContainedThing is Pawn pawn)
+                {
+					return pawn.Faction == Faction.OfPlayer;
+                }
+				return false;
+            }
+		}
+
 
 		private List<Thing> listInt = new List<Thing>();
 
