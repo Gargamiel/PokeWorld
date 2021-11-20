@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TrainableDef>
+    <defName>PW_TrainXp</defName>
+    <label>train Pokémon</label>
+    <description>The Pokémon can be trained to gain a little experience. More skilled trainer give more experience. Can be trained indefinitely</description>
+    <icon>UI/Icon/Trainables/XP</icon>
+    <listPriority>200</listPriority>
+    <difficulty>100</difficulty>
+    <requiredTrainability>Intermediate</requiredTrainability>
+    <steps>1</steps>
+    <prerequisites>
+      <li>Obedience</li>
+    </prerequisites>
+    <defaultTrainable>false</defaultTrainable>
+    <tags>
+      <li>PW_Pokemon</li>
+    </tags>
+  </TrainableDef>
+
+</Defs>

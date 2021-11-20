@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Harmony_Patching\Pawn_TrainingTracker_Train_Patch.cs" />
     <Compile Include="PokemonDamageUtility.cs" />
     <Compile Include="Eggs\StockGenerator_PokemonEgg.cs" />
     <Compile Include="Harmony_Patching\CompTargetEffect_Resurrect_DoEffectOn_Patch.cs" />
@@ -234,7 +235,6 @@
     <Compile Include="Trackers\ShinyTracker.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
