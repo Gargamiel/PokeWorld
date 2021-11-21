@@ -21225,19 +21225,18 @@
             <item>PW_ThunderStone</item>
           </li>
           <li>
-            <pawnKind>PW_Leafeon</pawnKind>
-            <requirement>item</requirement>
-            <item>PW_LeafStone</item>
-          </li>
-          <li>
-            <pawnKind>PW_Glaceon</pawnKind>
-            <requirement>item</requirement>
-            <item>PW_IceStone</item>
-          </li>
-          <li>
             <pawnKind>PW_Flareon</pawnKind>
             <requirement>item</requirement>
             <item>PW_FireStone</item>
+          </li>
+          <li>
+            <pawnKind>PW_Espeon</pawnKind>
+            <requirement>level</requirement>
+            <otherRequirement>none</otherRequirement>
+            <level>1</level>
+            <friendship>220</friendship>
+            <timeOfDay>Day</timeOfDay>
+            <gender>None</gender>
           </li>
           <li>
             <pawnKind>PW_Umbreon</pawnKind>
@@ -21249,13 +21248,14 @@
             <gender>None</gender>
           </li>
           <li>
-            <pawnKind>PW_Espeon</pawnKind>
-            <requirement>level</requirement>
-            <otherRequirement>none</otherRequirement>
-            <level>1</level>
-            <friendship>220</friendship>
-            <timeOfDay>Day</timeOfDay>
-            <gender>None</gender>
+            <pawnKind>PW_Leafeon</pawnKind>
+            <requirement>item</requirement>
+            <item>PW_LeafStone</item>
+          </li>
+          <li>
+            <pawnKind>PW_Glaceon</pawnKind>
+            <requirement>item</requirement>
+            <item>PW_IceStone</item>
           </li>
         </evolutions>
         <moves>
@@ -21372,9 +21372,9 @@
       <li>PW_GiveFiveRareCandy</li>
       <li>PW_ExposeWaterStone</li>
       <li>PW_ExposeThunderStone</li>
+      <li>PW_ExposeFireStone</li>
       <li>PW_ExposeLeafStone</li>
       <li>PW_ExposeIceStone</li>
-      <li>PW_ExposeFireStone</li>
     </recipes>
     <tradeTags>
       <li>PW_PokemonStarter</li>
