@@ -1,6 +1,7 @@
 # Links
 
 [PokéWorld on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2652029657)
+GitHub repo containing the data and scripts to generate all 493 Pokémon defs: https://github.com/Gargamiel/PokeWorld_Scripts
 
 # PokéWorld
 
