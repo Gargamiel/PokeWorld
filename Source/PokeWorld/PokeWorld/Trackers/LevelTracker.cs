@@ -274,7 +274,6 @@ namespace PokeWorld
 
         private void Copy(Pawn pokemon, Pawn evolution)
         {
-            CompPokemon preEvoComp = pokemon.GetComp<CompPokemon>();
             CompPokemon postEvoComp = evolution.GetComp<CompPokemon>();
             postEvoComp.levelTracker.level = level;
             postEvoComp.levelTracker.experience = experience;
@@ -283,6 +282,7 @@ namespace PokeWorld
             postEvoComp.friendshipTracker.friendship = comp.friendshipTracker.friendship;
             postEvoComp.friendshipTracker.flagMaxFriendshipMessage = comp.friendshipTracker.flagMaxFriendshipMessage;
             postEvoComp.ballDef = comp.ballDef;
+            postEvoComp.statTracker.CopyPreEvoStat(comp);
             postEvoComp.statTracker.UpdateStats();
             postEvoComp.moveTracker.GetUnlockedMovesFromPreEvolution(comp);
             if (comp.shinyTracker.isShiny)
@@ -293,9 +293,9 @@ namespace PokeWorld
             {
                 postEvoComp.shinyTracker.isShiny = false;
             }
-            if (preEvoComp.formTracker != null && postEvoComp.formTracker != null)
+            if (comp.formTracker != null && postEvoComp.formTracker != null)
             {
-                postEvoComp.formTracker.TryInheritFormFromPreEvo(preEvoComp.formTracker);
+                postEvoComp.formTracker.TryInheritFormFromPreEvo(comp.formTracker);
             }
             if (evolution.RaceProps.hasGenders)
             {

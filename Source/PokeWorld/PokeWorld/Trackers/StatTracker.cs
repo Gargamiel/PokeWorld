@@ -124,6 +124,26 @@ namespace PokeWorld
                     break;
             }
         }
+        private void CopyPreEvoEV(CompPokemon preEvoComp)
+        {
+            StatTracker tracker = preEvoComp.statTracker;
+            hpEV = tracker.GetEV(DefDatabase<StatDef>.GetNamed("PW_HP"));
+            attackEV = tracker.GetEV(DefDatabase<StatDef>.GetNamed("PW_Attack"));
+            defenseEV = tracker.GetEV(DefDatabase<StatDef>.GetNamed("PW_Defense"));
+            attackSpEV = tracker.GetEV(DefDatabase<StatDef>.GetNamed("PW_SpecialAttack"));
+            defenseSpEV = tracker.GetEV(DefDatabase<StatDef>.GetNamed("PW_SpecialDefense"));
+            speedEV = tracker.GetEV(DefDatabase<StatDef>.GetNamed("PW_Speed"));
+        }
+        private void CopyPreEvoNature(CompPokemon preEvoComp)
+        {
+            nature = preEvoComp.statTracker.nature;
+        }
+        public void CopyPreEvoStat(CompPokemon preEvoComp)
+        {
+            CopyPreEvoNature(preEvoComp);
+            CopyPreEvoIV(preEvoComp);
+            CopyPreEvoEV(preEvoComp);
+        }
         public int GetIV(StatDef stat)
         {
             int value;
@@ -152,6 +172,16 @@ namespace PokeWorld
                     break;
             }
             return value;
+        }
+        private void CopyPreEvoIV(CompPokemon preEvoComp)
+        {
+            StatTracker tracker = preEvoComp.statTracker;
+            hpIV = tracker.GetIV(DefDatabase<StatDef>.GetNamed("PW_HP"));
+            attackIV = tracker.GetIV(DefDatabase<StatDef>.GetNamed("PW_Attack"));
+            defenseIV = tracker.GetIV(DefDatabase<StatDef>.GetNamed("PW_Defense"));
+            attackSpIV = tracker.GetIV(DefDatabase<StatDef>.GetNamed("PW_SpecialAttack"));
+            defenseSpIV = tracker.GetIV(DefDatabase<StatDef>.GetNamed("PW_SpecialDefense"));
+            speedIV = tracker.GetIV(DefDatabase<StatDef>.GetNamed("PW_Speed"));
         }
         public int GetEV(StatDef stat)
         {
