@@ -89,6 +89,7 @@
   <ThingDef ParentName="ApparelNoQualityBase" Name="PW_PokeballBeltBase" Abstract="True">
     <thingCategories>
       <li>PW_Belts</li>
+      <li>ApparelUtility</li>
     </thingCategories>
     <graphicData>
       <drawSize>1.1</drawSize>
