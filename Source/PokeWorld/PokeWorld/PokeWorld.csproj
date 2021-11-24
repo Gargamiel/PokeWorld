@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompPokemonPower.cs" />
+    <Compile Include="CompPokemonHeatPusher.cs" />
     <Compile Include="Harmony_Patching\Pawn_TrainingTracker_Train_Patch.cs" />
     <Compile Include="PokemonDamageUtility.cs" />
     <Compile Include="Eggs\StockGenerator_PokemonEgg.cs" />
