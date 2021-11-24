@@ -6,8 +6,15 @@
     <value>
       <li Class="PokeWorld.CompProperties_PokemonSpawner">
         <pawnKind>PW_Rotom</pawnKind>
-        <delay>400~600</delay>
+        <delay>2000~2500</delay>
       </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="MegascreenTelevision"]</xpath>
+    <value>
+      <tickerType>Normal</tickerType>
     </value>
   </Operation>
 </Patch>

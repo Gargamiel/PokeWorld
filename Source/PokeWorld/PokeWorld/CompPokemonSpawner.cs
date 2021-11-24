@@ -21,7 +21,6 @@ namespace PokeWorld
             base.Initialize(props);
             delay = Props.delay.RandomInRange;
         }
-
         public override void PostExposeData()
         {
             base.PostExposeData();
@@ -29,6 +28,22 @@ namespace PokeWorld
             Scribe_Values.Look(ref delay, "delay", defaultValue: 0);
             Scribe_Values.Look(ref active, "active", defaultValue: false);
             Scribe_Values.Look(ref canSpawn, "canSpawn", defaultValue: false);
+        }
+        public override void CompTick()
+        {
+            base.CompTick();
+            if (active)
+            {
+                timer += 1;
+                if (timer > delay && parent.Spawned)
+                {
+                    Pawn pokemon = PokemonGeneratorUtility.GenerateAndSpawnNewPokemon(pawnKind, null, parent.Position, parent.Map);
+                    pokemon.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
+                    Find.LetterStack.ReceiveLetter("PW_WildRotomLetterLabel".Translate(), "PW_WildRotomLetterText".Translate(), LetterDefOf.ThreatBig, pokemon);
+                    active = false;
+                    canSpawn = false;
+                }
+            }
         }
         public void TickAction(JobDriver_WatchTelevision jobDriver)
         {
@@ -41,19 +56,7 @@ namespace PokeWorld
                     string name = pawn.LabelShort;
                     Find.LetterStack.ReceiveLetter("PW_MalevolentTVLetterLabel".Translate(), "PW_MalevolentTVLetterText".Translate(name), LetterDefOf.ThreatSmall, television);
                     active = true;
-                }
-                else if (active)
-                {
-                    timer += 1;
-                    if(timer > delay)
-                    {
-                        Pawn pokemon = PokemonGeneratorUtility.GenerateAndSpawnNewPokemon(pawnKind, null, television.Position, television.Map);
-                        pokemon.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
-                        Find.LetterStack.ReceiveLetter("PW_WildRotomLetterLabel".Translate(), "PW_WildRotomLetterText".Translate(), LetterDefOf.ThreatBig, pokemon);
-                        active = false;
-                        canSpawn = false;
-                    }
-                }         
+                }                    
             }
         }
     }
