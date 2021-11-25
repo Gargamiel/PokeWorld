@@ -10,6 +10,7 @@ using UnityEngine;
 
 namespace PokeWorld
 {
+	
 	public class GenStep_LegendaryPokemon : GenStep_Scatterer
 	{
 		public override int SeedPart => 860042045;
@@ -37,20 +38,12 @@ namespace PokeWorld
 
 		protected override void ScatterAt(IntVec3 loc, Map map, GenStepParams parms, int count = 1)
 		{
-			Pawn pawn;
-			if (parms.sitePart != null && parms.sitePart.things != null && parms.sitePart.things.Any)
-			{
-				pawn = (Pawn)parms.sitePart.things.Take(parms.sitePart.things[0]);
-			}
-			else
-			{
-				LegendaryPokemonComp component = map.Parent.GetComponent<LegendaryPokemonComp>();
-				pawn = ((component == null || !component.pawn.Any) ? LegendaryPokemonQuestUtility.GenerateLegendaryPokemon(map.Tile) : component.pawn.Take(component.pawn[0]));
-			}			
+			Pawn pawn = (Pawn)parms.sitePart.things.Take(parms.sitePart.things[0]);		
 			GenSpawn.Spawn(pawn, loc, map);
 			pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent);
 			MapGenerator.rootsToUnfog.Add(loc);
 			MapGenerator.SetVar("RectOfInterest", CellRect.CenteredOn(loc, 1, 1));
 		}
 	}
+	
 }

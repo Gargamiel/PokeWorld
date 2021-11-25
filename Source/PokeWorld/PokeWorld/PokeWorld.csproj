@@ -134,8 +134,6 @@
     <Compile Include="Quests\SitePartWorker_LegendaryPokemon.cs" />
     <Compile Include="Quests\LegendaryPokemonQuestUtility.cs" />
     <Compile Include="Quests\GenStep_LegendaryPokemon.cs" />
-    <Compile Include="Quests\WorldObjectCompProperties_LegendaryPokemon.cs" />
-    <Compile Include="Quests\LegendaryPokemonComp.cs" />
     <Compile Include="Table_Column\PawnColumnWorker_Caught.cs" />
     <Compile Include="Table_Column\PawnColumnWorker_Level.cs" />
     <Compile Include="Trackers\FormTracker.cs" />
