@@ -90,7 +90,30 @@ namespace PokeWorld
                 CompPokemon comp = req.Thing.TryGetComp<CompPokemon>();
                 if(comp != null && comp.statTracker != null)
                 {
-                    return "PW_StatBaseValue".Translate(GetValueUnfinalized(req).ToString());
+                    StringBuilder stringBuilder = new StringBuilder();
+                    stringBuilder.AppendLine("PW_StatBaseValue".Translate(GetValueUnfinalized(req), 2f.ToStringPercent()).ToLower().CapitalizeFirst());
+                    if (stat.defName == "PW_HP")
+                    {
+                        stringBuilder.AppendLine("   " + "PW_StatIndividualValue".Translate(comp.statTracker.GetIV(stat)));
+                        stringBuilder.AppendLine("   " + "PW_StatEffortValue".Translate(comp.statTracker.GetEV(stat) / 4));
+                        stringBuilder.AppendLine("   " + "PW_StatLevel".Translate(comp.levelTracker.level, (comp.levelTracker.level / 100f).ToStringPercent()).ToLower().CapitalizeFirst());
+                        stringBuilder.AppendLine("   " + "PW_StatHPAddLevel".Translate(comp.levelTracker.level, comp.levelTracker.level + 10));
+                        //val = (int)((2 * val + IV + (EV / 4)) * level / 100) + level + 10;
+                    }
+                    else
+                    {                                               
+                        stringBuilder.AppendLine("   " + "PW_StatIndividualValue".Translate(comp.statTracker.GetIV(stat)));
+                        stringBuilder.AppendLine("   " + "PW_StatEffortValue".Translate(comp.statTracker.GetEV(stat) / 4));
+                        stringBuilder.AppendLine("   " + "PW_StatLevel".Translate(comp.levelTracker.level, (comp.levelTracker.level / 100f).ToStringPercent()).ToLower().CapitalizeFirst());
+                        stringBuilder.AppendLine("   " + "PW_StatAdd".Translate(5));
+                        float natureMultiplier = GetNatureMultiplier(comp, stat.defName);
+                        if (natureMultiplier != 1f)
+                        {
+                            stringBuilder.AppendLine("   " + "PW_StatNatureMultiplier".Translate(natureMultiplier.ToStringPercent()).ToLower().CapitalizeFirst());
+                        }
+                        //val = (int)((((2 * val + IV + (EV / 4)) * level / 100) + 5) * natureMultiplier);
+                    }                
+                    return stringBuilder.ToString();
                 }
             }
             return "";

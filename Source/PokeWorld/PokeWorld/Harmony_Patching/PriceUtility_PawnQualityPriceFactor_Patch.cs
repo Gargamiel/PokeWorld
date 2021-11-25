@@ -20,12 +20,12 @@ namespace PokeWorld
 			{
 				__1?.AppendLine("PW_Pokemon".Translate());
 				float levelFactor = comp.levelTracker.level / 20f;
-				__1?.AppendLine("   " + "PW_PriceFactorLevel".Translate(comp.levelTracker.level, levelFactor.ToStringPercent()));
+				__1?.AppendLine("   " + "PW_PriceFactorLevel".Translate(comp.levelTracker.level, levelFactor.ToStringPercent()).ToLower().CapitalizeFirst());
 				__result *= levelFactor;
 				if (comp.shinyTracker.isShiny)
                 {
 					float shinyFactor = 4;
-					__1?.AppendLine("   " + "PW_PriceFactorShiny".Translate(shinyFactor.ToStringPercent()));
+					__1?.AppendLine("   " + "PW_PriceFactorShiny".Translate(shinyFactor.ToStringPercent()).ToLower().CapitalizeFirst());
 					__result *= shinyFactor;
 				}
 						

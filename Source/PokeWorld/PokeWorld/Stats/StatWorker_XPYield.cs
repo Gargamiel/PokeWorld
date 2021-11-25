@@ -64,7 +64,7 @@ namespace PokeWorld
 				CompPokemon comp = req.Thing.TryGetComp<CompPokemon>();				
 				if (comp != null)
 				{
-					stringBuilder.AppendLine("PW_StatXPYieldLevel".Translate(comp.levelTracker.level.ToString(), (comp.levelTracker.level / 7f).ToStringPercent()).ToLower().CapitalizeFirst());
+					stringBuilder.AppendLine("PW_StatLevel".Translate(comp.levelTracker.level.ToString(), (comp.levelTracker.level / 7f).ToStringPercent()).ToLower().CapitalizeFirst());
 				}
 				else if (pawn.AnimalOrWildMan() && pawn.kindDef != PawnKindDefOf.WildMan)
 				{

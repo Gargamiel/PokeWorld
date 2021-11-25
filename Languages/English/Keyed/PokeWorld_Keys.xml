@@ -99,9 +99,14 @@
   <PW_StatFriendshipPoor>Poor</PW_StatFriendshipPoor>
   <PW_StatFriendshipVeryPoor>Very poor</PW_StatFriendshipVeryPoor>
   <PW_StatFriendshipTerrible>Terrible</PW_StatFriendshipTerrible>
-  <PW_StatBaseValue>Base value: {0}</PW_StatBaseValue>
+  <PW_StatBaseValue>Base value: {0} (x{1})</PW_StatBaseValue>
+  <PW_StatIndividualValue>IV: +{0}</PW_StatIndividualValue>
+  <PW_StatEffortValue>EV: +{0}</PW_StatEffortValue>
+  <PW_StatLevel>Level {0}: x{1}</PW_StatLevel>
+  <PW_StatHPAddLevel>Level {0}: +{1}</PW_StatHPAddLevel>
+  <PW_StatAdd>Finalize: +{0}</PW_StatAdd>
+  <PW_StatNatureMultiplier>Nature: x{0}</PW_StatNatureMultiplier>
   <PW_StatFinalValue>Final value: {0}</PW_StatFinalValue>
-  <PW_StatXPYieldLevel>Level {0}: x{1}</PW_StatXPYieldLevel>
   <PW_StatXPYieldCombatPower>Combat power: x{0}</PW_StatXPYieldCombatPower>
   <PW_StatXPYieldApparel>Apparel: +{0}</PW_StatXPYieldApparel>
   <PW_StatXPYieldWeapon>Weapon: +{0}</PW_StatXPYieldWeapon>
