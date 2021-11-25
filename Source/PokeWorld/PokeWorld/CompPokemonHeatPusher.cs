@@ -10,30 +10,14 @@ namespace PokeWorld
 {
 	class CompPokemonHeatPusher : CompHeatPusher
 	{
-		private const int HeatPushInterval = 60;
-
-		public override void CompTick()
-		{
-			base.CompTick();
-			if (parent.IsHashIntervalTick(60) && ShouldPushHeatNow)
-			{
-				CompPokemon comp = parent.TryGetComp<CompPokemon>();
-				if (comp != null)
-				{
-					GenTemperature.PushHeat(parent.PositionHeld, parent.MapHeld, Props.heatPerSecond * Mathf.Sqrt(comp.levelTracker.level) / 2);
-				}
-			}
-		}
-
 		public override void CompTickRare()
 		{
-			base.CompTickRare();
-			if (ShouldPushHeatNow)
+			if (parent != null && parent is Pawn && parent.Spawned && ShouldPushHeatNow)
 			{
 				CompPokemon comp = parent.TryGetComp<CompPokemon>();
 				if (comp != null)
 				{
-					GenTemperature.PushHeat(parent.PositionHeld, parent.MapHeld, Props.heatPerSecond * Mathf.Sqrt(comp.levelTracker.level) / 2);
+					GenTemperature.PushHeat(parent.PositionHeld, parent.MapHeld, Props.heatPerSecond * 4.16666651f * Mathf.Sqrt(comp.levelTracker.level) / 2);
 				}
 			}
 		}

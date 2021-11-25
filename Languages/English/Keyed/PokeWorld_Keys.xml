@@ -45,6 +45,7 @@
   <PW_SettingsAllowPokemonInfestation>Allow Pokémon infestations:</PW_SettingsAllowPokemonInfestation>
   <PW_SettingsAllowNPCPokemonPack>Allow NPC trade caravan to have Pokémon as pack:</PW_SettingsAllowNPCPokemonPack>
   <PW_SettingsAllowGeneration>Allow Gen. {0} Pokémon:</PW_SettingsAllowGeneration>
+  <PW_SettingsAllowPokemonInRaid>Allow Pokémon in raids:</PW_SettingsAllowPokemonInRaid>
 
   <PW_PokeballContainsShort>Contains: {0}.</PW_PokeballContainsShort>
   <PW_PokeballContainsLongGendered>Contains: {0}, level {1} {2} {3}.</PW_PokeballContainsLongGendered>

@@ -23,6 +23,7 @@ namespace PokeWorld
         public static bool allowGen4 = true;
         public static bool allowPokemonInfestation = true;
         public static bool allowNPCPokemonPack = true;
+        //public static bool allowPokemonInRaid = true;
 
         public override void ExposeData()
         {
@@ -33,6 +34,7 @@ namespace PokeWorld
             Scribe_Values.Look(ref allowGen4, "allowGen4", true);
             Scribe_Values.Look(ref allowPokemonInfestation, "allowPokemonInfestation", true);
             Scribe_Values.Look(ref allowNPCPokemonPack, "allowNPCPokemonPack", true);
+            //Scribe_Values.Look(ref allowPokemonInRaid, "allowPokemonInRaid", true);
             base.ExposeData();
         }
         public static bool OkforPokemon()
@@ -82,6 +84,7 @@ namespace PokeWorld
             ListingStandardHelper.AddLabelLine(listingStandard, "PW_SettingsWildPokemonFrequencyDesc".Translate());
             ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowPokemonInfestation".Translate(), ref PokeWorldSettings.allowPokemonInfestation);
             ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowNPCPokemonPack".Translate(), ref PokeWorldSettings.allowNPCPokemonPack);
+            //ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowPokemonInRaid".Translate(), ref PokeWorldSettings.allowPokemonInRaid);
             ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(1), ref PokeWorldSettings.allowGen1);
             ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(2), ref PokeWorldSettings.allowGen2);
             ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(3), ref PokeWorldSettings.allowGen3);
