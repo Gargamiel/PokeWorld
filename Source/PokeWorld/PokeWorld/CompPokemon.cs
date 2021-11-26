@@ -32,8 +32,11 @@ namespace PokeWorld
                 {
                     pokedex.AddPokemonKindSeen(Pokemon.kindDef);
                 }
-            }           
-            statTracker.UpdateStats();
+            }    
+            if(statTracker != null)
+            {
+                statTracker.UpdateStats();
+            }
         }
 
         public override void CompTick()
@@ -364,15 +367,6 @@ namespace PokeWorld
             {
                 Pokemon.SetFaction(trader.Faction);
             }
-        }
-              
-        public override void PostDestroy(DestroyMode mode, Map previousMap)
-        {
-            base.PostDestroy(mode, previousMap);
-            shinyTracker = null;
-            levelTracker = null;
-            friendshipTracker = null;
-            statTracker = null;
         }
 
         public CompProperties_Pokemon Props => (CompProperties_Pokemon)this.props;

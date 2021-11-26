@@ -73,8 +73,6 @@
     <Compile Include="Harmony_Patching\Pawn_TrainingTracker_Train_Patch.cs" />
     <Compile Include="PokemonDamageUtility.cs" />
     <Compile Include="Eggs\StockGenerator_PokemonEgg.cs" />
-    <Compile Include="Harmony_Patching\CompTargetEffect_Resurrect_DoEffectOn_Patch.cs" />
-    <Compile Include="Harmony_Patching\ResurrectionUtility_Resurrect_Patch.cs" />
     <Compile Include="Pokemon_Moves\MoveCategory.cs" />
     <Compile Include="WorkGiver_CraftPokemon.cs" />
     <Compile Include="Toils_RecipeCraftPokemon.cs" />
