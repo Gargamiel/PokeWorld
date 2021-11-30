@@ -129,6 +129,9 @@
       <li>PW_HyperPotionResearch</li>
       <li>MultiAnalyzer</li>
     </prerequisites>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <tab>PW_PokeWorldResearchTab</tab>
     <researchViewX>2.00</researchViewX>

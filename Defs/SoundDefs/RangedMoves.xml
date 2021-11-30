@@ -15,7 +15,7 @@
             <clipFolderPath>Moves/HyperBeam</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -34,7 +34,7 @@
             <clipFolderPath>Moves/Swift</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -59,7 +59,7 @@
             <clipFolderPath>Moves/AirSlash</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -78,7 +78,7 @@
             <clipFolderPath>Moves/Gust</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -99,7 +99,7 @@
             <clipFolderPath>Moves/Smog</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -118,7 +118,7 @@
             <clipFolderPath>Moves/Acid</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -139,7 +139,7 @@
             <clipFolderPath>Moves/EarthPower</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -158,7 +158,7 @@
             <clipFolderPath>Moves/MudBomb</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -177,7 +177,7 @@
             <clipFolderPath>Moves/MudShot</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -198,7 +198,7 @@
             <clipFolderPath>Moves/AncientPower</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -217,7 +217,7 @@
             <clipFolderPath>Moves/PowerGem</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -238,7 +238,7 @@
             <clipFolderPath>Moves/BugBuzz</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -257,7 +257,7 @@
             <clipFolderPath>Moves/SignalBeam</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -278,7 +278,7 @@
             <clipFolderPath>Moves/Hex</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -297,7 +297,7 @@
             <clipFolderPath>Moves/ShadowBall</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -318,7 +318,7 @@
             <clipFolderPath>Moves/FlashCannon</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -339,7 +339,7 @@
             <clipFolderPath>Moves/Ember</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -358,7 +358,7 @@
             <clipFolderPath>Moves/Flamethrower</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -377,7 +377,7 @@
             <clipFolderPath>Moves/LavaPlume</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -396,7 +396,7 @@
             <clipFolderPath>Moves/Inferno</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -415,7 +415,7 @@
             <clipFolderPath>Moves/FireBlast</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -436,7 +436,7 @@
             <clipFolderPath>Moves/WaterGun</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -455,7 +455,7 @@
             <clipFolderPath>Moves/HydroPump</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -474,7 +474,7 @@
             <clipFolderPath>Moves/WaterPulse</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -493,7 +493,7 @@
             <clipFolderPath>Moves/BubbleBeam</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -512,7 +512,7 @@
             <clipFolderPath>Moves/Bubble</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -533,7 +533,7 @@
             <clipFolderPath>Moves/Absorb</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -552,7 +552,7 @@
             <clipFolderPath>Moves/MegaDrain</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -571,7 +571,7 @@
             <clipFolderPath>Moves/GigaDrain</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -590,7 +590,7 @@
             <clipFolderPath>Moves/MagicalLeaf</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -609,7 +609,7 @@
             <clipFolderPath>Moves/LeafStorm</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -628,7 +628,7 @@
             <clipFolderPath>Moves/SolarBeam</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -649,7 +649,7 @@
             <clipFolderPath>Moves/Discharge</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -668,7 +668,7 @@
             <clipFolderPath>Moves/ZapCannon</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -687,7 +687,7 @@
             <clipFolderPath>Moves/ThunderShock</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -706,7 +706,7 @@
             <clipFolderPath>Moves/ElectroBall</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -725,7 +725,7 @@
             <clipFolderPath>Moves/Thunder</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -744,7 +744,7 @@
             <clipFolderPath>Moves/Thunderbolt</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -765,7 +765,7 @@
             <clipFolderPath>Moves/Confusion</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -784,7 +784,7 @@
             <clipFolderPath>Moves/Psychic</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -803,7 +803,7 @@
             <clipFolderPath>Moves/Psybeam</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -822,7 +822,7 @@
             <clipFolderPath>Moves/Extrasensory</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -841,7 +841,7 @@
             <clipFolderPath>Moves/Psywave</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -862,7 +862,7 @@
             <clipFolderPath>Moves/PowderSnow</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -881,7 +881,7 @@
             <clipFolderPath>Moves/Blizzard</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -900,7 +900,7 @@
             <clipFolderPath>Moves/IcyWind</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -919,7 +919,7 @@
             <clipFolderPath>Moves/AuroraBeam</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -938,7 +938,7 @@
             <clipFolderPath>Moves/IceBeam</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -959,7 +959,7 @@
             <clipFolderPath>Moves/Twister</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -978,7 +978,7 @@
             <clipFolderPath>Moves/DragonPulse</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -997,7 +997,7 @@
             <clipFolderPath>Moves/DragonRage</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1016,7 +1016,7 @@
             <clipFolderPath>Moves/DragonBreath</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1037,7 +1037,7 @@
             <clipFolderPath>Moves/DarkPulse</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1058,7 +1058,7 @@
             <clipFolderPath>Moves/Moonblast</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1077,7 +1077,7 @@
             <clipFolderPath>Moves/FairyWind</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>14~22</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>

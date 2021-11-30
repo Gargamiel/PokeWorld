@@ -12,7 +12,7 @@
             <clipFolderPath>Pokemon/Gen_1/001_Bulbasaur</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -31,7 +31,7 @@
             <clipFolderPath>Pokemon/Gen_1/002_Ivysaur</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -50,7 +50,7 @@
             <clipFolderPath>Pokemon/Gen_1/003_Venusaur</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -69,7 +69,7 @@
             <clipFolderPath>Pokemon/Gen_1/004_Charmander</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -88,7 +88,7 @@
             <clipFolderPath>Pokemon/Gen_1/005_Charmeleon</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -107,7 +107,7 @@
             <clipFolderPath>Pokemon/Gen_1/006_Charizard</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -126,7 +126,7 @@
             <clipFolderPath>Pokemon/Gen_1/007_Squirtle</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -145,7 +145,7 @@
             <clipFolderPath>Pokemon/Gen_1/008_Wartortle</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -164,7 +164,7 @@
             <clipFolderPath>Pokemon/Gen_1/009_Blastoise</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -183,7 +183,7 @@
             <clipFolderPath>Pokemon/Gen_1/010_Caterpie</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -202,7 +202,7 @@
             <clipFolderPath>Pokemon/Gen_1/011_Metapod</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -221,7 +221,7 @@
             <clipFolderPath>Pokemon/Gen_1/012_Butterfree</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -240,7 +240,7 @@
             <clipFolderPath>Pokemon/Gen_1/013_Weedle</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -259,7 +259,7 @@
             <clipFolderPath>Pokemon/Gen_1/014_Kakuna</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -278,7 +278,7 @@
             <clipFolderPath>Pokemon/Gen_1/015_Beedrill</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -297,7 +297,7 @@
             <clipFolderPath>Pokemon/Gen_1/016_Pidgey</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -316,7 +316,7 @@
             <clipFolderPath>Pokemon/Gen_1/017_Pidgeotto</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -335,7 +335,7 @@
             <clipFolderPath>Pokemon/Gen_1/018_Pidgeot</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -354,7 +354,7 @@
             <clipFolderPath>Pokemon/Gen_1/019_Rattata</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -373,7 +373,7 @@
             <clipFolderPath>Pokemon/Gen_1/020_Raticate</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -392,7 +392,7 @@
             <clipFolderPath>Pokemon/Gen_1/021_Spearow</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -411,7 +411,7 @@
             <clipFolderPath>Pokemon/Gen_1/022_Fearow</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -430,7 +430,7 @@
             <clipFolderPath>Pokemon/Gen_1/023_Ekans</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -449,7 +449,7 @@
             <clipFolderPath>Pokemon/Gen_1/024_Arbok</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -468,7 +468,7 @@
             <clipFolderPath>Pokemon/Gen_1/025_Pikachu</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -487,7 +487,7 @@
             <clipFolderPath>Pokemon/Gen_1/026_Raichu</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -506,7 +506,7 @@
             <clipFolderPath>Pokemon/Gen_1/027_Sandshrew</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -525,7 +525,7 @@
             <clipFolderPath>Pokemon/Gen_1/028_Sandslash</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -544,7 +544,7 @@
             <clipFolderPath>Pokemon/Gen_1/029_NidoranF</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -563,7 +563,7 @@
             <clipFolderPath>Pokemon/Gen_1/030_Nidorina</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -582,7 +582,7 @@
             <clipFolderPath>Pokemon/Gen_1/031_Nidoqueen</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -601,7 +601,7 @@
             <clipFolderPath>Pokemon/Gen_1/032_NidoranM</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -620,7 +620,7 @@
             <clipFolderPath>Pokemon/Gen_1/033_Nidorino</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -639,7 +639,7 @@
             <clipFolderPath>Pokemon/Gen_1/034_Nidoking</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -658,7 +658,7 @@
             <clipFolderPath>Pokemon/Gen_1/035_Clefairy</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -677,7 +677,7 @@
             <clipFolderPath>Pokemon/Gen_1/036_Clefable</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -696,7 +696,7 @@
             <clipFolderPath>Pokemon/Gen_1/037_Vulpix</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -715,7 +715,7 @@
             <clipFolderPath>Pokemon/Gen_1/038_Ninetales</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -734,7 +734,7 @@
             <clipFolderPath>Pokemon/Gen_1/039_Jigglypuff</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -753,7 +753,7 @@
             <clipFolderPath>Pokemon/Gen_1/040_Wigglytuff</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -772,7 +772,7 @@
             <clipFolderPath>Pokemon/Gen_1/041_Zubat</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -791,7 +791,7 @@
             <clipFolderPath>Pokemon/Gen_1/042_Golbat</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -810,7 +810,7 @@
             <clipFolderPath>Pokemon/Gen_1/043_Oddish</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -829,7 +829,7 @@
             <clipFolderPath>Pokemon/Gen_1/044_Gloom</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -848,7 +848,7 @@
             <clipFolderPath>Pokemon/Gen_1/045_Vileplume</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -867,7 +867,7 @@
             <clipFolderPath>Pokemon/Gen_1/046_Paras</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -886,7 +886,7 @@
             <clipFolderPath>Pokemon/Gen_1/047_Parasect</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -905,7 +905,7 @@
             <clipFolderPath>Pokemon/Gen_1/048_Venonat</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -924,7 +924,7 @@
             <clipFolderPath>Pokemon/Gen_1/049_Venomoth</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -943,7 +943,7 @@
             <clipFolderPath>Pokemon/Gen_1/050_Diglett</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -962,7 +962,7 @@
             <clipFolderPath>Pokemon/Gen_1/051_Dugtrio</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -981,7 +981,7 @@
             <clipFolderPath>Pokemon/Gen_1/052_Meowth</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1000,7 +1000,7 @@
             <clipFolderPath>Pokemon/Gen_1/053_Persian</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1019,7 +1019,7 @@
             <clipFolderPath>Pokemon/Gen_1/054_Psyduck</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1038,7 +1038,7 @@
             <clipFolderPath>Pokemon/Gen_1/055_Golduck</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1057,7 +1057,7 @@
             <clipFolderPath>Pokemon/Gen_1/056_Mankey</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1076,7 +1076,7 @@
             <clipFolderPath>Pokemon/Gen_1/057_Primeape</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1095,7 +1095,7 @@
             <clipFolderPath>Pokemon/Gen_1/058_Growlithe</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1114,7 +1114,7 @@
             <clipFolderPath>Pokemon/Gen_1/059_Arcanine</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1133,7 +1133,7 @@
             <clipFolderPath>Pokemon/Gen_1/060_Poliwag</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1152,7 +1152,7 @@
             <clipFolderPath>Pokemon/Gen_1/061_Poliwhirl</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1171,7 +1171,7 @@
             <clipFolderPath>Pokemon/Gen_1/062_Poliwrath</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1190,7 +1190,7 @@
             <clipFolderPath>Pokemon/Gen_1/063_Abra</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1209,7 +1209,7 @@
             <clipFolderPath>Pokemon/Gen_1/064_Kadabra</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1228,7 +1228,7 @@
             <clipFolderPath>Pokemon/Gen_1/065_Alakazam</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1247,7 +1247,7 @@
             <clipFolderPath>Pokemon/Gen_1/066_Machop</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1266,7 +1266,7 @@
             <clipFolderPath>Pokemon/Gen_1/067_Machoke</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1285,7 +1285,7 @@
             <clipFolderPath>Pokemon/Gen_1/068_Machamp</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1304,7 +1304,7 @@
             <clipFolderPath>Pokemon/Gen_1/069_Bellsprout</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1323,7 +1323,7 @@
             <clipFolderPath>Pokemon/Gen_1/070_Weepinbell</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1342,7 +1342,7 @@
             <clipFolderPath>Pokemon/Gen_1/071_Victreebel</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1361,7 +1361,7 @@
             <clipFolderPath>Pokemon/Gen_1/072_Tentacool</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1380,7 +1380,7 @@
             <clipFolderPath>Pokemon/Gen_1/073_Tentacruel</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1399,7 +1399,7 @@
             <clipFolderPath>Pokemon/Gen_1/074_Geodude</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1418,7 +1418,7 @@
             <clipFolderPath>Pokemon/Gen_1/075_Graveler</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1437,7 +1437,7 @@
             <clipFolderPath>Pokemon/Gen_1/076_Golem</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1456,7 +1456,7 @@
             <clipFolderPath>Pokemon/Gen_1/077_Ponyta</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1475,7 +1475,7 @@
             <clipFolderPath>Pokemon/Gen_1/078_Rapidash</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1494,7 +1494,7 @@
             <clipFolderPath>Pokemon/Gen_1/079_Slowpoke</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1513,7 +1513,7 @@
             <clipFolderPath>Pokemon/Gen_1/080_Slowbro</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1532,7 +1532,7 @@
             <clipFolderPath>Pokemon/Gen_1/081_Magnemite</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1551,7 +1551,7 @@
             <clipFolderPath>Pokemon/Gen_1/082_Magneton</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1570,7 +1570,7 @@
             <clipFolderPath>Pokemon/Gen_1/083_Farfetchd</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1589,7 +1589,7 @@
             <clipFolderPath>Pokemon/Gen_1/084_Doduo</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1608,7 +1608,7 @@
             <clipFolderPath>Pokemon/Gen_1/085_Dodrio</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1627,7 +1627,7 @@
             <clipFolderPath>Pokemon/Gen_1/086_Seel</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1646,7 +1646,7 @@
             <clipFolderPath>Pokemon/Gen_1/087_Dewgong</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1665,7 +1665,7 @@
             <clipFolderPath>Pokemon/Gen_1/088_Grimer</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1684,7 +1684,7 @@
             <clipFolderPath>Pokemon/Gen_1/089_Muk</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1703,7 +1703,7 @@
             <clipFolderPath>Pokemon/Gen_1/090_Shellder</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1722,7 +1722,7 @@
             <clipFolderPath>Pokemon/Gen_1/091_Cloyster</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1741,7 +1741,7 @@
             <clipFolderPath>Pokemon/Gen_1/092_Gastly</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1760,7 +1760,7 @@
             <clipFolderPath>Pokemon/Gen_1/093_Haunter</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1779,7 +1779,7 @@
             <clipFolderPath>Pokemon/Gen_1/094_Gengar</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1798,7 +1798,7 @@
             <clipFolderPath>Pokemon/Gen_1/095_Onix</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1817,7 +1817,7 @@
             <clipFolderPath>Pokemon/Gen_1/096_Drowzee</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1836,7 +1836,7 @@
             <clipFolderPath>Pokemon/Gen_1/097_Hypno</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1855,7 +1855,7 @@
             <clipFolderPath>Pokemon/Gen_1/098_Krabby</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1874,7 +1874,7 @@
             <clipFolderPath>Pokemon/Gen_1/099_Kingler</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1893,7 +1893,7 @@
             <clipFolderPath>Pokemon/Gen_1/100_Voltorb</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1912,7 +1912,7 @@
             <clipFolderPath>Pokemon/Gen_1/101_Electrode</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1931,7 +1931,7 @@
             <clipFolderPath>Pokemon/Gen_1/102_Exeggcute</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1950,7 +1950,7 @@
             <clipFolderPath>Pokemon/Gen_1/103_Exeggutor</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1969,7 +1969,7 @@
             <clipFolderPath>Pokemon/Gen_1/104_Cubone</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -1988,7 +1988,7 @@
             <clipFolderPath>Pokemon/Gen_1/105_Marowak</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2007,7 +2007,7 @@
             <clipFolderPath>Pokemon/Gen_1/106_Hitmonlee</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2026,7 +2026,7 @@
             <clipFolderPath>Pokemon/Gen_1/107_Hitmonchan</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2045,7 +2045,7 @@
             <clipFolderPath>Pokemon/Gen_1/108_Lickitung</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2064,7 +2064,7 @@
             <clipFolderPath>Pokemon/Gen_1/109_Koffing</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2083,7 +2083,7 @@
             <clipFolderPath>Pokemon/Gen_1/110_Weezing</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2102,7 +2102,7 @@
             <clipFolderPath>Pokemon/Gen_1/111_Rhyhorn</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2121,7 +2121,7 @@
             <clipFolderPath>Pokemon/Gen_1/112_Rhydon</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2140,7 +2140,7 @@
             <clipFolderPath>Pokemon/Gen_1/113_Chansey</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2159,7 +2159,7 @@
             <clipFolderPath>Pokemon/Gen_1/114_Tangela</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2178,7 +2178,7 @@
             <clipFolderPath>Pokemon/Gen_1/115_Kangaskhan</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2197,7 +2197,7 @@
             <clipFolderPath>Pokemon/Gen_1/116_Horsea</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2216,7 +2216,7 @@
             <clipFolderPath>Pokemon/Gen_1/117_Seadra</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2235,7 +2235,7 @@
             <clipFolderPath>Pokemon/Gen_1/118_Goldeen</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2254,7 +2254,7 @@
             <clipFolderPath>Pokemon/Gen_1/119_Seaking</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2273,7 +2273,7 @@
             <clipFolderPath>Pokemon/Gen_1/120_Staryu</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2292,7 +2292,7 @@
             <clipFolderPath>Pokemon/Gen_1/121_Starmie</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2311,7 +2311,7 @@
             <clipFolderPath>Pokemon/Gen_1/122_MrMime</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2330,7 +2330,7 @@
             <clipFolderPath>Pokemon/Gen_1/123_Scyther</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2349,7 +2349,7 @@
             <clipFolderPath>Pokemon/Gen_1/124_Jynx</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2368,7 +2368,7 @@
             <clipFolderPath>Pokemon/Gen_1/125_Electabuzz</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2387,7 +2387,7 @@
             <clipFolderPath>Pokemon/Gen_1/126_Magmar</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2406,7 +2406,7 @@
             <clipFolderPath>Pokemon/Gen_1/127_Pinsir</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2425,7 +2425,7 @@
             <clipFolderPath>Pokemon/Gen_1/128_Tauros</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2444,7 +2444,7 @@
             <clipFolderPath>Pokemon/Gen_1/129_Magikarp</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2463,7 +2463,7 @@
             <clipFolderPath>Pokemon/Gen_1/130_Gyarados</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2482,7 +2482,7 @@
             <clipFolderPath>Pokemon/Gen_1/131_Lapras</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2501,7 +2501,7 @@
             <clipFolderPath>Pokemon/Gen_1/132_Ditto</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2520,7 +2520,7 @@
             <clipFolderPath>Pokemon/Gen_1/133_Eevee</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2539,7 +2539,7 @@
             <clipFolderPath>Pokemon/Gen_1/134_Vaporeon</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2558,7 +2558,7 @@
             <clipFolderPath>Pokemon/Gen_1/135_Jolteon</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2577,7 +2577,7 @@
             <clipFolderPath>Pokemon/Gen_1/136_Flareon</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2596,7 +2596,7 @@
             <clipFolderPath>Pokemon/Gen_1/137_Porygon</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2615,7 +2615,7 @@
             <clipFolderPath>Pokemon/Gen_1/138_Omanyte</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2634,7 +2634,7 @@
             <clipFolderPath>Pokemon/Gen_1/139_Omastar</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2653,7 +2653,7 @@
             <clipFolderPath>Pokemon/Gen_1/140_Kabuto</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2672,7 +2672,7 @@
             <clipFolderPath>Pokemon/Gen_1/141_Kabutops</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2691,7 +2691,7 @@
             <clipFolderPath>Pokemon/Gen_1/142_Aerodactyl</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2710,7 +2710,7 @@
             <clipFolderPath>Pokemon/Gen_1/143_Snorlax</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2729,7 +2729,7 @@
             <clipFolderPath>Pokemon/Gen_1/144_Articuno</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2748,7 +2748,7 @@
             <clipFolderPath>Pokemon/Gen_1/145_Zapdos</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2767,7 +2767,7 @@
             <clipFolderPath>Pokemon/Gen_1/146_Moltres</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2786,7 +2786,7 @@
             <clipFolderPath>Pokemon/Gen_1/147_Dratini</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2805,7 +2805,7 @@
             <clipFolderPath>Pokemon/Gen_1/148_Dragonair</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2824,7 +2824,7 @@
             <clipFolderPath>Pokemon/Gen_1/149_Dragonite</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2843,7 +2843,7 @@
             <clipFolderPath>Pokemon/Gen_1/150_Mewtwo</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>
@@ -2862,7 +2862,7 @@
             <clipFolderPath>Pokemon/Gen_1/151_Mew</clipFolderPath>
           </li>
         </grains>
-        <volumeRange>20~28</volumeRange>
+        <volumeRange>16~24</volumeRange>
         <pitchRange>0.9770588~1.137647</pitchRange>
         <distRange>0~50.40025</distRange>
         <sustainLoop>False</sustainLoop>

@@ -23,13 +23,20 @@ namespace PokeWorld
             if(parent is Pawn pawn && pawn.Spawned && !pawn.Dead && pawn.Faction != null && pawn.Faction.IsPlayer)
             {
                 PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.basePowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);
-                if (connectParent == null)
+                if (PowerNet == null)
                 {
                     PowerConnectionMaker.TryConnectToAnyPowerNet(this);
                 }
-                else if(connectParent != null && IntVec3Utility.DistanceTo(parent.Position, connectParent.parent.Position) > maxDistance)
+                else if(PowerNet != null)
                 {
-                    PowerConnectionMaker.DisconnectFromPowerNet(this);
+                    if (connectParent != null && IntVec3Utility.DistanceTo(parent.Position, connectParent.parent.Position) > maxDistance)
+                    {
+                        PowerConnectionMaker.DisconnectFromPowerNet(this);
+                    }
+                    else if(connectParent == null)
+                    {
+                        PowerConnectionMaker.DisconnectFromPowerNet(this);
+                    }
                 }
             }            
         }
@@ -38,7 +45,7 @@ namespace PokeWorld
             if(parent is Pawn pawn && pawn.Spawned && !pawn.Dead && pawn.Faction != null && pawn.Faction.IsPlayer)
             {
                 string text = (PowerOutput < 0) ? ((string)("PowerNeeded".Translate() + ": " + (0f - PowerOutput).ToString("#####0") + " W")) : ((string)("PowerOutput".Translate() + ": " + PowerOutput.ToString("#####0") + " W"));
-                if (connectParent == null)
+                if (PowerNet == null)
                 {
                     text += " (" + "PowerNotConnected".Translate().Replace(".", "") + ")";
                 }

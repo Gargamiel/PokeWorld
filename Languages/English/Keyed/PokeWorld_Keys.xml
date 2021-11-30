@@ -72,7 +72,7 @@
   <PW_Melee>Melee</PW_Melee>
   <PW_Power>Power</PW_Power>
   <PW_Range>Range</PW_Range>
-  <PW_Used>Used</PW_Used>
+  <PW_Used>Enabled</PW_Used>
   <PW_TabMovesPokemonLevel>{0} level: {1}</PW_TabMovesPokemonLevel>
   <PW_TabMovesPokemonExperience>{0} experience: {1}/{2}</PW_TabMovesPokemonExperience>
   <PW_PowerMeleeMove>Power: {0} (Melee)</PW_PowerMeleeMove>
