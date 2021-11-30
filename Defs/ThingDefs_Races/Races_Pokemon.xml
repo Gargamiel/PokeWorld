@@ -596,7 +596,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.54</heatPerSecond>
+        <heatPerSecond>1.40</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -775,7 +775,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.02</heatPerSecond>
+        <heatPerSecond>1.84</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -955,7 +955,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.67</heatPerSecond>
+        <heatPerSecond>2.43</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -3993,6 +3993,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-40.00</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>4.9</MoveSpeed>
@@ -4147,6 +4151,10 @@
         <eggLayIntervalDays>3</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-60.62</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -5936,7 +5944,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.50</heatPerSecond>
+        <heatPerSecond>1.36</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -6084,7 +6092,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.52</heatPerSecond>
+        <heatPerSecond>2.30</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -9394,7 +9402,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.75</heatPerSecond>
+        <heatPerSecond>1.59</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -9545,7 +9553,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.77</heatPerSecond>
+        <heatPerSecond>2.52</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -12406,7 +12414,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.05</heatPerSecond>
+        <heatPerSecond>1.86</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -12572,7 +12580,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.50</heatPerSecond>
+        <heatPerSecond>2.27</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -13096,6 +13104,10 @@
         <eggCountRange>1</eggCountRange>
         <eggLayFemaleOnly>false</eggLayFemaleOnly>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-40.62</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>3.8</MoveSpeed>
@@ -13270,6 +13282,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
         <eggLayFemaleOnly>false</eggLayFemaleOnly>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-58.12</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -14095,7 +14111,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.38</heatPerSecond>
+        <heatPerSecond>-2.16</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -14707,7 +14723,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.62</heatPerSecond>
+        <heatPerSecond>-2.39</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -16176,6 +16192,10 @@
         <eggCountRange>1</eggCountRange>
         <eggLayFemaleOnly>false</eggLayFemaleOnly>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-41.25</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
@@ -16334,6 +16354,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
         <eggLayFemaleOnly>false</eggLayFemaleOnly>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-61.25</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -19929,7 +19953,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.27</heatPerSecond>
+        <heatPerSecond>-2.07</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -20108,6 +20132,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-61.25</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>5.1</MoveSpeed>
@@ -20279,7 +20307,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.48</heatPerSecond>
+        <heatPerSecond>2.25</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -21048,7 +21076,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.67</heatPerSecond>
+        <heatPerSecond>-2.43</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -21708,6 +21736,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-65.62</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>5.8</MoveSpeed>
@@ -21871,7 +21903,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.62</heatPerSecond>
+        <heatPerSecond>2.39</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -23218,7 +23250,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.90</heatPerSecond>
+        <heatPerSecond>-2.64</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -23376,6 +23408,10 @@
         </EVYields>
         <catchRate>3</catchRate>
         <shinyChance>0.00125</shinyChance>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-72.50</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -23535,7 +23571,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.90</heatPerSecond>
+        <heatPerSecond>2.64</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -25012,7 +25048,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.54</heatPerSecond>
+        <heatPerSecond>1.40</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -25198,7 +25234,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.02</heatPerSecond>
+        <heatPerSecond>1.84</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -25376,7 +25412,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.67</heatPerSecond>
+        <heatPerSecond>2.43</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -27554,6 +27590,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-41.25</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
@@ -27725,6 +27765,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-57.50</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
@@ -27881,6 +27925,10 @@
             <weight>0.01</weight>
           </li>
         </forms>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-25.62</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -28964,6 +29012,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-35.00</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>3.3</MoveSpeed>
@@ -29141,6 +29193,10 @@
         <eggLayIntervalDays>6</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-45.62</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -29323,6 +29379,10 @@
         <eggLayIntervalDays>6</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-63.75</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -34990,7 +35050,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.15</heatPerSecond>
+        <heatPerSecond>-1.95</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -35494,7 +35554,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.25</heatPerSecond>
+        <heatPerSecond>1.14</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -35666,7 +35726,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.15</heatPerSecond>
+        <heatPerSecond>1.95</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -35852,7 +35912,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-1.25</heatPerSecond>
+        <heatPerSecond>-1.14</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -36044,7 +36104,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.25</heatPerSecond>
+        <heatPerSecond>-2.05</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -36702,7 +36762,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-1.65</heatPerSecond>
+        <heatPerSecond>-1.50</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -37220,7 +37280,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.65</heatPerSecond>
+        <heatPerSecond>1.50</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -37396,7 +37456,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.50</heatPerSecond>
+        <heatPerSecond>2.27</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -38812,7 +38872,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-1.52</heatPerSecond>
+        <heatPerSecond>-1.39</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -38993,6 +39053,10 @@
         <catchRate>45</catchRate>
         <shinyChance>0.00125</shinyChance>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-45.00</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
@@ -39165,7 +39229,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.82</heatPerSecond>
+        <heatPerSecond>1.66</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -39633,6 +39697,10 @@
         <catchRate>3</catchRate>
         <shinyChance>0.00125</shinyChance>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-72.50</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>5.3</MoveSpeed>
@@ -39795,7 +39863,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.90</heatPerSecond>
+        <heatPerSecond>2.64</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -40784,7 +40852,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>3.40</heatPerSecond>
+        <heatPerSecond>3.09</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -41608,7 +41676,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.55</heatPerSecond>
+        <heatPerSecond>1.41</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -41783,7 +41851,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.02</heatPerSecond>
+        <heatPerSecond>1.84</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -41950,7 +42018,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.65</heatPerSecond>
+        <heatPerSecond>2.41</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -50219,6 +50287,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-36.88</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
@@ -50385,6 +50457,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-59.38</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>5.1</MoveSpeed>
@@ -50537,6 +50613,10 @@
         <eggLayIntervalDays>6</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-50.62</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -50691,6 +50771,10 @@
         <eggLayIntervalDays>6</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-50.62</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -52272,7 +52356,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.52</heatPerSecond>
+        <heatPerSecond>1.39</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -52441,7 +52525,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.30</heatPerSecond>
+        <heatPerSecond>2.09</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -52599,7 +52683,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.35</heatPerSecond>
+        <heatPerSecond>2.14</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -58699,7 +58783,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-1.50</heatPerSecond>
+        <heatPerSecond>-1.36</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -58871,7 +58955,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.40</heatPerSecond>
+        <heatPerSecond>-2.18</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -59038,7 +59122,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-1.45</heatPerSecond>
+        <heatPerSecond>-1.32</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -59206,7 +59290,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.05</heatPerSecond>
+        <heatPerSecond>-1.86</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -59370,7 +59454,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.65</heatPerSecond>
+        <heatPerSecond>-2.41</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -61493,7 +61577,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.90</heatPerSecond>
+        <heatPerSecond>-2.64</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -63461,7 +63545,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>1.54</heatPerSecond>
+        <heatPerSecond>1.40</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -63633,7 +63717,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.02</heatPerSecond>
+        <heatPerSecond>1.84</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -63795,7 +63879,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.67</heatPerSecond>
+        <heatPerSecond>2.43</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -65579,6 +65663,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-32.88</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>3.8</MoveSpeed>
@@ -65747,6 +65835,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-45.38</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>4.3</MoveSpeed>
@@ -65903,6 +65995,10 @@
         <eggLayIntervalDays>6</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-65.38</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -67876,6 +67972,10 @@
         <eggLayIntervalDays>3</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-50.62</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -74692,7 +74792,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-1.67</heatPerSecond>
+        <heatPerSecond>-1.52</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -74858,7 +74958,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.47</heatPerSecond>
+        <heatPerSecond>-2.25</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -75034,7 +75134,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.55</heatPerSecond>
+        <heatPerSecond>-2.32</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -75202,6 +75302,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
         <eggLayFemaleOnly>false</eggLayFemaleOnly>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-66.88</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -75838,6 +75942,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-67.50</basePowerConsumption>
+      </li>
     </comps>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
@@ -76009,7 +76117,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>2.70</heatPerSecond>
+        <heatPerSecond>2.45</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>
@@ -76638,7 +76746,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.62</heatPerSecond>
+        <heatPerSecond>-2.39</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -76987,7 +77095,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.65</heatPerSecond>
+        <heatPerSecond>-2.41</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -77802,7 +77910,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>-2.40</heatPerSecond>
+        <heatPerSecond>-2.18</heatPerSecond>
         <heatPushMinTemperature>-8</heatPushMinTemperature>
       </li>
     </comps>
@@ -77990,6 +78098,10 @@
         <eggProgressUnfertilizedMax>0</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
         <eggLayFemaleOnly>false</eggLayFemaleOnly>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>PokeWorld.CompPokemonPower</compClass>
+        <basePowerConsumption>-55.00</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -78919,7 +79031,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
-        <heatPerSecond>3.00</heatPerSecond>
+        <heatPerSecond>2.73</heatPerSecond>
         <heatPushMaxTemperature>32</heatPushMaxTemperature>
       </li>
     </comps>

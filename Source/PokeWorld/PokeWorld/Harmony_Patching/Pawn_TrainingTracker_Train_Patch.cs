@@ -23,9 +23,9 @@ namespace PokeWorld
                 {
                     int skillValue = __1.skills.GetSkill(SkillDefOf.Animals).Level;
                     int expAmount = 10 + (skillValue * 20) + (int)Mathf.Lerp(0, comp.levelTracker.totalExpForNextLevel / 5f, skillValue / 20f);
-                    expAmount = Mathf.Clamp(expAmount, 0, comp.levelTracker.totalExpForNextLevel * 4);
+                    expAmount = Mathf.Clamp(expAmount, 0, comp.levelTracker.totalExpForNextLevel * 3);
                     comp.levelTracker.IncreaseExperience(expAmount);
-                    comp.friendshipTracker.ChangeFriendship(2);
+                    comp.friendshipTracker.ChangeFriendship(1);
                 }
                 return false;
             }

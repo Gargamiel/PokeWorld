@@ -15,20 +15,40 @@ namespace PokeWorld
     [HarmonyPatch("GeneratePawns")]
     class PawnGroupKindWorker_Normal_GeneratePawns_Patch
     {
-		public static void postfix(PawnGroupMakerParms __0, PawnGroupMaker __1, List<Pawn> __2, bool __3)
-		{
-            Log.Error("1");
-			if (PokeWorldSettings.allowPokemonInRaid && __2.Any() && (__0.raidStrategy == null || __0.raidStrategy != DefDatabase<RaidStrategyDef>.GetNamed("Siege")))
+		public static void Postfix(PawnGroupMakerParms __0, PawnGroupMaker __1, List<Pawn> __2, ref PawnGroupKindWorker_Normal __instance)
+		{        
+            Log.Error("PokeWorld_PawnGroupKindWorker_Normal_GeneratePawns_Patch");
+			if (PokeWorldSettings.allowPokemonInRaid && PokeWorldSettings.OkforPokemon() && __2 != null && __2.Any() && (__0.raidStrategy == null || __0.raidStrategy != DefDatabase<RaidStrategyDef>.GetNamed("Siege")))
             {
-                int maxPokes = (int)Rand.Range(__2.Count / 4f, __2.Count / 2f);
+                Log.Error("1");
+                int maxPokes = 1 + (int)Math.Round(Rand.Range(__2.Count() / 4f, __2.Count() / 1.5f));
+                float pointsLeft = __0.points;
+                Log.Error("pointsLeft:" + pointsLeft.ToString());
+                List<Pawn> list = new List<Pawn>();
                 for (int i = 0; i < maxPokes; i++)
                 {
-                    PawnKindDef kind = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef x) => x.race.HasComp(typeof(CompPokemon)) && PokeWorldSettings.GenerationAllowed(x.race.GetCompProperties<CompProperties_Pokemon>().generation) && !x.race.GetCompProperties<CompProperties_Pokemon>().attributes.Contains(PokemonAttribute.Baby) && !x.race.GetCompProperties<CompProperties_Pokemon>().attributes.Contains(PokemonAttribute.Fossil) && !x.race.GetCompProperties<CompProperties_Pokemon>().attributes.Contains(PokemonAttribute.Legendary) && !x.race.GetCompProperties<CompProperties_Pokemon>().attributes.Contains(PokemonAttribute.Particular)).RandomElementByWeight((PawnKindDef x) => 1 / x.race.GetCompProperties<CompProperties_Pokemon>().rarity);
-                    Pawn pawn = PawnGenerator.GeneratePawn(kind, __0.faction);
-                    __2.Add(pawn);
+                    if(DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef x) => x.race.HasComp(typeof(CompPokemon)) && PokeWorldSettings.GenerationAllowed(x.race.GetCompProperties<CompProperties_Pokemon>().generation) && x.combatPower <= pointsLeft && (x.race.GetCompProperties<CompProperties_Pokemon>().attributes == null || !x.race.GetCompProperties<CompProperties_Pokemon>().attributes.Any())).TryRandomElementByWeight((PawnKindDef x) => 1 + (1 / x.race.GetCompProperties<CompProperties_Pokemon>().rarity), out PawnKindDef kind))
+                    {
+                        Log.Error(kind.ToString());
+                        Pawn pawn = PawnGenerator.GeneratePawn(kind, __0.faction);
+                        list.Add(pawn);
+                        pointsLeft -= kind.combatPower;
+                    }
+                    if(pointsLeft < 0)
+                    {
+                        break;
+                    }
                 }
-            }			
+                if (list.Any())
+                {
+                    foreach(Pawn pawn in list)
+                    {
+                        __2.Add(pawn);
+                    }
+                    PawnGroupKindWorker.pawnsBeingGeneratedNow.Add(list);                    
+                }               
+            }
 		}
-	}
+    }
     */
 }
