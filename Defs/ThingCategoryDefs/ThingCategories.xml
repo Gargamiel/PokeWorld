@@ -86,4 +86,13 @@
 		  <iconPath>Things/Building/PortableComputer_south</iconPath>   
 		</ThingCategoryDef>
 
+		<!-- Used for cooking -->
+
+		<ThingCategoryDef>
+		  <defName>PW_PokemonEggsFertilized</defName>
+		  <label>Pokémon eggs (fert.)</label>
+		  <parent>AnimalProductRaw</parent> 
+		  <iconPath>Things/Item/Eggs/PokemonEgg/PokemonEgg</iconPath>  
+		</ThingCategoryDef>
+
 </Defs>

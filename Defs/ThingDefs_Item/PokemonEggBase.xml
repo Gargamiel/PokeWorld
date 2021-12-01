@@ -21,6 +21,7 @@
     </ingestible>
     <thingCategories>
       <li>PW_Eggs</li>
+      <li>PW_PokemonEggsFertilized</li>
     </thingCategories>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -28,8 +29,8 @@
       <MaxHitPoints>50</MaxHitPoints>
       <DeteriorationRate>2</DeteriorationRate>
       <Flammability>0.7</Flammability>
-      <Nutrition>0.25</Nutrition>
-      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+      <Nutrition>0.5</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.05</FoodPoisonChanceFixedHuman>
       <MarketValue>200</MarketValue>
     </statBases>
     <comps>
