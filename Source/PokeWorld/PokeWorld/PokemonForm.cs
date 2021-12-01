@@ -12,7 +12,7 @@ namespace PokeWorld
     {
         Fixed,
         Selectable,
-        Environnement
+        Environment
     }
     
     public class PokemonForm

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf8'?>
 <Defs>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bulbasaur</defName>
     <label>Bulbasaur</label>
@@ -167,7 +166,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ivysaur</defName>
     <label>Ivysaur</label>
@@ -339,7 +337,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Venusaur</defName>
     <label>Venusaur</label>
@@ -508,7 +505,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Charmander</defName>
     <label>Charmander</label>
@@ -687,7 +683,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Charmeleon</defName>
     <label>Charmeleon</label>
@@ -867,7 +862,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Charizard</defName>
     <label>Charizard</label>
@@ -1048,7 +1042,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Squirtle</defName>
     <label>Squirtle</label>
@@ -1222,7 +1215,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wartortle</defName>
     <label>Wartortle</label>
@@ -1397,7 +1389,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Blastoise</defName>
     <label>Blastoise</label>
@@ -1564,7 +1555,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Caterpie</defName>
     <label>Caterpie</label>
@@ -1718,7 +1708,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Metapod</defName>
     <label>Metapod</label>
@@ -1863,7 +1852,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Butterfree</defName>
     <label>Butterfree</label>
@@ -2015,7 +2003,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Weedle</defName>
     <label>Weedle</label>
@@ -2170,7 +2157,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kakuna</defName>
     <label>Kakuna</label>
@@ -2316,7 +2302,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Beedrill</defName>
     <label>Beedrill</label>
@@ -2464,7 +2449,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pidgey</defName>
     <label>Pidgey</label>
@@ -2635,7 +2619,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pidgeotto</defName>
     <label>Pidgeotto</label>
@@ -2805,7 +2788,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pidgeot</defName>
     <label>Pidgeot</label>
@@ -2964,7 +2946,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Rattata</defName>
     <label>Rattata</label>
@@ -3138,7 +3119,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Raticate</defName>
     <label>Raticate</label>
@@ -3300,7 +3280,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Spearow</defName>
     <label>Spearow</label>
@@ -3459,7 +3438,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Fearow</defName>
     <label>Fearow</label>
@@ -3606,7 +3584,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ekans</defName>
     <label>Ekans</label>
@@ -3769,7 +3746,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Arbok</defName>
     <label>Arbok</label>
@@ -3936,7 +3912,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pikachu</defName>
     <label>Pikachu</label>
@@ -4115,7 +4090,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Raichu</defName>
     <label>Raichu</label>
@@ -4266,7 +4240,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sandshrew</defName>
     <label>Sandshrew</label>
@@ -4452,7 +4425,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sandslash</defName>
     <label>Sandslash</label>
@@ -4626,7 +4598,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_NidoranF</defName>
     <label>Nidoran♀</label>
@@ -4797,7 +4768,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Nidorina</defName>
     <label>Nidorina</label>
@@ -4964,7 +4934,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Nidoqueen</defName>
     <label>Nidoqueen</label>
@@ -5120,7 +5089,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_NidoranM</defName>
     <label>Nidoran♂</label>
@@ -5287,7 +5255,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Nidorino</defName>
     <label>Nidorino</label>
@@ -5450,7 +5417,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Nidoking</defName>
     <label>Nidoking</label>
@@ -5602,7 +5568,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Clefairy</defName>
     <label>Clefairy</label>
@@ -5756,7 +5721,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Clefable</defName>
     <label>Clefable</label>
@@ -5890,7 +5854,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Vulpix</defName>
     <label>Vulpix</label>
@@ -6069,7 +6032,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ninetales</defName>
     <label>Ninetales</label>
@@ -6217,7 +6179,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Jigglypuff</defName>
     <label>Jigglypuff</label>
@@ -6380,7 +6341,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wigglytuff</defName>
     <label>Wigglytuff</label>
@@ -6523,7 +6483,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Zubat</defName>
     <label>Zubat</label>
@@ -6698,7 +6657,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Golbat</defName>
     <label>Golbat</label>
@@ -6872,7 +6830,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Oddish</defName>
     <label>Oddish</label>
@@ -7035,7 +6992,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gloom</defName>
     <label>Gloom</label>
@@ -7200,7 +7156,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Vileplume</defName>
     <label>Vileplume</label>
@@ -7343,7 +7298,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Paras</defName>
     <label>Paras</label>
@@ -7515,7 +7469,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Parasect</defName>
     <label>Parasect</label>
@@ -7676,7 +7629,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Venonat</defName>
     <label>Venonat</label>
@@ -7851,7 +7803,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Venomoth</defName>
     <label>Venomoth</label>
@@ -8023,7 +7974,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Diglett</defName>
     <label>Diglett</label>
@@ -8201,7 +8151,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dugtrio</defName>
     <label>Dugtrio</label>
@@ -8375,7 +8324,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Meowth</defName>
     <label>Meowth</label>
@@ -8545,7 +8493,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Persian</defName>
     <label>Persian</label>
@@ -8715,7 +8662,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Psyduck</defName>
     <label>Psyduck</label>
@@ -8894,7 +8840,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Golduck</defName>
     <label>Golduck</label>
@@ -9061,7 +9006,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mankey</defName>
     <label>Mankey</label>
@@ -9223,7 +9167,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Primeape</defName>
     <label>Primeape</label>
@@ -9373,7 +9316,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Growlithe</defName>
     <label>Growlithe</label>
@@ -9548,7 +9490,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Arcanine</defName>
     <label>Arcanine</label>
@@ -9699,7 +9640,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Poliwag</defName>
     <label>Poliwag</label>
@@ -9873,7 +9813,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Poliwhirl</defName>
     <label>Poliwhirl</label>
@@ -10049,7 +9988,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Poliwrath</defName>
     <label>Poliwrath</label>
@@ -10188,7 +10126,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Abra</defName>
     <label>Abra</label>
@@ -10333,7 +10270,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kadabra</defName>
     <label>Kadabra</label>
@@ -10490,7 +10426,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Alakazam</defName>
     <label>Alakazam</label>
@@ -10636,7 +10571,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Machop</defName>
     <label>Machop</label>
@@ -10794,7 +10728,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Machoke</defName>
     <label>Machoke</label>
@@ -10951,7 +10884,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Machamp</defName>
     <label>Machamp</label>
@@ -11097,7 +11029,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bellsprout</defName>
     <label>Bellsprout</label>
@@ -11256,7 +11187,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Weepinbell</defName>
     <label>Weepinbell</label>
@@ -11411,7 +11341,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Victreebel</defName>
     <label>Victreebel</label>
@@ -11558,7 +11487,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Tentacool</defName>
     <label>Tentacool</label>
@@ -11733,7 +11661,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Tentacruel</defName>
     <label>Tentacruel</label>
@@ -11896,7 +11823,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Geodude</defName>
     <label>Geodude</label>
@@ -12072,7 +11998,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Graveler</defName>
     <label>Graveler</label>
@@ -12247,7 +12172,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Golem</defName>
     <label>Golem</label>
@@ -12411,7 +12335,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ponyta</defName>
     <label>Ponyta</label>
@@ -12581,7 +12504,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Rapidash</defName>
     <label>Rapidash</label>
@@ -12748,7 +12670,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Slowpoke</defName>
     <label>Slowpoke</label>
@@ -12930,7 +12851,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Slowbro</defName>
     <label>Slowbro</label>
@@ -13094,7 +13014,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Magnemite</defName>
     <label>Magnemite</label>
@@ -13279,7 +13198,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Magneton</defName>
     <label>Magneton</label>
@@ -13460,7 +13378,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Farfetchd</defName>
     <label>Farfetch'd</label>
@@ -13628,7 +13545,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Doduo</defName>
     <label>Doduo</label>
@@ -13791,7 +13707,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dodrio</defName>
     <label>Dodrio</label>
@@ -13942,7 +13857,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Seel</defName>
     <label>Seel</label>
@@ -14117,7 +14031,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dewgong</defName>
     <label>Dewgong</label>
@@ -14290,7 +14203,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Grimer</defName>
     <label>Grimer</label>
@@ -14448,7 +14360,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Muk</defName>
     <label>Muk</label>
@@ -14595,7 +14506,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shellder</defName>
     <label>Shellder</label>
@@ -14758,7 +14668,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cloyster</defName>
     <label>Cloyster</label>
@@ -14906,7 +14815,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gastly</defName>
     <label>Gastly</label>
@@ -15073,7 +14981,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Haunter</defName>
     <label>Haunter</label>
@@ -15239,7 +15146,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gengar</defName>
     <label>Gengar</label>
@@ -15394,7 +15300,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Onix</defName>
     <label>Onix</label>
@@ -15562,7 +15467,7 @@
           <texPath>Things/Pawn/Pokemon/Gen_1/095_Onix/Onix</texPath>
           <drawSize>4.6</drawSize>
           <shadowData>
-            <volume>(1.62, 1.15, 1.15)</volume>
+            <volume>(1.61, 1.15, 1.15)</volume>
             <offset>(0.00, 0.00, -0.30)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -15573,7 +15478,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Drowzee</defName>
     <label>Drowzee</label>
@@ -15743,7 +15647,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hypno</defName>
     <label>Hypno</label>
@@ -15901,7 +15804,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Krabby</defName>
     <label>Krabby</label>
@@ -16063,7 +15965,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kingler</defName>
     <label>Kingler</label>
@@ -16213,7 +16114,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Voltorb</defName>
     <label>Voltorb</label>
@@ -16388,7 +16288,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Electrode</defName>
     <label>Electrode</label>
@@ -16551,7 +16450,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Exeggcute</defName>
     <label>Exeggcute</label>
@@ -16707,7 +16605,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Exeggutor</defName>
     <label>Exeggutor</label>
@@ -16850,7 +16747,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cubone</defName>
     <label>Cubone</label>
@@ -17003,7 +16899,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Marowak</defName>
     <label>Marowak</label>
@@ -17145,7 +17040,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hitmonlee</defName>
     <label>Hitmonlee</label>
@@ -17291,7 +17185,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hitmonchan</defName>
     <label>Hitmonchan</label>
@@ -17449,7 +17342,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lickitung</defName>
     <label>Lickitung</label>
@@ -17599,7 +17491,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Koffing</defName>
     <label>Koffing</label>
@@ -17757,7 +17648,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Weezing</defName>
     <label>Weezing</label>
@@ -17899,7 +17789,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Rhyhorn</defName>
     <label>Rhyhorn</label>
@@ -18067,7 +17956,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Rhydon</defName>
     <label>Rhydon</label>
@@ -18236,7 +18124,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Chansey</defName>
     <label>Chansey</label>
@@ -18390,7 +18277,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Tangela</defName>
     <label>Tangela</label>
@@ -18555,7 +18441,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kangaskhan</defName>
     <label>Kangaskhan</label>
@@ -18705,7 +18590,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Horsea</defName>
     <label>Horsea</label>
@@ -18876,7 +18760,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Seadra</defName>
     <label>Seadra</label>
@@ -19047,7 +18930,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Goldeen</defName>
     <label>Goldeen</label>
@@ -19205,7 +19087,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Seaking</defName>
     <label>Seaking</label>
@@ -19355,7 +19236,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Staryu</defName>
     <label>Staryu</label>
@@ -19527,7 +19407,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Starmie</defName>
     <label>Starmie</label>
@@ -19675,7 +19554,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_MrMime</defName>
     <label>Mr. Mime</label>
@@ -19830,7 +19708,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Scyther</defName>
     <label>Scyther</label>
@@ -20008,7 +19885,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Jynx</defName>
     <label>Jynx</label>
@@ -20172,7 +20048,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Electabuzz</defName>
     <label>Electabuzz</label>
@@ -20354,7 +20229,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Magmar</defName>
     <label>Magmar</label>
@@ -20529,7 +20403,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pinsir</defName>
     <label>Pinsir</label>
@@ -20675,7 +20548,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Tauros</defName>
     <label>Tauros</label>
@@ -20826,7 +20698,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Magikarp</defName>
     <label>Magikarp</label>
@@ -20977,7 +20848,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gyarados</defName>
     <label>Gyarados</label>
@@ -21141,7 +21011,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lapras</defName>
     <label>Lapras</label>
@@ -21302,7 +21171,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ditto</defName>
     <label>Ditto</label>
@@ -21435,7 +21303,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Eevee</defName>
     <label>Eevee</label>
@@ -21643,7 +21510,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Vaporeon</defName>
     <label>Vaporeon</label>
@@ -21801,7 +21667,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Jolteon</defName>
     <label>Jolteon</label>
@@ -21967,7 +21832,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Flareon</defName>
     <label>Flareon</label>
@@ -22134,7 +21998,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Porygon</defName>
     <label>Porygon</label>
@@ -22302,7 +22165,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Omanyte</defName>
     <label>Omanyte</label>
@@ -22483,7 +22345,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Omastar</defName>
     <label>Omastar</label>
@@ -22653,7 +22514,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kabuto</defName>
     <label>Kabuto</label>
@@ -22826,7 +22686,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kabutops</defName>
     <label>Kabutops</label>
@@ -22996,7 +22855,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Aerodactyl</defName>
     <label>Aerodactyl</label>
@@ -23181,7 +23039,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Snorlax</defName>
     <label>Snorlax</label>
@@ -23335,7 +23192,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Articuno</defName>
     <label>Articuno</label>
@@ -23497,7 +23353,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Zapdos</defName>
     <label>Zapdos</label>
@@ -23658,7 +23513,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Moltres</defName>
     <label>Moltres</label>
@@ -23820,7 +23674,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dratini</defName>
     <label>Dratini</label>
@@ -23994,7 +23847,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dragonair</defName>
     <label>Dragonair</label>
@@ -24168,7 +24020,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dragonite</defName>
     <label>Dragonite</label>
@@ -24344,7 +24195,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mewtwo</defName>
     <label>Mewtwo</label>
@@ -24488,7 +24338,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mew</defName>
     <label>Mew</label>
@@ -24632,7 +24481,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Chikorita</defName>
     <label>Chikorita</label>
@@ -24794,7 +24642,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bayleef</defName>
     <label>Bayleef</label>
@@ -24957,7 +24804,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Meganium</defName>
     <label>Meganium</label>
@@ -25117,7 +24963,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cyndaquil</defName>
     <label>Cyndaquil</label>
@@ -25303,7 +25148,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Quilava</defName>
     <label>Quilava</label>
@@ -25490,7 +25334,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Typhlosion</defName>
     <label>Typhlosion</label>
@@ -25669,7 +25512,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Totodile</defName>
     <label>Totodile</label>
@@ -25851,7 +25693,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Croconaw</defName>
     <label>Croconaw</label>
@@ -26034,7 +25875,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Feraligatr</defName>
     <label>Feraligatr</label>
@@ -26206,7 +26046,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sentret</defName>
     <label>Sentret</label>
@@ -26368,7 +26207,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Furret</defName>
     <label>Furret</label>
@@ -26518,7 +26356,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hoothoot</defName>
     <label>Hoothoot</label>
@@ -26693,7 +26530,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Noctowl</defName>
     <label>Noctowl</label>
@@ -26856,7 +26692,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ledyba</defName>
     <label>Ledyba</label>
@@ -27019,7 +26854,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ledian</defName>
     <label>Ledian</label>
@@ -27170,7 +27004,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Spinarak</defName>
     <label>Spinarak</label>
@@ -27345,7 +27178,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ariados</defName>
     <label>Ariados</label>
@@ -27512,7 +27344,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Crobat</defName>
     <label>Crobat</label>
@@ -27675,7 +27506,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Chinchou</defName>
     <label>Chinchou</label>
@@ -27862,7 +27692,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lanturn</defName>
     <label>Lanturn</label>
@@ -28037,7 +27866,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pichu</defName>
     <label>Pichu</label>
@@ -28105,8 +27933,8 @@
           </li>
           <li>
             <label>Spiky</label>
-            <texPathKey>Spiky</texPathKey>
             <weight>0.01</weight>
+            <texPathKey>Spiky</texPathKey>
           </li>
         </forms>
       </li>
@@ -28201,7 +28029,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cleffa</defName>
     <label>Cleffa</label>
@@ -28352,7 +28179,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Igglybuff</defName>
     <label>Igglybuff</label>
@@ -28500,7 +28326,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Togepi</defName>
     <label>Togepi</label>
@@ -28651,7 +28476,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Togetic</defName>
     <label>Togetic</label>
@@ -28811,7 +28635,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Natu</defName>
     <label>Natu</label>
@@ -28966,7 +28789,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Xatu</defName>
     <label>Xatu</label>
@@ -29110,7 +28932,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mareep</defName>
     <label>Mareep</label>
@@ -29293,7 +29114,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Flaaffy</defName>
     <label>Flaaffy</label>
@@ -29475,7 +29295,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ampharos</defName>
     <label>Ampharos</label>
@@ -29662,7 +29481,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bellossom</defName>
     <label>Bellossom</label>
@@ -29808,7 +29626,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Marill</defName>
     <label>Marill</label>
@@ -29995,7 +29812,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Azumarill</defName>
     <label>Azumarill</label>
@@ -30171,7 +29987,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sudowoodo</defName>
     <label>Sudowoodo</label>
@@ -30338,7 +30153,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Politoed</defName>
     <label>Politoed</label>
@@ -30476,7 +30290,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hoppip</defName>
     <label>Hoppip</label>
@@ -30644,7 +30457,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Skiploom</defName>
     <label>Skiploom</label>
@@ -30811,7 +30623,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Jumpluff</defName>
     <label>Jumpluff</label>
@@ -30967,7 +30778,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Aipom</defName>
     <label>Aipom</label>
@@ -31128,7 +30938,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sunkern</defName>
     <label>Sunkern</label>
@@ -31295,7 +31104,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sunflora</defName>
     <label>Sunflora</label>
@@ -31461,7 +31269,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Yanma</defName>
     <label>Yanma</label>
@@ -31636,7 +31443,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wooper</defName>
     <label>Wooper</label>
@@ -31800,7 +31606,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Quagsire</defName>
     <label>Quagsire</label>
@@ -31952,7 +31757,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Espeon</defName>
     <label>Espeon</label>
@@ -32110,7 +31914,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Umbreon</defName>
     <label>Umbreon</label>
@@ -32260,7 +32063,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Murkrow</defName>
     <label>Murkrow</label>
@@ -32430,7 +32232,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Slowking</defName>
     <label>Slowking</label>
@@ -32598,7 +32399,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Misdreavus</defName>
     <label>Misdreavus</label>
@@ -32767,7 +32567,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Unown</defName>
     <label>Unown</label>
@@ -33018,7 +32817,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wobbuffet</defName>
     <label>Wobbuffet</label>
@@ -33160,7 +32958,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Girafarig</defName>
     <label>Girafarig</label>
@@ -33323,7 +33120,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pineco</defName>
     <label>Pineco</label>
@@ -33489,7 +33285,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Forretress</defName>
     <label>Forretress</label>
@@ -33653,7 +33448,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dunsparce</defName>
     <label>Dunsparce</label>
@@ -33807,7 +33601,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gligar</defName>
     <label>Gligar</label>
@@ -33982,7 +33775,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Steelix</defName>
     <label>Steelix</label>
@@ -34170,7 +33962,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Snubbull</defName>
     <label>Snubbull</label>
@@ -34353,7 +34144,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Granbull</defName>
     <label>Granbull</label>
@@ -34528,7 +34318,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Qwilfish</defName>
     <label>Qwilfish</label>
@@ -34703,7 +34492,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Scizor</defName>
     <label>Scizor</label>
@@ -34871,7 +34659,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shuckle</defName>
     <label>Shuckle</label>
@@ -35028,7 +34815,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Heracross</defName>
     <label>Heracross</label>
@@ -35191,7 +34977,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sneasel</defName>
     <label>Sneasel</label>
@@ -35371,7 +35156,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Teddiursa</defName>
     <label>Teddiursa</label>
@@ -35537,7 +35321,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ursaring</defName>
     <label>Ursaring</label>
@@ -35695,7 +35478,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Slugma</defName>
     <label>Slugma</label>
@@ -35878,7 +35660,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Magcargo</defName>
     <label>Magcargo</label>
@@ -36051,7 +35832,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Swinub</defName>
     <label>Swinub</label>
@@ -36239,7 +36019,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Piloswine</defName>
     <label>Piloswine</label>
@@ -36432,7 +36211,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Corsola</defName>
     <label>Corsola</label>
@@ -36598,7 +36376,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Remoraid</defName>
     <label>Remoraid</label>
@@ -36781,7 +36558,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Octillery</defName>
     <label>Octillery</label>
@@ -36953,7 +36729,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Delibird</defName>
     <label>Delibird</label>
@@ -37094,7 +36869,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mantine</defName>
     <label>Mantine</label>
@@ -37273,7 +37047,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Skarmory</defName>
     <label>Skarmory</label>
@@ -37433,7 +37206,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Houndour</defName>
     <label>Houndour</label>
@@ -37617,7 +37389,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Houndoom</defName>
     <label>Houndoom</label>
@@ -37793,7 +37564,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kingdra</defName>
     <label>Kingdra</label>
@@ -37955,7 +37725,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Phanpy</defName>
     <label>Phanpy</label>
@@ -38117,7 +37886,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Donphan</defName>
     <label>Donphan</label>
@@ -38272,7 +38040,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Porygon2_</defName>
     <label>Porygon2</label>
@@ -38444,7 +38211,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Stantler</defName>
     <label>Stantler</label>
@@ -38594,7 +38360,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Smeargle</defName>
     <label>Smeargle</label>
@@ -38728,7 +38493,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Tyrogue</defName>
     <label>Tyrogue</label>
@@ -38893,7 +38657,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hitmontop</defName>
     <label>Hitmontop</label>
@@ -39047,7 +38810,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Smoochum</defName>
     <label>Smoochum</label>
@@ -39220,7 +38982,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Elekid</defName>
     <label>Elekid</label>
@@ -39403,7 +39164,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Magby</defName>
     <label>Magby</label>
@@ -39579,7 +39339,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Miltank</defName>
     <label>Miltank</label>
@@ -39733,7 +39492,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Blissey</defName>
     <label>Blissey</label>
@@ -39879,7 +39637,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Raikou</defName>
     <label>Raikou</label>
@@ -40052,7 +39809,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Entei</defName>
     <label>Entei</label>
@@ -40218,7 +39974,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Suicune</defName>
     <label>Suicune</label>
@@ -40383,7 +40138,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Larvitar</defName>
     <label>Larvitar</label>
@@ -40558,7 +40312,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pupitar</defName>
     <label>Pupitar</label>
@@ -40733,7 +40486,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Tyranitar</defName>
     <label>Tyranitar</label>
@@ -40909,7 +40661,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lugia</defName>
     <label>Lugia</label>
@@ -41062,7 +40813,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_HoOh</defName>
     <label>Ho-Oh</label>
@@ -41216,7 +40966,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Celebi</defName>
     <label>Celebi</label>
@@ -41365,7 +41114,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Treecko</defName>
     <label>Treecko</label>
@@ -41535,7 +41283,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Grovyle</defName>
     <label>Grovyle</label>
@@ -41705,7 +41452,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sceptile</defName>
     <label>Sceptile</label>
@@ -41868,7 +41614,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Torchic</defName>
     <label>Torchic</label>
@@ -42042,7 +41787,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Combusken</defName>
     <label>Combusken</label>
@@ -42218,7 +41962,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Blaziken</defName>
     <label>Blaziken</label>
@@ -42386,7 +42129,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mudkip</defName>
     <label>Mudkip</label>
@@ -42552,7 +42294,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Marshtomp</defName>
     <label>Marshtomp</label>
@@ -42727,7 +42468,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Swampert</defName>
     <label>Swampert</label>
@@ -42895,7 +42635,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Poochyena</defName>
     <label>Poochyena</label>
@@ -43061,7 +42800,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mightyena</defName>
     <label>Mightyena</label>
@@ -43215,7 +42953,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Zigzagoon</defName>
     <label>Zigzagoon</label>
@@ -43369,7 +43106,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Linoone</defName>
     <label>Linoone</label>
@@ -43523,7 +43259,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wurmple</defName>
     <label>Wurmple</label>
@@ -43690,7 +43425,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Silcoon</defName>
     <label>Silcoon</label>
@@ -43835,7 +43569,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Beautifly</defName>
     <label>Beautifly</label>
@@ -43990,7 +43723,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cascoon</defName>
     <label>Cascoon</label>
@@ -44135,7 +43867,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dustox</defName>
     <label>Dustox</label>
@@ -44286,7 +44017,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lotad</defName>
     <label>Lotad</label>
@@ -44454,7 +44184,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lombre</defName>
     <label>Lombre</label>
@@ -44622,7 +44351,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ludicolo</defName>
     <label>Ludicolo</label>
@@ -44766,7 +44494,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Seedot</defName>
     <label>Seedot</label>
@@ -44913,7 +44640,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Nuzleaf</defName>
     <label>Nuzleaf</label>
@@ -45073,7 +44799,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shiftry</defName>
     <label>Shiftry</label>
@@ -45221,7 +44946,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Taillow</defName>
     <label>Taillow</label>
@@ -45384,7 +45108,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Swellow</defName>
     <label>Swellow</label>
@@ -45535,7 +45258,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wingull</defName>
     <label>Wingull</label>
@@ -45707,7 +45429,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pelipper</defName>
     <label>Pelipper</label>
@@ -45859,7 +45580,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ralts</defName>
     <label>Ralts</label>
@@ -46018,7 +45738,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kirlia</defName>
     <label>Kirlia</label>
@@ -46186,7 +45905,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gardevoir</defName>
     <label>Gardevoir</label>
@@ -46338,7 +46056,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Surskit</defName>
     <label>Surskit</label>
@@ -46498,7 +46215,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Masquerain</defName>
     <label>Masquerain</label>
@@ -46655,7 +46371,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shroomish</defName>
     <label>Shroomish</label>
@@ -46822,7 +46537,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Breloom</defName>
     <label>Breloom</label>
@@ -46974,7 +46688,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Slakoth</defName>
     <label>Slakoth</label>
@@ -47128,7 +46841,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Vigoroth</defName>
     <label>Vigoroth</label>
@@ -47285,7 +46997,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Slaking</defName>
     <label>Slaking</label>
@@ -47431,7 +47142,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Nincada</defName>
     <label>Nincada</label>
@@ -47607,7 +47317,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ninjask</defName>
     <label>Ninjask</label>
@@ -47770,7 +47479,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shedinja</defName>
     <label>Shedinja</label>
@@ -47931,7 +47639,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Whismur</defName>
     <label>Whismur</label>
@@ -48086,7 +47793,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Loudred</defName>
     <label>Loudred</label>
@@ -48244,7 +47950,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Exploud</defName>
     <label>Exploud</label>
@@ -48411,7 +48116,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Makuhita</defName>
     <label>Makuhita</label>
@@ -48573,7 +48277,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hariyama</defName>
     <label>Hariyama</label>
@@ -48723,7 +48426,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Azurill</defName>
     <label>Azurill</label>
@@ -48879,7 +48581,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Nosepass</defName>
     <label>Nosepass</label>
@@ -49066,7 +48767,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Skitty</defName>
     <label>Skitty</label>
@@ -49230,7 +48930,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Delcatty</defName>
     <label>Delcatty</label>
@@ -49366,7 +49065,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sableye</defName>
     <label>Sableye</label>
@@ -49534,7 +49232,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mawile</defName>
     <label>Mawile</label>
@@ -49704,7 +49401,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Aron</defName>
     <label>Aron</label>
@@ -49883,7 +49579,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lairon</defName>
     <label>Lairon</label>
@@ -50062,7 +49757,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Aggron</defName>
     <label>Aggron</label>
@@ -50230,7 +49924,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Meditite</defName>
     <label>Meditite</label>
@@ -50381,7 +50074,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Medicham</defName>
     <label>Medicham</label>
@@ -50536,7 +50228,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Electrike</defName>
     <label>Electrike</label>
@@ -50714,7 +50405,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Manectric</defName>
     <label>Manectric</label>
@@ -50884,7 +50574,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Plusle</defName>
     <label>Plusle</label>
@@ -51043,7 +50732,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Minun</defName>
     <label>Minun</label>
@@ -51202,7 +50890,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Volbeat</defName>
     <label>Volbeat</label>
@@ -51361,7 +51048,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Illumise</defName>
     <label>Illumise</label>
@@ -51512,7 +51198,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Roselia</defName>
     <label>Roselia</label>
@@ -51676,7 +51361,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gulpin</defName>
     <label>Gulpin</label>
@@ -51826,7 +51510,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Swalot</defName>
     <label>Swalot</label>
@@ -51964,7 +51647,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Carvanha</defName>
     <label>Carvanha</label>
@@ -52127,7 +51809,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sharpedo</defName>
     <label>Sharpedo</label>
@@ -52282,7 +51963,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wailmer</defName>
     <label>Wailmer</label>
@@ -52452,7 +52132,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wailord</defName>
     <label>Wailord</label>
@@ -52598,9 +52277,9 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Pokemon/Gen_3/321_Wailord/Wailord</texPath>
-          <drawSize>12.0</drawSize>
+          <drawSize>12.1</drawSize>
           <shadowData>
-            <volume>(4.20, 3.00, 3.00)</volume>
+            <volume>(4.22, 3.01, 3.01)</volume>
             <offset>(0.00, 0.00, -0.30)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -52611,7 +52290,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Numel</defName>
     <label>Numel</label>
@@ -52795,7 +52473,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Camerupt</defName>
     <label>Camerupt</label>
@@ -52964,7 +52641,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Torkoal</defName>
     <label>Torkoal</label>
@@ -53123,7 +52799,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Spoink</defName>
     <label>Spoink</label>
@@ -53289,7 +52964,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Grumpig</defName>
     <label>Grumpig</label>
@@ -53443,7 +53117,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Spinda</defName>
     <label>Spinda</label>
@@ -53598,7 +53271,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Trapinch</defName>
     <label>Trapinch</label>
@@ -53784,7 +53456,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Vibrava</defName>
     <label>Vibrava</label>
@@ -53960,7 +53631,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Flygon</defName>
     <label>Flygon</label>
@@ -54133,7 +53803,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cacnea</defName>
     <label>Cacnea</label>
@@ -54296,7 +53965,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cacturne</defName>
     <label>Cacturne</label>
@@ -54453,7 +54121,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Swablu</defName>
     <label>Swablu</label>
@@ -54624,7 +54291,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Altaria</defName>
     <label>Altaria</label>
@@ -54788,7 +54454,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Zangoose</defName>
     <label>Zangoose</label>
@@ -54954,7 +54619,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Seviper</defName>
     <label>Seviper</label>
@@ -55110,7 +54774,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lunatone</defName>
     <label>Lunatone</label>
@@ -55279,7 +54942,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Solrock</defName>
     <label>Solrock</label>
@@ -55448,7 +55110,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Barboach</defName>
     <label>Barboach</label>
@@ -55619,7 +55280,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Whiscash</defName>
     <label>Whiscash</label>
@@ -55782,7 +55442,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Corphish</defName>
     <label>Corphish</label>
@@ -55945,7 +55604,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Crawdaunt</defName>
     <label>Crawdaunt</label>
@@ -56101,7 +55759,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Baltoy</defName>
     <label>Baltoy</label>
@@ -56273,7 +55930,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Claydol</defName>
     <label>Claydol</label>
@@ -56437,7 +56093,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lileep</defName>
     <label>Lileep</label>
@@ -56601,7 +56256,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cradily</defName>
     <label>Cradily</label>
@@ -56754,7 +56408,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Anorith</defName>
     <label>Anorith</label>
@@ -56938,7 +56591,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Armaldo</defName>
     <label>Armaldo</label>
@@ -57111,7 +56763,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Feebas</defName>
     <label>Feebas</label>
@@ -57261,7 +56912,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Milotic</defName>
     <label>Milotic</label>
@@ -57416,7 +57066,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Castform</defName>
     <label>Castform</label>
@@ -57490,41 +57139,41 @@
         </EVYields>
         <catchRate>45</catchRate>
         <shinyChance>0.00125</shinyChance>
-        <formChangerCondition>Environnement</formChangerCondition>
+        <formChangerCondition>Environment</formChangerCondition>
         <showFormLabel>false</showFormLabel>
         <forms>
           <li>
             <label>Normal</label>
-            <texPathKey>Normal</texPathKey>
             <isDefault>true</isDefault>
+            <texPathKey>Normal</texPathKey>
           </li>
           <li>
+            <label>Sunny</label>
             <timeOfDay>Day</timeOfDay>
             <includeWeathers>
               <li>Clear</li>
             </includeWeathers>
-            <label>Sunny</label>
-            <texPathKey>Sunny</texPathKey>
             <type1>Fire</type1>
+            <texPathKey>Sunny</texPathKey>
           </li>
           <li>
+            <label>Rainy</label>
             <includeWeathers>
               <li>Rain</li>
               <li>RainyThunderstorm</li>
               <li>FoggyRain</li>
             </includeWeathers>
-            <label>Rainy</label>
-            <texPathKey>Rainy</texPathKey>
             <type1>Water</type1>
+            <texPathKey>Rainy</texPathKey>
           </li>
           <li>
+            <label>Snowy</label>
             <includeWeathers>
               <li>SnowHard</li>
               <li>SnowGentle</li>
             </includeWeathers>
-            <label>Snowy</label>
-            <texPathKey>Snowy</texPathKey>
             <type1>Ice</type1>
+            <texPathKey>Snowy</texPathKey>
           </li>
         </forms>
       </li>
@@ -57620,7 +57269,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kecleon</defName>
     <label>Kecleon</label>
@@ -57794,7 +57442,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shuppet</defName>
     <label>Shuppet</label>
@@ -57960,7 +57607,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Banette</defName>
     <label>Banette</label>
@@ -58114,7 +57760,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Duskull</defName>
     <label>Duskull</label>
@@ -58276,7 +57921,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dusclops</defName>
     <label>Dusclops</label>
@@ -58450,7 +58094,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Tropius</defName>
     <label>Tropius</label>
@@ -58610,7 +58253,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Chimecho</defName>
     <label>Chimecho</label>
@@ -58769,7 +58411,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Absol</defName>
     <label>Absol</label>
@@ -58931,7 +58572,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wynaut</defName>
     <label>Wynaut</label>
@@ -59074,7 +58714,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Snorunt</defName>
     <label>Snorunt</label>
@@ -59267,7 +58906,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Glalie</defName>
     <label>Glalie</label>
@@ -59439,7 +59077,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Spheal</defName>
     <label>Spheal</label>
@@ -59608,7 +59245,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Sealeo</defName>
     <label>Sealeo</label>
@@ -59776,7 +59412,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Walrein</defName>
     <label>Walrein</label>
@@ -59941,7 +59576,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Clamperl</defName>
     <label>Clamperl</label>
@@ -60099,7 +59733,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Huntail</defName>
     <label>Huntail</label>
@@ -60258,7 +59891,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gorebyss</defName>
     <label>Gorebyss</label>
@@ -60412,7 +60044,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Relicanth</defName>
     <label>Relicanth</label>
@@ -60574,7 +60205,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Luvdisc</defName>
     <label>Luvdisc</label>
@@ -60729,7 +60359,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bagon</defName>
     <label>Bagon</label>
@@ -60906,7 +60535,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shelgon</defName>
     <label>Shelgon</label>
@@ -61083,7 +60711,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Salamence</defName>
     <label>Salamence</label>
@@ -61262,7 +60889,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Beldum</defName>
     <label>Beldum</label>
@@ -61414,7 +61040,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Metang</defName>
     <label>Metang</label>
@@ -61590,7 +61215,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Metagross</defName>
     <label>Metagross</label>
@@ -61759,7 +61383,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Regirock</defName>
     <label>Regirock</label>
@@ -61920,7 +61543,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Regice</defName>
     <label>Regice</label>
@@ -62085,7 +61707,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Registeel</defName>
     <label>Registeel</label>
@@ -62251,7 +61872,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Latias</defName>
     <label>Latias</label>
@@ -62404,7 +62024,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Latios</defName>
     <label>Latios</label>
@@ -62557,7 +62176,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kyogre</defName>
     <label>Kyogre</label>
@@ -62713,7 +62331,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Groudon</defName>
     <label>Groudon</label>
@@ -62877,7 +62494,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Rayquaza</defName>
     <label>Rayquaza</label>
@@ -63039,7 +62655,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Jirachi</defName>
     <label>Jirachi</label>
@@ -63193,7 +62808,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Deoxys</defName>
     <label>Deoxys</label>
@@ -63258,8 +62872,8 @@
         <forms>
           <li>
             <label>Normal</label>
-            <texPathKey>Normal</texPathKey>
             <isDefault>true</isDefault>
+            <texPathKey>Normal</texPathKey>
           </li>
           <li>
             <label>Attack</label>
@@ -63363,7 +62977,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Turtwig</defName>
     <label>Turtwig</label>
@@ -63541,7 +63154,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Grotle</defName>
     <label>Grotle</label>
@@ -63720,7 +63332,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Torterra</defName>
     <label>Torterra</label>
@@ -63893,7 +63504,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Chimchar</defName>
     <label>Chimchar</label>
@@ -64064,7 +63674,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Monferno</defName>
     <label>Monferno</label>
@@ -64237,7 +63846,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Infernape</defName>
     <label>Infernape</label>
@@ -64400,7 +64008,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Piplup</defName>
     <label>Piplup</label>
@@ -64570,7 +64177,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Prinplup</defName>
     <label>Prinplup</label>
@@ -64744,7 +64350,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Empoleon</defName>
     <label>Empoleon</label>
@@ -64909,7 +64514,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Starly</defName>
     <label>Starly</label>
@@ -65072,7 +64676,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Staravia</defName>
     <label>Staravia</label>
@@ -65234,7 +64837,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Staraptor</defName>
     <label>Staraptor</label>
@@ -65389,7 +64991,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bidoof</defName>
     <label>Bidoof</label>
@@ -65556,7 +65157,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bibarel</defName>
     <label>Bibarel</label>
@@ -65716,7 +65316,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kricketot</defName>
     <label>Kricketot</label>
@@ -65866,7 +65465,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Kricketune</defName>
     <label>Kricketune</label>
@@ -66024,7 +65622,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shinx</defName>
     <label>Shinx</label>
@@ -66197,7 +65794,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Luxio</defName>
     <label>Luxio</label>
@@ -66370,7 +65966,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Luxray</defName>
     <label>Luxray</label>
@@ -66532,7 +66127,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Budew</defName>
     <label>Budew</label>
@@ -66684,7 +66278,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Roserade</defName>
     <label>Roserade</label>
@@ -66832,7 +66425,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cranidos</defName>
     <label>Cranidos</label>
@@ -67003,7 +66595,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Rampardos</defName>
     <label>Rampardos</label>
@@ -67163,7 +66754,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shieldon</defName>
     <label>Shieldon</label>
@@ -67335,7 +66925,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bastiodon</defName>
     <label>Bastiodon</label>
@@ -67496,7 +67085,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Burmy</defName>
     <label>Burmy</label>
@@ -67565,30 +67153,30 @@
         </EVYields>
         <catchRate>120</catchRate>
         <shinyChance>0.00125</shinyChance>
-        <formChangerCondition>Environnement</formChangerCondition>
+        <formChangerCondition>Environment</formChangerCondition>
         <forms>
           <li>
             <label>Plant</label>
-            <texPathKey>Plant</texPathKey>
             <isDefault>true</isDefault>
+            <texPathKey>Plant</texPathKey>
           </li>
           <li>
             <label>Sandy</label>
-            <texPathKey>Sandy</texPathKey>
             <includeBiomes>
               <li>AridShrubland</li>
               <li>Desert</li>
               <li>ExtremeDesert</li>
             </includeBiomes>
+            <texPathKey>Sandy</texPathKey>
           </li>
           <li>
             <label>Trash</label>
-            <texPathKey>Trash</texPathKey>
             <includeBiomes>
               <li>Tundra</li>
               <li>IceSheet</li>
               <li>SeaIce</li>
             </includeBiomes>
+            <texPathKey>Trash</texPathKey>
           </li>
         </forms>
       </li>
@@ -67685,7 +67273,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Wormadam</defName>
     <label>Wormadam</label>
@@ -67863,7 +67450,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mothim</defName>
     <label>Mothim</label>
@@ -68031,7 +67617,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Combee</defName>
     <label>Combee</label>
@@ -68198,7 +67783,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Vespiquen</defName>
     <label>Vespiquen</label>
@@ -68366,7 +67950,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Pachirisu</defName>
     <label>Pachirisu</label>
@@ -68526,7 +68109,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Buizel</defName>
     <label>Buizel</label>
@@ -68697,7 +68279,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Floatzel</defName>
     <label>Floatzel</label>
@@ -68864,7 +68445,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cherubi</defName>
     <label>Cherubi</label>
@@ -69027,7 +68607,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cherrim</defName>
     <label>Cherrim</label>
@@ -69085,19 +68664,19 @@
         </EVYields>
         <catchRate>75</catchRate>
         <shinyChance>0.00125</shinyChance>
-        <formChangerCondition>Environnement</formChangerCondition>
+        <formChangerCondition>Environment</formChangerCondition>
         <forms>
           <li>
             <label>Overcast</label>
-            <texPathKey>Overcast</texPathKey>
             <isDefault>true</isDefault>
+            <texPathKey>Overcast</texPathKey>
           </li>
           <li>
+            <label>Sunshine</label>
             <timeOfDay>Day</timeOfDay>
             <includeWeathers>
               <li>Clear</li>
             </includeWeathers>
-            <label>Sunshine</label>
             <texPathKey>Sunshine</texPathKey>
           </li>
         </forms>
@@ -69194,7 +68773,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shellos</defName>
     <label>Shellos</label>
@@ -69364,7 +68942,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gastrodon</defName>
     <label>Gastrodon</label>
@@ -69523,7 +69100,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Ambipom</defName>
     <label>Ambipom</label>
@@ -69673,7 +69249,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Drifloon</defName>
     <label>Drifloon</label>
@@ -69836,7 +69411,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Drifblim</defName>
     <label>Drifblim</label>
@@ -69987,7 +69561,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Buneary</defName>
     <label>Buneary</label>
@@ -70142,7 +69715,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lopunny</defName>
     <label>Lopunny</label>
@@ -70285,7 +69857,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mismagius</defName>
     <label>Mismagius</label>
@@ -70436,7 +70007,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Honchkrow</defName>
     <label>Honchkrow</label>
@@ -70595,7 +70165,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Glameow</defName>
     <label>Glameow</label>
@@ -70765,7 +70334,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Purugly</defName>
     <label>Purugly</label>
@@ -70915,7 +70483,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Chingling</defName>
     <label>Chingling</label>
@@ -71066,7 +70633,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Stunky</defName>
     <label>Stunky</label>
@@ -71229,7 +70795,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Skuntank</defName>
     <label>Skuntank</label>
@@ -71384,7 +70949,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bronzor</defName>
     <label>Bronzor</label>
@@ -71565,7 +71129,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bronzong</defName>
     <label>Bronzong</label>
@@ -71736,7 +71299,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Bonsly</defName>
     <label>Bonsly</label>
@@ -71904,7 +71466,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_MimeJr</defName>
     <label>Mime Jr.</label>
@@ -72060,7 +71621,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Happiny</defName>
     <label>Happiny</label>
@@ -72207,7 +71767,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Chatot</defName>
     <label>Chatot</label>
@@ -72350,7 +71909,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Spiritomb</defName>
     <label>Spiritomb</label>
@@ -72511,7 +72069,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gible</defName>
     <label>Gible</label>
@@ -72694,7 +72251,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gabite</defName>
     <label>Gabite</label>
@@ -72877,7 +72433,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Garchomp</defName>
     <label>Garchomp</label>
@@ -73057,7 +72612,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Munchlax</defName>
     <label>Munchlax</label>
@@ -73212,7 +72766,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Riolu</defName>
     <label>Riolu</label>
@@ -73359,7 +72912,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lucario</defName>
     <label>Lucario</label>
@@ -73513,7 +73065,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hippopotas</defName>
     <label>Hippopotas</label>
@@ -73695,7 +73246,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Hippowdon</defName>
     <label>Hippowdon</label>
@@ -73877,7 +73427,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Skorupi</defName>
     <label>Skorupi</label>
@@ -74049,7 +73598,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Drapion</defName>
     <label>Drapion</label>
@@ -74221,7 +73769,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Croagunk</defName>
     <label>Croagunk</label>
@@ -74404,7 +73951,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Toxicroak</defName>
     <label>Toxicroak</label>
@@ -74575,7 +74121,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Carnivine</defName>
     <label>Carnivine</label>
@@ -74725,7 +74270,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Finneon</defName>
     <label>Finneon</label>
@@ -74887,7 +74431,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lumineon</defName>
     <label>Lumineon</label>
@@ -75037,7 +74580,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mantyke</defName>
     <label>Mantyke</label>
@@ -75217,7 +74759,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Snover</defName>
     <label>Snover</label>
@@ -75390,7 +74931,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Abomasnow</defName>
     <label>Abomasnow</label>
@@ -75556,7 +75096,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Weavile</defName>
     <label>Weavile</label>
@@ -75733,7 +75272,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Magnezone</defName>
     <label>Magnezone</label>
@@ -75906,7 +75444,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Lickilicky</defName>
     <label>Lickilicky</label>
@@ -76052,7 +75589,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Rhyperior</defName>
     <label>Rhyperior</label>
@@ -76206,7 +75742,7 @@
           <texPath>Things/Pawn/Pokemon/Gen_4/464_Rhyperior/Rhyperior</texPath>
           <drawSize>2.7</drawSize>
           <shadowData>
-            <volume>(0.93, 0.66, 0.66)</volume>
+            <volume>(0.93, 0.67, 0.67)</volume>
             <offset>(0.00, 0.00, -0.30)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -76217,7 +75753,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Tangrowth</defName>
     <label>Tangrowth</label>
@@ -76371,7 +75906,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Electivire</defName>
     <label>Electivire</label>
@@ -76549,7 +76083,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Magmortar</defName>
     <label>Magmortar</label>
@@ -76724,7 +76257,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Togekiss</defName>
     <label>Togekiss</label>
@@ -76865,7 +76397,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Yanmega</defName>
     <label>Yanmega</label>
@@ -77036,7 +76567,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Leafeon</defName>
     <label>Leafeon</label>
@@ -77190,7 +76720,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Glaceon</defName>
     <label>Glaceon</label>
@@ -77357,7 +76886,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gliscor</defName>
     <label>Gliscor</label>
@@ -77532,7 +77060,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mamoswine</defName>
     <label>Mamoswine</label>
@@ -77708,7 +77235,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_PorygonZ</defName>
     <label>Porygon-Z</label>
@@ -77872,7 +77398,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Gallade</defName>
     <label>Gallade</label>
@@ -78028,7 +77553,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Probopass</defName>
     <label>Probopass</label>
@@ -78201,7 +77725,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dusknoir</defName>
     <label>Dusknoir</label>
@@ -78364,7 +77887,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Froslass</defName>
     <label>Froslass</label>
@@ -78529,7 +78051,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Rotom</defName>
     <label>Rotom</label>
@@ -78598,8 +78119,8 @@
         <forms>
           <li>
             <label>Normal</label>
-            <texPathKey>Normal</texPathKey>
             <isDefault>true</isDefault>
+            <texPathKey>Normal</texPathKey>
           </li>
           <li>
             <label>Heat</label>
@@ -78723,7 +78244,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Uxie</defName>
     <label>Uxie</label>
@@ -78868,7 +78388,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Mesprit</defName>
     <label>Mesprit</label>
@@ -79014,7 +78533,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Azelf</defName>
     <label>Azelf</label>
@@ -79159,7 +78677,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Dialga</defName>
     <label>Dialga</label>
@@ -79325,7 +78842,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Palkia</defName>
     <label>Palkia</label>
@@ -79494,7 +79010,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Heatran</defName>
     <label>Heatran</label>
@@ -79661,7 +79176,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Regigigas</defName>
     <label>Regigigas</label>
@@ -79817,7 +79331,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Giratina</defName>
     <label>Giratina</label>
@@ -79893,8 +79406,8 @@
         <forms>
           <li>
             <label>Altered</label>
-            <texPathKey>Altered</texPathKey>
             <isDefault>true</isDefault>
+            <texPathKey>Altered</texPathKey>
           </li>
           <li>
             <label>Origin</label>
@@ -79990,7 +79503,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Cresselia</defName>
     <label>Cresselia</label>
@@ -80142,7 +79654,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Phione</defName>
     <label>Phione</label>
@@ -80295,7 +79806,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Manaphy</defName>
     <label>Manaphy</label>
@@ -80448,7 +79958,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Darkrai</defName>
     <label>Darkrai</label>
@@ -80593,7 +80102,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Shaymin</defName>
     <label>Shaymin</label>
@@ -80644,8 +80152,8 @@
         <forms>
           <li>
             <label>Land</label>
-            <texPathKey>Land</texPathKey>
             <isDefault>true</isDefault>
+            <texPathKey>Land</texPathKey>
           </li>
           <li>
             <label>Sky</label>
@@ -80741,7 +80249,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>PW_Arceus</defName>
     <label>Arceus</label>
@@ -80796,8 +80303,8 @@
         <forms>
           <li>
             <label>Normal</label>
-            <texPathKey>Normal</texPathKey>
             <isDefault>true</isDefault>
+            <texPathKey>Normal</texPathKey>
           </li>
           <li>
             <label>Fire</label>
@@ -80957,5 +80464,4 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
 </Defs>

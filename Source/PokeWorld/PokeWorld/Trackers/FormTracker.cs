@@ -174,7 +174,7 @@ namespace PokeWorld
         }
         public void FormTick()
         {
-            if (comp.formChangerCondition == FormChangerCondition.Environnement && pokemonHolder.Spawned)
+            if (comp.formChangerCondition == FormChangerCondition.Environment && pokemonHolder.Spawned)
             {
                 if (currentFormIndex == -1 || comp.forms[currentFormIndex].isDefault || !CanUseForm(comp.forms[currentFormIndex]))
                 {
