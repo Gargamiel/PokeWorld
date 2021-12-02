@@ -164,7 +164,7 @@ namespace PokeWorld
 			Widgets.Label(rect5, "PW_Range".Translate());
 			Rect rect6 = rect;
 			rect6.xMin = rect5.xMax + 17f;
-			rect6.xMax = rect6.xMin + 50f;
+			rect6.xMax = rect6.xMin + 65f;
 			Widgets.Label(rect6, "PW_Used".Translate());
 			Text.Anchor = TextAnchor.UpperLeft;
 		}

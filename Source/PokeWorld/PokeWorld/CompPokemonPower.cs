@@ -11,34 +11,63 @@ namespace PokeWorld
 {
     public class CompPokemonPower : CompPowerTrader
     {
-        private float maxDistance = 7f;
+        private float maxDistance = 7.5f;
         public override void Initialize(CompProperties props)
         {
             base.Initialize(props);
             PowerOn = true;
         }
+
         public override void CompTick()
         {
             base.CompTick();                        
             if(parent is Pawn pawn && pawn.Spawned && !pawn.Dead && pawn.Faction != null && pawn.Faction.IsPlayer)
             {
                 PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.basePowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);
-                if (PowerNet == null)
+                if (PowerNet == null && connectParent == null)
                 {
-                    PowerConnectionMaker.TryConnectToAnyPowerNet(this);
+                    parent.Map.powerNetManager.Notify_ConnectorWantsConnect(this);
                 }
-                else if(PowerNet != null)
+                else if(PowerNet != null && connectParent != null)
                 {
-                    if (connectParent != null && IntVec3Utility.DistanceTo(parent.Position, connectParent.parent.Position) > maxDistance)
+                    if (IntVec3Utility.DistanceTo(parent.Position, connectParent.parent.Position) > maxDistance + connectParent.parent.def.Size.Magnitude)
                     {
-                        PowerConnectionMaker.DisconnectFromPowerNet(this);
+                        parent.Map.powerNetManager.Notify_ConnectorDespawned(this);
                     }
-                    else if(connectParent == null)
+                }
+                else if(PowerNet != null && connectParent == null)
+                {
+                    PowerNet.DeregisterConnector(this);
+                }
+                else if (PowerNet == null && connectParent != null)
+                {
+                    if (connectParent.connectChildren != null)
                     {
-                        PowerConnectionMaker.DisconnectFromPowerNet(this);
+                        connectParent.connectChildren.Remove(this);
+                        if (connectParent.connectChildren.Count == 0)
+                        {
+                            connectParent.connectChildren = null;
+                        }
                     }
+                    connectParent = null;
                 }
             }            
+        }
+        public override void ResetPowerVars()
+        {
+            base.ResetPowerVars();
+            if(parent is Pawn pawn && pawn.Spawned && !pawn.Dead && pawn.Faction != null && pawn.Faction.IsPlayer)
+            {
+                PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.basePowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);         
+            }       
+        }
+        public override void SetUpPowerVars()
+        {
+            base.SetUpPowerVars();
+            if (parent is Pawn pawn && pawn.Spawned && !pawn.Dead && pawn.Faction != null && pawn.Faction.IsPlayer)
+            {
+                PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.basePowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);
+            }
         }
         public override string CompInspectStringExtra()
         {
@@ -52,6 +81,6 @@ namespace PokeWorld
                 return text;
             }
             return null;
-        }
+        }       
     }
 }

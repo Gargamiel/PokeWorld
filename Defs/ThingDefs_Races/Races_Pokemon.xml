@@ -596,7 +596,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.40</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -775,7 +775,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.84</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -955,7 +955,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.43</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -5944,7 +5944,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.36</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -6092,7 +6092,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.30</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -9402,7 +9402,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.59</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -9553,7 +9553,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.52</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -12417,7 +12417,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.86</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -12583,7 +12583,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.27</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -20315,7 +20315,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.25</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -21911,7 +21911,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.39</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -23584,7 +23584,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.64</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -25061,7 +25061,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.40</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -25247,7 +25247,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.84</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -25425,7 +25425,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.43</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -35572,7 +35572,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.14</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -35744,7 +35744,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.95</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -37301,7 +37301,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.50</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -37477,7 +37477,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.27</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -39250,7 +39250,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.66</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -39884,7 +39884,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.64</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -40876,7 +40876,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>3.09</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -41700,7 +41700,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.41</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -41875,7 +41875,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.84</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -42042,7 +42042,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.41</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -52385,7 +52385,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.39</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -52554,7 +52554,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.09</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -52712,7 +52712,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.14</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -63587,7 +63587,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.40</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -63759,7 +63759,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>1.84</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -63921,7 +63921,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.43</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -76170,7 +76170,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.45</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
@@ -79086,7 +79086,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>PokeWorld.CompPokemonHeatPusher</compClass>
         <heatPerSecond>2.73</heatPerSecond>
-        <heatPushMaxTemperature>32</heatPushMaxTemperature>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <statBases>
