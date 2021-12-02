@@ -36,7 +36,7 @@
   <PW_DesignationStoreInPCWarning>Must designate an owned Poké Ball</PW_DesignationStoreInPCWarning>
 
   <PW_IncidentBabyPokemon>Baby Pokémon join</PW_IncidentBabyPokemon>
-  <PW_IncidentBabyPokemonDesc>A baby {0}, abandonned or lost, has wandered into the area.\n\nIt seem accustomed to human contact and is joining your colony.</PW_IncidentBabyPokemonDesc>
+  <PW_IncidentBabyPokemonDesc>A baby {0}, abandoned or lost, has wandered into the area.\n\nIt seem accustomed to human contact and is joining your colony.</PW_IncidentBabyPokemonDesc>
 
   <PW_SettingsWildPokemonFrequency>Wild Pokémon frequency</PW_SettingsWildPokemonFrequency>
   <PW_SettingsWildPokemonFrequencyDesc>The percentage of Pokémon found in the wild over other creatures, such as vanilla Rimworld animals and other modded creatures.\nThis settings affects wild creatures spawn, creatures in incidents, and those sold by traders. (Can be changed anytime)</PW_SettingsWildPokemonFrequencyDesc>
