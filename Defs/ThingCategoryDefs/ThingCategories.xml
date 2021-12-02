@@ -86,6 +86,15 @@
 		  <iconPath>Things/Building/PortableComputer_south</iconPath>   
 		</ThingCategoryDef>
 
+
+		<!-- Used for outfits -->
+		<ThingCategoryDef>
+	    <defName>PW_BeltsApparel</defName>
+	    <label>Poké Ball belts</label>
+	    <parent>Apparel</parent>   
+	    <iconPath>Things/Item/Utility/Belts/PokeBallBelt</iconPath>
+	  </ThingCategoryDef>	
+
 		<!-- Used for cooking -->
 
 		<ThingCategoryDef>
