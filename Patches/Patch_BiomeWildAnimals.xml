@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf8'?>
 <Patch>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
@@ -113,7 +113,7 @@
       <PW_Lickitung>0.0625</PW_Lickitung>
       <PW_Koffing>0.2500</PW_Koffing>
       <PW_Weezing>0.0156</PW_Weezing>
-      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0625</PW_Rhyhorn>
       <PW_Rhydon>0.0156</PW_Rhydon>
       <PW_Chansey>0.0078</PW_Chansey>
       <PW_Tangela>0.0938</PW_Tangela>
@@ -170,7 +170,7 @@
       <PW_Flaaffy>0.0312</PW_Flaaffy>
       <PW_Ampharos>0.0039</PW_Ampharos>
       <PW_Bellossom>0.0117</PW_Bellossom>
-      <PW_Marill>0.1875</PW_Marill>
+      <PW_Marill>0.0938</PW_Marill>
       <PW_Azumarill>0.0117</PW_Azumarill>
       <PW_Sudowoodo>0.0312</PW_Sudowoodo>
       <PW_Politoed>0.0117</PW_Politoed>
@@ -422,7 +422,7 @@
       <PW_Dusknoir>0.0039</PW_Dusknoir>
       <PW_Froslass>0.0156</PW_Froslass>
     </value>
-  </Operation>  
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
     <value>
@@ -536,7 +536,7 @@
       <PW_Lickitung>0.0625</PW_Lickitung>
       <PW_Koffing>0.2500</PW_Koffing>
       <PW_Weezing>0.0156</PW_Weezing>
-      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0625</PW_Rhyhorn>
       <PW_Rhydon>0.0156</PW_Rhydon>
       <PW_Chansey>0.0078</PW_Chansey>
       <PW_Tangela>0.0625</PW_Tangela>
@@ -593,7 +593,7 @@
       <PW_Flaaffy>0.0312</PW_Flaaffy>
       <PW_Ampharos>0.0039</PW_Ampharos>
       <PW_Bellossom>0.0078</PW_Bellossom>
-      <PW_Marill>0.1875</PW_Marill>
+      <PW_Marill>0.0938</PW_Marill>
       <PW_Azumarill>0.0117</PW_Azumarill>
       <PW_Sudowoodo>0.0312</PW_Sudowoodo>
       <PW_Politoed>0.0117</PW_Politoed>
@@ -959,7 +959,7 @@
       <PW_Lickitung>0.0625</PW_Lickitung>
       <PW_Koffing>0.5000</PW_Koffing>
       <PW_Weezing>0.0312</PW_Weezing>
-      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0625</PW_Rhyhorn>
       <PW_Rhydon>0.0156</PW_Rhydon>
       <PW_Chansey>0.0078</PW_Chansey>
       <PW_Tangela>0.2500</PW_Tangela>
@@ -1016,7 +1016,7 @@
       <PW_Flaaffy>0.0312</PW_Flaaffy>
       <PW_Ampharos>0.0039</PW_Ampharos>
       <PW_Bellossom>0.0312</PW_Bellossom>
-      <PW_Marill>0.5000</PW_Marill>
+      <PW_Marill>0.2500</PW_Marill>
       <PW_Azumarill>0.0312</PW_Azumarill>
       <PW_Sudowoodo>0.0312</PW_Sudowoodo>
       <PW_Politoed>0.0312</PW_Politoed>
@@ -1268,7 +1268,7 @@
       <PW_Dusknoir>0.0039</PW_Dusknoir>
       <PW_Froslass>0.0156</PW_Froslass>
     </value>
-  </Operation>  
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
     <value>
@@ -1364,7 +1364,7 @@
       <PW_Lickitung>0.0125</PW_Lickitung>
       <PW_Koffing>0.1000</PW_Koffing>
       <PW_Weezing>0.0063</PW_Weezing>
-      <PW_Rhyhorn>0.0250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0125</PW_Rhyhorn>
       <PW_Rhydon>0.0031</PW_Rhydon>
       <PW_Chansey>0.0016</PW_Chansey>
       <PW_Kangaskhan>0.0031</PW_Kangaskhan>
@@ -1402,7 +1402,7 @@
       <PW_Togetic>0.0016</PW_Togetic>
       <PW_Natu>0.0250</PW_Natu>
       <PW_Xatu>0.0016</PW_Xatu>
-      <PW_Marill>0.2500</PW_Marill>
+      <PW_Marill>0.1250</PW_Marill>
       <PW_Azumarill>0.0156</PW_Azumarill>
       <PW_Sudowoodo>0.0063</PW_Sudowoodo>
       <PW_Politoed>0.0156</PW_Politoed>
@@ -1603,7 +1603,7 @@
       <PW_Dusknoir>0.0008</PW_Dusknoir>
       <PW_Froslass>0.0312</PW_Froslass>
     </value>
-  </Operation>  
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
     <value>
@@ -1699,7 +1699,7 @@
       <PW_Lickitung>0.0125</PW_Lickitung>
       <PW_Koffing>0.1000</PW_Koffing>
       <PW_Weezing>0.0063</PW_Weezing>
-      <PW_Rhyhorn>0.0250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0125</PW_Rhyhorn>
       <PW_Rhydon>0.0031</PW_Rhydon>
       <PW_Chansey>0.0016</PW_Chansey>
       <PW_Kangaskhan>0.0031</PW_Kangaskhan>
@@ -1737,7 +1737,7 @@
       <PW_Togetic>0.0016</PW_Togetic>
       <PW_Natu>0.0250</PW_Natu>
       <PW_Xatu>0.0016</PW_Xatu>
-      <PW_Marill>0.2500</PW_Marill>
+      <PW_Marill>0.1250</PW_Marill>
       <PW_Azumarill>0.0156</PW_Azumarill>
       <PW_Sudowoodo>0.0063</PW_Sudowoodo>
       <PW_Politoed>0.0156</PW_Politoed>
@@ -1938,7 +1938,7 @@
       <PW_Dusknoir>0.0008</PW_Dusknoir>
       <PW_Froslass>0.0312</PW_Froslass>
     </value>
-  </Operation> 
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
     <value>
@@ -2052,7 +2052,7 @@
       <PW_Lickitung>0.1250</PW_Lickitung>
       <PW_Koffing>0.5000</PW_Koffing>
       <PW_Weezing>0.0312</PW_Weezing>
-      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0625</PW_Rhyhorn>
       <PW_Rhydon>0.0156</PW_Rhydon>
       <PW_Chansey>0.0156</PW_Chansey>
       <PW_Tangela>0.1875</PW_Tangela>
@@ -2109,7 +2109,7 @@
       <PW_Flaaffy>0.0625</PW_Flaaffy>
       <PW_Ampharos>0.0078</PW_Ampharos>
       <PW_Bellossom>0.0234</PW_Bellossom>
-      <PW_Marill>0.2500</PW_Marill>
+      <PW_Marill>0.1250</PW_Marill>
       <PW_Azumarill>0.0156</PW_Azumarill>
       <PW_Sudowoodo>0.0312</PW_Sudowoodo>
       <PW_Politoed>0.0156</PW_Politoed>
@@ -2361,7 +2361,7 @@
       <PW_Dusknoir>0.0078</PW_Dusknoir>
       <PW_Froslass>0.0078</PW_Froslass>
     </value>
-  </Operation>  
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
     <value>
@@ -2475,7 +2475,7 @@
       <PW_Lickitung>0.1250</PW_Lickitung>
       <PW_Koffing>0.7500</PW_Koffing>
       <PW_Weezing>0.0469</PW_Weezing>
-      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0625</PW_Rhyhorn>
       <PW_Rhydon>0.0156</PW_Rhydon>
       <PW_Chansey>0.0156</PW_Chansey>
       <PW_Tangela>0.2500</PW_Tangela>
@@ -2532,7 +2532,7 @@
       <PW_Flaaffy>0.0625</PW_Flaaffy>
       <PW_Ampharos>0.0078</PW_Ampharos>
       <PW_Bellossom>0.0312</PW_Bellossom>
-      <PW_Marill>0.3750</PW_Marill>
+      <PW_Marill>0.1875</PW_Marill>
       <PW_Azumarill>0.0234</PW_Azumarill>
       <PW_Sudowoodo>0.0312</PW_Sudowoodo>
       <PW_Politoed>0.0234</PW_Politoed>
@@ -2784,7 +2784,7 @@
       <PW_Dusknoir>0.0078</PW_Dusknoir>
       <PW_Froslass>0.0078</PW_Froslass>
     </value>
-  </Operation>  
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
     <value>
@@ -2898,7 +2898,7 @@
       <PW_Lickitung>0.1250</PW_Lickitung>
       <PW_Koffing>1.0000</PW_Koffing>
       <PW_Weezing>0.0625</PW_Weezing>
-      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0625</PW_Rhyhorn>
       <PW_Rhydon>0.0156</PW_Rhydon>
       <PW_Chansey>0.0156</PW_Chansey>
       <PW_Tangela>0.3750</PW_Tangela>
@@ -2955,7 +2955,7 @@
       <PW_Flaaffy>0.0625</PW_Flaaffy>
       <PW_Ampharos>0.0078</PW_Ampharos>
       <PW_Bellossom>0.0469</PW_Bellossom>
-      <PW_Marill>0.5000</PW_Marill>
+      <PW_Marill>0.2500</PW_Marill>
       <PW_Azumarill>0.0312</PW_Azumarill>
       <PW_Sudowoodo>0.0312</PW_Sudowoodo>
       <PW_Politoed>0.0312</PW_Politoed>
@@ -3207,7 +3207,7 @@
       <PW_Dusknoir>0.0078</PW_Dusknoir>
       <PW_Froslass>0.0078</PW_Froslass>
     </value>
-  </Operation> 
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
     <value>
@@ -3321,7 +3321,7 @@
       <PW_Lickitung>0.1250</PW_Lickitung>
       <PW_Koffing>1.5000</PW_Koffing>
       <PW_Weezing>0.0938</PW_Weezing>
-      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
+      <PW_Rhyhorn>0.0625</PW_Rhyhorn>
       <PW_Rhydon>0.0156</PW_Rhydon>
       <PW_Chansey>0.0156</PW_Chansey>
       <PW_Tangela>0.3750</PW_Tangela>
@@ -3378,7 +3378,7 @@
       <PW_Flaaffy>0.0625</PW_Flaaffy>
       <PW_Ampharos>0.0078</PW_Ampharos>
       <PW_Bellossom>0.0469</PW_Bellossom>
-      <PW_Marill>0.5000</PW_Marill>
+      <PW_Marill>0.2500</PW_Marill>
       <PW_Azumarill>0.0312</PW_Azumarill>
       <PW_Sudowoodo>0.0312</PW_Sudowoodo>
       <PW_Politoed>0.0312</PW_Politoed>
@@ -3630,7 +3630,7 @@
       <PW_Dusknoir>0.0078</PW_Dusknoir>
       <PW_Froslass>0.0078</PW_Froslass>
     </value>
-  </Operation>  
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
     <value>
@@ -3744,7 +3744,7 @@
       <PW_Lickitung>0.1250</PW_Lickitung>
       <PW_Koffing>0.5000</PW_Koffing>
       <PW_Weezing>0.0312</PW_Weezing>
-      <PW_Rhyhorn>0.2500</PW_Rhyhorn>
+      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
       <PW_Rhydon>0.0312</PW_Rhydon>
       <PW_Chansey>0.0156</PW_Chansey>
       <PW_Tangela>0.0625</PW_Tangela>
@@ -3801,7 +3801,7 @@
       <PW_Flaaffy>0.0625</PW_Flaaffy>
       <PW_Ampharos>0.0078</PW_Ampharos>
       <PW_Bellossom>0.0078</PW_Bellossom>
-      <PW_Marill>0.2500</PW_Marill>
+      <PW_Marill>0.1250</PW_Marill>
       <PW_Azumarill>0.0156</PW_Azumarill>
       <PW_Sudowoodo>0.0625</PW_Sudowoodo>
       <PW_Politoed>0.0078</PW_Politoed>
@@ -4053,7 +4053,7 @@
       <PW_Dusknoir>0.0078</PW_Dusknoir>
       <PW_Froslass>0.0078</PW_Froslass>
     </value>
-  </Operation>  
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
     <value>
@@ -4167,7 +4167,7 @@
       <PW_Lickitung>0.0625</PW_Lickitung>
       <PW_Koffing>0.2500</PW_Koffing>
       <PW_Weezing>0.0156</PW_Weezing>
-      <PW_Rhyhorn>0.2500</PW_Rhyhorn>
+      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
       <PW_Rhydon>0.0312</PW_Rhydon>
       <PW_Chansey>0.0078</PW_Chansey>
       <PW_Tangela>0.0250</PW_Tangela>
@@ -4224,7 +4224,7 @@
       <PW_Flaaffy>0.0312</PW_Flaaffy>
       <PW_Ampharos>0.0039</PW_Ampharos>
       <PW_Bellossom>0.0031</PW_Bellossom>
-      <PW_Marill>0.1250</PW_Marill>
+      <PW_Marill>0.0625</PW_Marill>
       <PW_Azumarill>0.0078</PW_Azumarill>
       <PW_Sudowoodo>0.0625</PW_Sudowoodo>
       <PW_Politoed>0.0031</PW_Politoed>
@@ -4473,7 +4473,7 @@
       <PW_Dusknoir>0.0039</PW_Dusknoir>
       <PW_Froslass>0.0039</PW_Froslass>
     </value>
-  </Operation>  
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
     <value>
@@ -4587,7 +4587,7 @@
       <PW_Lickitung>0.0250</PW_Lickitung>
       <PW_Koffing>0.1000</PW_Koffing>
       <PW_Weezing>0.0063</PW_Weezing>
-      <PW_Rhyhorn>0.2500</PW_Rhyhorn>
+      <PW_Rhyhorn>0.1250</PW_Rhyhorn>
       <PW_Rhydon>0.0312</PW_Rhydon>
       <PW_Chansey>0.0031</PW_Chansey>
       <PW_Tangela>0.0125</PW_Tangela>
@@ -4644,7 +4644,7 @@
       <PW_Flaaffy>0.0125</PW_Flaaffy>
       <PW_Ampharos>0.0016</PW_Ampharos>
       <PW_Bellossom>0.0016</PW_Bellossom>
-      <PW_Marill>0.0500</PW_Marill>
+      <PW_Marill>0.0250</PW_Marill>
       <PW_Azumarill>0.0031</PW_Azumarill>
       <PW_Sudowoodo>0.0625</PW_Sudowoodo>
       <PW_Politoed>0.0016</PW_Politoed>
