@@ -174,7 +174,7 @@
       <PW_BonusBall>0.6</PW_BonusBall>
     </statBases> 
     <costList>
-      <WoodLog>35</WoodLog>
+      <WoodLog>45</WoodLog>
     </costList>        
     <recipeMaker>
       <recipeUsers>
@@ -218,7 +218,7 @@
     </verbs>
     <comps>
       <li Class="CompProperties_Reloadable">
-        <maxCharges>10</maxCharges>
+        <maxCharges>20</maxCharges>
         <destroyOnEmpty>true</destroyOnEmpty>
         <hotKey>Misc4</hotKey>
         <chargeNoun>charge</chargeNoun>

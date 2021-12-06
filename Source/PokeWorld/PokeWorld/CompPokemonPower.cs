@@ -12,10 +12,11 @@ namespace PokeWorld
     public class CompPokemonPower : CompPowerTrader
     {
         private float maxDistance = 7.5f;
-        public override void Initialize(CompProperties props)
+
+        public override void PostSpawnSetup(bool respawningAfterLoad)
         {
-            base.Initialize(props);
             PowerOn = true;
+            base.PostSpawnSetup(respawningAfterLoad);
         }
 
         public override void CompTick()
@@ -23,6 +24,10 @@ namespace PokeWorld
             base.CompTick();                        
             if(parent is Pawn pawn && pawn.Spawned && !pawn.Dead && pawn.Faction != null && pawn.Faction.IsPlayer)
             {
+                if (!PowerOn)
+                {
+                    PowerOn = true;
+                }
                 PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.basePowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);
                 if (PowerNet == null && connectParent == null)
                 {

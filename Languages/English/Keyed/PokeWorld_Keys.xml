@@ -56,6 +56,8 @@
   <PW_TextMoteCatchFailedAlreadyOwned>Failed!\nAlready owned!</PW_TextMoteCatchFailedAlreadyOwned>
   <PW_TextMoteCatchFailedDodged>Dodged!</PW_TextMoteCatchFailedDodged>
   <PW_TextMoteCatchFailedFainted>Failed!\nCan't catch a fainted Pokémon!</PW_TextMoteCatchFailedFainted>
+  <PW_TextMoteDownedChanceToDie>Chance to die: {0}</PW_TextMoteDownedChanceToDie>
+  <PW_MessagePokemonCatchDied>The {0} you attempted to catch died because it was too weak!</PW_MessagePokemonCatchDied>
 
   <PW_TabPokeballContents>Contents</PW_TabPokeballContents>
   <PW_ContainedPokemon>Contained Pokémon</PW_ContainedPokemon>

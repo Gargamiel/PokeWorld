@@ -320,6 +320,7 @@ namespace PokeWorld
             Scribe_Values.Look(ref tryCatchCooldown, "tryCatchCooldown", defaultValue: 0);
             Scribe_Values.Look(ref flagIsPokedexSeen, "flagIsPokedexSeen", defaultValue: false);
             Scribe_Values.Look(ref flagIsPokedexCaught, "flagIsPokedexCaught", defaultValue: false);
+            Scribe_Values.Look(ref tryCatchKillChanceIfDown, "tryCatchKillChanceIfDown", defaultValue: 0);
         }
 
         public override void PostDrawExtraSelectionOverlays()
@@ -414,6 +415,7 @@ namespace PokeWorld
         public bool? flagIsPokedexCaught;
 
         public int tryCatchCooldown = 0;
+        public float tryCatchKillChanceIfDown = 0;
     }
 
     public class CompProperties_Pokemon : CompProperties

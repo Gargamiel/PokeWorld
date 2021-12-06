@@ -32,14 +32,19 @@ namespace PokeWorld
 				if (pawn == targetPawn)
 				{
 					CompPokemon compPokemon = pawn.TryGetComp<CompPokemon>();													
-					if (pawn.AnimalOrWildMan() && (pawn.Faction == null || pawn.Faction == Find.FactionManager.AllFactions.Where((Faction f) => f.def.defName == "PW_HostilePokemon").First()) && compPokemon != null && !pawn.Downed && compPokemon.tryCatchCooldown <= 0)
+					if (pawn.AnimalOrWildMan() && (pawn.Faction == null || pawn.Faction == Find.FactionManager.AllFactions.Where((Faction f) => f.def.defName == "PW_HostilePokemon").First()) && compPokemon != null && compPokemon.tryCatchCooldown <= 0)
 					{
 						CompProperties_Pokeball compPokeballBelt = dinfo.Weapon.GetCompProperties<CompProperties_Pokeball>();
 						float catchRate = pawn.GetStatValue(DefDatabase<StatDef>.GetNamed("PW_CatchRate"));
 						if (catchRate > 0)
 						{
+							float bonusDowned = 1;
+							if (pawn.Downed)
+							{
+								bonusDowned = 1.5f;
+							}
 							float currentHealthPercent = pawn.health.summaryHealth.SummaryHealthPercent;
-							float aValue = (1 - ((2 / 3f) * currentHealthPercent)) * catchRate * bonusBall;
+							float aValue = (1 - ((2 / 3f) * currentHealthPercent)) * catchRate * bonusBall * bonusDowned;
 							float bValue = aValue / 255;
 							float rand = Rand.Range(0f, 1f);
 							if (bValue > rand)
@@ -68,10 +73,21 @@ namespace PokeWorld
 									instigator.skills.Learn(SkillDefOf.Animals, compPokemon.levelTracker.level * 10);
 								}
 								compPokemon.tryCatchCooldown = 120;
-								string text = "PW_TextMoteCatchFailed".Translate(bValue.ToStringPercent());
-								MoteMaker.ThrowText(pawn.DrawPos, pawn.Map, text, 8f);
-                                if (Rand.Chance(pawn.RaceProps.manhunterOnTameFailChance))
+								string text = "PW_TextMoteCatchFailed".Translate(bValue.ToStringPercent());								
+								if (pawn.Downed)
                                 {
+                                    if (Rand.Chance(compPokemon.tryCatchKillChanceIfDown))
+                                    {
+										pawn.Kill(dinfo);
+										Messages.Message("PW_MessagePokemonCatchDied".Translate(pawn.KindLabel), pawn.Corpse, MessageTypeDefOf.NegativeEvent);
+									}
+                                    else
+                                    {
+										compPokemon.tryCatchKillChanceIfDown += 0.05f;
+									}
+                                }								
+								else if (Rand.Chance(pawn.RaceProps.manhunterOnTameFailChance))
+								{
 									if (pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter))
 									{
 										string text2 = "AnimalManhunterFromTaming".Translate(pawn.Label, pawn.Named("PAWN")).AdjustedFor(pawn);
@@ -88,7 +104,7 @@ namespace PokeWorld
 													if (raceMates[i].mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter))
 													{
 														num++;
-													}												
+													}
 												}
 											}
 											if (num > 1)
@@ -101,11 +117,19 @@ namespace PokeWorld
 										string value = (pawn.RaceProps.Animal ? pawn.Label : pawn.def.label);
 										string str = "LetterLabelAnimalManhunterRevenge".Translate(value).CapitalizeFirst();
 										Find.LetterStack.ReceiveLetter(str, text2, (num == 1) ? LetterDefOf.ThreatSmall : LetterDefOf.ThreatBig, target);
-									}									
+									}
 								}
-                                else if(!pawn.mindState.mentalStateHandler.InMentalState && ((Find.TickManager.TicksGame - pawn.LastAttackTargetTick) > 600))
-                                {
+								else if (!pawn.mindState.mentalStateHandler.InMentalState && ((Find.TickManager.TicksGame - pawn.LastAttackTargetTick) > 600))
+								{
 									pawn.mindState.StartFleeingBecauseOfPawnAction(dinfo.Instigator);
+								}
+                                if (!pawn.Dead)
+                                {
+									if (pawn.Downed)
+									{
+										text += "\n" + "PW_TextMoteDownedChanceToDie".Translate(compPokemon.tryCatchKillChanceIfDown.ToStringPercent());
+									}
+									MoteMaker.ThrowText(pawn.DrawPos, pawn.Map, text, 8f);
 								}
 							}
 						}
@@ -135,11 +159,13 @@ namespace PokeWorld
 						string text = "PW_TextMoteCatchFailedAlreadyOwned".Translate();
 						MoteMaker.ThrowText(pawn.DrawPos, pawn.Map, text, 8f);
 					}
+					/*
 					else if (pawn.Downed)
 					{
 						string text = "PW_TextMoteCatchFailedFainted".Translate();
 						MoteMaker.ThrowText(pawn.DrawPos, pawn.Map, text, 8f);
 					}
+					*/
 					else if (compPokemon.tryCatchCooldown > 0)
 					{
 						string text = "PW_TextMoteCatchFailedDodged".Translate();
