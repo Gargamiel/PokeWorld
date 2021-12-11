@@ -15,7 +15,6 @@ namespace PokeWorld
 		{
 			if (billDoer != null)
 			{
-
 				float hpLeftToHeal = ingredients[0].TryGetComp<CompHealingItem>().healingAmount;
 				for (int i = 0; i < pawn.health.hediffSet.hediffs.Count; i++)
 				{

@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Recipe_HealPowder.cs" />
     <Compile Include="CompPokemonPower.cs" />
     <Compile Include="CompPokemonHeatPusher.cs" />
     <Compile Include="Harmony_Patching\PawnGroupKindWorker_Normal_GeneratePawns_Patch.cs" />

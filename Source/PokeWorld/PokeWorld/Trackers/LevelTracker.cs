@@ -249,8 +249,9 @@ namespace PokeWorld
             foreach (PawnKindDef evolutionKindDef in kindDefs)
             {
                 Pawn postEvoPokemon = PawnGenerator.GeneratePawn(evolutionKindDef, faction);
-                Copy(preEvoPokemon, postEvoPokemon);               
-                GenSpawn.Spawn(postEvoPokemon, pokemonHolder.Position, pokemonHolder.Map);
+                Copy(preEvoPokemon, postEvoPokemon);
+                postEvoPokemon.health.Reset();
+                GenSpawn.Spawn(postEvoPokemon, preEvoPokemon.Position, preEvoPokemon.Map);
                 if(faction == Faction.OfPlayer)
                 {
                     Find.World.GetComponent<PokedexManager>().AddPokemonKindCaught(postEvoPokemon.kindDef);
@@ -263,13 +264,24 @@ namespace PokeWorld
             if (preEvoPokemon.carryTracker != null && preEvoPokemon.carryTracker.CarriedThing != null)
             {
                 preEvoPokemon.carryTracker.TryDropCarriedThing(preEvoPokemon.Position, ThingPlaceMode.Near, out Thing carriedThing);
+            }         
+            if(preEvoPokemon.health.hediffSet != null)
+            {
+                foreach(Hediff hediff in preEvoPokemon.health.hediffSet.hediffs)
+                {
+                    if (hediff.def != null && hediff.def.countsAsAddedPartOrImplant)
+                    {
+                        BodyPartRecord part = hediff.Part;
+                        MedicalRecipesUtility.SpawnThingsFromHediffs(preEvoPokemon, part, preEvoPokemon.Position, preEvoPokemon.Map);
+                    }
+                }
             }
             for (int i = 0; i < 10; i++)
             {
-                FleckMaker.ThrowDustPuff(pokemonHolder.Position, pokemonHolder.Map, 2f);
+                FleckMaker.ThrowDustPuff(preEvoPokemon.Position, preEvoPokemon.Map, 2f);
             }
             preEvoPokemon.relations.ClearAllRelations();
-            pokemonHolder.Destroy();
+            preEvoPokemon.Destroy();
         }
 
         private void Copy(Pawn pokemon, Pawn evolution)
@@ -320,7 +332,6 @@ namespace PokeWorld
             evolution.ageTracker.AgeBiologicalTicks = pokemon.ageTracker.AgeBiologicalTicks;
             evolution.ageTracker.AgeChronologicalTicks = pokemon.ageTracker.AgeChronologicalTicks;
             evolution.ageTracker.BirthAbsTicks = pokemon.ageTracker.BirthAbsTicks;
-            evolution.health.Reset();
             foreach (TrainableDef td in DefDatabase<TrainableDef>.AllDefs)
             {
                 if (evolution.training.CanBeTrained(td))

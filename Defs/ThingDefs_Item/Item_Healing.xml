@@ -141,6 +141,7 @@
     <graphicData>
       <texPath>Things/Item/Healing/HealPowder</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <stackLimit>10</stackLimit>
     <statBases>
@@ -164,19 +165,6 @@
         <Intellectual>8</Intellectual>
       </skillRequirements>
     </recipeMaker>
-    <comps>
-      <li Class="CompProperties_Usable">
-        <useJob>UseItem</useJob>
-        <useLabel>Use healer mech serum</useLabel>
-        <useDuration>600</useDuration>
-      </li>
-      <li Class="CompProperties_UseEffect">
-        <compClass>CompUseEffect_FixWorstHealthCondition</compClass>
-      </li>
-      <li Class="CompProperties_UseEffect">
-        <compClass>CompUseEffect_DestroySelf</compClass>
-      </li>
-    </comps>
     <thingSetMakerTags>
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
@@ -299,7 +287,7 @@
     <defName>PW_AdministerHealPowder</defName>
     <label>administer Heal Powder</label>
     <description>Administer a Heal Powder.</description>
-    <workerClass>Recipe_AdministerUsableItem</workerClass>
+    <workerClass>Pokeworld.Recipe_HealPowder</workerClass>
     <jobString>Administering Heal Powder.</jobString>
     <targetsBodyPart>false</targetsBodyPart>
     <anesthetize>false</anesthetize>
