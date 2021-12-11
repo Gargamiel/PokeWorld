@@ -137,7 +137,7 @@
   <ThingDef ParentName="PW_PokemonSerumBase">
     <defName>PW_HealPowder</defName>
     <label>Heal Powder</label>
-    <description>A very bitter Pokémon medicine. When consumed, it heals the single worst health condition affecting a Pokémon at any given time. Works even on health conditions that would otherwise be incurable. The powder can even transmute itself into organic matter, forming new limbs or organs as needed.</description>
+    <description>A very bitter Pokémon medicine. When consumed, it heals the single worst health condition affecting a Pokémon at any given time. Works even on health conditions that would otherwise be incurable. The powder can even transmute itself into organic matter, forming new limbs or organs as needed. Be aware that Pokémon dislike the bitter taste and treating one with a Heal Powder will lower their friendship towards you.</description>
     <graphicData>
       <texPath>Things/Item/Healing/HealPowder</texPath>
       <graphicClass>Graphic_Single</graphicClass>
