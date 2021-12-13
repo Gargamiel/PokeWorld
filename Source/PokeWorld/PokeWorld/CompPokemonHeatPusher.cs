@@ -12,12 +12,12 @@ namespace PokeWorld
 	{
 		public override void CompTickRare()
 		{
-			if (parent != null && parent is Pawn && parent.Spawned && ShouldPushHeatNow)
+			if (parent != null && parent is Pawn pawn && pawn.Spawned && !pawn.Dead && ShouldPushHeatNow)
 			{
-				CompPokemon comp = parent.TryGetComp<CompPokemon>();
+				CompPokemon comp = pawn.TryGetComp<CompPokemon>();
 				if (comp != null)
 				{
-					GenTemperature.PushHeat(parent.PositionHeld, parent.MapHeld, Props.heatPerSecond * 4.16666651f * Mathf.Sqrt(comp.levelTracker.level) / 2);
+					GenTemperature.PushHeat(pawn.PositionHeld, pawn.MapHeld, Props.heatPerSecond * 4.16666651f * Mathf.Sqrt(comp.levelTracker.level) / 2);
 				}
 			}
 		}
