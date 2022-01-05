@@ -13,14 +13,14 @@ namespace PokeWorld
     {
         public PawnKindDef pawnKind;
         public EvolutionRequirement requirement;
-        public OtherEvolutionRequirement otherRequirement;
+        public OtherEvolutionRequirement otherRequirement = OtherEvolutionRequirement.none;
 
         public ThingDef item;            
 
-        public int level;                                
-        public int friendship;                           
-        public TimeOfDay timeOfDay;  
-        public Gender gender;    
+        public int level = 1;                                
+        public int friendship = 0;                           
+        public TimeOfDay timeOfDay = TimeOfDay.Any;  
+        public Gender gender = Gender.None;    
 
         public Evolution()
         {

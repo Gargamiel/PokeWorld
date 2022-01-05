@@ -20,6 +20,10 @@ namespace PokeWorld
         public static bool allowGen2 = true;
         public static bool allowGen3 = true;
         public static bool allowGen4 = true;
+        public static bool allowGen5 = true;
+        public static bool allowGen6 = true;
+        public static bool allowGen7 = true;
+        public static bool allowGen8 = true;
         public static bool allowPokemonInfestation = true;
         public static bool allowNPCPokemonPack = true;
         public static bool enableShinyMote = true;
@@ -32,6 +36,10 @@ namespace PokeWorld
             Scribe_Values.Look(ref allowGen2, "allowGen2", true);
             Scribe_Values.Look(ref allowGen3, "allowGen3", true);
             Scribe_Values.Look(ref allowGen4, "allowGen4", true);
+            Scribe_Values.Look(ref allowGen5, "allowGen5", true);
+            Scribe_Values.Look(ref allowGen6, "allowGen6", true);
+            Scribe_Values.Look(ref allowGen7, "allowGen7", true);
+            Scribe_Values.Look(ref allowGen8, "allowGen8", true);
             Scribe_Values.Look(ref allowPokemonInfestation, "allowPokemonInfestation", true);
             Scribe_Values.Look(ref allowNPCPokemonPack, "allowNPCPokemonPack", true);
             Scribe_Values.Look(ref enableShinyMote, "enableShinyMote", true);
@@ -62,6 +70,14 @@ namespace PokeWorld
                     return allowGen3;
                 case 4:
                     return allowGen4;
+                case 5:
+                    return allowGen5;
+                case 6:
+                    return allowGen6;
+                case 7:
+                    return allowGen7;
+                case 8:
+                    return allowGen8;
                 default:
                     return true;
             }
@@ -93,10 +109,13 @@ namespace PokeWorld
             listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(2), ref PokeWorldSettings.allowGen2);
             listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(3), ref PokeWorldSettings.allowGen3);
             listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(4), ref PokeWorldSettings.allowGen4);
+            listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(5), ref PokeWorldSettings.allowGen5);
+            listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(6), ref PokeWorldSettings.allowGen6);
+            listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(7), ref PokeWorldSettings.allowGen7);
+            listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(8), ref PokeWorldSettings.allowGen8);
             listingStandard.Label("PW_SettingsWarningGenAllowed".Translate());
-
             PokeWorldSettings.selectedPokemonFrequency = (float)Math.Round(PokeWorldSettings.selectedPokemonFrequency);
-            if(PokeWorldSettings.allowGen1 == false && PokeWorldSettings.allowGen2 == false && PokeWorldSettings.allowGen3 == false && PokeWorldSettings.allowGen4 == false)
+            if(!PokeWorldSettings.allowGen1 && !PokeWorldSettings.allowGen2  && !PokeWorldSettings.allowGen3 && !PokeWorldSettings.allowGen4 && !PokeWorldSettings.allowGen5 && !PokeWorldSettings.allowGen6 && !PokeWorldSettings.allowGen7 && !PokeWorldSettings.allowGen8)
             {
                 PokeWorldSettings.allowGen1 = true;
             }
