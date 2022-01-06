@@ -201,6 +201,11 @@ namespace PokeWorld
 		{
 			Autotests_PokemonColonyMaker.MakeColony(8);
 		}
+		[DebugAction("PokéWorld", "Make colony (All Pokémon)", false, false, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+		private static void MakeColonyAllPokemon()
+		{
+			Autotests_PokemonColonyMaker.MakeColonyAll();
+		}
 	}
 	public static class Autotests_PokemonColonyMaker
     {
@@ -255,6 +260,48 @@ namespace PokeWorld
 				{
 					GenSpawn.Spawn(item.RaceProps.meatDef, result.Cells.ElementAt(3), Map);
 				}
+			}
+			if (!TryGetFreeRect(33, 33, out var result2))
+			{
+				Log.Error("Could not get wallable rect");
+			}
+			result2 = result2.ContractedBy(1);
+			ClearAllHomeArea();
+			FillWithHomeArea(overRect);
+			DebugSettings.godMode = godMode;
+			Thing.allowDestroyNonDestroyable = false;
+		}
+		public static void MakeColonyAll()
+		{
+			bool godMode = DebugSettings.godMode;
+			DebugSettings.godMode = true;
+			Thing.allowDestroyNonDestroyable = true;
+			if (usedCells == null)
+			{
+				usedCells = new BoolGrid(Map);
+			}
+			else
+			{
+				usedCells.ClearAndResizeTo(Map);
+			}
+			overRect = new CellRect(Map.Center.x - 50, Map.Center.z - 50, 100, 100);
+			DeleteAllSpawnedPawns();
+			GenDebug.ClearArea(overRect, Find.CurrentMap);
+
+			foreach (PawnKindDef item in DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => k.RaceProps.Animal && k.race.HasComp(typeof(CompPokemon))))
+			{
+				if (!TryGetFreeRect(3, 3, out var result))
+				{
+					return;
+				}
+				result = result.ContractedBy(1);
+				foreach (IntVec3 item2 in result)
+				{
+					Map.terrainGrid.SetTerrain(item2, TerrainDefOf.Concrete);
+				}
+				Pawn pawn = PawnGenerator.GeneratePawn(item);
+				GenSpawn.Spawn(pawn, result.Cells.ElementAt(0), Map);
+				pawn.rotationTracker.FaceCell(result.BottomLeft);
 			}
 			if (!TryGetFreeRect(33, 33, out var result2))
 			{
