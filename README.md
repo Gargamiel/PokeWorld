@@ -4,6 +4,8 @@
 
 -GitHub repo containing the data and scripts to generate all 493 Pokémon defs: https://github.com/Gargamiel/PokeWorld_Scripts
 
+-Most of the Pokémon sprites, sounds, and other ressources come from this project: https://reliccastle.com/resources/670/
+
 # PokéWorld
 
 PokéWorld adds all 493 species of Pokémon from the first four generations to RimWorld, each with their own unique characteristics akin to the original games.
