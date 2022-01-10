@@ -20,6 +20,8 @@
     </skillRequirements>
   </RecipeDef>
 
+<!--====================Gen1=================-->
+
   <RecipeDef ParentName="PW_ResurrectPokemonFossil">
     <defName>PW_ResurrectHelixFossil</defName>
     <label>resurrect Helix Fossil</label>
@@ -109,6 +111,8 @@
     </products>
   </RecipeDef>
 
+<!--====================Gen3=================-->
+
   <RecipeDef ParentName="PW_ResurrectPokemonFossil">
     <defName>PW_ResurrectRootFossil</defName>
     <label>resurrect Root Fossil</label>
@@ -166,6 +170,8 @@
       <PW_Anorith>1</PW_Anorith>
     </products>
   </RecipeDef>
+
+<!--====================Gen4=================-->
 
   <RecipeDef ParentName="PW_ResurrectPokemonFossil">
     <defName>PW_ResurrectSkullFossil</defName>
@@ -253,6 +259,284 @@
     </defaultIngredientFilter>
     <products>
       <PW_Spiritomb>1</PW_Spiritomb>
+    </products>
+  </RecipeDef>
+
+<!--====================Gen5=================-->
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectCoverFossil</defName>
+    <label>resurrect Cover Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedCoverFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_CoverFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_CoverFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_CoverFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Tirtouga>1</PW_Tirtouga>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectPlumeFossil</defName>
+    <label>resurrect Plume Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedPlumeFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_PlumeFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_PlumeFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_PlumeFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Archen>1</PW_Archen>
+    </products>
+  </RecipeDef>
+
+<!--====================Gen6=================-->
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectJawFossil</defName>
+    <label>resurrect Jaw Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedJawFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_JawFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_JawFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_JawFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Tyrunt>1</PW_Tyrunt>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectSailFossil</defName>
+    <label>resurrect Sail Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedSailFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_SailFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_SailFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_SailFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Amaura>1</PW_Amaura>
+    </products>
+  </RecipeDef>
+
+<!--====================Gen8=================-->
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectDrakeBirdFossil</defName>
+    <label>combine Drake and Bird Fossils</label>
+    <unfinishedThingDef>PW_UnfinishedDrakeBirdFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_DrakeFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_BirdFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_DrakeFossil</li>
+        <li>PW_BirdFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_DrakeFossil</li>
+        <li>PW_BirdFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Dracozolt>1</PW_Dracozolt>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectDrakeFishFossil</defName>
+    <label>combine Drake and Fish Fossils</label>
+    <unfinishedThingDef>PW_UnfinishedDrakeFishFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_DrakeFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_FishFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_DrakeFossil</li>
+        <li>PW_FishFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_DrakeFossil</li>
+        <li>PW_FishFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Dracovish>1</PW_Dracovish>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectDinoBirdFossil</defName>
+    <label>combine Dino and Bird Fossils</label>
+    <unfinishedThingDef>PW_UnfinishedDinoBirdFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_DinoFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_BirdFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_DinoFossil</li>
+        <li>PW_BirdFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_DinoFossil</li>
+        <li>PW_BirdFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Arctozolt>1</PW_Arctozolt>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectDinoFishFossil</defName>
+    <label>combine Dino and Fish Fossils</label>
+    <unfinishedThingDef>PW_UnfinishedDinoFishFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_DinoFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_FishFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_DinoFossil</li>
+        <li>PW_FishFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_DinoFossil</li>
+        <li>PW_FishFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Arctovish>1</PW_Arctovish>
     </products>
   </RecipeDef>
 
