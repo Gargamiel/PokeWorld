@@ -54,7 +54,10 @@ namespace PokeWorld
                     Find.LetterStack.ReceiveLetter(letter);
                     flagLetter = false;
                 }
-                TryMakeShinyMote();
+                if (PokeWorldSettings.enableShinyMote)
+                {
+                    TryMakeShinyMote();
+                }                   
             }
         }
         public void TryMakeShinyMote()
