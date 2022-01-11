@@ -72,16 +72,16 @@ namespace PokeWorld
                     }
                     else
                     {
-                        float natureMultiplier = GetNatureMultiplier(comp, stat.defName);
+                        float natureMultiplier = GetNatureMultiplier(comp, stat);
                         val = (int)((((2 * val + IV + (EV / 4)) * level / 100) + 5) * natureMultiplier);
                     }
                 }
             }
         }
         
-        public float GetNatureMultiplier(CompPokemon comp, string statDefName)
+        public float GetNatureMultiplier(CompPokemon comp, StatDef stat)
         {
-            return comp.statTracker.nature.GetMultiplier(statDefName);
+            return comp.statTracker.nature.GetMultiplier(stat);
         }
         public override string GetExplanationUnfinalized(StatRequest req, ToStringNumberSense numberSense)
         {
@@ -106,7 +106,7 @@ namespace PokeWorld
                         stringBuilder.AppendLine("   " + "PW_StatEffortValue".Translate(comp.statTracker.GetEV(stat) / 4));
                         stringBuilder.AppendLine("   " + "PW_StatLevel".Translate(comp.levelTracker.level, (comp.levelTracker.level / 100f).ToStringPercent()).ToLower().CapitalizeFirst());
                         stringBuilder.AppendLine("   " + "PW_StatAdd".Translate(5));
-                        float natureMultiplier = GetNatureMultiplier(comp, stat.defName);
+                        float natureMultiplier = GetNatureMultiplier(comp, stat);
                         if (natureMultiplier != 1f)
                         {
                             stringBuilder.AppendLine("   " + "PW_StatNatureMultiplier".Translate(natureMultiplier.ToStringPercent()).ToLower().CapitalizeFirst());

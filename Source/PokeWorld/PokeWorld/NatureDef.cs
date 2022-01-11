@@ -14,15 +14,15 @@ namespace PokeWorld
         public StatDef decreasedStat;
         public float increaseMult = 1.1f;
         public float decreaseMult = 0.9f;
-        public float GetMultiplier(string statDefName)
+        public float GetMultiplier(StatDef stat)
         {
-            if(increasedStat != decreasedStat)
+            if(increasedStat != null && decreasedStat != null && increasedStat != decreasedStat)
             {
-                if (statDefName == increasedStat.defName)
+                if (stat == increasedStat)
                 {
                     return increaseMult;
                 }
-                else if (statDefName == decreasedStat.defName)
+                else if (stat == decreasedStat)
                 {
                     return decreaseMult;
                 }
