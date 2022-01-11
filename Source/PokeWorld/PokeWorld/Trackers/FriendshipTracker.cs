@@ -18,6 +18,7 @@ namespace PokeWorld
         public int baseFriendship;
         private const int minFriendship = 0;
         private const int maxFriendship = 255;
+        private const int mateFriendshipThreshold = 150;
         public bool flagMaxFriendshipMessage = false;
 
         public FriendshipTracker(CompPokemon comp)
@@ -86,6 +87,10 @@ namespace PokeWorld
             {
                 return false;
             }
+        }
+        public bool CanMate()
+        {
+            return friendship >= mateFriendshipThreshold;
         }
         public string GetStatement()
         {

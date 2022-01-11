@@ -16,7 +16,7 @@
   <PW_StatNatureNoChangeDesc>This Pokémon's stats aren't affected by his nature.</PW_StatNatureNoChangeDesc>
 
   <PW_EggGroup>Egg Group</PW_EggGroup>
-  <PW_StatEggGroupDesc>The Egg Group this Pokémon belongs to. If two Pokémon of opposite gender share the same Egg Group, they may breed together.</PW_StatEggGroupDesc>
+  <PW_StatEggGroupDesc>The Egg Group this Pokémon belongs to. If two happy Pokémon of opposite gender share the same Egg Group, they may breed together.</PW_StatEggGroupDesc>
   <PW_EggGroupLabelAndDesc>{0}: {1}</PW_EggGroupLabelAndDesc>
   <PW_StatUnknownEggGroup>Unknown</PW_StatUnknownEggGroup>
 

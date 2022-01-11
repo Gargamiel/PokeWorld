@@ -21,7 +21,7 @@ namespace PokeWorld
             {
 				return true;
             }
-			else if (__0.gender != Gender.Male && __0.TryGetComp<CompDittoEggLayer>() == null)
+			else if ((__0.gender != Gender.Male && __0.TryGetComp<CompDittoEggLayer>() == null) || !comp.friendshipTracker.CanMate())
 			{
 				__result = null;
 				return false;

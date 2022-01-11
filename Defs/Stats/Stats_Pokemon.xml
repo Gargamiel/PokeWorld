@@ -24,7 +24,7 @@
   <StatDef>
     <defName>PW_Friendship</defName>
     <label>Friendship</label>
-    <description>How much this Pokémon is attached to you and your colony. Certain species of Pokémon are able to evolve only when they are really happy.</description>
+    <description>How much this Pokémon is attached to you and your colony. Certain species of Pokémon are able to evolve only when they are really happy. Furthermore, two happy Pokémon sharing the same Egg Group may sometimes breed together.</description>
     <category>PW_PokeWorldStat</category>
     <workerClass>PokeWorld.StatWorker_PokemonFriendship</workerClass>
     <displayPriorityInCategory>4051</displayPriorityInCategory>
