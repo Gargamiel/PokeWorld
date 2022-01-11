@@ -25,7 +25,7 @@ namespace PokeWorld
 				}
 				else if(pawn.AnimalOrWildMan() && pawn.kindDef != PawnKindDefOf.WildMan)
                 {
-					value = pawn.kindDef.combatPower;
+					value = 2 * pawn.kindDef.combatPower;
                 }
                 else
                 {
@@ -45,7 +45,7 @@ namespace PokeWorld
             {
 				if (def.race.Animal && !def.HasComp(typeof(CompPokemon)))
 				{
-					value = def.race.AnyPawnKind.combatPower;
+					value = 2 * def.race.AnyPawnKind.combatPower;
 				}
 				else
 				{
@@ -68,7 +68,7 @@ namespace PokeWorld
 				}
 				else if (pawn.AnimalOrWildMan() && pawn.kindDef != PawnKindDefOf.WildMan)
 				{
-					stringBuilder.AppendLine("PW_StatXPYieldCombatPower".Translate((pawn.kindDef.combatPower / base.GetValueUnfinalized(StatRequest.For(req.BuildableDef, req.StuffDef))).ToStringPercent()));
+					stringBuilder.AppendLine("PW_StatXPYieldCombatPower".Translate((2 * pawn.kindDef.combatPower / base.GetValueUnfinalized(StatRequest.For(req.BuildableDef, req.StuffDef))).ToStringPercent()));
 				}
 				else
 				{				

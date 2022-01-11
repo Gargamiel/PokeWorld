@@ -30,11 +30,15 @@ namespace PokeWorld
         public override void PostPreApplyDamage(DamageInfo dinfo, out bool absorbed)
         {
             base.PostPreApplyDamage(dinfo, out absorbed);
-            expToGive = GetExperienceYield();
+            if(lastHitTime == -1)
+            {
+                expToGive = GetExperienceYield();
+            }       
         }        
         public override void PostPostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
         {
             base.PostPostApplyDamage(dinfo, totalDamageDealt);
+            lastHitTime = GenTicks.TicksAbs;
             Pawn pawn = parent as Pawn;
             if (dinfo.Instigator is Pawn instigator)
             {
@@ -46,8 +50,7 @@ namespace PokeWorld
                         if (!giveTo.Contains(instigator) && giveTo.Count < maxCount && instigator != parent)
                         {
                             giveTo.Add(instigator);
-                        }
-                        lastHitTime = GenTicks.TicksAbs;
+                        }                        
                     }
                 }
             }

@@ -13,7 +13,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[@Name="BasePawn"]/statBases</xpath>
     <value>
-      <PW_BaseXPYield>500</PW_BaseXPYield>
+      <PW_BaseXPYield>1000</PW_BaseXPYield>
     </value>
   </Operation> 
 
