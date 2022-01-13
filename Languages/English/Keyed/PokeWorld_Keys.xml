@@ -11,12 +11,12 @@
   <PW_CompPokemonEggHatcherLong>It looks like this Egg will take a long time to hatch.</PW_CompPokemonEggHatcherLong>
 
   <PW_Nature>Nature</PW_Nature>
-  <PW_StatNatureDesc>Determines this Pokémon's personality, and influence its growth.</PW_StatNatureDesc>
+  <PW_StatNatureDesc>Determines this Pokémon's personality, and influences its growth.</PW_StatNatureDesc>
   <PW_StatNatureChangeDesc>Increased stat (+10%): {0}\nDecreased stat (-10%): {1}</PW_StatNatureChangeDesc>
-  <PW_StatNatureNoChangeDesc>This Pokémon's stats aren't affected by his nature.</PW_StatNatureNoChangeDesc>
+  <PW_StatNatureNoChangeDesc>This Pokémon's stats aren't affected by its nature.</PW_StatNatureNoChangeDesc>
 
   <PW_EggGroup>Egg Group</PW_EggGroup>
-  <PW_StatEggGroupDesc>The Egg Group this Pokémon belongs to. If two happy Pokémon of opposite gender share the same Egg Group, they may breed together.</PW_StatEggGroupDesc>
+  <PW_StatEggGroupDesc>The Egg Group this Pokémon belongs to. If two happy Pokémon of opposite genders share the same Egg Group, they may breed together.</PW_StatEggGroupDesc>
   <PW_EggGroupLabelAndDesc>{0}: {1}</PW_EggGroupLabelAndDesc>
   <PW_StatUnknownEggGroup>Unknown</PW_StatUnknownEggGroup>
 
@@ -24,7 +24,7 @@
   <PW_TypeName>{0}: {1}</PW_TypeName>
   <PW_TypePrimary>Primary type</PW_TypePrimary>
   <PW_TypeSecondary>Secondary type</PW_TypeSecondary>
-  <PW_StatTypeDesc>The type of this Pokémon. The type of a Pokémon typically defines which types of damaging moves is super effective against it, which types of moves is not very effective against it, and which types of moves is completely ineffective against it. If the type of a move matches one of the types of the Pokémon using it, it gains a boost in power.</PW_StatTypeDesc>
+  <PW_StatTypeDesc>The type of this Pokémon. The type of a Pokémon typically defines which types of damaging moves is super effective against it, which types of damaging moves is not very effective against it, and which types of damaging moves is completely ineffective against it. If the type of a move matches one of the types of the Pokémon using it, it gains a boost in power.</PW_StatTypeDesc>
   <PW_StatUnknownType>Unknown</PW_StatUnknownType>
 
   <PW_DesignationPutInPokeball>Put in Poké Ball</PW_DesignationPutInPokeball>
@@ -36,13 +36,13 @@
   <PW_DesignationStoreInPCWarning>Must designate an owned Poké Ball</PW_DesignationStoreInPCWarning>
 
   <PW_IncidentBabyPokemon>Baby Pokémon join</PW_IncidentBabyPokemon>
-  <PW_IncidentBabyPokemonDesc>A baby {0}, abandoned or lost, has wandered into the area.\n\nIt seem accustomed to human contact and is joining your colony.</PW_IncidentBabyPokemonDesc>
+  <PW_IncidentBabyPokemonDesc>A baby {0}, abandoned or lost, has wandered into the area.\n\nIt seems accustomed to human contact and is joining your colony.</PW_IncidentBabyPokemonDesc>
 
   <PW_SettingsWildPokemonFrequency>Wild Pokémon frequency:</PW_SettingsWildPokemonFrequency>
-  <PW_SettingsWildPokemonFrequencyDesc>The percentage of Pokémon found in the wild over other creatures, such as vanilla Rimworld animals and other modded creatures.\nThis settings affects wild creatures spawn, creatures in incidents, and those sold by traders (Can be changed anytime).\nNote: This setting may not work properly when playing with other mods featuring new animals and animal related events.</PW_SettingsWildPokemonFrequencyDesc>
+  <PW_SettingsWildPokemonFrequencyDesc>The percentage of Pokémon found in the wild over other creatures, such as vanilla Rimworld animals and other modded creatures.\nThis setting affects wild creatures spawn, creatures in incidents, and those sold by traders (Can be changed anytime).\nNote: This setting may not work properly when playing with other mods featuring new animals and animal related events.</PW_SettingsWildPokemonFrequencyDesc>
   <PW_SettingsNoPokemon>No Pokémon</PW_SettingsNoPokemon>
   <PW_SettingsOnlyPokemon>Only Pokémon</PW_SettingsOnlyPokemon>
-  <PW_SettingsWarningGenAllowed>Note: You may on rare occasions encounter Pokémon from unselected generations, especially when playing with other mods featuring new animal related events.</PW_SettingsWarningGenAllowed>
+  <PW_SettingsWarningGenAllowed>Note: You may, on rare occasions, encounter Pokémon from unselected generations, especially when playing with other mods featuring new animal related events.</PW_SettingsWarningGenAllowed>
   <PW_SettingsAllowPokemonInfestation>Allow Pokémon infestations:</PW_SettingsAllowPokemonInfestation>
   <PW_SettingsAllowNPCPokemonPack>Allow NPC trade caravans to have Pokémon as pack:</PW_SettingsAllowNPCPokemonPack>
   <PW_SettingsAllowGeneration>Allow Gen. {0} Pokémon:</PW_SettingsAllowGeneration>
@@ -118,9 +118,9 @@
   <PW_StatXPYieldMeleeDPS>Melee DPS: +{0}</PW_StatXPYieldMeleeDPS>
 
   <PW_StorageSystemContainedPokemon>Contained Pokémon ({0}/{1})</PW_StorageSystemContainedPokemon>
-  <PW_StorageSystemOrderByNumber>Order by Pokedex number:</PW_StorageSystemOrderByNumber>
-  <PW_StorageSystemOrderByName>Order by Pokemon name:</PW_StorageSystemOrderByName>
-  <PW_StorageSystemOrderByLevel>Order by Pokemon level:</PW_StorageSystemOrderByLevel>
+  <PW_StorageSystemOrderByNumber>Order by Pokédex number:</PW_StorageSystemOrderByNumber>
+  <PW_StorageSystemOrderByName>Order by Pokémon name:</PW_StorageSystemOrderByName>
+  <PW_StorageSystemOrderByLevel>Order by Pokémon level:</PW_StorageSystemOrderByLevel>
   <PW_StorageSystemPCNotPowered>The PC isn't powered!</PW_StorageSystemPCNotPowered>
   <PW_TabPCContents>Contents</PW_TabPCContents>
 
@@ -141,14 +141,14 @@
   <PW_FriendshipStatementMean>{0} looks mean.</PW_FriendshipStatementMean>
   
   <PW_TakeBackEverstone>Take back Everstone</PW_TakeBackEverstone>
-  <PW_TakeBackEverstoneDesc>Allows the Pokémon to evolve naturally by taking back his Everstone</PW_TakeBackEverstoneDesc>
+  <PW_TakeBackEverstoneDesc>Allows the Pokémon to evolve naturally by taking back its Everstone</PW_TakeBackEverstoneDesc>
   <PW_GiveEverstone>Give Everstone</PW_GiveEverstone>
-  <PW_GiveEverstoneDesc>Prevent the Pokémon from evolving by giving him an Everstone</PW_GiveEverstoneDesc>
+  <PW_GiveEverstoneDesc>Prevent the Pokémon from evolving by giving it an Everstone</PW_GiveEverstoneDesc>
   <PW_StopEvolution>Stop evolution</PW_StopEvolution>
-  <PW_StopEvolutionDesc>Scare the Pokémon to prevent him from evolving</PW_StopEvolutionDesc>
+  <PW_StopEvolutionDesc>Scare the Pokémon to prevent it from evolving</PW_StopEvolutionDesc>
   <PW_LevelIncrease>↑Level {0}</PW_LevelIncrease>
   <PW_MessageLevelIncrease>{0} has reached level {1}!</PW_MessageLevelIncrease>
-  <PW_MessageEverstonePreventsEvolution>{0} tries to evolve, but his Everstone prevents him!</PW_MessageEverstonePreventsEvolution>
+  <PW_MessageEverstonePreventsEvolution>{0} tried to evolve, but was prevented by its Everstone!</PW_MessageEverstonePreventsEvolution>
   <PW_MessageEvolving>{0} is evolving!</PW_MessageEvolving>
   <PW_MessageStoppedEvolving>{0} stopped evolving!</PW_MessageStoppedEvolving>
   <PW_MessageScaredStoppedEvolving>{0} was scared and stopped evolving!</PW_MessageScaredStoppedEvolving>
@@ -157,7 +157,7 @@
   <PW_ShinyPokemonLetterDesc>A rare Pokémon has entered the area! It shines with a peculiar color.\n\nYou should try to catch it before it leaves.</PW_ShinyPokemonLetterDesc>
 
   <PW_MalevolentTVLetterLabel>Malevolent TV</PW_MalevolentTVLetterLabel>
-  <PW_MalevolentTVLetterText>While watching the megascreen television, {0} sense an oddly malevolent feeling coming from it.....\n\nAlmost as if it's staring.....</PW_MalevolentTVLetterText>
+  <PW_MalevolentTVLetterText>While watching the megascreen television, {0} senses an oddly malevolent feeling coming from it.....\n\nAlmost as if it's staring.....</PW_MalevolentTVLetterText>
 
   <PW_WildRotomLetterLabel>Wild Rotom</PW_WildRotomLetterLabel>
   <PW_WildRotomLetterText>It looks like there's a Pokemon in the TV!\n\nA wild Rotom has appeared!</PW_WildRotomLetterText>
@@ -178,9 +178,9 @@
   <PW_InspectLevelExperienceNonPlayerPokemon>Lv.{0}</PW_InspectLevelExperienceNonPlayerPokemon>
 
   <PW_Evolution>Evolution</PW_Evolution>
-  <PW_StatEvolutionDesc>Evolution is a process in which a Pokémon changes into a different species of Pokémon.\n\nEvolution is not a merely visual change, as Pokémon of a higher evolutionary stage have different stats, can learn different moves, and sometimes change types. Most Pokémon evolve once they reach a certain level or when exposed to an item. Others need particular conditions to evolve, such as beeing happy or at specific time of the day.</PW_StatEvolutionDesc>
+  <PW_StatEvolutionDesc>Evolution is a process in which a Pokémon changes into a different species of Pokémon.\n\nEvolution is not merely a visual change, as Pokémon of a higher evolutionary stage have different stats, can learn different moves, and sometimes change types. Most Pokémon evolve once they reach a certain level or when exposed to an item. Others need particular conditions to evolve, such as beeing happy or levelling up at a specific time of the day.</PW_StatEvolutionDesc>
   <PW_StatUnknownEvolution>Unknown</PW_StatUnknownEvolution>
-  <PW_StatCatchPokemonToLearnMore>You need to catch this Pokémon to learn more about his species.</PW_StatCatchPokemonToLearnMore>
+  <PW_StatCatchPokemonToLearnMore>You need to catch this Pokémon to learn more about its species.</PW_StatCatchPokemonToLearnMore>
   <PW_StatNoEvolution>None</PW_StatNoEvolution>  
   <PW_CannotEvolve>This Pokémon cannot evolve</PW_CannotEvolve>
 
