@@ -81,7 +81,14 @@ namespace PokeWorld
         
         public float GetNatureMultiplier(CompPokemon comp, StatDef stat)
         {
-            return comp.statTracker.nature.GetMultiplier(stat);
+            try //Huge modelist sometimes cause unknown issue with nature save, see github issue
+            {
+                return comp.statTracker.nature.GetMultiplier(stat);
+            }
+            catch
+            {
+                return 1;
+            }
         }
         public override string GetExplanationUnfinalized(StatRequest req, ToStringNumberSense numberSense)
         {
