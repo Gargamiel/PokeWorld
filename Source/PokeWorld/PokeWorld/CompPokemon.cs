@@ -93,7 +93,7 @@ namespace PokeWorld
 
         public override IEnumerable<StatDrawEntry> SpecialDisplayStats()
         {
-            if (parent.Faction != null && parent.Faction == Faction.OfPlayer)
+            if (parent.Faction != null && parent.Faction == Faction.OfPlayer && statTracker.nature != null)
             {
                 NatureDef nature = statTracker.nature;
                 string natureLabel = nature.label;

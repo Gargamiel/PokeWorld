@@ -81,11 +81,11 @@ namespace PokeWorld
         
         public float GetNatureMultiplier(CompPokemon comp, StatDef stat)
         {
-            try //Huge modelist sometimes cause unknown issue with nature save, see github issue
+            if(comp.statTracker.nature != null) //Huge modelist sometimes cause unknown issue with nature save, see github issue
             {
                 return comp.statTracker.nature.GetMultiplier(stat);
             }
-            catch
+            else
             {
                 return 1;
             }

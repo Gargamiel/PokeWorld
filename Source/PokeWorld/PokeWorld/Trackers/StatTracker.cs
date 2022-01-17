@@ -57,7 +57,7 @@ namespace PokeWorld
         {
             this.comp = comp;
             pokemonHolder = comp.Pokemon;
-            nature = DefDatabase<NatureDef>.GetRandom();
+            nature = DefDatabase<NatureDef>.AllDefs.RandomElement();
             RandomizeIV();
             SetAllEVZero();
         }
@@ -247,6 +247,13 @@ namespace PokeWorld
 
             Scribe_Values.Look(ref healthScaleMult, "PW_healthScaleMult", 1);
             Scribe_Defs.Look(ref nature, "PW_nature");
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            {
+                if (nature == null)
+                {
+                    nature = DefDatabase<NatureDef>.AllDefs.RandomElement();
+                }
+            }
         }
     }
 }
