@@ -23423,7 +23423,7 @@
       </li>
       <li Class="CompProperties_Power">
         <compClass>PokeWorld.CompPokemonPower</compClass>
-        <basePowerConsumption>-72.50</basePowerConsumption>
+        <basePowerConsumption>-217.50</basePowerConsumption>
       </li>
     </comps>
     <statBases>
@@ -39719,7 +39719,7 @@
       </li>
       <li Class="CompProperties_Power">
         <compClass>PokeWorld.CompPokemonPower</compClass>
-        <basePowerConsumption>-72.50</basePowerConsumption>
+        <basePowerConsumption>-217.50</basePowerConsumption>
       </li>
     </comps>
     <statBases>
