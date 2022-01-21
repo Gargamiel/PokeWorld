@@ -19934,8 +19934,8 @@
         <baseFriendship>50</baseFriendship>
         <femaleRatio>1</femaleRatio>
         <expCategory>MediumFast</expCategory>
-        <wildLevelMin>18</wildLevelMin>
-        <wildLevelMax>30</wildLevelMax>
+        <wildLevelMin>30</wildLevelMin>
+        <wildLevelMax>35</wildLevelMax>
         <eggGroups>
           <li>HumanLike</li>
         </eggGroups>
@@ -19996,7 +19996,7 @@
       <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.50</manhunterOnTameFailChance>
       <nuzzleMtbHours>12</nuzzleMtbHours>
-      <lifeExpectancy>30</lifeExpectancy>
+      <lifeExpectancy>35</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalAdult</def>
@@ -20029,7 +20029,7 @@
     <label>Jynx</label>
     <labelPlural>Jynx</labelPlural>
     <race>PW_Jynx</race>
-    <combatPower>198</combatPower>
+    <combatPower>264</combatPower>
     <ecoSystemWeight>1.12</ecoSystemWeight>
     <lifeStages>
       <li>
@@ -20115,8 +20115,8 @@
         <baseFriendship>50</baseFriendship>
         <femaleRatio>0.25</femaleRatio>
         <expCategory>MediumFast</expCategory>
-        <wildLevelMin>18</wildLevelMin>
-        <wildLevelMax>30</wildLevelMax>
+        <wildLevelMin>30</wildLevelMin>
+        <wildLevelMax>35</wildLevelMax>
         <eggGroups>
           <li>HumanLike</li>
         </eggGroups>
@@ -20176,7 +20176,7 @@
       <manhunterOnDamageChance>0.40</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
       <nuzzleMtbHours>12</nuzzleMtbHours>
-      <lifeExpectancy>30</lifeExpectancy>
+      <lifeExpectancy>35</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalAdult</def>
@@ -20210,7 +20210,7 @@
     <label>Electabuzz</label>
     <labelPlural>Electabuzz</labelPlural>
     <race>PW_Electabuzz</race>
-    <combatPower>213</combatPower>
+    <combatPower>285</combatPower>
     <ecoSystemWeight>0.88</ecoSystemWeight>
     <lifeStages>
       <li>
@@ -20288,8 +20288,8 @@
         <baseFriendship>50</baseFriendship>
         <femaleRatio>0.25</femaleRatio>
         <expCategory>MediumFast</expCategory>
-        <wildLevelMin>18</wildLevelMin>
-        <wildLevelMax>30</wildLevelMax>
+        <wildLevelMin>30</wildLevelMin>
+        <wildLevelMax>35</wildLevelMax>
         <eggGroups>
           <li>HumanLike</li>
         </eggGroups>
@@ -20350,7 +20350,7 @@
       <manhunterOnDamageChance>0.40</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
       <nuzzleMtbHours>12</nuzzleMtbHours>
-      <lifeExpectancy>30</lifeExpectancy>
+      <lifeExpectancy>35</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalAdult</def>
@@ -20384,7 +20384,7 @@
     <label>Magmar</label>
     <labelPlural>Magmar</labelPlural>
     <race>PW_Magmar</race>
-    <combatPower>216</combatPower>
+    <combatPower>288</combatPower>
     <ecoSystemWeight>1.04</ecoSystemWeight>
     <lifeStages>
       <li>
