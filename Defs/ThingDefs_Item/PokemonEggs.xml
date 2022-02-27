@@ -5042,7 +5042,7 @@
   </ThingDef>
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMinior</defName>
-    <tradeability>Buyable</tradeability>
+    <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
@@ -5102,7 +5102,7 @@
   </ThingDef>
   <ThingDef ParentName="PokemonEggBase">
     <defName>PW_EggMimikyu</defName>
-    <tradeability>Buyable</tradeability>
+    <tradeability>None</tradeability>
     <comps>
       <li Class="PokeWorld.CompProperties_PokemonEggHatcher">
         <hatcherDaystoHatch>13</hatcherDaystoHatch>
