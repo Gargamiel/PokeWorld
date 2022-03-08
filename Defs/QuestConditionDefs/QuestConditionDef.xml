@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf8'?>
 <Defs>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Articuno</defName>
-  	<questScriptDef>PW_Script_Articuno</questScriptDef>
-  	<generationsRequirements>
-  	  <li>
-  		  <generation>1</generation>
-  		  <minNoLegCaught>73</minNoLegCaught>
-  	  </li>
-  	</generationsRequirements>
-  	<requiredKindCaught>
-  	  <li>PW_Blastoise</li>
+    <questScriptDef>PW_Script_Articuno</questScriptDef>
+    <generationsRequirements>
+      <li>
+        <generation>1</generation>
+        <minNoLegCaught>73</minNoLegCaught>
+      </li>
+    </generationsRequirements>
+    <requiredKindCaught>
+      <li>PW_Blastoise</li>
       <li>PW_Dewgong</li>
       <li>PW_Cloyster</li>
       <li>PW_Lapras</li>
       <li>PW_Jynx</li>
-      <li>PW_Vaporeon</li>   	 	  
-  	</requiredKindCaught>
+      <li>PW_Vaporeon</li>
+    </requiredKindCaught>
     <requiredCaughtMinCount>3</requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Zapdos</defName>
     <questScriptDef>PW_Script_Zapdos</questScriptDef>
@@ -35,11 +33,10 @@
       <li>PW_Magneton</li>
       <li>PW_Electrode</li>
       <li>PW_Electabuzz</li>
-      <li>PW_Jolteon</li>        
+      <li>PW_Jolteon</li>
     </requiredKindCaught>
     <requiredCaughtMinCount>3</requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Moltres</defName>
     <questScriptDef>PW_Script_Moltres</questScriptDef>
@@ -55,11 +52,10 @@
       <li>PW_Arcanine</li>
       <li>PW_Rapidash</li>
       <li>PW_Magmar</li>
-      <li>PW_Flareon</li>        
+      <li>PW_Flareon</li>
     </requiredKindCaught>
     <requiredCaughtMinCount>3</requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Mewtwo</defName>
     <questScriptDef>PW_Script_Mewtwo</questScriptDef>
@@ -75,7 +71,6 @@
       <li>PW_Moltres</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Mew</defName>
     <questScriptDef>PW_Script_Mew</questScriptDef>
@@ -92,9 +87,6 @@
       <li>PW_Mewtwo</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
-  <!-- ===================================== -->
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Raikou</defName>
     <questScriptDef>PW_Script_Raikou</questScriptDef>
@@ -105,14 +97,13 @@
       </li>
     </generationsRequirements>
     <requiredKindCaught>
-      <li>PW_Lanturn</li> 
-      <li>PW_Pichu</li> 
-      <li>PW_Ampharos</li> 
-      <li>PW_Elekid</li>      
+      <li>PW_Lanturn</li>
+      <li>PW_Pichu</li>
+      <li>PW_Ampharos</li>
+      <li>PW_Elekid</li>
     </requiredKindCaught>
     <requiredCaughtMinCount>3</requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Entei</defName>
     <questScriptDef>PW_Script_Entei</questScriptDef>
@@ -124,13 +115,12 @@
     </generationsRequirements>
     <requiredKindCaught>
       <li>PW_Typhlosion</li>
-      <li>PW_Magby</li>   
+      <li>PW_Magby</li>
       <li>PW_Houndoom</li>
-      <li>PW_Magcargo</li>   
+      <li>PW_Magcargo</li>
     </requiredKindCaught>
     <requiredCaughtMinCount>3</requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Suicune</defName>
     <questScriptDef>PW_Script_Suicune</questScriptDef>
@@ -142,13 +132,12 @@
     </generationsRequirements>
     <requiredKindCaught>
       <li>PW_Feraligatr</li>
-      <li>PW_Azumarill</li> 
-      <li>PW_Quagsire</li>    
-      <li>PW_Mantine</li>    
+      <li>PW_Azumarill</li>
+      <li>PW_Quagsire</li>
+      <li>PW_Mantine</li>
     </requiredKindCaught>
     <requiredCaughtMinCount>3</requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Lugia</defName>
     <questScriptDef>PW_Script_Lugia</questScriptDef>
@@ -164,7 +153,6 @@
       <li>PW_Suicune</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_HoOh</defName>
     <questScriptDef>PW_Script_HoOh</questScriptDef>
@@ -180,7 +168,6 @@
       <li>PW_Suicune</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Celebi</defName>
     <questScriptDef>PW_Script_Celebi</questScriptDef>
@@ -198,9 +185,6 @@
       <li>PW_HoOh</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
-  <!-- ============================= -->
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Regirock</defName>
     <questScriptDef>PW_Script_Regirock</questScriptDef>
@@ -210,11 +194,7 @@
         <minNoLegCaught>63</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindCaught>     
-    </requiredKindCaught>
-    <requiredCaughtMinCount></requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Regice</defName>
     <questScriptDef>PW_Script_Regice</questScriptDef>
@@ -224,12 +204,7 @@
         <minNoLegCaught>63</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredSeenMinCount></requiredSeenMinCount>
-    <requiredKindCaught> 
-    </requiredKindCaught>
-    <requiredCaughtMinCount></requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Registeel</defName>
     <questScriptDef>PW_Script_Registeel</questScriptDef>
@@ -239,11 +214,7 @@
         <minNoLegCaught>63</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindCaught>   
-    </requiredKindCaught>
-    <requiredCaughtMinCount></requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Latias</defName>
     <questScriptDef>PW_Script_Latias</questScriptDef>
@@ -253,10 +224,7 @@
         <minNoLegCaught>75</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindSeen>
-    </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Latios</defName>
     <questScriptDef>PW_Script_Latios</questScriptDef>
@@ -266,10 +234,7 @@
         <minNoLegCaught>75</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindSeen>
-    </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Kyogre</defName>
     <questScriptDef>PW_Script_Kyogre</questScriptDef>
@@ -286,7 +251,6 @@
       <li>PW_Latios</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Groudon</defName>
     <questScriptDef>PW_Script_Groudon</questScriptDef>
@@ -303,7 +267,6 @@
       <li>PW_Latias</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Rayquaza</defName>
     <questScriptDef>PW_Script_Rayquaza</questScriptDef>
@@ -323,7 +286,6 @@
       <li>PW_Groudon</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Jirachi</defName>
     <questScriptDef>PW_Script_Jirachi</questScriptDef>
@@ -345,7 +307,6 @@
       <li>PW_Deoxys</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Deoxys</defName>
     <questScriptDef>PW_Script_Deoxys</questScriptDef>
@@ -355,12 +316,7 @@
         <minNoLegCaught>113</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindSeen>
-    </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
-  <!-- ==================================-->
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Uxie</defName>
     <questScriptDef>PW_Script_Uxie</questScriptDef>
@@ -370,11 +326,7 @@
         <minNoLegCaught>47</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindCaught>     
-    </requiredKindCaught>
-    <requiredCaughtMinCount></requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Mesprit</defName>
     <questScriptDef>PW_Script_Mesprit</questScriptDef>
@@ -384,12 +336,7 @@
         <minNoLegCaught>47</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredSeenMinCount></requiredSeenMinCount>
-    <requiredKindCaught> 
-    </requiredKindCaught>
-    <requiredCaughtMinCount></requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Azelf</defName>
     <questScriptDef>PW_Script_Azelf</questScriptDef>
@@ -399,11 +346,7 @@
         <minNoLegCaught>47</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindCaught>   
-    </requiredKindCaught>
-    <requiredCaughtMinCount></requiredCaughtMinCount>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Dialga</defName>
     <questScriptDef>PW_Script_Dialga</questScriptDef>
@@ -419,7 +362,6 @@
       <li>PW_Azelf</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Palkia</defName>
     <questScriptDef>PW_Script_Palkia</questScriptDef>
@@ -435,7 +377,6 @@
       <li>PW_Azelf</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Heatran</defName>
     <questScriptDef>PW_Script_Heatran</questScriptDef>
@@ -445,10 +386,7 @@
         <minNoLegCaught>56</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindSeen>
-    </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Regigigas</defName>
     <questScriptDef>PW_Script_Regigigas</questScriptDef>
@@ -464,7 +402,6 @@
       <li>PW_Registeel</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Giratina</defName>
     <questScriptDef>PW_Script_Giratina</questScriptDef>
@@ -482,7 +419,6 @@
       <li>PW_Palkia</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Cresselia</defName>
     <questScriptDef>PW_Script_Cresselia</questScriptDef>
@@ -492,10 +428,7 @@
         <minNoLegCaught>66</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindSeen>
-    </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Manaphy</defName>
     <questScriptDef>PW_Script_Manaphy</questScriptDef>
@@ -505,10 +438,7 @@
         <minNoLegCaught>84</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindSeen>
-    </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Darkrai</defName>
     <questScriptDef>PW_Script_Darkrai</questScriptDef>
@@ -518,10 +448,7 @@
         <minNoLegCaught>66</minNoLegCaught>
       </li>
     </generationsRequirements>
-    <requiredKindSeen>
-    </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Shaymin</defName>
     <questScriptDef>PW_Script_Shaymin</questScriptDef>
@@ -546,7 +473,6 @@
       <li>PW_Darkrai</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
   <PokeWorld.QuestConditionDef>
     <defName>QuestCondition_Arceus</defName>
     <questScriptDef>PW_Script_Arceus</questScriptDef>
@@ -605,5 +531,4 @@
       <li>PW_Shaymin</li>
     </requiredKindSeen>
   </PokeWorld.QuestConditionDef>
-
 </Defs>
