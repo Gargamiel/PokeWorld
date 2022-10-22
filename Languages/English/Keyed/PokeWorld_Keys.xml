@@ -39,7 +39,7 @@
   <PW_IncidentBabyPokemonDesc>A baby {0}, abandoned or lost, has wandered into the area.\n\nIt seems accustomed to human contact and is joining your colony.</PW_IncidentBabyPokemonDesc>
 
   <PW_SettingsWildPokemonFrequency>Wild Pokémon frequency:</PW_SettingsWildPokemonFrequency>
-  <PW_SettingsWildPokemonFrequencyDesc>The percentage of Pokémon found in the wild over other creatures, such as vanilla Rimworld animals and other modded creatures.\nThis setting affects wild creatures spawn, creatures in incidents, and those sold by traders (Can be changed anytime).\nNote: This setting may not work properly when playing with other mods featuring new animals and animal related events.</PW_SettingsWildPokemonFrequencyDesc>
+  <PW_SettingsWildPokemonFrequencyDesc>The percentage of Pokémon found in the wild (from 0% to 100%) over other creatures, such as vanilla Rimworld animals and other modded creatures.\nThis setting affects wild creatures spawn, creatures in incidents, and those sold by traders (Can be changed anytime).\nNote: This setting may not work properly when playing with other mods featuring new animals and animal related events.</PW_SettingsWildPokemonFrequencyDesc>
   <PW_SettingsNoPokemon>No Pokémon</PW_SettingsNoPokemon>
   <PW_SettingsOnlyPokemon>Only Pokémon</PW_SettingsOnlyPokemon>
   <PW_SettingsWarningGenAllowed>Note: You may, on rare occasions, encounter Pokémon from unselected generations, especially when playing with other mods featuring new animal related events.</PW_SettingsWarningGenAllowed>

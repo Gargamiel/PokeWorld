@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using RimWorld;
 using Verse;
 using UnityEngine;
-using SettingsHelper;
 
 namespace PokeWorld
 {
@@ -80,20 +79,20 @@ namespace PokeWorld
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            Listing_Standard listingStandard = ListingStandardHelper.BeginListingStandard(inRect);  
-
-            ListingStandardHelper.AddLabeledSlider(listingStandard, "PW_SettingsWildPokemonFrequency".Translate(), ref PokeWorldSettings.selectedPokemonFrequency, PokeWorldSettings.minFrequency, PokeWorldSettings.maxFrequency, "PW_SettingsNoPokemon".Translate(), "PW_SettingsOnlyPokemon".Translate());
+            Listing_Standard listingStandard = new Listing_Standard();
+            listingStandard.Begin(inRect);
+            PokeWorldSettings.selectedPokemonFrequency = listingStandard.SliderLabeled("PW_SettingsWildPokemonFrequency".Translate(), PokeWorldSettings.selectedPokemonFrequency, PokeWorldSettings.minFrequency, PokeWorldSettings.maxFrequency);
             listingStandard.Label("PW_SettingsWildPokemonFrequencyDesc".Translate());
-            ListingStandardHelper.AddHorizontalLine(listingStandard);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowPokemonInfestation".Translate(), ref PokeWorldSettings.allowPokemonInfestation);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowNPCPokemonPack".Translate(), ref PokeWorldSettings.allowNPCPokemonPack);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsEnableShinyMote".Translate(), ref PokeWorldSettings.enableShinyMote);
-            //ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowPokemonInRaid".Translate(), ref PokeWorldSettings.allowPokemonInRaid);
-            ListingStandardHelper.AddHorizontalLine(listingStandard);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(1), ref PokeWorldSettings.allowGen1);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(2), ref PokeWorldSettings.allowGen2);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(3), ref PokeWorldSettings.allowGen3);
-            ListingStandardHelper.AddLabeledCheckbox(listingStandard, "PW_SettingsAllowGeneration".Translate(4), ref PokeWorldSettings.allowGen4);
+            listingStandard.GapLine();
+            listingStandard.CheckboxLabeled("PW_SettingsAllowPokemonInfestation".Translate(), ref PokeWorldSettings.allowPokemonInfestation);
+            listingStandard.CheckboxLabeled("PW_SettingsAllowNPCPokemonPack".Translate(), ref PokeWorldSettings.allowNPCPokemonPack);
+            listingStandard.CheckboxLabeled("PW_SettingsEnableShinyMote".Translate(), ref PokeWorldSettings.enableShinyMote);
+            //listingStandard.CheckboxLabeled("PW_SettingsAllowPokemonInRaid".Translate(), ref PokeWorldSettings.allowPokemonInRaid);
+            listingStandard.GapLine();
+            listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(1), ref PokeWorldSettings.allowGen1);
+            listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(2), ref PokeWorldSettings.allowGen2);
+            listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(3), ref PokeWorldSettings.allowGen3);
+            listingStandard.CheckboxLabeled("PW_SettingsAllowGeneration".Translate(4), ref PokeWorldSettings.allowGen4);
             listingStandard.Label("PW_SettingsWarningGenAllowed".Translate());
 
             PokeWorldSettings.selectedPokemonFrequency = (float)Math.Round(PokeWorldSettings.selectedPokemonFrequency);
