@@ -13,7 +13,7 @@ namespace PokeWorld
 	public class PokemonMoveProjectile : Projectile
 	{
 		protected MoveDef moveDef;
-		protected override void Impact(Thing hitThing)
+		protected override void Impact(Thing hitThing, bool blockedByShield = false)
 		{
 			Map map = base.Map;
 			IntVec3 position = base.Position;
@@ -29,7 +29,7 @@ namespace PokeWorld
 				Pawn pawn = hitThing as Pawn;
 				if (pawn != null && pawn.stances != null && pawn.BodySize <= def.projectile.StoppingPower + 0.001f)
 				{
-					pawn.stances.StaggerFor(95);
+					pawn.stances.stagger.StaggerFor(95);
 				}
 				if (def.projectile.extraDamages == null)
 				{

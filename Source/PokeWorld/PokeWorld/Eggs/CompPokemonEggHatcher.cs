@@ -62,7 +62,7 @@ namespace PokeWorld
         {
             try
             {
-                PawnGenerationRequest request = new PawnGenerationRequest(Props.hatcherPawn, hatcheeFaction, PawnGenerationContext.NonPlayer, -1, forceGenerateNewPawn: false, newborn: true);
+                PawnGenerationRequest request = new PawnGenerationRequest(Props.hatcherPawn, hatcheeFaction, PawnGenerationContext.NonPlayer, -1, forceGenerateNewPawn: false, developmentalStages: DevelopmentalStage.Newborn);
                 for (int i = 0; i < parent.stackCount; i++)
                 {
                     Pawn pawn = PawnGenerator.GeneratePawn(request);

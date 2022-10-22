@@ -8,8 +8,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/387_Turtwig</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/387_Turtwig</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -27,8 +27,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/388_Grotle</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/388_Grotle</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -46,8 +46,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/389_Torterra</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/389_Torterra</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -65,8 +65,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/390_Chimchar</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/390_Chimchar</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -84,8 +84,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/391_Monferno</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/391_Monferno</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -103,8 +103,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/392_Infernape</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/392_Infernape</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -122,8 +122,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/393_Piplup</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/393_Piplup</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -141,8 +141,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/394_Prinplup</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/394_Prinplup</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -160,8 +160,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/395_Empoleon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/395_Empoleon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -179,8 +179,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/396_Starly</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/396_Starly</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -198,8 +198,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/397_Staravia</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/397_Staravia</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -217,8 +217,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/398_Staraptor</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/398_Staraptor</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -236,8 +236,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/399_Bidoof</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/399_Bidoof</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -255,8 +255,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/400_Bibarel</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/400_Bibarel</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -274,8 +274,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/401_Kricketot</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/401_Kricketot</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -293,8 +293,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/402_Kricketune</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/402_Kricketune</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -312,8 +312,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/403_Shinx</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/403_Shinx</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -331,8 +331,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/404_Luxio</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/404_Luxio</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -350,8 +350,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/405_Luxray</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/405_Luxray</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -369,8 +369,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/406_Budew</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/406_Budew</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -388,8 +388,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/407_Roserade</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/407_Roserade</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -407,8 +407,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/408_Cranidos</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/408_Cranidos</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -426,8 +426,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/409_Rampardos</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/409_Rampardos</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -445,8 +445,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/410_Shieldon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/410_Shieldon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -464,8 +464,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/411_Bastiodon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/411_Bastiodon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -483,8 +483,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/412_Burmy</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/412_Burmy</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -502,8 +502,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/413_Wormadam</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/413_Wormadam</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -521,8 +521,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/414_Mothim</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/414_Mothim</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -540,8 +540,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/415_Combee</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/415_Combee</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -559,8 +559,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/416_Vespiquen</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/416_Vespiquen</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -578,8 +578,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/417_Pachirisu</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/417_Pachirisu</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -597,8 +597,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/418_Buizel</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/418_Buizel</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -616,8 +616,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/419_Floatzel</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/419_Floatzel</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -635,8 +635,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/420_Cherubi</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/420_Cherubi</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -654,8 +654,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/421_Cherrim</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/421_Cherrim</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -673,8 +673,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/422_Shellos</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/422_Shellos</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -692,8 +692,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/423_Gastrodon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/423_Gastrodon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -711,8 +711,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/424_Ambipom</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/424_Ambipom</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -730,8 +730,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/425_Drifloon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/425_Drifloon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -749,8 +749,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/426_Drifblim</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/426_Drifblim</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -768,8 +768,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/427_Buneary</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/427_Buneary</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -787,8 +787,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/428_Lopunny</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/428_Lopunny</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -806,8 +806,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/429_Mismagius</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/429_Mismagius</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -825,8 +825,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/430_Honchkrow</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/430_Honchkrow</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -844,8 +844,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/431_Glameow</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/431_Glameow</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -863,8 +863,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/432_Purugly</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/432_Purugly</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -882,8 +882,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/433_Chingling</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/433_Chingling</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -901,8 +901,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/434_Stunky</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/434_Stunky</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -920,8 +920,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/435_Skuntank</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/435_Skuntank</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -939,8 +939,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/436_Bronzor</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/436_Bronzor</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -958,8 +958,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/437_Bronzong</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/437_Bronzong</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -977,8 +977,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/438_Bonsly</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/438_Bonsly</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -996,8 +996,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/439_MimeJr</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/439_MimeJr</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1015,8 +1015,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/440_Happiny</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/440_Happiny</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1034,8 +1034,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/441_Chatot</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/441_Chatot</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1053,8 +1053,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/442_Spiritomb</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/442_Spiritomb</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1072,8 +1072,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/443_Gible</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/443_Gible</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1091,8 +1091,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/444_Gabite</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/444_Gabite</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1110,8 +1110,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/445_Garchomp</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/445_Garchomp</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1129,8 +1129,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/446_Munchlax</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/446_Munchlax</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1148,8 +1148,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/447_Riolu</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/447_Riolu</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1167,8 +1167,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/448_Lucario</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/448_Lucario</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1186,8 +1186,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/449_Hippopotas</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/449_Hippopotas</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1205,8 +1205,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/450_Hippowdon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/450_Hippowdon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1224,8 +1224,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/451_Skorupi</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/451_Skorupi</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1243,8 +1243,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/452_Drapion</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/452_Drapion</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1262,8 +1262,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/453_Croagunk</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/453_Croagunk</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1281,8 +1281,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/454_Toxicroak</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/454_Toxicroak</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1300,8 +1300,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/455_Carnivine</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/455_Carnivine</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1319,8 +1319,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/456_Finneon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/456_Finneon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1338,8 +1338,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/457_Lumineon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/457_Lumineon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1357,8 +1357,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/458_Mantyke</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/458_Mantyke</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1376,8 +1376,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/459_Snover</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/459_Snover</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1395,8 +1395,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/460_Abomasnow</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/460_Abomasnow</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1414,8 +1414,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/461_Weavile</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/461_Weavile</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1433,8 +1433,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/462_Magnezone</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/462_Magnezone</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1452,8 +1452,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/463_Lickilicky</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/463_Lickilicky</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1471,8 +1471,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/464_Rhyperior</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/464_Rhyperior</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1490,8 +1490,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/465_Tangrowth</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/465_Tangrowth</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1509,8 +1509,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/466_Electivire</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/466_Electivire</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1528,8 +1528,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/467_Magmortar</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/467_Magmortar</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1547,8 +1547,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/468_Togekiss</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/468_Togekiss</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1566,8 +1566,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/469_Yanmega</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/469_Yanmega</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1585,8 +1585,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/470_Leafeon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/470_Leafeon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1604,8 +1604,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/471_Glaceon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/471_Glaceon</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1623,8 +1623,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/472_Gliscor</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/472_Gliscor</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1642,8 +1642,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/473_Mamoswine</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/473_Mamoswine</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1661,8 +1661,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/474_PorygonZ</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/474_PorygonZ</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1680,8 +1680,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/475_Gallade</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/475_Gallade</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1699,8 +1699,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/476_Probopass</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/476_Probopass</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1718,8 +1718,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/477_Dusknoir</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/477_Dusknoir</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1737,8 +1737,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/478_Froslass</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/478_Froslass</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1756,8 +1756,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/479_Rotom</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/479_Rotom</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1775,8 +1775,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/480_Uxie</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/480_Uxie</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1794,8 +1794,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/481_Mesprit</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/481_Mesprit</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1813,8 +1813,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/482_Azelf</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/482_Azelf</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1832,8 +1832,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/483_Dialga</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/483_Dialga</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1851,8 +1851,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/484_Palkia</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/484_Palkia</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1870,8 +1870,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/485_Heatran</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/485_Heatran</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1889,8 +1889,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/486_Regigigas</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/486_Regigigas</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1908,8 +1908,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/487_Giratina</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/487_Giratina</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1927,8 +1927,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/488_Cresselia</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/488_Cresselia</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1946,8 +1946,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/489_Phione</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/489_Phione</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1965,8 +1965,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/490_Manaphy</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/490_Manaphy</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -1984,8 +1984,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/491_Darkrai</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/491_Darkrai</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -2003,8 +2003,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/492_Shaymin</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/492_Shaymin</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>
@@ -2022,8 +2022,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pokemon/Gen_4/493_Arceus</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pokemon/Gen_4/493_Arceus</clipPath>
           </li>
         </grains>
         <volumeRange>16~24</volumeRange>

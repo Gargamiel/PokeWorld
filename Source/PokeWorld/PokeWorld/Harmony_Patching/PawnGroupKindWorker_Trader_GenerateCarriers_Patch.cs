@@ -35,11 +35,11 @@ namespace PokeWorld
                 Pawn pawn;
                 if (kind != null)
                 {
-                    pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(kind, __0.faction, PawnGenerationContext.NonPlayer, __0.tile, forceGenerateNewPawn: false, newborn: false, allowDead: false, allowDowned: false, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, 1f, forceAddFreeWarmLayerIfNeeded: false, allowGay: true, allowFood: true, allowAddictions: true, __0.inhabitants));
+                    pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(kind, __0.faction, PawnGenerationContext.NonPlayer, __0.tile, forceGenerateNewPawn: false, allowDead: false, allowDowned: false, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, colonistRelationChanceFactor: 1f, forceAddFreeWarmLayerIfNeeded: false, allowGay: true, allowFood: true, allowAddictions: true, inhabitant: __0.inhabitants));
                 }
                 else
                 {
-                    pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(kinds.RandomElementByWeight((PawnGenOption x) => x.selectionWeight).kind, __0.faction, PawnGenerationContext.NonPlayer, __0.tile, forceGenerateNewPawn: false, newborn: false, allowDead: false, allowDowned: false, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, 1f, forceAddFreeWarmLayerIfNeeded: false, allowGay: true, allowFood: true, allowAddictions: true, __0.inhabitants));
+                    pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(kinds.RandomElementByWeight((PawnGenOption x) => x.selectionWeight).kind, __0.faction, PawnGenerationContext.NonPlayer, __0.tile, forceGenerateNewPawn: false, allowDead: false, allowDowned: false, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, 1f, forceAddFreeWarmLayerIfNeeded: false, allowGay: true, allowFood: true, allowAddictions: true, inhabitant: __0.inhabitants));
                 }
                 if (i < list.Count)
                 {

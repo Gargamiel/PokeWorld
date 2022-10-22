@@ -194,11 +194,10 @@ namespace PokeWorld
 			for (int i = 0; i < giver.BillStack.Count; i++)
 			{
 				Bill bill = giver.BillStack[i];
-				if ((bill.recipe.requiredGiverWorkType != null && bill.recipe.requiredGiverWorkType != def.workType) || (Find.TickManager.TicksGame < bill.lastIngredientSearchFailTicks + ReCheckFailedBillTicksRange.RandomInRange && FloatMenuMakerMap.makingFor != pawn))
+				if ((bill.recipe.requiredGiverWorkType != null && bill.recipe.requiredGiverWorkType != def.workType) || (Find.TickManager.TicksGame <= bill.nextTickToSearchForIngredients && FloatMenuMakerMap.makingFor != pawn) || !bill.ShouldDoNow() || !bill.PawnAllowedToStartAnew(pawn))
 				{
 					continue;
 				}
-				bill.lastIngredientSearchFailTicks = 0;
 				if (!bill.ShouldDoNow() || !bill.PawnAllowedToStartAnew(pawn))
 				{
 					continue;
@@ -235,7 +234,7 @@ namespace PokeWorld
 				{
 					if (FloatMenuMakerMap.makingFor != pawn)
 					{
-						bill.lastIngredientSearchFailTicks = Find.TickManager.TicksGame;
+						bill.nextTickToSearchForIngredients = Find.TickManager.TicksGame + ReCheckFailedBillTicksRange.RandomInRange;
 					}
 					else
 					{
