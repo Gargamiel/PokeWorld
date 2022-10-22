@@ -11,8 +11,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/HyperBeam</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/HyperBeam</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -30,8 +30,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Swift</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Swift</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -55,8 +55,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/AirSlash</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/AirSlash</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -74,8 +74,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Gust</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Gust</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -95,8 +95,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Smog</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Smog</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -114,8 +114,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Acid</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Acid</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -135,8 +135,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/EarthPower</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/EarthPower</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -154,8 +154,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/MudBomb</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/MudBomb</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -173,8 +173,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/MudShot</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/MudShot</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -194,8 +194,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/AncientPower</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/AncientPower</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -213,8 +213,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/PowerGem</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/PowerGem</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -234,8 +234,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/BugBuzz</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/BugBuzz</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -253,8 +253,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/SignalBeam</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/SignalBeam</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -274,8 +274,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Hex</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Hex</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -293,8 +293,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/ShadowBall</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/ShadowBall</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -314,8 +314,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/FlashCannon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/FlashCannon</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -335,8 +335,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Ember</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Ember</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -354,8 +354,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Flamethrower</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Flamethrower</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -373,8 +373,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/LavaPlume</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/LavaPlume</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -392,8 +392,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Inferno</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Inferno</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -411,8 +411,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/FireBlast</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/FireBlast</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -432,8 +432,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/WaterGun</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/WaterGun</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -451,8 +451,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/HydroPump</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/HydroPump</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -470,8 +470,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/WaterPulse</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/WaterPulse</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -489,8 +489,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/BubbleBeam</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/BubbleBeam</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -508,8 +508,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Bubble</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Bubble</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -529,8 +529,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Absorb</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Absorb</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -548,8 +548,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/MegaDrain</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/MegaDrain</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -567,8 +567,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/GigaDrain</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/GigaDrain</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -586,8 +586,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/MagicalLeaf</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/MagicalLeaf</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -605,8 +605,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/LeafStorm</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/LeafStorm</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -624,8 +624,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/SolarBeam</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/SolarBeam</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -645,8 +645,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Discharge</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Discharge</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -664,8 +664,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/ZapCannon</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/ZapCannon</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -683,8 +683,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/ThunderShock</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/ThunderShock</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -702,8 +702,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/ElectroBall</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/ElectroBall</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -721,8 +721,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Thunder</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Thunder</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -740,8 +740,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Thunderbolt</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Thunderbolt</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -761,8 +761,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Confusion</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Confusion</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -780,8 +780,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Psychic</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Psychic</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -799,8 +799,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Psybeam</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Psybeam</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -818,8 +818,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Extrasensory</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Extrasensory</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -837,8 +837,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Psywave</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Psywave</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -858,8 +858,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/PowderSnow</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/PowderSnow</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -877,8 +877,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Blizzard</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Blizzard</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -896,8 +896,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/IcyWind</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/IcyWind</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -915,8 +915,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/AuroraBeam</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/AuroraBeam</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -934,8 +934,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/IceBeam</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/IceBeam</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -955,8 +955,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Twister</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Twister</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -974,8 +974,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/DragonPulse</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/DragonPulse</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -993,8 +993,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/DragonRage</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/DragonRage</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -1012,8 +1012,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/DragonBreath</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/DragonBreath</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -1033,8 +1033,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/DarkPulse</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/DarkPulse</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -1054,8 +1054,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/Moonblast</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/Moonblast</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>
@@ -1073,8 +1073,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Moves/FairyWind</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Moves/FairyWind</clipPath>
           </li>
         </grains>
         <volumeRange>14~22</volumeRange>

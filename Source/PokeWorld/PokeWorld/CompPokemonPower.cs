@@ -28,7 +28,7 @@ namespace PokeWorld
                 {
                     PowerOn = true;
                 }
-                PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.basePowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);
+                PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.PowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);
                 if (PowerNet == null && connectParent == null)
                 {
                     parent.Map.powerNetManager.Notify_ConnectorWantsConnect(this);
@@ -63,7 +63,7 @@ namespace PokeWorld
             base.ResetPowerVars();
             if(parent is Pawn pawn && pawn.Spawned && !pawn.Dead && pawn.Faction != null && pawn.Faction.IsPlayer)
             {
-                PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.basePowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);         
+                PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.PowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);         
             }       
         }
         public override void SetUpPowerVars()
@@ -71,7 +71,7 @@ namespace PokeWorld
             base.SetUpPowerVars();
             if (parent is Pawn pawn && pawn.Spawned && !pawn.Dead && pawn.Faction != null && pawn.Faction.IsPlayer)
             {
-                PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.basePowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);
+                PowerOutput = (pawn.Starving() ? 1f : -1f) * (Props.PowerConsumption * Mathf.Sqrt(pawn.TryGetComp<CompPokemon>().levelTracker.level) / 2);
             }
         }
         public override string CompInspectStringExtra()

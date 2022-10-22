@@ -117,7 +117,7 @@ namespace PokeWorld
 				if (currentEffectiveVerb != null && !(currentEffectiveVerb.tool != null))
 				{
 					TargetScanFlags targetScanFlags = TargetScanFlags.NeedLOSToAll | TargetScanFlags.NeedThreat | TargetScanFlags.NeedAutoTargetable;
-					if (currentEffectiveVerb.IsIncendiary())
+					if (currentEffectiveVerb.IsIncendiary_Ranged())
 					{
 						targetScanFlags |= TargetScanFlags.NeedNonBurning;
 					}

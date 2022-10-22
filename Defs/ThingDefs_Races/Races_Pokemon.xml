@@ -89,7 +89,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>128</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -260,7 +261,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>282</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -420,7 +422,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>416</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -606,7 +609,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -785,7 +789,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>284</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -965,7 +970,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>418</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -1138,7 +1144,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>132</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -1312,7 +1319,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>286</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -1478,7 +1486,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -1630,7 +1639,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>106</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -1775,7 +1785,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>144</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -1926,7 +1937,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>320</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -2079,7 +2091,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>104</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -2225,7 +2238,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>142</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -2372,7 +2386,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>318</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -2541,7 +2556,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>110</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -2711,7 +2727,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>226</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -2869,7 +2886,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>344</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -3041,7 +3059,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>114</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -3203,7 +3222,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>232</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -3360,7 +3380,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>116</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -3507,7 +3528,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>324</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -3668,7 +3690,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>124</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -3835,7 +3858,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>294</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -4004,7 +4028,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>164</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -4163,7 +4188,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>244</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -4347,7 +4373,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>186</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -4521,7 +4548,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>326</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -4690,7 +4718,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>118</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -4856,7 +4885,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>234</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -5012,7 +5042,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>388</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -5177,7 +5208,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>120</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -5339,7 +5371,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>236</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -5491,7 +5524,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>390</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -5643,7 +5677,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>136</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -5777,7 +5812,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>258</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -5954,7 +5990,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>126</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -6102,7 +6139,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>356</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -6263,7 +6301,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>152</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -6406,7 +6445,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>218</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -6579,7 +6619,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>108</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -6753,7 +6794,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>342</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -6914,7 +6956,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>156</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -7077,7 +7120,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>264</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -7221,7 +7265,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>368</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -7391,7 +7436,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>140</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -7552,7 +7598,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>256</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -7725,7 +7772,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>150</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -7897,7 +7945,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>276</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -8073,7 +8122,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>162</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -8247,7 +8297,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>306</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -8415,7 +8466,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>138</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -8585,7 +8637,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>296</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -8762,7 +8815,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>160</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -8929,7 +8983,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>348</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -9089,7 +9144,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>148</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -9239,7 +9295,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>298</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -9412,7 +9469,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>182</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -9563,7 +9621,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>426</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -9735,7 +9794,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>154</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -9909,7 +9969,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>262</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -10049,7 +10110,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>370</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -10193,7 +10255,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>150</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -10349,7 +10412,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>290</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -10494,7 +10558,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>372</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -10650,7 +10715,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>150</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -10807,7 +10873,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>292</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -10952,7 +11019,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>386</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -11109,7 +11177,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>168</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -11263,7 +11332,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>302</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -11410,7 +11480,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>382</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -11583,7 +11654,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>210</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -11746,7 +11818,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>410</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -11919,7 +11992,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>146</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -12094,7 +12168,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>268</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -12257,7 +12332,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>354</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -12427,7 +12503,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>304</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -12593,7 +12670,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>384</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -12772,7 +12850,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>198</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -12937,7 +13016,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>328</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -13118,7 +13198,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>178</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -13298,7 +13379,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>322</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -13468,7 +13550,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>188</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -13629,7 +13712,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>192</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -13780,7 +13864,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>316</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -13953,7 +14038,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>200</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -14126,7 +14212,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>352</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -14282,7 +14369,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>180</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -14429,7 +14517,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>314</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -14589,7 +14678,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>194</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -14738,7 +14828,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>406</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -14903,7 +14994,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>190</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -15069,7 +15161,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>252</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -15223,7 +15316,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>380</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -15400,7 +15494,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>216</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -15569,7 +15664,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>204</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -15727,7 +15823,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>330</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -15887,7 +15984,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>230</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -16037,7 +16135,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>412</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -16209,7 +16308,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>206</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -16372,7 +16472,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>300</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -16526,7 +16627,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>196</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -16670,7 +16772,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>424</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -16822,7 +16925,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>174</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -16963,7 +17067,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>248</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -17108,7 +17213,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>278</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -17265,7 +17371,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>280</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -17413,7 +17520,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>254</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -17570,7 +17678,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>228</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -17712,7 +17821,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>346</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -17878,7 +17988,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>270</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -18045,7 +18156,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>408</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -18199,7 +18311,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>510</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -18364,7 +18477,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>332</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -18513,7 +18627,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>350</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -18682,7 +18797,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>166</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -18853,7 +18969,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>310</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -19009,7 +19126,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>222</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -19159,7 +19277,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>340</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -19327,7 +19446,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>212</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -19476,7 +19596,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>414</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -19631,7 +19752,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>272</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -19808,7 +19930,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>374</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -19971,7 +20094,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>274</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -20151,7 +20275,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>312</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -20325,7 +20450,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>334</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -20471,7 +20597,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>400</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -20621,7 +20748,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>422</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -20770,7 +20898,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>40</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -20934,7 +21063,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>428</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -21094,7 +21224,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>438</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -21225,7 +21356,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>122</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -21428,7 +21560,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>184</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -21590,7 +21723,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>392</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -21755,7 +21889,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>394</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -21921,7 +22056,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>396</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -22084,7 +22220,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>260</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -22265,7 +22402,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>198</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -22434,7 +22572,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -22606,7 +22745,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>198</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -22775,7 +22915,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -22959,7 +23100,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>404</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -23115,7 +23257,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>308</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -23273,7 +23416,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>430</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -23433,7 +23577,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>432</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -23594,7 +23739,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>434</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -23770,7 +23916,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>134</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -23943,7 +24090,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>288</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -24118,7 +24266,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>436</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -24258,7 +24407,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -24401,7 +24551,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>128</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -24565,7 +24716,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>128</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -24727,7 +24879,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>282</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -24878,7 +25031,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>416</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -25071,7 +25225,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -25257,7 +25412,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>284</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -25435,7 +25591,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>418</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -25616,7 +25773,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>132</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -25798,7 +25956,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>286</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -25969,7 +26128,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -26129,7 +26289,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>114</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -26279,7 +26440,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>232</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -26452,7 +26614,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>116</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -26615,7 +26778,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>324</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -26776,7 +26940,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>108</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -26927,7 +27092,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>268</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -27100,7 +27266,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>108</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -27267,7 +27434,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>268</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -27429,7 +27597,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>408</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -27614,7 +27783,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>180</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -27789,7 +27959,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>312</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -27950,7 +28121,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>84</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -28100,7 +28272,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>74</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -28247,7 +28420,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>78</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -28397,7 +28571,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>148</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -28557,7 +28732,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>228</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -28711,7 +28887,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>146</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -28855,7 +29032,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>342</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -29036,7 +29214,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>118</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -29218,7 +29397,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>234</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -29404,7 +29584,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>388</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -29549,7 +29730,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>368</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -29735,7 +29917,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>116</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -29910,7 +30093,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>306</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -30075,7 +30259,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>270</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -30213,7 +30398,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>370</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -30379,7 +30565,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>148</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -30546,7 +30733,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>272</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -30701,7 +30889,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>352</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -30861,7 +31050,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>188</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -31025,7 +31215,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>104</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -31192,7 +31383,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>292</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -31365,7 +31557,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>294</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -31528,7 +31721,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>104</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -31680,7 +31874,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>274</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -31837,7 +32032,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>394</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -31986,7 +32182,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>394</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -32155,7 +32352,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>214</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -32322,7 +32520,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>328</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -32490,7 +32689,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>294</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -32737,7 +32937,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>122</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -32873,7 +33074,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>354</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -33043,7 +33245,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>298</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -33207,7 +33410,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>120</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -33370,7 +33574,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>236</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -33524,7 +33729,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>250</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -33697,7 +33903,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>216</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -33876,7 +34083,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>392</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -34066,7 +34274,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>126</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -34241,7 +34450,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>356</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -34415,7 +34625,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>200</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -34581,7 +34792,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>400</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -34737,7 +34949,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>160</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -34892,7 +35105,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>400</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -35078,7 +35292,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>264</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -35243,7 +35458,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>248</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -35401,7 +35617,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>378</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -35582,7 +35799,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>156</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -35754,7 +35972,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>308</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -35941,7 +36160,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>156</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -36133,7 +36353,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>320</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -36298,7 +36519,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>226</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -36480,7 +36702,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>156</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -36652,7 +36875,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>328</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -36792,7 +37016,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>366</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -36970,7 +37195,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>336</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -37128,7 +37354,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>336</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -37311,7 +37538,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>228</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -37487,7 +37715,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>408</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -37648,7 +37877,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>414</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -37808,7 +38038,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>248</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -37963,7 +38194,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>378</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -38130,7 +38362,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>360</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -38283,7 +38516,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>330</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -38416,7 +38650,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>212</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -38578,7 +38813,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>182</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -38733,7 +38969,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>276</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -38903,7 +39140,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>174</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -39085,7 +39323,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>212</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -39260,7 +39499,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>234</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -39415,7 +39655,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>400</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -39560,7 +39801,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>510</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -39729,7 +39971,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>432</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -39894,7 +40137,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>434</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -40058,7 +40302,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>430</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -40234,7 +40479,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>134</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -40408,7 +40654,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>288</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -40583,7 +40830,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>436</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -40733,7 +40981,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -40886,7 +41135,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -41034,7 +41284,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>128</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -41206,7 +41457,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -41375,7 +41627,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>282</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -41537,7 +41790,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>416</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -41710,7 +41964,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -41885,7 +42140,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>284</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -42052,7 +42308,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>418</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -42217,7 +42474,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -42391,7 +42649,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>286</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -42558,7 +42817,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -42722,7 +42982,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>110</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -42876,7 +43137,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>256</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -43028,7 +43290,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>120</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -43182,7 +43445,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>256</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -43347,7 +43611,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>108</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -43492,7 +43757,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>144</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -43646,7 +43912,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>322</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -43790,7 +44057,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>144</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -43940,7 +44208,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>322</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -44106,7 +44375,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>148</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -44273,7 +44543,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>282</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -44417,7 +44688,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>362</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -44562,7 +44834,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>148</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -44721,7 +44994,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>282</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -44869,7 +45143,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>362</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -45030,7 +45305,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>118</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -45181,7 +45457,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>324</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -45351,7 +45628,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>128</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -45503,7 +45781,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>328</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -45661,7 +45940,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>140</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -45828,7 +46108,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>280</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -45979,7 +46260,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>416</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -46137,7 +46419,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>126</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -46294,7 +46577,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>256</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -46459,7 +46743,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -46611,7 +46896,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>330</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -46763,7 +47049,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>166</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -46920,7 +47207,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>252</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -47065,7 +47353,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -47239,7 +47528,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -47402,7 +47692,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>310</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -47559,7 +47850,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>190</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -47715,7 +48007,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>136</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -47873,7 +48166,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>252</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -48039,7 +48333,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>368</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -48199,7 +48494,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>174</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -48349,7 +48645,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>368</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -48502,7 +48799,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>66</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -48688,7 +48986,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>216</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -48851,7 +49150,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -48988,7 +49288,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>276</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -49155,7 +49456,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>196</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -49323,7 +49625,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>196</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -49501,7 +49804,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>192</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -49679,7 +49983,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>304</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -49846,7 +50151,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>410</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -49996,7 +50302,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>182</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -50151,7 +50458,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>306</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -50327,7 +50635,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>208</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -50497,7 +50806,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>336</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -50654,7 +50964,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>240</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -50812,7 +51123,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>240</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -50971,7 +51283,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>292</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -51121,7 +51434,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>292</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -51283,7 +51597,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>304</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -51432,7 +51747,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>150</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -51570,7 +51886,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>336</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -51731,7 +52048,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>176</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -51886,7 +52204,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>350</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -52055,7 +52374,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>274</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -52213,7 +52533,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>412</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -52395,7 +52716,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>176</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -52564,7 +52886,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>350</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -52722,7 +53045,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>322</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -52886,7 +53210,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>178</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -53040,7 +53365,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>328</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -53194,7 +53520,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>170</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -53379,7 +53706,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>146</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -53554,7 +53882,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>252</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -53726,7 +54055,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>394</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -53887,7 +54217,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>194</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -54044,7 +54375,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>354</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -54214,7 +54546,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>148</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -54377,7 +54710,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>376</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -54542,7 +54876,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>330</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -54697,7 +55032,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>330</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -54863,7 +55199,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>300</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -55031,7 +55368,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>300</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -55202,7 +55540,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>184</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -55365,7 +55704,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>316</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -55526,7 +55866,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>222</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -55682,7 +56023,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>322</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -55851,7 +56193,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>116</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -56015,7 +56358,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>378</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -56176,7 +56520,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>198</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -56328,7 +56673,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -56511,7 +56857,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>198</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -56683,7 +57030,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -56835,7 +57183,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>122</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -56989,7 +57338,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>426</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -57192,7 +57542,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>290</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -57365,7 +57716,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>264</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -57529,7 +57881,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>194</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -57683,7 +58036,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>358</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -57843,7 +58197,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>194</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -58017,7 +58372,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>358</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -58176,7 +58532,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>338</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -58334,7 +58691,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>294</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -58495,7 +58853,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>348</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -58635,7 +58994,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>88</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -58828,7 +59188,8 @@
       <ComfyTemperatureMax>20</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>148</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -59000,7 +59361,8 @@
       <ComfyTemperatureMax>20</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>374</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -59167,7 +59529,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>150</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -59335,7 +59698,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>256</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -59499,7 +59863,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>384</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -59656,7 +60021,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>284</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -59814,7 +60180,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>356</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -59967,7 +60334,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>356</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -60127,7 +60495,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>396</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -60281,7 +60650,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>220</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -60458,7 +60828,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>178</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -60634,7 +61005,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>288</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -60812,7 +61184,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>436</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -60961,7 +61334,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>206</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -61136,7 +61510,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>306</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -61304,7 +61679,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -61462,7 +61838,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>434</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -61627,7 +62004,8 @@
       <ComfyTemperatureMax>20</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>432</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -61791,7 +62169,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>430</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -61945,7 +62324,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>422</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -62097,7 +62477,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>422</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -62251,7 +62632,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>436</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -62414,7 +62796,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>436</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -62575,7 +62958,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -62727,7 +63111,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>430</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -62897,7 +63282,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>430</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -63077,7 +63463,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>128</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -63255,7 +63642,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>282</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -63427,7 +63815,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>416</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -63597,7 +63986,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>130</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -63769,7 +64159,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>284</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -63931,7 +64322,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>418</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -64100,7 +64492,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>132</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -64273,7 +64666,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>286</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -64436,7 +64830,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -64598,7 +64993,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>112</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -64760,7 +65156,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>226</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -64914,7 +65311,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>344</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -65079,7 +65477,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>116</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -65239,7 +65638,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>232</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -65387,7 +65787,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>108</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -65545,7 +65946,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>318</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -65717,7 +66119,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>120</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -65889,7 +66292,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>234</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -66050,7 +66454,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>388</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -66199,7 +66604,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>136</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -66348,7 +66754,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>408</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -66515,7 +66922,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>198</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -66674,7 +67082,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -66845,7 +67254,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>198</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -67005,7 +67415,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -67195,7 +67606,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>122</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -67373,7 +67785,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>318</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -67540,7 +67953,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>318</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -67697,7 +68111,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>126</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -67873,7 +68288,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>376</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -68031,7 +68447,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>240</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -68201,7 +68618,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>150</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -68368,7 +68786,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>356</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -68529,7 +68948,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>136</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -68696,7 +69116,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>266</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -68864,7 +69285,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>146</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -69023,7 +69445,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>352</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -69172,7 +69595,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>372</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -69333,7 +69757,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>254</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -69484,7 +69909,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>408</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -69637,7 +70063,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>168</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -69780,7 +70207,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>356</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -69930,7 +70358,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>374</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -70088,7 +70517,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>374</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -70256,7 +70686,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>142</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -70406,7 +70837,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>366</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -70554,7 +70986,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>148</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -70717,7 +71150,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>158</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -70872,7 +71306,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>418</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -71048,7 +71483,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>144</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -71218,7 +71654,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>376</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -71386,7 +71823,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>136</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -71542,7 +71980,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>156</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -71688,7 +72127,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>510</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -71832,7 +72272,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>214</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -71990,7 +72431,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>336</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -72166,7 +72608,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>134</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -72348,7 +72791,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>288</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -72527,7 +72971,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>436</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -72687,7 +73132,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>188</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -72833,7 +73279,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>144</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -72987,7 +73434,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>408</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -73160,7 +73608,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>190</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -73342,7 +73791,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>396</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -73520,7 +73970,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>228</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -73692,7 +74143,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>408</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -73873,7 +74325,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>166</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -74044,7 +74497,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>362</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -74193,7 +74647,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>328</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -74353,7 +74808,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>180</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -74503,7 +74959,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>312</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -74680,7 +75137,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>216</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -74853,7 +75311,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>262</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -75019,7 +75478,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>428</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -75195,7 +75655,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -75365,7 +75826,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>422</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -75512,7 +75974,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>386</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -75675,7 +76138,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>434</PW_BaseXPYield>
-      <ToxicSensitivity>0.125</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -75829,7 +76293,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>422</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -76006,7 +76471,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -76180,7 +76646,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>398</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -76320,7 +76787,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -76490,7 +76958,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>396</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -76643,7 +77112,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>392</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -76809,7 +77279,8 @@
       <ComfyTemperatureMax>20</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>392</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -76983,7 +77454,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>384</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -77158,7 +77630,8 @@
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>414</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -77318,7 +77791,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>370</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -77476,7 +77950,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>416</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -77647,7 +78122,8 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>396</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -77810,7 +78286,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -77974,7 +78451,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>374</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -78164,7 +78642,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>264</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -78308,7 +78787,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -78453,7 +78933,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -78597,7 +79078,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -78761,7 +79243,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -78930,7 +79413,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -79096,7 +79580,8 @@
       <ComfyTemperatureMax>100</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>430</PW_BaseXPYield>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -79251,7 +79736,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -79423,7 +79909,8 @@
       <ComfyTemperatureMax>70</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>440</PW_BaseXPYield>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -79575,7 +80062,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -79726,7 +80214,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>330</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -79878,7 +80367,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>430</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -80022,7 +80512,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>420</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -80169,7 +80660,8 @@
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>128</PW_BaseXPYield>
-      <ToxicSensitivity>1</ToxicSensitivity>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>
@@ -80384,7 +80876,8 @@
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <LeatherAmount>30</LeatherAmount>
       <PW_BaseXPYield>510</PW_BaseXPYield>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicResistance>0.5</ToxicResistance>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
     </statBases>
     <inspectorTabs>
       <li>PokeWorld.ITab_Pawn_Moves</li>

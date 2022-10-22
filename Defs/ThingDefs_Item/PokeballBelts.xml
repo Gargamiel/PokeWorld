@@ -467,6 +467,10 @@
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
+    <smeltProducts>
+      <Plasteel>40</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>  
+    </smeltProducts>
     <verbs>
       <li>
         <label>Master Ball</label>

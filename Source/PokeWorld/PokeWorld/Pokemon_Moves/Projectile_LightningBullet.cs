@@ -11,7 +11,7 @@ namespace PokeWorld
     class Projectile_LightningBullet : Bullet
     {
         #region Overrides
-        protected override void Impact(Thing hitThing)
+        protected override void Impact(Thing hitThing, bool blockedByShield = false)
         {
             Map map = base.Map;
             IntVec3 position = base.Position;
