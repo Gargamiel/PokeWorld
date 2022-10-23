@@ -194,7 +194,7 @@
     <Compile Include="Pokeball_And_Belts\PutInBallUtility.cs" />
     <Compile Include="Pokeball_And_Belts\WorkGiver_PutInBall.cs" />
     <Compile Include="Pokeball_And_Belts\Designator_PutInBall.cs" />
-    <Compile Include="Harmony_Patching\FinishRecipeAndStartStoringProduct_Patch.cs" />
+    <Compile Include="Harmony_Patching\GenPlace_TryPlaceThing_Patch.cs" />
     <Compile Include="Harmony_Patching\ResearchManager_FinishProject_Patch.cs" />
     <Compile Include="Pokeball_And_Belts\CryptosleepBall.cs" />
     <Compile Include="PokemonComponentsUtility.cs" />
@@ -209,7 +209,6 @@
     <Compile Include="Pokeball_And_Belts\Verb_LaunchPokeball.cs" />
     <Compile Include="Pokeball_And_Belts\Projectile_Pokeball.cs" />
     <Compile Include="Pokemon_Moves\PokemonMeleeUtility.cs" />
-    <Compile Include="Harmony_Patching\Pawn_GetGizmos_Patch.cs" />
     <Compile Include="Harmony_Patching\StatExtension_GetStatValue_Patch.cs" />
     <Compile Include="Harmony_Patching\Main_Harmony_Patch.cs" />
     <Compile Include="DebugToolsPokemon.cs" />

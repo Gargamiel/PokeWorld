@@ -55,18 +55,18 @@ namespace PokeWorld
                         {
                             if (evo.requirement == EvolutionRequirement.level && (evo.gender == Gender.None || pokemonHolder.gender == evo.gender) && PokeWorldSettings.GenerationAllowed(evo.pawnKind.race.GetCompProperties<CompProperties_Pokemon>().generation))
                             {
-                                Command_Toggle command_Toggle = new Command_Toggle();
-                                command_Toggle.isActive = () => flagEverstoneOn;
-                                command_Toggle.toggleAction = delegate
+                                Command_Toggle command_Toggle = new Command_Toggle
                                 {
-                                    flagEverstoneOn = !flagEverstoneOn;
+                                    defaultLabel = (flagEverstoneOn ? "PW_TakeBackEverstone".Translate() : "PW_GiveEverstone".Translate()),
+                                    defaultDesc = (flagEverstoneOn ? "PW_TakeBackEverstoneDesc".Translate() : "PW_GiveEverstoneDesc".Translate()),
+                                    hotKey = KeyBindingDefOf.Misc5,
+                                    icon = ContentFinder<Texture2D>.Get("UI/Gizmos/Everstone/Everstone"),                                   
+                                    toggleAction = delegate
+                                    {
+                                        flagEverstoneOn = !flagEverstoneOn;
+                                    },
+                                    isActive = () => flagEverstoneOn
                                 };
-                                command_Toggle.defaultLabel = (flagEverstoneOn ? "PW_TakeBackEverstone".Translate() : "PW_GiveEverstone".Translate());
-                                command_Toggle.defaultDesc = (flagEverstoneOn ? "PW_TakeBackEverstoneDesc".Translate() : "PW_GiveEverstoneDesc".Translate());
-
-
-                                command_Toggle.hotKey = KeyBindingDefOf.Misc5;
-                                command_Toggle.icon = ContentFinder<Texture2D>.Get("UI/Gizmos/Everstone/Everstone");
                                 yield return command_Toggle;
                                 break;
                             }

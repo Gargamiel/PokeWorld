@@ -275,14 +275,16 @@ namespace PokeWorld
             {
                 if (Pokemon.Map.designationManager.DesignationOn(Pokemon, DefDatabase<DesignationDef>.GetNamed("PW_PutInBall")) == null)
                 {
-                    Command_Action command_PutInBall = new Command_Action();
-                    command_PutInBall.defaultLabel = "PW_DesignationPutInPokeball".Translate();
-                    command_PutInBall.defaultDesc = "PW_DesignationPutInPokeballDesc".Translate();
-                    command_PutInBall.hotKey = KeyBindingDefOf.Misc2;
-                    command_PutInBall.icon = ContentFinder<Texture2D>.Get("Things/Item/Utility/Balls/PokeBall");
-                    command_PutInBall.action = delegate ()
+                    Command_Action command_PutInBall = new Command_Action
                     {
-                        PutInBallUtility.UpdatePutInBallDesignation(Pokemon);
+                        defaultLabel = "PW_DesignationPutInPokeball".Translate(),
+                        defaultDesc = "PW_DesignationPutInPokeballDesc".Translate(),
+                        hotKey = KeyBindingDefOf.Misc2,
+                        icon = ContentFinder<Texture2D>.Get("Things/Item/Utility/Balls/PokeBall"),
+                        action = delegate ()
+                        {
+                            PutInBallUtility.UpdatePutInBallDesignation(Pokemon);
+                        }
                     };
                     yield return command_PutInBall;
                 }
