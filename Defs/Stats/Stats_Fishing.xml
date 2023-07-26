@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StatDef>
+    <defName>PW_FishingSpeed</defName>
+    <label>fishing speed</label>
+    <description>Affect the time it takes between Pokémon bites when this character is fishing.</description>
+    <category>PW_PokeWorldStat</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
+    <workerClass>PokeWorld.StatWorker_FishingSpeed</workerClass>
+    <showOnAnimals>false</showOnAnimals>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Animals</skill>
+        <baseValue>0.3</baseValue>
+        <bonusPerLevel>0.06</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.3</weight>
+        <max>1.3</max>
+      </li>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.6</weight>
+      </li>
+    </capacityFactors>
+    <scenarioRandomizable>true</scenarioRandomizable>
+    <displayPriorityInCategory>4600</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_FishingLineBreak</defName>
+    <label>line break chance</label>
+    <description>Affect the likelihood that the line will break after a Pokémon bites when this character is fishing.</description>
+    <category>PW_PokeWorldStat</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
+    <maxValue>0.9</maxValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
+    <workerClass>PokeWorld.StatWorker_LineBreak</workerClass>
+    <showOnAnimals>false</showOnAnimals>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Animals</skill>
+        <baseValue>0</baseValue>
+        <bonusPerLevel>1</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.3</weight>
+        <max>1.3</max>
+      </li>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.6</weight>
+      </li>
+    </capacityFactors>
+    <scenarioRandomizable>true</scenarioRandomizable>
+    <displayPriorityInCategory>4650</displayPriorityInCategory>
+    <postProcessCurve>
+      <points>
+        <li>(-20, 0.90)</li>
+        <li>(0, 0.70)</li>
+        <li>(5, 0.50)</li>
+        <li>(10, 0.30)</li>
+        <li>(15, 0.20)</li>
+        <li>(20, 0.15)</li>
+        <li>(60, 0.10)</li>
+      </points>
+    </postProcessCurve>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_FishingSpeedMultipler</defName>
+    <label>fishing speed multiplier</label>
+    <description>Affect the time it takes between Pokémon bites when fishing with this rod.</description>
+    <category>PW_PokeWorldStat</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>2400</displayPriorityInCategory>
+    <parts>
+      <li Class="StatPart_Quality">
+        <factorAwful>0.70</factorAwful>
+        <factorPoor>0.85</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>1.15</factorGood>
+        <factorExcellent>1.3</factorExcellent>
+        <factorMasterwork>1.5</factorMasterwork>
+        <factorLegendary>2</factorLegendary>
+      </li>
+    </parts>
+  </StatDef>
+
+  <StatDef>
+    <defName>PW_FishingLineStrenghtMultiplier</defName>
+    <label>line strenght multiplier</label>
+    <description>Affect the likelihood that the line will break after a Pokémon bites when fishing with this rod.</description>
+    <category>PW_PokeWorldStat</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>2400</displayPriorityInCategory>
+    <parts>
+      <li Class="StatPart_Quality">
+        <factorAwful>0.70</factorAwful>
+        <factorPoor>0.85</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>1.15</factorGood>
+        <factorExcellent>1.3</factorExcellent>
+        <factorMasterwork>1.5</factorMasterwork>
+        <factorLegendary>2</factorLegendary>
+      </li>
+    </parts>
+  </StatDef>
+
+</Defs>

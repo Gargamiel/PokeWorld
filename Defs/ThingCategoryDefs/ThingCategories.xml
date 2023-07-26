@@ -24,6 +24,13 @@
 	  </ThingCategoryDef>	
 
 	  <ThingCategoryDef>
+		  <defName>PW_FishingRods</defName>
+		  <label>Fishing Rods</label>
+		  <parent>PW_PokeWorld</parent> 
+		  <iconPath>Things/Item/Fishing_Rods/GoodRod</iconPath>  
+	  </ThingCategoryDef>
+
+	  <ThingCategoryDef>
 		  <defName>PW_Item</defName>
 		  <label>items</label>
 		  <parent>PW_PokeWorld</parent>

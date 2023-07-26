@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase" Name="PW_FishingRodBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>PW_FishingRods</li>
+    </thingCategories>
+    <stackLimit>1</stackLimit>
+    <graphicData>
+      <drawSize>1.1</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <Mass>1.5</Mass>
+      <Beauty>-3</Beauty>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases> 
+    <soundInteract>Standard_Pickup</soundInteract>
+    <tickerType>Normal</tickerType>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
+    <orderedTakeGroup>Medicine</orderedTakeGroup>
+    <comps>
+      <li Class="PokeWorld.CompProperties_FishingRod"/>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_FishingRodBase" Name="PW_MakeableFishingRodBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef ParentName="PW_MakeableFishingRodBase">
+    <defName>PW_OldRod</defName>
+    <label>Old Rod</label>
+    <description>An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon. This rod will not last long.</description>
+    <graphicData>
+      <texPath>Things/Item/Fishing_Rods/OldRod</texPath>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <PW_FishingSpeedMultipler>0.8</PW_FishingSpeedMultipler>
+      <PW_FishingLineStrenghtMultiplier>0.8</PW_FishingLineStrenghtMultiplier>
+    </statBases> 
+    <costList>
+      <WoodLog>40</WoodLog>
+    </costList>      
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_Fishing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_MakeBow</soundWorking>  
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>   
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_MakeableFishingRodBase">
+    <defName>PW_GoodRod</defName>
+    <label>Good Rod</label>
+    <description>A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Pokémon. It will break after a while.</description>
+    <graphicData>
+      <texPath>Things/Item/Fishing_Rods/GoodRod</texPath>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <PW_FishingSpeedMultipler>1</PW_FishingSpeedMultipler>
+      <PW_FishingLineStrenghtMultiplier>1</PW_FishingLineStrenghtMultiplier>
+    </statBases> 
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>      
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_FishingGood</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="PW_MakeableFishingRodBase">
+    <defName>PW_SuperRod</defName>
+    <label>Super Rod</label>
+    <description>An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Pokémon. This rod will not break.</description>
+    <graphicData>
+      <texPath>Things/Item/Fishing_Rods/SuperRod</texPath>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <WorkToMake>22500</WorkToMake>
+      <PW_FishingSpeedMultipler>1.5</PW_FishingSpeedMultipler>
+      <PW_FishingLineStrenghtMultiplier>1.5</PW_FishingLineStrenghtMultiplier>
+    </statBases> 
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <costList>
+      <Plasteel>55</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer> 
+    </costList>      
+    <recipeMaker>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>PW_FishingSuper</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements> 
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

@@ -65,4 +65,11 @@
     <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
   </JobDef>
 
+  <JobDef>
+    <defName>PW_Fish</defName>
+    <driverClass>PokeWorld.JobDriver_Fish</driverClass>
+    <reportString>fishing for Pokémon.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
 </Defs>

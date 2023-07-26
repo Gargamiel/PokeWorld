@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <OrderedTakeGroupDef>
+    <defName>PW_FishingRod</defName>
+    <label>Fishing Rod</label>
+    <max>1</max>
+  </OrderedTakeGroupDef>
+
+</Defs>

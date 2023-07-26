@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FishingRateDef.cs" />
+    <Compile Include="FishingUtility.cs" />
+    <Compile Include="JobDriver_Fish.cs" />
+    <Compile Include="CompFishingRod.cs" />
+    <Compile Include="Harmony_Patching\FloatMenuMaker_Fishing_Patch.cs" />
     <Compile Include="Recipe_HealPowder.cs" />
     <Compile Include="CompPokemonPower.cs" />
     <Compile Include="CompPokemonHeatPusher.cs" />
@@ -75,6 +80,8 @@
     <Compile Include="PokemonDamageUtility.cs" />
     <Compile Include="Eggs\StockGenerator_PokemonEgg.cs" />
     <Compile Include="Pokemon_Moves\MoveCategory.cs" />
+    <Compile Include="Stats\StatWorker_FishingSpeed.cs" />
+    <Compile Include="Stats\StatWorker_LineBreak.cs" />
     <Compile Include="WorkGiver_CraftPokemon.cs" />
     <Compile Include="Toils_RecipeCraftPokemon.cs" />
     <Compile Include="JobDriver_CraftPokemon.cs" />
